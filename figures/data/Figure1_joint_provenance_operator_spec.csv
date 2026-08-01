@@ -1,0 +1,14 @@
+component_type,display_order,label,definition
+source,1,Treatment intent,Clinical intention
+source,2,Provider order,POE + prescription
+source,3,Pharmacy workflow,Verification and dispensing workflow
+source,4,Documented administration,eMAR + eMAR detail
+operator,1,Source,Observability
+operator,2,Identity,Drug + record
+operator,3,Time,Origin + window
+operator,4,Semantics,Event state
+operator,5,Metadata,Dose + route
+propagation,1,Operator choice,Alternative admissible rules
+propagation,2,Patient reclassification,Discordant cells
+propagation,3,Cohort composition,Different exposed groups
+propagation,4,Effect-estimate drift,Same outcome model

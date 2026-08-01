@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from lxml import etree
-from matplotlib.patches import FancyArrowPatch, FancyBboxPatch, Rectangle
+from matplotlib.patches import Circle, Ellipse, FancyArrowPatch, FancyBboxPatch, Rectangle
 
 
 PROJECT = Path(__file__).resolve().parents[1]
@@ -271,7 +271,27 @@ def write_panel_data(frames: dict[str, pd.DataFrame]) -> None:
         "analysis_population == 'post_implementation'"
     ).copy()
 
+    figure1_spec = pd.DataFrame(
+        [
+            ("source", 1, "Treatment intent", "Clinical intention"),
+            ("source", 2, "Provider order", "POE + prescription"),
+            ("source", 3, "Pharmacy workflow", "Verification and dispensing workflow"),
+            ("source", 4, "Documented administration", "eMAR + eMAR detail"),
+            ("operator", 1, "Source", "Observability"),
+            ("operator", 2, "Identity", "Drug + record"),
+            ("operator", 3, "Time", "Origin + window"),
+            ("operator", 4, "Semantics", "Event state"),
+            ("operator", 5, "Metadata", "Dose + route"),
+            ("propagation", 1, "Operator choice", "Alternative admissible rules"),
+            ("propagation", 2, "Patient reclassification", "Discordant cells"),
+            ("propagation", 3, "Cohort composition", "Different exposed groups"),
+            ("propagation", 4, "Effect-estimate drift", "Same outcome model"),
+        ],
+        columns=["component_type", "display_order", "label", "definition"],
+    )
+
     output = {
+        "Figure1_joint_provenance_operator_spec.csv": figure1_spec,
         "Figure2A_observability.csv": coverage,
         "Figure2B_operator_conversion.csv": frames["operator_conversion"],
         "Figure3A_insulin_three_state.csv": frames["insulin_states"],
@@ -297,14 +317,156 @@ def draw_framework(ax: plt.Axes, panel: str, frames) -> None:
     ax.axis("off")
     ax.patch.set_visible(False)
 
+    def tagged_patch(patch, name: str, category: str = "data"):
+        ax.add_patch(patch)
+        return set_gid(patch, f"{category}__{panel}_{name}")
+
+    def tagged_arrow(
+        start: tuple[float, float],
+        end: tuple[float, float],
+        name: str,
+        *,
+        color: str = SLATE,
+        linewidth: float = 1.2,
+        mutation_scale: float = 12,
+        category: str = "data",
+    ):
+        arrow = FancyArrowPatch(
+            start,
+            end,
+            arrowstyle="-|>",
+            mutation_scale=mutation_scale,
+            linewidth=linewidth,
+            color=color,
+            shrinkA=0,
+            shrinkB=0,
+        )
+        return tagged_patch(arrow, name, category)
+
+    def tagged_line(
+        xs: list[float],
+        ys: list[float],
+        name: str,
+        *,
+        color: str = SLATE,
+        linewidth: float = 1.0,
+        linestyle: str = "-",
+        category: str = "data",
+        zorder: float = 2,
+    ):
+        line = ax.plot(
+            xs,
+            ys,
+            color=color,
+            linewidth=linewidth,
+            linestyle=linestyle,
+            zorder=zorder,
+        )[0]
+        return set_gid(line, f"{category}__{panel}_{name}")
+
+    def stage_heading(
+        number: str,
+        label: str,
+        x0: float,
+        x1: float,
+        color: str,
+        name: str,
+    ) -> None:
+        tagged_patch(
+            Circle((x0 + 0.014, 0.850), 0.014, facecolor=color, edgecolor=color),
+            f"stage_circle_{name}",
+            "annotations",
+        )
+        add_text(
+            ax,
+            x0 + 0.014,
+            0.850,
+            number,
+            panel,
+            f"stage_number_{name}",
+            category="annotations",
+            fontsize=8.2,
+            fontweight="bold",
+            color=WHITE,
+            ha="center",
+            va="center",
+        )
+        add_text(
+            ax,
+            x0 + 0.034,
+            0.850,
+            label,
+            panel,
+            f"stage_label_{name}",
+            fontsize=9.1,
+            fontweight="bold",
+            color=color,
+            ha="left",
+            va="center",
+        )
+        tagged_line(
+            [x0, x1],
+            [0.824, 0.824],
+            f"stage_rule_{name}",
+            color=color,
+            linewidth=1.0,
+            category="annotations",
+        )
+
+    def patient_tile(
+        x: float,
+        y: float,
+        name: str,
+        *,
+        color: str,
+        edge: str,
+        fill: str = WHITE,
+        width: float = 0.025,
+        height: float = 0.050,
+    ) -> None:
+        tagged_patch(
+            FancyBboxPatch(
+                (x, y),
+                width,
+                height,
+                boxstyle="round,pad=0.002,rounding_size=0.004",
+                facecolor=fill,
+                edgecolor=edge,
+                linewidth=0.85,
+            ),
+            f"{name}_tile",
+        )
+        tagged_patch(
+            Circle(
+                (x + width / 2, y + height * 0.68),
+                height * 0.105,
+                facecolor=color,
+                edgecolor=color,
+                linewidth=0.6,
+            ),
+            f"{name}_head",
+        )
+        tagged_patch(
+            FancyBboxPatch(
+                (x + width * 0.27, y + height * 0.18),
+                width * 0.46,
+                height * 0.30,
+                boxstyle="round,pad=0.001,rounding_size=0.004",
+                facecolor=color,
+                edgecolor=color,
+                linewidth=0.5,
+            ),
+            f"{name}_body",
+        )
+
     add_text(
         ax,
         0.02,
-        0.96,
-        "Medication exposure is a joint provenance operator",
+        0.965,
+        "Medication exposure is a resolved joint provenance operator—not a table",
         panel,
         "title",
-        fontsize=15,
+        fontsize=14.2,
         fontweight="bold",
         ha="left",
         va="top",
@@ -312,127 +474,287 @@ def draw_framework(ax: plt.Axes, panel: str, frames) -> None:
     add_text(
         ax,
         0.02,
-        0.90,
-        "A source becomes exposure only after identity, time, semantics, and required metadata are resolved",
+        0.914,
+        "Distinct record layers become analytic exposure only after all five operator dimensions are resolved",
         panel,
         "subtitle",
-        fontsize=10,
+        fontsize=9.4,
         color=SLATE,
         ha="left",
         va="top",
     )
 
-    source_boxes = [
-        (0.03, "Treatment\nintent", LIGHT_GREY, SLATE),
-        (0.23, "Provider order\nPOE + prescription", LIGHT_BLUE, NAVY),
-        (0.46, "Pharmacy\nworkflow", "#F3EAC9", "#876A13"),
-        (0.67, "Documented\neMAR workflow", LIGHT_TEAL, TEAL),
-        (0.87, "Analytic\nexposure", LIGHT_ORANGE, ORANGE),
+    stage_heading("1", "CLINICAL DATA GENERATION", 0.025, 0.285, NAVY, "sources")
+    stage_heading("2", "RESOLVE THE JOINT OPERATOR", 0.335, 0.715, TEAL, "operator")
+    stage_heading("3", "CLASSIFY ANALYTIC EXPOSURE", 0.760, 0.975, NAVY, "classification")
+
+    source_cards = [
+        (0.752, "Treatment intent", "clinical intention", LIGHT_GREY, SLATE),
+        (0.677, "Provider order", "POE + prescription", LIGHT_BLUE, NAVY),
+        (0.602, "Pharmacy workflow", "verification / dispensing", "#F3EAC9", "#8A6A12"),
+        (0.527, "Documented administration", "eMAR + eMAR detail", LIGHT_TEAL, TEAL),
     ]
-    widths = [0.14, 0.17, 0.14, 0.16, 0.10]
-    for index, ((x, label, fill, edge), width) in enumerate(
-        zip(source_boxes, widths)
-    ):
-        patch = FancyBboxPatch(
-            (x, 0.66),
-            width,
-            0.14,
-            boxstyle="round,pad=0.012,rounding_size=0.015",
-            facecolor=fill,
-            edgecolor=edge,
-            linewidth=1.2,
+    tagged_line(
+        [0.037, 0.037],
+        [0.782, 0.548],
+        "source_sequence_line",
+        color=SLATE,
+        linewidth=1.0,
+    )
+    tagged_arrow(
+        (0.037, 0.566),
+        (0.037, 0.542),
+        "source_sequence_arrow",
+        color=SLATE,
+        mutation_scale=9,
+    )
+    for index, (y, heading, subheading, fill, edge) in enumerate(source_cards, start=1):
+        tagged_patch(
+            Circle((0.037, y + 0.026), 0.012, facecolor=NAVY, edgecolor=NAVY),
+            f"source_number_circle_{index}",
         )
-        ax.add_patch(patch)
-        set_gid(patch, f"data__{panel}_source_box_{index}")
         add_text(
             ax,
-            x + width / 2,
-            0.73,
-            label,
+            0.037,
+            y + 0.026,
+            str(index),
             panel,
-            f"source_label_{index}",
-            fontsize=9.5,
+            f"source_number_{index}",
+            fontsize=7.3,
             fontweight="bold",
+            color=WHITE,
             ha="center",
             va="center",
         )
-        if index < len(source_boxes) - 1:
-            next_x = source_boxes[index + 1][0]
-            arrow = FancyArrowPatch(
-                (x + width + 0.006, 0.73),
-                (next_x - 0.008, 0.73),
-                arrowstyle="-|>",
-                mutation_scale=12,
-                linewidth=1.1,
-                color=SLATE,
-            )
-            ax.add_patch(arrow)
-            set_gid(arrow, f"data__{panel}_source_arrow_{index}")
-
-    add_text(
-        ax,
-        0.02,
-        0.55,
-        "Exposure operator = observable source × identity × time × event semantics × dose/route",
-        panel,
-        "audit_heading",
-        fontsize=11.2,
-        fontweight="bold",
-        color=NAVY,
-        ha="left",
-        va="center",
-    )
-
-    audit_steps = [
-        (
-            0.04,
-            "1  OBSERVE",
-            "Is the administration\nlayer available?",
-            NAVY,
-            LIGHT_BLUE,
-        ),
-        (
-            0.28,
-            "2  LINK",
-            "Which drug and record identities\nare accepted?",
-            BLUE,
-            "#E1EDF7",
-        ),
-        (
-            0.52,
-            "3  INTERPRET",
-            "Which time, event state,\nand dose/route rules apply?",
-            TEAL,
-            LIGHT_TEAL,
-        ),
-        (
-            0.76,
-            "4  PROPAGATE",
-            "How does the operator change\nclassification and estimates?",
-            ORANGE,
-            LIGHT_ORANGE,
-        ),
-    ]
-    for index, (x, heading, body, edge, fill) in enumerate(audit_steps):
-        patch = FancyBboxPatch(
-            (x, 0.26),
-            0.20,
-            0.20,
-            boxstyle="round,pad=0.014,rounding_size=0.018",
-            facecolor=fill,
-            edgecolor=edge,
-            linewidth=1.4,
+        tagged_patch(
+            FancyBboxPatch(
+                (0.055, y),
+                0.218,
+                0.052,
+                boxstyle="round,pad=0.005,rounding_size=0.007",
+                facecolor=fill,
+                edgecolor=edge,
+                linewidth=1.0,
+            ),
+            f"source_card_{index}",
         )
-        ax.add_patch(patch)
-        set_gid(patch, f"data__{panel}_audit_box_{index}")
+        tagged_patch(
+            Rectangle(
+                (0.055, y),
+                0.006,
+                0.052,
+                facecolor=edge,
+                edgecolor=edge,
+                linewidth=0,
+            ),
+            f"source_card_accent_{index}",
+        )
         add_text(
             ax,
-            x + 0.10,
-            0.405,
+            0.069,
+            y + 0.033,
             heading,
             panel,
-            f"audit_heading_{index}",
-            fontsize=9.5,
+            f"source_heading_{index}",
+            fontsize=8.2,
+            fontweight="bold",
+            ha="left",
+            va="center",
+        )
+        add_text(
+            ax,
+            0.069,
+            y + 0.015,
+            subheading,
+            panel,
+            f"source_subheading_{index}",
+            fontsize=6.8,
+            color=SLATE,
+            ha="left",
+            va="center",
+        )
+    tagged_patch(
+        FancyBboxPatch(
+            (0.055, 0.430),
+            0.218,
+            0.057,
+            boxstyle="round,pad=0.004,rounding_size=0.006",
+            facecolor=WHITE,
+            edgecolor=SLATE,
+            linewidth=0.9,
+            linestyle="--",
+        ),
+        "source_boundary_note_box",
+        "annotations",
+    )
+    add_text(
+        ax,
+        0.164,
+        0.458,
+        "Distinct provenance layers\nnot interchangeable records",
+        panel,
+        "source_boundary_note",
+        category="annotations",
+        fontsize=6.8,
+        fontweight="bold",
+        color=SLATE,
+        ha="center",
+        va="center",
+        linespacing=1.15,
+    )
+    tagged_arrow(
+        (0.281, 0.635),
+        (0.326, 0.635),
+        "sources_to_operator",
+        color=NAVY,
+        linewidth=1.8,
+        mutation_scale=15,
+    )
+
+    lens_x0, lens_y0, lens_w, lens_h = 0.340, 0.500, 0.375, 0.286
+    outer_lens = tagged_patch(
+        FancyBboxPatch(
+            (lens_x0, lens_y0),
+            lens_w,
+            lens_h,
+            boxstyle="round,pad=0.004,rounding_size=0.045",
+            facecolor=WHITE,
+            edgecolor="#147A6D",
+            linewidth=1.4,
+        ),
+        "operator_lens_outer",
+    )
+    operator_dims = [
+        ("SOURCE", "observability", LIGHT_TEAL, TEAL),
+        ("IDENTITY", "drug + record", "#E3EEF7", NAVY),
+        ("TIME", "origin + window", "#F7EBC9", "#8A6A12"),
+        ("SEMANTICS", "event state", "#EEE8F6", "#5B3C88"),
+        ("METADATA", "dose + route", "#E5EDF7", NAVY),
+    ]
+    dim_w = lens_w / 5
+    for index, (heading, subheading, fill, edge) in enumerate(operator_dims):
+        x = lens_x0 + index * dim_w
+        segment = Rectangle(
+            (x, lens_y0),
+            dim_w,
+            lens_h,
+            facecolor=fill,
+            edgecolor="none",
+            linewidth=0,
+        )
+        segment.set_clip_path(outer_lens)
+        tagged_patch(segment, f"operator_segment_{index + 1}")
+        if index:
+            tagged_line(
+                [x, x],
+                [lens_y0 + 0.010, lens_y0 + lens_h - 0.010],
+                f"operator_separator_{index}",
+                color=edge,
+                linewidth=0.7,
+            )
+        center_x = x + dim_w / 2
+        if index == 0:
+            tagged_patch(
+                Ellipse(
+                    (center_x, 0.693),
+                    0.044,
+                    0.029,
+                    facecolor="none",
+                    edgecolor=edge,
+                    linewidth=1.1,
+                ),
+                "operator_icon_source_eye",
+            )
+            tagged_patch(
+                Circle((center_x, 0.693), 0.006, facecolor=edge, edgecolor=edge),
+                "operator_icon_source_pupil",
+            )
+        elif index == 1:
+            tagged_patch(
+                Circle(
+                    (center_x, 0.707), 0.010,
+                    facecolor="none", edgecolor=edge, linewidth=1.0,
+                ),
+                "operator_icon_identity_head",
+            )
+            tagged_patch(
+                FancyBboxPatch(
+                    (center_x - 0.020, 0.671),
+                    0.040,
+                    0.022,
+                    boxstyle="round,pad=0.002,rounding_size=0.010",
+                    facecolor="none",
+                    edgecolor=edge,
+                    linewidth=1.0,
+                ),
+                "operator_icon_identity_body",
+            )
+        elif index == 2:
+            tagged_patch(
+                Circle(
+                    (center_x, 0.693), 0.023,
+                    facecolor="none", edgecolor=edge, linewidth=1.0,
+                ),
+                "operator_icon_time_clock",
+            )
+            tagged_line(
+                [center_x, center_x],
+                [0.693, 0.710],
+                "operator_icon_time_hour",
+                color=edge,
+                linewidth=1.1,
+            )
+            tagged_line(
+                [center_x, center_x + 0.012],
+                [0.693, 0.684],
+                "operator_icon_time_minute",
+                color=edge,
+                linewidth=1.1,
+            )
+        elif index == 3:
+            for row_index, yy in enumerate((0.710, 0.693, 0.676)):
+                tagged_patch(
+                    Circle(
+                        (center_x - 0.015, yy), 0.0035,
+                        facecolor="none", edgecolor=edge, linewidth=0.9,
+                    ),
+                    f"operator_icon_semantics_bullet_{row_index}",
+                )
+                tagged_line(
+                    [center_x - 0.006, center_x + 0.019],
+                    [yy, yy],
+                    f"operator_icon_semantics_line_{row_index}",
+                    color=edge,
+                    linewidth=1.0,
+                )
+        else:
+            tagged_patch(
+                Rectangle(
+                    (center_x - 0.017, 0.669),
+                    0.034,
+                    0.050,
+                    facecolor="none",
+                    edgecolor=edge,
+                    linewidth=1.0,
+                ),
+                "operator_icon_metadata_document",
+            )
+            for row_index, yy in enumerate((0.704, 0.692, 0.680)):
+                tagged_line(
+                    [center_x - 0.010, center_x + 0.010],
+                    [yy, yy],
+                    f"operator_icon_metadata_line_{row_index}",
+                    color=edge,
+                    linewidth=0.8,
+                )
+        add_text(
+            ax,
+            center_x,
+            0.631,
+            heading,
+            panel,
+            f"operator_heading_{index + 1}",
+            fontsize=7.4,
             fontweight="bold",
             color=edge,
             ha="center",
@@ -440,37 +762,351 @@ def draw_framework(ax: plt.Axes, panel: str, frames) -> None:
         )
         add_text(
             ax,
-            x + 0.10,
-            0.325,
-            body,
+            center_x,
+            0.602,
+            subheading,
             panel,
-            f"audit_body_{index}",
-            fontsize=8.6,
+            f"operator_subheading_{index + 1}",
+            fontsize=6.5,
+            color=TEXT,
             ha="center",
             va="center",
-            linespacing=1.3,
         )
-        if index < len(audit_steps) - 1:
-            arrow = FancyArrowPatch(
-                (x + 0.205, 0.36),
-                (audit_steps[index + 1][0] - 0.008, 0.36),
-                arrowstyle="-|>",
-                mutation_scale=12,
-                linewidth=1.1,
-                color=SLATE,
-            )
-            ax.add_patch(arrow)
-            set_gid(arrow, f"data__{panel}_audit_arrow_{index}")
-
     add_text(
         ax,
-        0.50,
-        0.10,
-        "Discordant provenance cells transmit operator choices to cohort composition and estimates",
+        lens_x0 + lens_w / 2,
+        0.761,
+        "ALL FIVE DIMENSIONS REQUIRED",
         panel,
-        "output",
+        "operator_all_required",
         category="annotations",
-        fontsize=10.5,
+        fontsize=7.1,
+        fontweight="bold",
+        color="#147A6D",
+        ha="center",
+        va="center",
+    )
+    add_text(
+        ax,
+        lens_x0 + lens_w / 2,
+        0.472,
+        "Exposure = source × identity × time × semantics × metadata",
+        panel,
+        "operator_equation",
+        fontsize=7.5,
+        fontweight="bold",
+        color=NAVY,
+        ha="center",
+        va="center",
+    )
+    tagged_patch(
+        FancyBboxPatch(
+            (0.392, 0.417),
+            0.272,
+            0.038,
+            boxstyle="round,pad=0.004,rounding_size=0.006",
+            facecolor=WHITE,
+            edgecolor=TEAL,
+            linewidth=0.9,
+            linestyle="--",
+        ),
+        "biological_boundary_box",
+        "annotations",
+    )
+    add_text(
+        ax,
+        0.528,
+        0.436,
+        "Documented administration ≠ biological exposure",
+        panel,
+        "biological_boundary",
+        category="annotations",
+        fontsize=7.1,
+        fontweight="bold",
+        color="#147A6D",
+        ha="center",
+        va="center",
+    )
+    tagged_arrow(
+        (0.720, 0.635),
+        (0.750, 0.635),
+        "operator_to_classification",
+        color=TEAL,
+        linewidth=1.8,
+        mutation_scale=15,
+    )
+
+    classification_rows = [
+        (0.704, "Exposed", TEAL, [TEAL, TEAL, TEAL, TEAL]),
+        (0.616, "Unexposed", NAVY, [NAVY, NAVY, NAVY, NAVY]),
+        (0.528, "Discordant\nacross operators", ORANGE, [SLATE, ORANGE, SLATE, ORANGE]),
+    ]
+    for row_index, (y, label, label_color, people_colors) in enumerate(classification_rows):
+        add_text(
+            ax,
+            0.765,
+            y + 0.025,
+            label,
+            panel,
+            f"classification_label_{row_index}",
+            fontsize=7.0,
+            fontweight="bold",
+            color=label_color,
+            ha="left",
+            va="center",
+            linespacing=1.1,
+        )
+        for tile_index, person_color in enumerate(people_colors):
+            patient_tile(
+                0.864 + tile_index * 0.029,
+                y,
+                f"classification_{row_index}_{tile_index}",
+                color=person_color,
+                edge=person_color,
+                fill=WHITE,
+            )
+    add_text(
+        ax,
+        0.868,
+        0.450,
+        "Same records; admissible operators can disagree",
+        panel,
+        "classification_note",
+        category="annotations",
+        fontsize=6.8,
+        color=SLATE,
+        ha="center",
+        va="center",
+    )
+
+    tagged_patch(
+        FancyBboxPatch(
+            (0.025, 0.060),
+            0.950,
+            0.305,
+            boxstyle="round,pad=0.006,rounding_size=0.010",
+            facecolor="#FFF9F7",
+            edgecolor=ORANGE,
+            linewidth=1.0,
+        ),
+        "propagation_lane",
+        "annotations",
+    )
+    add_text(
+        ax,
+        0.500,
+        0.348,
+        "4   PROPAGATION THROUGH DISCORDANT PATIENT CELLS",
+        panel,
+        "propagation_heading",
+        category="annotations",
+        fontsize=9.2,
+        fontweight="bold",
+        color=ORANGE,
+        ha="center",
+        va="center",
+    )
+    module_centers = [0.145, 0.385, 0.625, 0.860]
+    module_labels = [
+        "Operator choice",
+        "Patient reclassification",
+        "Cohort composition",
+        "Effect-estimate drift",
+    ]
+    for index, (center, label) in enumerate(zip(module_centers, module_labels)):
+        add_text(
+            ax,
+            center,
+            0.305,
+            label,
+            panel,
+            f"propagation_label_{index + 1}",
+            fontsize=8.0,
+            fontweight="bold",
+            color=ORANGE if index else NAVY,
+            ha="center",
+            va="center",
+        )
+
+    mini_x0, mini_y0, mini_w, mini_h = 0.087, 0.142, 0.116, 0.098
+    mini_outer = tagged_patch(
+        FancyBboxPatch(
+            (mini_x0, mini_y0),
+            mini_w,
+            mini_h,
+            boxstyle="round,pad=0.003,rounding_size=0.020",
+            facecolor=WHITE,
+            edgecolor=NAVY,
+            linewidth=1.0,
+        ),
+        "propagation_operator_outer",
+    )
+    for index, fill in enumerate((LIGHT_TEAL, "#E3EEF7", "#F7EBC9", "#EEE8F6", "#E5EDF7")):
+        segment = Rectangle(
+            (mini_x0 + index * mini_w / 5, mini_y0),
+            mini_w / 5,
+            mini_h,
+            facecolor=fill,
+            edgecolor=SLATE,
+            linewidth=0.35,
+        )
+        segment.set_clip_path(mini_outer)
+        tagged_patch(segment, f"propagation_operator_segment_{index + 1}")
+    add_text(
+        ax,
+        0.145,
+        0.115,
+        "change one or more rules",
+        panel,
+        "propagation_operator_note",
+        category="annotations",
+        fontsize=6.5,
+        color=SLATE,
+        ha="center",
+        va="center",
+    )
+
+    reclass_colors = [SLATE, SLATE, ORANGE, NAVY, SLATE, ORANGE, NAVY, NAVY]
+    for index, person_color in enumerate(reclass_colors):
+        row, col = divmod(index, 4)
+        patient_tile(
+            0.329 + col * 0.030,
+            0.177 - row * 0.062,
+            f"propagation_reclass_{index}",
+            color=person_color,
+            edge=ORANGE if person_color == ORANGE else SLATE,
+            fill=WHITE,
+            width=0.025,
+            height=0.048,
+        )
+    tagged_arrow(
+        (0.365, 0.176),
+        (0.414, 0.145),
+        "propagation_reclass_move_1",
+        color=ORANGE,
+        linewidth=0.9,
+        mutation_scale=8,
+        category="annotations",
+    )
+    tagged_arrow(
+        (0.395, 0.114),
+        (0.444, 0.145),
+        "propagation_reclass_move_2",
+        color=ORANGE,
+        linewidth=0.9,
+        mutation_scale=8,
+        category="annotations",
+    )
+
+    for index, color in enumerate((TEAL, TEAL, TEAL, NAVY, NAVY, NAVY)):
+        x = 0.565 + (index % 3) * 0.030
+        y = 0.176 if index < 3 else 0.118
+        patient_tile(
+            x,
+            y,
+            f"propagation_cohort_{index}",
+            color=color,
+            edge=color,
+            fill=WHITE,
+            width=0.025,
+            height=0.048,
+        )
+    for index in range(2):
+        patient_tile(
+            0.660 + index * 0.030,
+            0.118,
+            f"propagation_discordant_cohort_{index}",
+            color=ORANGE,
+            edge=ORANGE,
+            fill="#FFF1ED",
+            width=0.025,
+            height=0.048,
+        )
+
+    tagged_line(
+        [0.790, 0.943],
+        [0.132, 0.132],
+        "effect_axis",
+        color=SLATE,
+        linewidth=0.9,
+    )
+    tagged_line(
+        [0.858, 0.858],
+        [0.102, 0.236],
+        "effect_null",
+        color=SLATE,
+        linewidth=0.8,
+        linestyle="--",
+        category="annotations",
+    )
+    for index, (y, low, point, high, color) in enumerate(
+        (
+            (0.198, 0.814, 0.846, 0.878, NAVY),
+            (0.158, 0.872, 0.904, 0.936, ORANGE),
+        )
+    ):
+        tagged_line(
+            [low, high],
+            [y, y],
+            f"effect_interval_{index}",
+            color=color,
+            linewidth=1.6,
+        )
+        tagged_line(
+            [low, low],
+            [y - 0.009, y + 0.009],
+            f"effect_interval_left_{index}",
+            color=color,
+            linewidth=1.0,
+        )
+        tagged_line(
+            [high, high],
+            [y - 0.009, y + 0.009],
+            f"effect_interval_right_{index}",
+            color=color,
+            linewidth=1.0,
+        )
+        tagged_patch(
+            Circle((point, y), 0.006, facecolor=color, edgecolor=WHITE, linewidth=0.7),
+            f"effect_point_{index}",
+        )
+    add_text(
+        ax,
+        0.865,
+        0.106,
+        "same outcome model",
+        panel,
+        "effect_model_note",
+        category="annotations",
+        fontsize=6.5,
+        color=SLATE,
+        ha="center",
+        va="center",
+    )
+    for index, (start, end) in enumerate(
+        (
+            ((0.224, 0.190), (0.292, 0.190)),
+            ((0.468, 0.190), (0.525, 0.190)),
+            ((0.718, 0.190), (0.768, 0.190)),
+        )
+    ):
+        tagged_arrow(
+            start,
+            end,
+            f"propagation_arrow_{index + 1}",
+            color=ORANGE,
+            linewidth=1.5,
+            mutation_scale=13,
+        )
+    add_text(
+        ax,
+        0.500,
+        0.079,
+        "Discordant cells carry provenance choices into cohort composition and estimates",
+        panel,
+        "propagation_note",
+        category="annotations",
+        fontsize=7.2,
         fontweight="bold",
         color=ORANGE,
         ha="center",
