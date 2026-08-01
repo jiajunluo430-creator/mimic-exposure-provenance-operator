@@ -1,0 +1,6 @@
+checkpoint,rows_n,stays_n
+prescription-row replication units,256,183
+primary pharmacy-POE units,183,183
+raw direct POE rows,183,183
+unit-level POE facts,183,183
+one-hop POE reference rows,99,

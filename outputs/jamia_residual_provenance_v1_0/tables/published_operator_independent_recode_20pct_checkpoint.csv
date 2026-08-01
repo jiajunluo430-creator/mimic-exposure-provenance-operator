@@ -1,0 +1,4 @@
+checkpoint,rows_n,status
+source frame,40,PASS
+sample without replacement,8,PASS
+coding fields blank,8,PASS

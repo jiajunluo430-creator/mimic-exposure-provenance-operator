@@ -1,0 +1,9 @@
+timestamp=2026-08-01T11:55:54.619001-05:00
+python=3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]
+platform=Windows-11-10.0.26200-SP0
+duckdb=1.5.3
+pandas=3.0.3
+script=43_build_cross_poe_pairing_audit.py
+script_sha256=ff18126750413de349dc8e91a4b9f8bb2c2bfd40b75cd58cfb55a58a3409eea2
+contract_sha256=4fe73818ca3b3e9d6bb21142f65693b9a8f05e7844420a38c40bbb1ee2bfc873
+raw_sources_modified=false

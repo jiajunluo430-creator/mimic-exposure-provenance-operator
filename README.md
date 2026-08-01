@@ -13,7 +13,9 @@ Headline reproducibility findings include:
 - route present in 9,940/9,940 eligible A1 order units but 0/87,569 strict VTE
   eMAR events;
 - 183/184 fixed A2 residual stays linked by native pharmacy identifiers to PPI
-  prescriptions, with cross-layer POE/time discordance;
+  prescriptions; 256 rows collapsed to 183 independent order units, with eMAR
+  POE preceding administration by median 5.68 hours and the linked prescription
+  POE following it by 97.18 hours (paired separation 106.10 hours);
 - after main text, 55/56 linked supplements, and three article-specific
   repositories were reviewed, only 7/40 studies named a native source, 2/40
   supplied executable identity, and 0/40 reported native event semantics.
@@ -43,7 +45,7 @@ Install the recorded Python and R dependencies in `environment/`, then run
 presubmission diagnostics, operator upgrade, residual trace, literature-scope
 audit, and figure generation. Network access is required for RxNav, PubMed,
 Europe PMC, and article-specific repository retrieval. The committed aggregate
-tables are the versioned reference outputs for the frozen 31 July 2026 audit.
+tables are the versioned reference outputs for the frozen 1 August 2026 audit.
 
 ## Repository structure
 
@@ -51,7 +53,9 @@ tables are the versioned reference outputs for the frozen 31 July 2026 audit.
 - `config/`: frozen drug, event-state, anchor, and interface whitelists
 - `scripts/`: executable Python/R/PowerShell pipeline
 - `outputs/`: patient-free aggregate reference results, manifests, and QA
-- `figures/`: editable SVG/PDF figures and panel-level source data
+- `figures/`: figure deliverables and panel-level source data; Figure 1 is an
+  appearance-preserving SVG raster container, while Figures 2-4 and S4-S5 have
+  live-text vector backups
 - `reports/`: QDP and implementation-failure audit reports
 - `environment/`: recorded sessions and dependency files
 

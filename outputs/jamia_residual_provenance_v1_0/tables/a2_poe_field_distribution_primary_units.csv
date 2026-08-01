@@ -1,0 +1,6 @@
+field,value,primary_order_units_n,pct
+order_status,Inactive,177,96.7213
+order_status,Active,6,3.2787
+order_subtype,<blank>,183,100.0
+order_type,Medications,183,100.0
+transaction_type,New,183,100.0

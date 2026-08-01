@@ -1,0 +1,5 @@
+cross_reference,primary_order_units_n,pct
+eMAR POE discontinue_of = prescription POE,0,0.0
+eMAR POE discontinued_by = prescription POE,0,0.0
+prescription POE discontinue_of = eMAR POE,0,0.0
+prescription POE discontinued_by = eMAR POE,0,0.0

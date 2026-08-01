@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-08-01T11:55:54.619001-05:00",
+  "script": "43_build_cross_poe_pairing_audit.py",
+  "script_sha256": "ff18126750413de349dc8e91a4b9f8bb2c2bfd40b75cd58cfb55a58a3409eea2",
+  "contract_sha256": "4fe73818ca3b3e9d6bb21142f65693b9a8f05e7844420a38c40bbb1ee2bfc873",
+  "base_database_read_only": true,
+  "raw_poe_before": {
+    "path": "${MIMIC_IV_ROOT}\\hosp\\poe.csv.gz",
+    "bytes": 666594177,
+    "mtime_ns": 1712980734000000000
+  },
+  "raw_poe_after": {
+    "path": "${MIMIC_IV_ROOT}\\hosp\\poe.csv.gz",
+    "bytes": 666594177,
+    "mtime_ns": 1712980734000000000
+  },
+  "pair_rows_n": 198,
+  "pair_primary_units_n": 183,
+  "pair_stays_n": 183,
+  "distinct_emar_poe_ids_n": 198,
+  "raw_emar_poe_rows_n": 198,
+  "linked_primary_units_n": 183,
+  "checkpoint_rows_n": 5,
+  "field_distribution_rows_n": 9,
+  "timing_summary_rows_n": 3,
+  "chain_summary_rows_n": 4,
+  "resolution_summary_rows_n": 1,
+  "validation_passed": true,
+  "elapsed_seconds": 35.26473140716553
+}

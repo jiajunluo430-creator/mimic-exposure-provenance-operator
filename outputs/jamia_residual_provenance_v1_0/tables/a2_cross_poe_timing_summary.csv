@@ -1,0 +1,4 @@
+timing_metric,primary_order_units_n,min_h,q1_h,median_h,q3_h,max_h
+eMAR POE ordertime minus first administration,183,-274.23333333333335,-11.591666666666667,-5.683333333333334,-1.8416666666666668,-0.15
+prescription POE ordertime minus eMAR POE ordertime,183,2.8333333333333335,66.725,106.1,204.18333333333334,1470.4
+prescription POE ordertime minus first administration,183,2.6,58.475,97.18333333333334,179.19166666666666,1465.25

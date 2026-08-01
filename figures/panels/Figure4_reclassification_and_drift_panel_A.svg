@@ -5,7 +5,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-07-31T22:28:21.629098</dc:date>
+    <dc:date>2026-08-01T10:31:26.021119</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -19,34 +19,34 @@
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <defs>
-  <clipPath id="p3e0dd8a625">
+  <clipPath id="pcb1a1551c8">
    <rect x="100.8" y="56.448" width="388.08" height="262.08"/>
   </clipPath>
  </defs>
 <g id="panel_A">
    <g id="panel_A_axis"><desc>axis objects for panel A</desc></g><g id="panel_A_data"><desc>data objects for panel A</desc><g id="data__A_cell_A1_1_0">
-    <path d="M 163.17 129.8304  L 298.998 129.8304  L 298.998 96.6336  L 163.17 96.6336  z " clip-path="url(#p3e0dd8a625)" style="fill: #a8cee4; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+    <path d="M 163.17 129.8304  L 298.998 129.8304  L 298.998 96.6336  L 163.17 96.6336  z " clip-path="url(#pcb1a1551c8)" style="fill: #a8cee4; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="data__A_cell_A1_1_1">
-    <path d="M 308.7 129.8304  L 444.528 129.8304  L 444.528 96.6336  L 308.7 96.6336  z " clip-path="url(#p3e0dd8a625)" style="fill: #c8dcf0; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+    <path d="M 308.7 129.8304  L 444.528 129.8304  L 444.528 96.6336  L 308.7 96.6336  z " clip-path="url(#pcb1a1551c8)" style="fill: #c8dcf0; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="data__A_cell_A1_0_0">
-    <path d="M 163.17 165.648  L 298.998 165.648  L 298.998 132.4512  L 163.17 132.4512  z " clip-path="url(#p3e0dd8a625)" style="fill: #d6e5f4; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+    <path d="M 163.17 165.648  L 298.998 165.648  L 298.998 132.4512  L 163.17 132.4512  z " clip-path="url(#pcb1a1551c8)" style="fill: #d6e5f4; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="data__A_cell_A1_0_1">
-    <path d="M 308.7 165.648  L 444.528 165.648  L 444.528 132.4512  L 308.7 132.4512  z " clip-path="url(#p3e0dd8a625)" style="fill: #e2edf8; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+    <path d="M 308.7 165.648  L 444.528 165.648  L 444.528 132.4512  L 308.7 132.4512  z " clip-path="url(#pcb1a1551c8)" style="fill: #e2edf8; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="data__A_cell_A2_1_0">
-    <path d="M 163.17 239.0304  L 298.998 239.0304  L 298.998 205.8336  L 163.17 205.8336  z " clip-path="url(#p3e0dd8a625)" style="fill: #084184; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+    <path d="M 163.17 239.0304  L 298.998 239.0304  L 298.998 205.8336  L 163.17 205.8336  z " clip-path="url(#pcb1a1551c8)" style="fill: #084184; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="data__A_cell_A2_1_1">
-    <path d="M 308.7 239.0304  L 444.528 239.0304  L 444.528 205.8336  L 308.7 205.8336  z " clip-path="url(#p3e0dd8a625)" style="fill: #1764ab; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+    <path d="M 308.7 239.0304  L 444.528 239.0304  L 444.528 205.8336  L 308.7 205.8336  z " clip-path="url(#pcb1a1551c8)" style="fill: #1764ab; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="data__A_cell_A2_0_0">
-    <path d="M 163.17 274.848  L 298.998 274.848  L 298.998 241.6512  L 163.17 241.6512  z " clip-path="url(#p3e0dd8a625)" style="fill: #5ba3d0; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+    <path d="M 163.17 274.848  L 298.998 274.848  L 298.998 241.6512  L 163.17 241.6512  z " clip-path="url(#pcb1a1551c8)" style="fill: #5ba3d0; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="data__A_cell_A2_0_1">
-    <path d="M 308.7 274.848  L 444.528 274.848  L 444.528 241.6512  L 308.7 241.6512  z " clip-path="url(#p3e0dd8a625)" style="fill: #97c6df; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+    <path d="M 308.7 274.848  L 444.528 274.848  L 444.528 241.6512  L 308.7 241.6512  z " clip-path="url(#pcb1a1551c8)" style="fill: #97c6df; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    </g><g id="panel_A_labels"><desc>labels objects for panel A</desc><g id="labels__A_matrix_global_title">
     <text style="font-weight: 700; font-size: 10.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="298.998" y="66.513248" transform="rotate(-0 298.998 66.513248)">Outcome risk separates discordant cells</text>

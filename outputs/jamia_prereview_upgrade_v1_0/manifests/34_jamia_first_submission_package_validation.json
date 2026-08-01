@@ -1,29 +1,29 @@
 {
-  "generated_utc": "2026-08-01T00:24:22.318012+00:00",
-  "analytic_version": "JAMIA joint provenance-operator audit v2.0",
-  "decision": "HOLD_REQUIRED_CONTACT_APPROVAL_AND_REPOSITORY_FIELDS",
-  "checks_passed": 18,
-  "checks_total": 18,
+  "generated_utc": "2026-08-01T17:43:04.072896+00:00",
+  "analytic_version": "JAMIA joint provenance-operator audit v5.0",
+  "decision": "HOLD_REQUIRED_AUTHOR_CONTACT_DETAILS",
+  "checks_passed": 23,
+  "checks_total": 23,
   "checks": [
     {
       "check_id": "required_submission_assets",
       "passed": true,
-      "evidence": "missing=none; package files=33/33"
+      "evidence": "missing=none; package files=34/34"
     },
     {
       "check_id": "submission_manifest_hashes",
       "passed": true,
-      "evidence": "declared=32; mismatches=none"
+      "evidence": "declared=33; mismatches=none"
     },
     {
       "check_id": "zip_contents",
       "passed": true,
-      "evidence": "zip files=33; package files=33"
+      "evidence": "zip files=34; package files=34"
     },
     {
       "check_id": "patient_free_reproducibility_bundle",
       "passed": true,
-      "evidence": "members=261; required missing=none; forbidden=none"
+      "evidence": "members=368; required missing=none; forbidden=none"
     },
     {
       "check_id": "plain_title_style",
@@ -33,7 +33,7 @@
     {
       "check_id": "table_structure_and_headers",
       "passed": true,
-      "evidence": "tables=34; issues={'missing_header': 0, 'missing_width': 0, 'missing_grid': 0, 'missing_cell_width': 0, 'wrong_indent': 0}"
+      "evidence": "tables=52; issues={'missing_header': 0, 'missing_width': 0, 'missing_grid': 0, 'missing_cell_width': 0, 'wrong_indent': 0}"
     },
     {
       "check_id": "main_manuscript_structure",
@@ -43,7 +43,7 @@
     {
       "check_id": "supporting_information_structure",
       "passed": true,
-      "evidence": "physical tables=30 implementing 18 numbered tables; images=5; nonempty image alt=5"
+      "evidence": "physical tables=48 implementing 20 numbered tables; images=5; nonempty image alt=5"
     },
     {
       "check_id": "no_placeholder_or_tool_leakage",
@@ -53,7 +53,7 @@
     {
       "check_id": "verified_author_metadata_applied",
       "passed": true,
-      "evidence": "authors=5; supplied metadata applied; documented upload blockers=6; old placeholders absent"
+      "evidence": "authors=5; supplied metadata applied; documented upload blockers=3; old placeholders absent"
     },
     {
       "check_id": "clean_first_submission_framing",
@@ -63,7 +63,7 @@
     {
       "check_id": "docx_render_and_visual_review",
       "passed": true,
-      "evidence": "pages={'JAMIA_cover_letter': 1, 'JAMIA_main_manuscript': 21, 'JAMIA_RECORD_STROBE_checklist': 2, 'JAMIA_submission_completion_note': 1, 'JAMIA_supporting_information': 29, 'JAMIA_title_page': 2}; total=56; contact sheets=18; visual review=True"
+      "evidence": "pages={'JAMIA_cover_letter': 1, 'JAMIA_main_manuscript': 22, 'JAMIA_RECORD_STROBE_checklist': 2, 'JAMIA_submission_completion_note': 1, 'JAMIA_supporting_information': 36, 'JAMIA_title_page': 2}; total=64; contact sheets=19; visual review=True"
     },
     {
       "check_id": "docx_accessibility",
@@ -76,9 +76,14 @@
       "evidence": "TIFFs=9/9; dpi={'Figure1_provenance_audit.tiff': [600, 600], 'Figure2_observability_and_delivery.tiff': [600, 600], 'Figure3_semantics_and_workflow.tiff': [600, 600], 'Figure4_reclassification_and_drift.tiff': [600, 600], 'FigureS1_full_emar_event_distribution.tiff': [600, 600], 'FigureS2_emar_detail_availability.tiff': [600, 600], 'FigureS3_join_plan_audit.tiff': [600, 600], 'FigureS4_participant_flow.tiff': [600, 600], 'FigureS5_complete_workflow_forest.tiff': [600, 600]}"
     },
     {
+      "check_id": "figure1_imagegen_artwork",
+      "passed": true,
+      "evidence": "source/package PNG SHA match=True; source/package px=(1672, 941)/(1672, 941); delivery px=(3344, 1882); locked-raster SVG/disclosure verified"
+    },
+    {
       "check_id": "editable_vector_figures",
       "passed": true,
-      "evidence": "structural reports passed=16/16; Illustrator opens passed=16/16"
+      "evidence": "structural reports passed=5/5; Illustrator opens passed=5/5"
     },
     {
       "check_id": "contract_and_analysis_chain",
@@ -94,6 +99,26 @@
       "check_id": "identity_literature_and_boundary_audits",
       "passed": true,
       "evidence": "RxNav=139/139 successful, coverage=95.050%; published-operator sample=40; Sepsis-3/OMOP boundaries preserved"
+    },
+    {
+      "check_id": "residual_provenance_and_construct_measurability",
+      "passed": true,
+      "evidence": "contract fixed; source files unchanged/read-only; A2 residual=184 stays/399 events, 183 linked by pharmacy_id and 256/256 linked prescription units ordered after first administration; A1 route=100% orders versus 0% strict eMAR; validation=11/11"
+    },
+    {
+      "check_id": "cross_layer_poe_temporal_noninterchangeability",
+      "passed": true,
+      "evidence": "256 rows deduplicated to 183 independent units (73 IV base/additive duplicates); eMAR POE preceded administration by 5.68 h, linked prescription POE followed by 97.18 h, paired separation=106.10 h; 198/198 eMAR POEs present in raw POE but 0 exact prescription/pharmacy resolutions and 0 direct cross-POE references; not discharge-clustered"
+    },
+    {
+      "check_id": "expanded_literature_evidence_scope",
+      "passed": true,
+      "evidence": "40 main texts, 55/56 linked supplements, and 3/3 article-specific repositories reviewed; native source=7/40, executable identity=2/40, event semantics=0/40, complete operator=0/40; frozen blank 8-study second-coder packet released without fabricated kappa"
+    },
+    {
+      "check_id": "public_patient_free_repository",
+      "passed": true,
+      "evidence": "url=https://github.com/jiajunluo430-creator/mimic-exposure-provenance-operator; patient keys=0; forbidden binaries=0; local paths=0; secrets/personal tokens=0"
     }
   ],
   "pilot_gates": [
@@ -145,10 +170,10 @@
     {
       "gate_id": "J10",
       "status": "PASS",
-      "evidence": "18/18 package, hash, DOCX, render, a11y, figure, and provenance checks passed"
+      "evidence": "23/23 package, hash, DOCX, render, a11y, figure, and provenance checks passed"
     }
   ],
   "package_zip": "<PROJECT_ROOT>\\outputs\\researchwrite\\mimic_order_administration_validity_jamia\\exports\\submission_package\\JAMIA_submission_package.zip",
-  "package_zip_sha256": "5bf93ed8aa787001cc65b0098ecfa0674d0a3b0a670d99fb1e3ccb4c3c79c14c",
+  "package_zip_sha256": "107ded81409e2401fcb8f6af59ada62be0a5b98068ce6713f45620cf1886bd9f",
   "reproducibility_manifest": "<PROJECT_ROOT>\\outputs\\jamia_prereview_upgrade_v1_0\\manifests\\jamia_first_submission_reproducibility_sha256.csv"
 }

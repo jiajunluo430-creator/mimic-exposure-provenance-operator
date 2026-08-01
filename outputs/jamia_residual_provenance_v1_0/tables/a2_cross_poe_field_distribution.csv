@@ -1,0 +1,10 @@
+poe_role,field,value,primary_order_units_n,pct
+eMAR POE,order_status,Inactive,182,99.4536
+eMAR POE,order_status,Active,1,0.5464
+eMAR POE,order_type,Medications,183,100.0
+eMAR POE,transaction_type,New,179,97.8142
+eMAR POE,transaction_type,Change,4,2.1858
+prescription POE,order_status,Inactive,177,96.7213
+prescription POE,order_status,Active,6,3.2787
+prescription POE,order_type,Medications,183,100.0
+prescription POE,transaction_type,New,183,100.0

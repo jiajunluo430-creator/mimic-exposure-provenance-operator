@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-01T11:51:05.226478-05:00",
+  "script": "42_build_poe_temporal_mechanism_audit.py",
+  "script_sha256": "cd6c41ca07a18f479fe8739fde500a56656b7eb71e70c678bce61cbd2b0965c5",
+  "contract_sha256": "415a39ccd5bcef4bf03a9add7a68cf5e14a7e35edcbdec76927d4e12b84ed79a",
+  "base_database_read_only": true,
+  "raw_sources_before": {
+    "poe.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\poe.csv.gz",
+      "bytes": 666594177,
+      "mtime_ns": 1712980734000000000
+    },
+    "admissions.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\admissions.csv.gz",
+      "bytes": 19928140,
+      "mtime_ns": 1719247334000000000
+    },
+    "prescriptions.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\prescriptions.csv.gz",
+      "bytes": 606298611,
+      "mtime_ns": 1712980208000000000
+    }
+  },
+  "raw_sources_after": {
+    "poe.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\poe.csv.gz",
+      "bytes": 666594177,
+      "mtime_ns": 1712980734000000000
+    },
+    "admissions.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\admissions.csv.gz",
+      "bytes": 19928140,
+      "mtime_ns": 1719247334000000000
+    },
+    "prescriptions.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\prescriptions.csv.gz",
+      "bytes": 606298611,
+      "mtime_ns": 1712980208000000000
+    }
+  },
+  "row_level_replication_units_n": 256,
+  "primary_order_units_n": 183,
+  "primary_linked_stays_n": 183,
+  "raw_direct_poe_rows_n": 183,
+  "linked_primary_units_n": 183,
+  "one_hop_reference_keys_n": 100,
+  "checkpoint_rows_n": 5,
+  "row_field_distribution_rows_n": 5,
+  "unit_field_distribution_rows_n": 5,
+  "timing_summary_rows_n": 5,
+  "discharge_bin_rows_n": 3,
+  "discontinuation_rows_n": 2,
+  "multiplicity_rows_n": 2,
+  "multirow_combination_rows_n": 1,
+  "validation_passed": true,
+  "elapsed_seconds": 53.34014582633972
+}

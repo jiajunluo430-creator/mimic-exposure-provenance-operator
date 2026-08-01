@@ -48,6 +48,9 @@ try {
     Invoke-Checked $PythonExe "$PSScriptRoot\36_validate_residual_provenance.py"
     Invoke-Checked $PythonExe "$PSScriptRoot\37_audit_published_operator_evidence_scope.py"
     Invoke-Checked $PythonExe "$PSScriptRoot\38_finalize_published_operator_evidence_scope.py"
+    Invoke-Checked $PythonExe "$PSScriptRoot\42_build_poe_temporal_mechanism_audit.py"
+    Invoke-Checked $PythonExe "$PSScriptRoot\43_build_cross_poe_pairing_audit.py"
+    Invoke-Checked $PythonExe "$PSScriptRoot\44_prepare_independent_recoding_sample.py"
     Invoke-Checked $PythonExe "$PSScriptRoot\19_make_jamia_figures.py"
 }
 finally { Pop-Location }

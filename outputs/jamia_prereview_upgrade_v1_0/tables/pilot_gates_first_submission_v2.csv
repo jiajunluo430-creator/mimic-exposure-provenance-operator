@@ -8,4 +8,4 @@ J06,PASS,12/12 paired variants have identical n/outcomes
 J07,PASS,Material post-implementation anchor(s): A2
 J08,PASS,Outcome models used deployment_era inputs only; any_emar was not a filter
 J09,PASS,13/13 manuscript value claim governance and first-submission checks passed
-J10,PASS,"18/18 package, hash, DOCX, render, a11y, figure, and provenance checks passed"
+J10,PASS,"23/23 package, hash, DOCX, render, a11y, figure, and provenance checks passed"

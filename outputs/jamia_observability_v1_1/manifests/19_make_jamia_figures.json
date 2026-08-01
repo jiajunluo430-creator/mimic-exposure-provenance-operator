@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T22:28:29.382216-05:00",
+  "generated_at": "2026-08-01T10:31:31.058861-05:00",
   "script": "<PROJECT_ROOT>\\scripts\\19_make_jamia_figures.py",
-  "elapsed_seconds": 17.373,
+  "elapsed_seconds": 12.841,
   "source_root": [
     "<PROJECT_ROOT>\\outputs\\jamia_observability_v1_1\\tables",
     "<PROJECT_ROOT>\\outputs\\jamia_pre_submission_v1_0\\tables",

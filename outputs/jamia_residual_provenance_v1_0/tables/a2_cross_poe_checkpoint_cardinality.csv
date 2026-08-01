@@ -1,0 +1,6 @@
+checkpoint,rows_n,stays_n
+primary pharmacy-prescription POE units,183,183
+distinct eMAR/prescription POE pairs,198,183
+raw eMAR-POE rows,198,183
+paired unit facts,183,183
+eMAR-POE exact-source resolutions,198,183

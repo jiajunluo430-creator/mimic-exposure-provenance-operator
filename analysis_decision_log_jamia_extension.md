@@ -112,3 +112,20 @@ definitions.
   replace the original results based on direction, magnitude, or significance.
 - Submission status: the eventual package remains a clean first submission;
   this prereview and its issue matrix are internal provenance only.
+
+## J008 — Figure 1 artwork decision
+
+- Date: 1 August 2026.
+- Decision: use the author-approved ImageGen concept artwork directly as the
+  main Figure 1 because it communicates the source-to-operator-to-drift story
+  more clearly than the superseded programmatic redraw.
+- Reproducibility: lock the source PNG by SHA-256; preserve it unchanged as the
+  submission PNG; create TIFF/PDF delivery copies; archive the superseded
+  vector assets; and include the source image, prompt, and artwork manifest in
+  the patient-free reproducibility bundle.
+- Disclosure: explicitly report OpenAI ImageGen use in the manuscript, title
+  page, and cover letter, with author verification of every label, connection,
+  and interpretation.
+- Analytic boundary: this is a presentation decision only. No frozen class,
+  whitelist, time window, event semantic, analysis unit, anchor, model,
+  estimate, or conclusion changed.

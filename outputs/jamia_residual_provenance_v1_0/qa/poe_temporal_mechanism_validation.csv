@@ -1,0 +1,7 @@
+check,passed,detail
+contract_hash_match,True,415a39ccd5bcef4bf03a9add7a68cf5e14a7e35edcbdec76927d4e12b84ed79a
+row_level_replication_256,True,256
+linked_stays_183,True,183
+all_primary_units_link_to_raw_poe,True,183/183
+raw_base_poe_multiplicity_match,True,0
+all_primary_units_timestamped_after_admin,True,183/183

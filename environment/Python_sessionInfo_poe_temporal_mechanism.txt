@@ -1,0 +1,9 @@
+timestamp=2026-08-01T11:51:05.226478-05:00
+python=3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]
+platform=Windows-11-10.0.26200-SP0
+duckdb=1.5.3
+pandas=3.0.3
+script=42_build_poe_temporal_mechanism_audit.py
+script_sha256=cd6c41ca07a18f479fe8739fde500a56656b7eb71e70c678bce61cbd2b0965c5
+contract_sha256=415a39ccd5bcef4bf03a9add7a68cf5e14a7e35edcbdec76927d4e12b84ed79a
+raw_sources_modified=false
