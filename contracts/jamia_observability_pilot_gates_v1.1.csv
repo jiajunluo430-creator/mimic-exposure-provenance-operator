@@ -1,0 +1,11 @@
+gate_id,domain,pass_rule,failure_action
+J01,calendar_alignment,"94444 unique adult stays; no missing aligned calendar fields; stay_year_low <= stay_year_midpoint <= stay_year_high","NO_GO_JAMIA_IMPLEMENTATION"
+J02,full_emar_reconciliation,"Complete eMAR event distribution sums to 42808593 rows and adult-stay coverage denominators reconcile","NO_GO_JAMIA_IMPLEMENTATION"
+J03,post_2016_class_feasibility,"All six frozen medication classes have at least one eligible order and one qualifying documented administration","NO_GO_JAMIA_IMPLEMENTATION"
+J04,not_given_models,"Corrected all-period and post-2016 primary and semantic models converge","NO_GO_JAMIA_IMPLEMENTATION"
+J05,anchor_feasibility,"A1 and A2 post-2016 cohorts each contain at least 500 patients and nonzero exposure under both definitions","NO_GO_JAMIA_IMPLEMENTATION"
+J06,same_cohort,"Every paired order-versus-administration model has identical n and outcome counts","NO_GO_JAMIA_IMPLEMENTATION"
+J07,material_effect_change,"At least one post-2016 published-style anchor meets the frozen material-effect-change rule","BACKUP_PDS"
+J08,observability_selection_boundary,"No outcome-model cohort is selected by any_emar_in_admission","NO_GO_JAMIA_IMPLEMENTATION"
+J09,claim_boundary,"Manuscript states documented administration rather than ingestion/ground truth; no causal drug or eICU validation claim","HOLD_TEXT_REVISION"
+J10,reproducibility,"Versioned scripts, checkpoints, hashes, session information, tables, and final decision are present","HOLD_PACKAGE"

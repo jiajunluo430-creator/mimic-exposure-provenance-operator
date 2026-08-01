@@ -1,0 +1,11 @@
+gate_id,status,evidence
+J01,PASS,94444 unique adult stays; interval ordering and missingness checks passed
+J02,PASS,42808593 full eMAR keys reconcile; coverage denominators sum to 94444 stays
+J03,PASS,6 post-implementation classes retained
+J04,PASS,4/4 corrected not-given models converged
+J05,PASS,"A1: n=20248, order=7047, admin=5538 | A2: n=2813, order=655, admin=870"
+J06,PASS,12/12 paired variants have identical n/outcomes
+J07,PASS,Material post-implementation anchor(s): A2
+J08,PASS,Outcome models used deployment_era inputs only; any_emar was not a filter
+J09,PENDING_TEXT_QA,Claim-boundary scan follows manuscript revision
+J10,PENDING_FINAL_VALIDATION,Model assets complete; final package validation pending

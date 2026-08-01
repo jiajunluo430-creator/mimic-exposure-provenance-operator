@@ -1,0 +1,7 @@
+reporting_dimension,reported_n,sample_n,reported_percent
+Named native medication table/source,6,40,15.0
+Database-executable identity rule,1,40,2.5
+Time origin and exposure window,35,40,87.5
+Native event-state semantics,0,40,0.0
+Dose or route constraint,30,40,75.0
+Fully executable operator,0,40,0.0

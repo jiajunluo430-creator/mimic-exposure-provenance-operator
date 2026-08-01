@@ -1,0 +1,7 @@
+timestamp=2026-07-31T22:02:28.977464-05:00
+python=3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]
+pandas=3.0.3
+script=37_audit_published_operator_evidence_scope.py
+script_sha256=1a952751d5d2edee611472773b571fa1622fa004568384a70a059b3e74ac3e36
+codebook_sha256=ecfab4f17c4c277c3cf0a26e4aecb4a9e6fae1193149ac687c599baf717bea53
+sample_sha256=69fc62e3ff0bf3f8f9eb626817a6342ebcfebf46f9ca11d7a7ed07418e407678

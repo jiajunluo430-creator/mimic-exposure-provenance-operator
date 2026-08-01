@@ -1,0 +1,8 @@
+anchor_id,step,rows_n
+A1,adult ICU stays,94444.0
+A1,exactly one ICU stay per subject,49114.0
+A1,valid hospital outcome; final cohort,49114.0
+A2,adult first ICU stay per subject,65355.0
+A2,ICD-coded sepsis,9637.0
+A2,after active acid-indication exclusions; final cohort,6625.0
+A2,48-hour landmark cohort,6000.0

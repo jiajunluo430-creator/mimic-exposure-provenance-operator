@@ -1,0 +1,13 @@
+{
+  "script_sha256": "0514ba9654b8166f99e44ccbc19eb9ae47829d996f24d6107ac16803eb66d4c0",
+  "contract_sha256": "0a851a99c9176c16deda2cde9e30fded7f2b5131a5a3f64ac7f050ebd8f81d9d",
+  "query": "(\"MIMIC-IV\"[Title/Abstract]) AND (drug[Title/Abstract] OR medication[Title/Abstract] OR pharmaco*[Title/Abstract] OR antibiotic*[Title/Abstract] OR insulin[Title/Abstract] OR anticoag*[Title/Abstract] OR heparin[Title/Abstract] OR \"proton pump\"[Title/Abstract] OR PPI[Title/Abstract])",
+  "query_date": "2026-07-31",
+  "pubmed_query_count": 379,
+  "pubmed_records_retrieved": 379,
+  "eligible_open_fulltext_pool_before_content_screen": 293,
+  "random_seed": 20260731,
+  "fulltexts_requested": 240,
+  "fulltexts_retrieved": 240,
+  "elapsed_seconds": 96.88034725189209
+}

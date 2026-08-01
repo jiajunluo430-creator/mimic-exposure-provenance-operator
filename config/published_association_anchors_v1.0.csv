@@ -1,0 +1,4 @@
+anchor_id,drug_class,citation,pmid,pmcid,doi,published_exposure,published_outcome,published_direction,published_effect,locked_reestimation
+A1,vte_prophylaxis,"Muchintala R et al. Cureus. 2025;17:e86370",40688991,PMC12276787,10.7759/cureus.86370,"Order used as proxy for subcutaneous heparin/enoxaparin administration",In-hospital mortality,Protective association,"aOR 0.35 (95% CI 0.34-0.37)","Same adult single-ICU cohort and age/sex/emergency logistic model under order versus strict eMAR exposure"
+A2,stress_ulcer_prophylaxis,"Ma C et al. Front Pharmacol. 2025;16:1545533",40612738,PMC12223537,10.3389/fphar.2025.1545533,"Prophylactic PPI use in the first 48 hours",90-day all-cause mortality,Harm-direction association,"P<0.001; exact published HR not required for gate","Same prespecified ICD-sepsis cohort and covariates under order versus strict eMAR PPI exposure"
+

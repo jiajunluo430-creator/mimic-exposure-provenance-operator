@@ -1,0 +1,13 @@
+event_mapping,drug_class,converged,rows_n,stays_n,decision_events_n,oasis_event_weighted_mean,oasis_event_weighted_sd,model_error
+frozen_primary,electrolyte_replacement,TRUE,47689,23132,127464,34.0527129228645,8.57868758894377,
+frozen_primary,insulin,TRUE,44033,17526,221049,34.694429741822,8.77059660689363,
+frozen_primary,intra_abdominal_antibiotics,TRUE,43791,16483,185741,35.8495916356647,8.66358963129492,
+frozen_primary,prokinetic,TRUE,3607,1769,11857,34.7976722611116,8.97763760893226,
+frozen_primary,stress_ulcer_prophylaxis,TRUE,54716,24469,158713,34.2353367399016,8.82967777990711,
+frozen_primary,vte_prophylaxis,TRUE,23396,10386,76532,33.6228244394502,9.10839776276674,
+audit_semantic_sensitivity,electrolyte_replacement,TRUE,47936,23191,128933,34.0617840273631,8.57960411877526,
+audit_semantic_sensitivity,insulin,TRUE,58021,20047,378245,34.4691403719811,8.80835698900543,
+audit_semantic_sensitivity,intra_abdominal_antibiotics,TRUE,43800,16484,185927,35.8487954950061,8.66501192464651,
+audit_semantic_sensitivity,prokinetic,TRUE,3608,1769,11877,34.7961606466279,8.97757162398888,
+audit_semantic_sensitivity,stress_ulcer_prophylaxis,TRUE,54751,24474,158998,34.2345312519654,8.82994057301946,
+audit_semantic_sensitivity,vte_prophylaxis,TRUE,23433,10399,76760,33.6233585200625,9.10881677852278,

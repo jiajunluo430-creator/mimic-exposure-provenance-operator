@@ -1,0 +1,8 @@
+timestamp=2026-07-31T21:47:53.056657-05:00
+python=3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]
+platform=Windows-11-10.0.26200-SP0
+duckdb=1.5.3
+pandas=3.0.3
+script=35_build_residual_prescription_eligibility_audit.py
+script_sha256=a65335716e5e9c2124770e264ce261096cd7f5afa29518bc58826d4f1cf8cd9d
+contract_sha256=af533e4d3a9b636c368dc6c76cc3e3ea472c77f9884476520d341ae09575dcfd

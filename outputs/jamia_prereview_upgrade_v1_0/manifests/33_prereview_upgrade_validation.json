@@ -1,0 +1,93 @@
+{
+  "generated_utc": "2026-08-01T00:16:30.122316+00:00",
+  "contract_sha256": "0a851a99c9176c16deda2cde9e30fded7f2b5131a5a3f64ac7f050ebd8f81d9d",
+  "checks_passed": 14,
+  "checks_total": 14,
+  "status": "PASS",
+  "checks": [
+    {
+      "check_id": "U01",
+      "description": "Frozen prereview addendum hash is unchanged across all upgrade stages",
+      "passed": true,
+      "evidence": "observed=0a851a99c9176c16deda2cde9e30fded7f2b5131a5a3f64ac7f050ebd8f81d9d; manifests=5/5"
+    },
+    {
+      "check_id": "U02",
+      "description": "MIMIC source was unchanged and analytic database was read-only",
+      "passed": true,
+      "evidence": "source_equal=True; base_read_only=True; model_raw_modified=False"
+    },
+    {
+      "check_id": "U03",
+      "description": "All static, time-varying, and paired-bootstrap models completed",
+      "passed": true,
+      "evidence": "static=28/28; time-varying=16/16; bootstrap=22 comparisons with minimum 1,000 successes"
+    },
+    {
+      "check_id": "U04",
+      "description": "Each reported operator cell table reconciles to its complete anchor cohort",
+      "passed": true,
+      "evidence": "operators=7; totals={('A1', 'metadata_constrained_broad'): 20248, ('A1', 'original_broad'): 20248, ('A1', 'original_strict'): 20248, ('A2', 'hospital_overlap_broad'): 2813, ('A2', 'hospital_overlap_strict'): 2813, ('A2', 'original_broad'): 2813, ('A2', 'original_strict'): 2813}"
+    },
+    {
+      "check_id": "U05",
+      "description": "A1 broad administration-only provenance is mutually exclusive and complete",
+      "passed": true,
+      "evidence": "counts={'vte_prescription_elsewhere_in_admission': 3843, 'same_poe_vte_prescription_outside_original_eligibility': 1456, 'observed_metadata_inconsistent_with_prophylaxis': 271, 'different_poe_vte_order_assigned_to_icu_stay': 245, 'no_mapped_vte_prescription_in_admission': 1}; total=5816"
+    },
+    {
+      "check_id": "U06",
+      "description": "A2 broad administration-only provenance is mutually exclusive and complete",
+      "passed": true,
+      "evidence": "counts={'no_hospital_overlap_ppi_order_in_admission': 184, 'different_poe_hospital_overlap_order_in_admission': 94, 'same_poe_hospital_overlap_order_outside_original_window': 9, 'emar_poe_missing_or_not_identity_resolvable': 9}; total=296"
+    },
+    {
+      "check_id": "U07",
+      "description": "Headline static operator effects reproduce the frozen model table",
+      "passed": true,
+      "evidence": "rows=28; converged=28; headline_values=True"
+    },
+    {
+      "check_id": "U08",
+      "description": "Corrected onset-at-zero time-varying effects reproduce the frozen table",
+      "passed": true,
+      "evidence": "rows=16; converged=16; headline_values=True"
+    },
+    {
+      "check_id": "U09",
+      "description": "All paired bootstrap comparisons passed and headline intervals reproduce",
+      "passed": true,
+      "evidence": "comparisons=22; all_success=True; intervals=True"
+    },
+    {
+      "check_id": "U10",
+      "description": "Every prespecified concordant-subset estimate remains above one",
+      "passed": true,
+      "evidence": "effects=A1:original_strict=2.022, A1:original_broad=1.391, A1:metadata_constrained_broad=1.395, A2:original_strict=1.996, A2:original_broad=1.707, A2:hospital_overlap_strict=1.961, A2:hospital_overlap_broad=1.505"
+    },
+    {
+      "check_id": "U11",
+      "description": "Dose-plus-unit is high while route availability remains source dependent",
+      "passed": true,
+      "evidence": "dose+unit=94.51–100.00%; route=0.00–41.28%"
+    },
+    {
+      "check_id": "U12",
+      "description": "RxNav validation meets 95%-represented-row target without overclaiming eMAR codes",
+      "passed": true,
+      "evidence": "queried=139; row coverage=95.050%; mapped/class/ingredient=100%; eMAR NDC-like=0"
+    },
+    {
+      "check_id": "U13",
+      "description": "Structured published-operator sample and reporting totals reconcile",
+      "passed": true,
+      "evidence": "sample=40; reporting={'Named native medication table/source': 6, 'Database-executable identity rule': 1, 'Time origin and exposure window': 35, 'Native event-state semantics': 0, 'Dose or route constraint': 30, 'Fully executable operator': 0}; source={'administration': 25, 'order': 9, 'hybrid': 4, 'unspecified': 2}; flow=379 to 293 to rank 149"
+    },
+    {
+      "check_id": "U14",
+      "description": "Sepsis-3 and OMOP extensions respect unavailable-input boundaries",
+      "passed": true,
+      "evidence": "Sepsis-3 sensitivity: not executed; retain transparent ICD-sepsis anchor; OMOP DRUG_EXPOSURE execution: not executed; retain conceptual translation only"
+    }
+  ]
+}

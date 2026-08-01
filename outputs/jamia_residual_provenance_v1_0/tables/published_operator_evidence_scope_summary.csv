@@ -1,0 +1,7 @@
+metric,n,denominator,percent
+sampled studies,40,40,100.0
+main texts reviewed,40,40,100.0
+studies with linked supplements,29,40,72.5
+studies with all linked supplements retrieved,28,40,70.0
+studies with article-specific linked repositories,3,40,7.5
+article-specific linked repositories retrieved,3,3,100.0

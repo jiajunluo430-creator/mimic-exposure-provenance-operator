@@ -1,0 +1,7 @@
+reporting_dimension,reported_n,sample_n,reported_percent,evidence_scope
+Named native medication table/source,7,40,17.5,"main text, linked supplements, and article-specific repositories"
+Database-executable identity rule,2,40,5.0,"main text, linked supplements, and article-specific repositories"
+Time origin and exposure window,35,40,87.5,"main text, linked supplements, and article-specific repositories"
+Native event-state semantics,0,40,0.0,"main text, linked supplements, and article-specific repositories"
+Dose or route constraint,30,40,75.0,"main text, linked supplements, and article-specific repositories"
+Fully executable operator,0,40,0.0,"main text, linked supplements, and article-specific repositories"

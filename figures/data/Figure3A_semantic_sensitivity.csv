@@ -1,0 +1,13 @@
+event_mapping,analysis_scope,drug_class,not_given_n,given_n,decision_events_n,not_given_pct
+frozen_primary,post_implementation,electrolyte_replacement,4286,123178,127464,3.3625180443105505
+frozen_primary,post_implementation,insulin,26493,194556,221049,11.985125469918437
+frozen_primary,post_implementation,intra_abdominal_antibiotics,4621,181120,185741,2.487872898283093
+frozen_primary,post_implementation,prokinetic,791,11066,11857,6.671164712827865
+frozen_primary,post_implementation,stress_ulcer_prophylaxis,8289,150424,158713,5.222634566796671
+frozen_primary,post_implementation,vte_prophylaxis,3377,73155,76532,4.412533319395808
+audit_semantic_sensitivity,post_implementation,electrolyte_replacement,5755,123178,128933,4.46355859244724
+audit_semantic_sensitivity,post_implementation,insulin,183689,194556,378245,48.56349720419305
+audit_semantic_sensitivity,post_implementation,intra_abdominal_antibiotics,4807,181120,185927,2.585423311299596
+audit_semantic_sensitivity,post_implementation,prokinetic,811,11066,11877,6.828323650753557
+audit_semantic_sensitivity,post_implementation,stress_ulcer_prophylaxis,8574,150424,158998,5.392520660637241
+audit_semantic_sensitivity,post_implementation,vte_prophylaxis,3605,73155,76760,4.696456487754039

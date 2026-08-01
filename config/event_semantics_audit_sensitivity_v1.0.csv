@@ -1,0 +1,3 @@
+normalized_event_txt,match_type,sensitivity_category,include_decision_denominator,notes
+hold dose,exact,not_given_audit_sensitivity,1,Explicit held dose vendor subtype
+not given per sliding scale,prefix,not_given_audit_sensitivity,1,Explicit sliding-scale non-administration including in-other-location suffix

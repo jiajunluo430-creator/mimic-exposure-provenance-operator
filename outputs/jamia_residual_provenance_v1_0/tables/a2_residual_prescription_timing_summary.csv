@@ -1,0 +1,2 @@
+prescription_units_n,start_from_icu_median_h,start_from_icu_q1_h,start_from_icu_q3_h,order_from_icu_median_h,order_from_icu_q1_h,order_from_icu_q3_h,admin_from_icu_median_h,start_minus_admin_median_h,order_minus_admin_median_h
+256,4.2,0.8416666666666666,12.470833333333331,117.11666666666666,69.28333333333333,198.98333333333332,11.383333333333333,-3.9916666666666667,102.63333333333333

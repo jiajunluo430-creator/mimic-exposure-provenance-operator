@@ -1,0 +1,3 @@
+analysis_scope,anchor_id,cohort_n,outcomes_n,order_positive_n,administration_positive_n,both_positive_n,order_only_n,administration_only_n,neither_positive_n,discordant_n,discordant_pct,order_only_among_order_positive_pct,observed_agreement,cohen_kappa,jaccard_agreement
+post_implementation,A1,20248,2530,7047,5538,5538,1509,0,13201,1509,7.452587909917029,21.413367390378884,0.9254741209008296,0.8271511574901113,0.7858663260962111
+post_implementation,A2,2813,1169,655,870,574,81,296,1862,377,13.402061855670103,12.36641221374046,0.865979381443299,0.6633463751438436,0.6035751840168244

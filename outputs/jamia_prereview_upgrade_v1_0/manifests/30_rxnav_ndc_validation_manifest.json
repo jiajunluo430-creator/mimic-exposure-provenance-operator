@@ -1,0 +1,12 @@
+{
+  "script_sha256": "16f1ceb3bc073d8d74228843c6333db7d52dc6d5bcd8616a98caa223b87f6bbe",
+  "contract_sha256": "0a851a99c9176c16deda2cde9e30fded7f2b5131a5a3f64ac7f050ebd8f81d9d",
+  "query_date": "2026-07-31",
+  "endpoint": "https://rxnav.nlm.nih.gov/REST/ndcstatus.json",
+  "version_endpoint": "https://rxnav.nlm.nih.gov/REST/version.json",
+  "unique_ndcs_available": 545,
+  "unique_ndcs_queried": 139,
+  "represented_row_coverage_pct": 95.04989545070815,
+  "http_success_codes_n": 139,
+  "elapsed_seconds": 84.60571956634521
+}

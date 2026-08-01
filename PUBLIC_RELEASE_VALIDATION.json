@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-08-01T03:49:57.885469+00:00",
+  "repository_url": "https://github.com/jiajunluo430-creator/mimic-exposure-provenance-operator",
+  "files_before_manifest_n": 315,
+  "python_files_compiled_n": 24,
+  "patient_key_columns_found_n": 0,
+  "forbidden_binary_files_found_n": 0,
+  "local_absolute_paths_found_n": 0,
+  "secret_or_personal_tokens_found_n": 0,
+  "failures": [],
+  "passed": true
+}

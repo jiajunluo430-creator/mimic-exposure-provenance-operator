@@ -1,0 +1,7 @@
+drug_class,name_mapped_rows_n,ndc_bearing_rows_n,ndc_bearing_rows_pct,unique_ndc_n
+electrolyte_replacement,1788701.0,1591215.0,88.95925031629099,137
+insulin,891139.0,768408.0,86.22762554438758,26
+intra_abdominal_antibiotics,482722.0,457314.0,94.73651501278168,207
+prokinetic,46681.0,46680.0,99.99785780081832,18
+stress_ulcer_prophylaxis,406347.0,405909.0,99.89221035223589,82
+vte_prophylaxis,647819.0,647765.0,99.99166433834142,75

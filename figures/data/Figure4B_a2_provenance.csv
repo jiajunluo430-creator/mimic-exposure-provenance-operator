@@ -1,0 +1,5 @@
+provenance_category,patients_n,deaths_90d_n,death_90d_pct
+no_hospital_overlap_ppi_order_in_admission,184,51.0,27.717391304347828
+different_poe_hospital_overlap_order_in_admission,94,21.0,22.34042553191489
+same_poe_hospital_overlap_order_outside_original_window,9,4.0,44.44444444444444
+emar_poe_missing_or_not_identity_resolvable,9,5.0,55.55555555555556

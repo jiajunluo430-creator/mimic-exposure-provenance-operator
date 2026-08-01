@@ -1,0 +1,14 @@
+field,allowed_values,positive_rule
+source_layer,order|administration|hybrid|unspecified,Native record layer implied by the implemented exposure construct
+named_native_table_reported,yes|no|unclear,Native MIMIC table/source or unambiguous native extract explicitly named
+database_identity_rule_reported,yes|no|unclear,"Field, code, explicit list, regex, reusable query, or equivalent executable identity rule"
+time_origin_and_window_reported,yes|no|unclear,Both time origin and interval/state boundary operationally specified
+event_semantics_reported,yes|no|unclear,Executable native predicate distinguishes delivery from non-delivery event states
+dose_or_route_reported,yes|no|unclear,"Dose, route, formulation, concentration, or exposure-level dose/route rule stated"
+fully_executable_exposure_operator,derived,Native source AND identity rule AND time rule AND event semantics
+main_text_reviewed,yes|no,Full article main text inspected
+supplement_status,none_linked|retrieved_and_reviewed|partly_retrieved|linked_unavailable,All article-linked supplementary files accounted for
+article_specific_repo_status,none_linked|retrieved_and_reviewed|linked_unavailable|generic_repository_only,Article-specific linked repository accounted for; generic MIMIC repositories do not qualify
+evidence_location,free text,"Article section, supplement filename, or repository URL/path"
+coder_id,free text,Independent coder identifier
+coder_notes,free text,Paraphrased evidence and uncertainty

@@ -1,0 +1,19 @@
+check_id,passed,evidence
+frozen_contract_hashes,True,5/5 frozen files match SHA256
+semantic_addendum_hashes,True,2/2 addendum files match SHA256
+qdp_01_07_present,True,01_full_interface_audit.md=yes; 02_primary_estimands.md=yes; 03_severity_shift_organ_support.md=yes; 04_published_association_cohorts.md=yes; 05_published_association_effect_change.md=yes; 06_eicu_semantic_contrast_and_pilot_gates.md=yes; 07_final_qdp_decision.md=yes
+reproducible_scripts_present,True,9/9 scripts present
+machine_readable_tables_present,True,all required tables present
+model_input_caches_present,True,4/4 model caches present
+full_emar_reconciliation,True,"rows=42,808,593; sum=42,808,593; ignore_errors=False"
+source_immutability,True,14/14 unchanged
+six_frozen_classes,True,"6/6 classes; eligible=633,081"
+event_exclusions_separate,True,"columns=['blank_n', 'confirmed_n', 'flushed_n', 'given_n', 'not_given_n', 'other_excluded_n']; rows=6"
+inputevents_225925,True,"[{'linksto': 'inputevents', 'itemid': 225925, 'label': 'Potassium Phosphate', 'fact_rows_n': 0}]"
+published_anchor_model_pairs,True,primary pairs=4/4; same-cohort anchors=2/2
+pilot_gate_table_complete,True,rows=14; fail=0; pending_non_G14=0
+eicu_semantic_boundary,True,required no-external-validation wording present
+noncausal_claim_boundary,True,required noncausal wording present
+no_prohibited_methods,True,no ML/SHAP/nomogram implementation
+session_information,True,Python_sessionInfo.txt=yes; R_sessionInfo.txt=yes
+reproducibility_manifest,True,222 files hashed

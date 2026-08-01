@@ -1,0 +1,11 @@
+gate_id,domain,locked_rule,pass_definition,fail_action
+J01,calendar_alignment,"Every adult ICU stay is aligned using stay year minus anchor_year and the three-year anchor interval","One calendar row per adult stay; no missing interval; low<=midpoint<=high; deployment eras exhaustive","Repair before any model"
+J02,observability_reconciliation,"Admission-level any-eMAR proxy is derived from the complete reconciled eMAR key table","Raw eMAR key row count equals the prior 42,808,593-row audit and coverage totals reconcile to adult stays","Repair before any model"
+J03,post_class_coverage,"All six frozen medication classes are retained in post-implementation descriptive analyses","Six class rows with eligible order counts; no class selected or suppressed","NO-GO for JAMIA until repaired"
+J04,corrected_notgiven,"Frozen primary and semantic-sensitivity not-given models are refit with corrected stay-level era","Both complete-cohort and post-implementation models converge and report all five locked correlates","BACKUP if post model is unstable; preserve complete model"
+J05,post_anchor_size,"Both frozen anchors are retained post implementation","Each post-implementation anchor has >=500 patients and both exposure definitions are estimable","NO-GO for JAMIA if both fail"
+J06,same_cohort,"Order and administration fits use identical rows and outcomes within every scenario and variant","n and outcome counts match within all paired fits","Repair before interpretation"
+J07,material_post_effect_change,"Original material-change threshold is applied to post-implementation published-style pairs","At least one anchor has direction reversal, absolute log change >=log(1.25), or relative absolute log change >=25%","BACKUP to PDS if J01-J06 pass but J07 fails"
+J08,any_emar_boundary,"Admission-level any-eMAR is descriptive only","No outcome model filters on any_emar_in_admission","Repair before interpretation"
+J09,claim_boundary,"No causal drug claim, eMAR truth claim, strict hierarchy, external validation, scalar score, ML, SHAP, or prospective-preregistration claim","Automated text/code scan passes","NO-GO until repaired"
+J10,reproducibility,"Versioned contract hash, scripts, logs, manifests, corrected tables, R sessionInfo, and decision report are present","Validation script passes every required asset and reconciliation","HOLD until complete"

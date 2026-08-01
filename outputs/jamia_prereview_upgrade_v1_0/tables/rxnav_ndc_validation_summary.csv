@@ -1,0 +1,2 @@
+query_date,total_unique_ndcs_n,queried_unique_ndcs_n,target_row_coverage_pct,actual_row_coverage_pct,represented_prescription_rows_n,api_mapped_codes_n,api_mapped_rows_n,api_mapped_rows_pct,class_agreement_among_mapped_rows_pct,ingredient_agreement_among_mapped_rows_pct,rxnav_version_http_status,rxnav_version_response
+2026-07-31,545,139,95.0,95.04989545070815,3723381.0,139,3723381.0,100.0,100.0,100.0,200,"{""apiVersion"": ""3.1.354"", ""version"": ""06-Jul-2026""}"

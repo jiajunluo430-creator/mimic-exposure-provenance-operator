@@ -1,0 +1,9 @@
+pmcid,repository_url,generic_repository,http_status,final_url,bytes,sha256,extraction_status,reviewable_text_characters_n,native_table,identity_field,event_semantics,time_rule,dose_route,executable_code
+PMC11903409,https://github.com/MIT-LCP/,True,0,https://github.com/MIT-LCP/,0,,generic_repository_not_article_specific,0,0,0,0,0,0,0
+PMC11932333,https://github.com/MIT-LCP/mimic-code,True,0,https://github.com/MIT-LCP/mimic-code,0,,generic_repository_not_article_specific,0,0,0,0,0,0,0
+PMC12414977,https://github.com/MIT-LCP/mimic-iv,True,0,https://github.com/MIT-LCP/mimic-iv,0,,generic_repository_not_article_specific,0,0,0,0,0,0,0
+PMC12580101,https://github.com/MIT-LCP/mimic-iv,True,0,https://github.com/MIT-LCP/mimic-iv,0,,generic_repository_not_article_specific,0,0,0,0,0,0,0
+PMC12830572,https://github.com/ding1374/imputation,False,200,https://api.github.com/repos/ding1374/imputation/zipball,11403,0940d579e74caa78544f3a6b2a72e1797816166ef68b29feeffe3fa5d3b1bb35,zip_extracted,250,0,0,0,0,0,0
+PMC13031553,https://github.com/mohuaifengw/SR1ef8ce959be9/blob/main/main.R,False,200,https://api.github.com/repos/mohuaifengw/SR1ef8ce959be9/zipball,3625,ce7000ed2bd997f5055ac516396a0c5faf2b1bce9847f3eab0422e87088cae13,zip_extracted,10224,0,0,0,5,0,1
+PMC13169735,https://github.com/Liuzhenjiangdoctor/Long-Term-Enoxaparin-Use-and-Osteoporosis-Risk,False,200,https://api.github.com/repos/Liuzhenjiangdoctor/Long-Term-Enoxaparin-Use-and-Osteoporosis-Risk/zipball,12602,4c25438000a2cfaad9dc42e161995fe4abde3130b069a516e8410a408c5ef93b,zip_extracted,28337,0,0,0,0,2,10
+PMC9809246,https://github.com/MIT-LCP/mimic-iv,True,0,https://github.com/MIT-LCP/mimic-iv,0,,generic_repository_not_article_specific,0,0,0,0,0,0,0

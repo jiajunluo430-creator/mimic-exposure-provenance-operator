@@ -1,0 +1,41 @@
+{
+  "contract_checks": [
+    {
+      "file": "jamia_pre_submission_sensitivity_addendum_v1.0.md",
+      "expected_sha256": "219b75672c02498b149ee33ae0c39202a9bb9d5819670dff352e9c6e96f164e6",
+      "observed_sha256": "219b75672c02498b149ee33ae0c39202a9bb9d5819670dff352e9c6e96f164e6",
+      "match": true
+    },
+    {
+      "file": "jamia_pre_submission_sensitivity_status_clarification_v1.0.md",
+      "expected_sha256": "8aedeec9bb44d7d6c1b47479e8a470161c2ab6ea0b082369dd6e9b6a1a1195b1",
+      "observed_sha256": "8aedeec9bb44d7d6c1b47479e8a470161c2ab6ea0b082369dd6e9b6a1a1195b1",
+      "match": true
+    },
+    {
+      "file": "jamia_pre_submission_nonconversion_timing_correction_v1.0.md",
+      "expected_sha256": "9569090405cac52ec1e9bbae742dac82e95bf8960ffae87be8cf79547327ba32",
+      "observed_sha256": "9569090405cac52ec1e9bbae742dac82e95bf8960ffae87be8cf79547327ba32",
+      "match": true
+    }
+  ],
+  "post_order_units_n": 264171,
+  "post_nonconverted_order_units_n": 93281,
+  "relaxed_output_rows_n": 264171,
+  "relaxed_unique_units_n": 264171,
+  "a1_operator_rows_n": 20248,
+  "a2_operator_rows_n": 2813,
+  "a2_broad_admin_only_n": 296,
+  "raw_sources_modified": false,
+  "base_database_modified": false,
+  "script": "<PROJECT_ROOT>\\scripts\\26_build_pre_submission_diagnostics.py",
+  "script_sha256": "b836d94cc69bd18dfbb54d7d3634cac543c6ed77ba81e489a3eda6446bb3c156",
+  "base_db_sha256": "b9218be7edf4257f317db014ab3a633bbe0a7a55480781a134c4b3340a5c1523",
+  "started_epoch": 1785519360.9964561,
+  "finished_epoch": 1785519408.232361,
+  "elapsed_seconds": 47.236,
+  "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+  "duckdb": "1.5.3",
+  "pandas": "3.0.3",
+  "numpy": "2.4.4"
+}

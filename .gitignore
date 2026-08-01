@@ -1,0 +1,11 @@
+cache/
+outputs/model_inputs/
+outputs/literature_raw/
+outputs/literature_scope_raw/
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.csv.gz
+__pycache__/
+.Rhistory
+.RData

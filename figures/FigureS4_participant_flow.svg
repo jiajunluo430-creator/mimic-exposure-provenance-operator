@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="691.2pt" height="446.4pt" viewBox="0 0 691.2 446.4" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-31T22:28:23.990900</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <defs>
+  <clipPath id="pac69c6689f">
+   <rect x="13.824" y="8.928" width="663.552" height="424.08"/>
+  </clipPath>
+ </defs>
+<g id="panel_A">
+   <g id="panel_A_axis"><desc>axis objects for panel A</desc></g><g id="panel_A_data"><desc>data objects for panel A</desc><g id="data__A_flow_node_0">
+    <path d="M 234.123264 74.6604  L 457.076736 74.6604  Q 465.03936 74.6604 465.03936 69.57144  L 465.03936 24.61896  Q 465.03936 19.53 457.076736 19.53  L 234.123264 19.53  Q 226.16064 19.53 226.16064 24.61896  L 226.16064 69.57144  Q 226.16064 74.6604 234.123264 74.6604  z " clip-path="url(#pac69c6689f)" style="fill: #e8ebef; stroke: #5b6573; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_flow_node_1">
+    <path d="M 220.852224 138.2724  L 470.347776 138.2724  Q 478.3104 138.2724 478.3104 133.18344  L 478.3104 88.23096  Q 478.3104 83.142 470.347776 83.142  L 220.852224 83.142  Q 212.8896 83.142 212.8896 88.23096  L 212.8896 133.18344  Q 212.8896 138.2724 220.852224 138.2724  z " clip-path="url(#pac69c6689f)" style="fill: #d7e8f5; stroke: #173f5f; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_flow_node_2">
+    <path d="M 220.852224 201.8844  L 470.347776 201.8844  Q 478.3104 201.8844 478.3104 196.79544  L 478.3104 151.84296  Q 478.3104 146.754 470.347776 146.754  L 220.852224 146.754  Q 212.8896 146.754 212.8896 151.84296  L 212.8896 196.79544  Q 212.8896 201.8844 220.852224 201.8844  z " clip-path="url(#pac69c6689f)" style="fill: #d7f0eb; stroke: #2a9d8f; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_flow_node_3">
+    <path d="M 68.235264 290.9412  L 291.188736 290.9412  Q 299.15136 290.9412 299.15136 285.85224  L 299.15136 240.89976  Q 299.15136 235.8108 291.188736 235.8108  L 68.235264 235.8108  Q 60.27264 235.8108 60.27264 240.89976  L 60.27264 285.85224  Q 60.27264 290.9412 68.235264 290.9412  z " clip-path="url(#pac69c6689f)" style="fill: #d7e8f5; stroke: #173f5f; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_flow_node_4">
+    <path d="M 400.011264 261.2556  L 622.964736 261.2556  Q 630.92736 261.2556 630.92736 256.16664  L 630.92736 211.21416  Q 630.92736 206.1252 622.964736 206.1252  L 400.011264 206.1252  Q 392.04864 206.1252 392.04864 211.21416  L 392.04864 256.16664  Q 392.04864 261.2556 400.011264 261.2556  z " clip-path="url(#pac69c6689f)" style="fill: #f3eac9; stroke: #876a13; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_flow_node_5">
+    <path d="M 400.011264 329.1084  L 622.964736 329.1084  Q 630.92736 329.1084 630.92736 324.01944  L 630.92736 279.06696  Q 630.92736 273.978 622.964736 273.978  L 400.011264 273.978  Q 392.04864 273.978 392.04864 279.06696  L 392.04864 324.01944  Q 392.04864 329.1084 400.011264 329.1084  z " clip-path="url(#pac69c6689f)" style="fill: #f3eac9; stroke: #876a13; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_flow_node_6">
+    <path d="M 400.011264 396.9612  L 622.964736 396.9612  Q 630.92736 396.9612 630.92736 391.87224  L 630.92736 346.91976  Q 630.92736 341.8308 622.964736 341.8308  L 400.011264 341.8308  Q 392.04864 341.8308 392.04864 346.91976  L 392.04864 391.87224  Q 392.04864 396.9612 400.011264 396.9612  z " clip-path="url(#pac69c6689f)" style="fill: #f8ded7; stroke: #e76f51; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_flow_arrow_0">
+    <path d="M 345.6 74.537193  Q 345.6 78.900855 345.6 82.034679  " clip-path="url(#pac69c6689f)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 348 77.234679  L 345.6 82.034679  L 343.2 77.234679  z " clip-path="url(#pac69c6689f)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_flow_arrow_1">
+    <path d="M 345.6 138.149193  Q 345.6 142.512855 345.6 145.646679  " clip-path="url(#pac69c6689f)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 348 140.846679  L 345.6 145.646679  L 343.2 140.846679  z " clip-path="url(#pac69c6689f)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_flow_arrow_2">
+    <path d="M 310.525583 196.164989  Q 256.018071 214.607615 202.67552 232.656077  " clip-path="url(#pac69c6689f)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 207.991514 233.391065  L 202.67552 232.656077  L 206.453107 228.844274  z " clip-path="url(#pac69c6689f)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_flow_arrow_3">
+    <path d="M 380.770808 195.673067  Q 435.180221 199.764053 488.363259 203.762828  " clip-path="url(#pac69c6689f)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 483.756716 201.009693  L 488.363259 203.762828  L 483.396825 205.796182  z " clip-path="url(#pac69c6689f)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_flow_arrow_4">
+    <path d="M 511.488 261.135499  Q 511.488 267.61784 511.488 272.870343  " clip-path="url(#pac69c6689f)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 513.888 268.070343  L 511.488 272.870343  L 509.088 268.070343  z " clip-path="url(#pac69c6689f)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_flow_arrow_5">
+    <path d="M 511.488 328.988299  Q 511.488 335.47064 511.488 340.723143  " clip-path="url(#pac69c6689f)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 513.888 335.923143  L 511.488 340.723143  L 509.088 335.923143  z " clip-path="url(#pac69c6689f)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   </g><g id="panel_A_labels"><desc>labels objects for panel A</desc><g id="labels__A_flow_label_0">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(314.589375 44.526509)">Raw ICU stays</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(331.837734 54.322095)">94,458</text>
+   </g>
+   <g id="labels__A_flow_label_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(294.338672 108.138596)">Valid adult ICU intervals</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(331.837734 117.934007)">94,444</text>
+   </g>
+   <g id="labels__A_flow_label_2">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(284.343047 171.750509)">Post-deployment adult stays</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(331.837734 181.546095)">37,222</text>
+   </g>
+   <g id="labels__A_flow_label_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(120.077156 260.807309)">A1: one ICU stay + outcome</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(165.949734 270.602895)">20,248</text>
+   </g>
+   <g id="labels__A_flow_label_4">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(463.232531 231.121709)">A2: adult first ICU stay</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(497.725734 240.917295)">25,410</text>
+   </g>
+   <g id="labels__A_flow_label_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(461.978156 298.974596)">Operational ICD-sepsis</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(500.228156 308.770007)">4,321</text>
+   </g>
+   <g id="labels__A_flow_label_6">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(459.724641 366.827396)">A2 final after exclusions</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(500.228156 376.622807)">2,813</text>
+   </g>
+   <g id="labels__A_flow_title">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="27.09504" y="23.361183" transform="rotate(-0 27.09504 23.361183)">Participant flow</text>
+   </g>
+   </g><g id="panel_A_legend"><desc>legend objects for panel A</desc></g><g id="panel_A_annotations"><desc>annotations objects for panel A</desc><g id="annotations__A_a1_outcome">
+    <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="179.712" y="316.465307" transform="rotate(-0 179.712 316.465307)">2,530 in-hospital deaths</text>
+   </g>
+   <g id="annotations__A_a2_outcome">
+    <text style="font-size: 8.3px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="511.488" y="411.831468" transform="rotate(-0 511.488 411.831468)">1,169 deaths by 90 days  |  2,544 landmark eligible</text>
+   </g>
+   <g id="annotations__A_panel_tag">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="-45.89568" y="-15.01184" transform="rotate(-0 -45.89568 -15.01184)">A</text>
+   </g>
+  </g></g>
+ </svg>

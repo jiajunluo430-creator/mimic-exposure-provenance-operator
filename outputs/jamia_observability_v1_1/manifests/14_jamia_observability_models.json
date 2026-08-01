@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-07-30T21:30:58-0500",
+  "finished_at": "2026-07-30T21:31:13-0500",
+  "elapsed_seconds": 15.0845,
+  "script": "<PROJECT_ROOT>\\scripts\\14_fit_jamia_observability_models.R",
+  "script_sha256": "0894b98c547ce3c03f55b9757bbb75486119d942d6bfe43e3668af58fb918b7e",
+  "extension_version": "v1_1",
+  "deployment_interval": "2014-2016_source_corrected",
+  "contract_verified": true,
+  "not_given_models_n": 4,
+  "not_given_models_converged_n": 4,
+  "anchor_effect_rows_n": 24,
+  "paired_variants_n": 12,
+  "same_cohort_all_pairs": true,
+  "material_post_implementation_anchors": "A2",
+  "any_emar_used_for_outcome_selection": false,
+  "decision": "GO_JAMIA_ANALYTIC",
+  "causal_claim": false,
+  "significance_based_selection": false
+}

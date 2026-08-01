@@ -1,0 +1,4 @@
+deployment_era,adult_stays_n,adult_stays_with_any_emar_n,adult_stays_with_any_emar_pct,adult_admissions_n,adult_admissions_with_any_emar_n,adult_admissions_with_any_emar_pct
+pre_implementation,29815,242,0.8116719771926884,27221,210,0.7714632085522207
+implementation_overlap,27407,19705,71.89769037107308,24823,17749,71.50223582967409
+post_implementation,37222,36543,98.17581000483585,33216,32585,98.10031310211946

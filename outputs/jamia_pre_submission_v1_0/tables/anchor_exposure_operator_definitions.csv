@@ -1,0 +1,7 @@
+anchor_id,operator,definition
+A1,order,Frozen route/dose-eligible heparin or enoxaparin order assigned to ICU stay
+A1,strict_poe_identity,"Strict-given VTE event linked to a qualifying order by POE, class, stay, and frozen window"
+A1,broad_class_window,Any strict-given heparin or enoxaparin event during ICU stay; no POE requirement
+A2,order,Frozen PPI order by 48 hours and active at or after ICU entry
+A2,strict_poe_identity,"Strict-given PPI event by 48 hours linked to a qualifying order by POE, class, stay, and frozen window"
+A2,broad_class_window,Any strict-given PPI event from ICU entry through 48 hours; no POE requirement

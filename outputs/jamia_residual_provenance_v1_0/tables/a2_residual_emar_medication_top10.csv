@@ -1,0 +1,5 @@
+frequency_rank,emar_medication,ingredient,name_match_source,events_n,patients_n,events_pct,cumulative_events_pct
+1,Pantoprazole,pantoprazole,medication,242,105,60.65162907268171,60.65162907268171
+2,Omeprazole,omeprazole,medication,85,43,21.303258145363408,81.95488721804512
+3,Lansoprazole Oral Disintegrating Tab,lansoprazole,medication,69,36,17.293233082706767,99.24812030075188
+4,Pantoprazole (Granules for DR Suspension),pantoprazole,medication,3,1,0.7518796992481203,100.0

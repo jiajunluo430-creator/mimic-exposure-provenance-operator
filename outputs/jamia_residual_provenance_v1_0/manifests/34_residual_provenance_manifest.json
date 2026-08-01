@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-07-31T21:42:40.022262-05:00",
+  "script": "34_build_residual_provenance_diagnostics.py",
+  "script_sha256": "4fe21a8fb242dae4e8e284ac8d0bd6996b2d360b22ad1fdf0f22bd78e5e1291a",
+  "contract_sha256": "af533e4d3a9b636c368dc6c76cc3e3ea472c77f9884476520d341ae09575dcfd",
+  "base_database_read_only": true,
+  "prior_database_read_only": true,
+  "raw_sources_before": {
+    "pharmacy.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\pharmacy.csv.gz",
+      "bytes": 525708076,
+      "mtime_ns": 1712980376000000000
+    },
+    "prescriptions.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\prescriptions.csv.gz",
+      "bytes": 606298611,
+      "mtime_ns": 1712980208000000000
+    },
+    "emar.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\emar.csv.gz",
+      "bytes": 811305629,
+      "mtime_ns": 1712980318000000000
+    }
+  },
+  "raw_sources_after": {
+    "pharmacy.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\pharmacy.csv.gz",
+      "bytes": 525708076,
+      "mtime_ns": 1712980376000000000
+    },
+    "prescriptions.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\prescriptions.csv.gz",
+      "bytes": 606298611,
+      "mtime_ns": 1712980208000000000
+    },
+    "emar.csv.gz": {
+      "path": "${MIMIC_IV_ROOT}\\hosp\\emar.csv.gz",
+      "bytes": 811305629,
+      "mtime_ns": 1712980318000000000
+    }
+  },
+  "a2_residual_stays_n": 184,
+  "a2_residual_emar_events_n": 399,
+  "a2_trace_categories": {
+    "direct_pharmacy_id_to_ppi_prescription": 183,
+    "no_resolved_pharmacy_record_or_ppi_prescription": 1
+  },
+  "a2_top10_medication_event_coverage_pct": 100.0,
+  "a1_route_comparison": {
+    "eligible order unit": {
+      "records_n": 9940,
+      "route_available_pct": 100.0,
+      "subcutaneous_compatible_pct": 100.0
+    },
+    "strict eMAR administration": {
+      "records_n": 87569,
+      "route_available_pct": 0.0,
+      "subcutaneous_compatible_pct": 0.0
+    }
+  },
+  "route_class_rows_n": 6,
+  "event_link_path_rows_n": 6,
+  "patient_trace_rows_n": 2,
+  "product_top10_rows_n": 6,
+  "checkpoint_rows_n": 4,
+  "elapsed_seconds": 3.5620830059051514
+}

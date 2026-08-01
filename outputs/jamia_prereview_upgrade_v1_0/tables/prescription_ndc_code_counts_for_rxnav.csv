@@ -1,0 +1,546 @@
+normalized_ndc,expected_ingredients,expected_classes,prescription_rows_n
+63323026201,heparin,vte_prophylaxis,315597.0
+00409672924,magnesium sulfate,electrolyte_replacement,227780.0
+00002751001,insulin lispro|insulin regular human,insulin,223401.0
+00088222033,insulin glargine|insulin regular human,insulin,222788.0
+00338070341,potassium chloride,electrolyte_replacement,108776.0
+00002751017,insulin lispro|insulin regular human,insulin,103340.0
+66758016013,potassium chloride,electrolyte_replacement,96276.0
+00002821501,insulin lispro|insulin regular human,insulin,92656.0
+00245004101,potassium chloride,electrolyte_replacement,76443.0
+00574027511,potassium chloride,electrolyte_replacement,68723.0
+00409672923,magnesium sulfate,electrolyte_replacement,67677.0
+00264958720,heparin,vte_prophylaxis,65926.0
+00456066270,potassium chloride,electrolyte_replacement,59206.0
+69238161708,potassium chloride,electrolyte_replacement,58635.0
+00338070948,potassium chloride,electrolyte_replacement,57628.0
+58177020211,potassium chloride,electrolyte_replacement,54808.0
+00409665305,potassium chloride,electrolyte_replacement,53846.0
+00008084199,pantoprazole,stress_ulcer_prophylaxis,48716.0
+61553008348,calcium gluconate,electrolyte_replacement,47060.0
+76439034310,potassium chloride,electrolyte_replacement,44161.0
+63323010605,magnesium sulfate,electrolyte_replacement,42584.0
+00603155404,potassium chloride,electrolyte_replacement,42493.0
+00338067104,potassium chloride,electrolyte_replacement,42169.0
+00002831501,insulin isophane human|insulin regular human,insulin,39851.0
+00008092355,pantoprazole,stress_ulcer_prophylaxis,39845.0
+00409779362,heparin,vte_prophylaxis,39798.0
+61553005148,calcium gluconate,electrolyte_replacement,39675.0
+00641040012,heparin,vte_prophylaxis,39011.0
+25021040201,heparin,vte_prophylaxis,38586.0
+00206886202,piperacillin,intra_abdominal_antibiotics,37465.0
+00409729501,potassium phosphate,electrolyte_replacement,37464.0
+00904568461,omeprazole,stress_ulcer_prophylaxis,34225.0
+00002821517,insulin regular human,insulin,31902.0
+00904526161,ranitidine,stress_ulcer_prophylaxis,30692.0
+60505068104,cefepime,intra_abdominal_antibiotics,29912.0
+00338519741,famotidine,stress_ulcer_prophylaxis,29815.0
+44567062124,calcium gluconate,electrolyte_replacement,29325.0
+63739035410,magnesium oxide,electrolyte_replacement,29140.0
+64980010401,phosphorus,electrolyte_replacement,27900.0
+63323031119,calcium gluconate,electrolyte_replacement,24853.0
+68084007001,ciprofloxacin,intra_abdominal_antibiotics,24594.0
+00093521193,omeprazole,stress_ulcer_prophylaxis,24379.0
+63323054011,heparin,vte_prophylaxis,23897.0
+51079096620,famotidine,stress_ulcer_prophylaxis,23502.0
+00338105548,metronidazole,intra_abdominal_antibiotics,22536.0
+10006070028,magnesium oxide,electrolyte_replacement,22071.0
+00904647461,pantoprazole,stress_ulcer_prophylaxis,21720.0
+63739035810,omeprazole,stress_ulcer_prophylaxis,20660.0
+00409781124,metronidazole,intra_abdominal_antibiotics,18953.0
+00703450204,metoclopramide,prokinetic,18604.0
+69543037910,potassium chloride,electrolyte_replacement,18147.0
+00245531601,potassium chloride,electrolyte_replacement,17803.0
+00409707714,potassium chloride,electrolyte_replacement,17716.0
+63323031110,calcium gluconate,electrolyte_replacement,17706.0
+00409733201,ceftriaxone,intra_abdominal_antibiotics,16234.0
+44567042024,magnesium sulfate,electrolyte_replacement,15950.0
+00409477702,ciprofloxacin,intra_abdominal_antibiotics,15789.0
+00409665106,potassium chloride,electrolyte_replacement,15357.0
+00338500241,ceftriaxone,intra_abdominal_antibiotics,15335.0
+00409739172,sodium phosphate,electrolyte_replacement,15309.0
+00338055002,heparin,vte_prophylaxis,14456.0
+68084012801,omeprazole,stress_ulcer_prophylaxis,14130.0
+00002871501,insulin regular human,insulin,13780.0
+67457055400,magnesium sulfate,electrolyte_replacement,12419.0
+68084052401,potassium chloride,electrolyte_replacement,12395.0
+51079012620,metronidazole,intra_abdominal_antibiotics,12319.0
+51079005120,pantoprazole,stress_ulcer_prophylaxis,11851.0
+00409733503,ceftriaxone,intra_abdominal_antibiotics,11827.0
+00075062040,enoxaparin,vte_prophylaxis,11625.0
+68094020462,ranitidine,stress_ulcer_prophylaxis,11524.0
+00169750111,insulin aspart|insulin regular human,insulin,11352.0
+00172572860,famotidine,stress_ulcer_prophylaxis,11061.0
+44567024110,cefepime,intra_abdominal_antibiotics,11011.0
+60505614704,cefepime,intra_abdominal_antibiotics,10426.0
+00703854023,enoxaparin,vte_prophylaxis,10080.0
+63323017015,sodium phosphate,electrolyte_replacement,9878.0
+00409341401,metoclopramide,prokinetic,9872.0
+00904623561,pantoprazole,stress_ulcer_prophylaxis,9816.0
+00310032520,meropenem,intra_abdominal_antibiotics,9555.0
+00002831517,insulin regular human,insulin,9474.0
+00206885216,piperacillin,intra_abdominal_antibiotics,9274.0
+00172531210,ciprofloxacin,intra_abdominal_antibiotics,9266.0
+00008092360,pantoprazole,stress_ulcer_prophylaxis,9215.0
+63323056887,enoxaparin,vte_prophylaxis,9076.0
+00143985725,ceftriaxone,intra_abdominal_antibiotics,8870.0
+00338069104,potassium chloride,electrolyte_replacement,8004.0
+63323096520,potassium chloride,electrolyte_replacement,7534.0
+51079000720,omeprazole,stress_ulcer_prophylaxis,7371.0
+64764054411,lansoprazole|pantoprazole,stress_ulcer_prophylaxis,7268.0
+00002751101,insulin lispro|insulin regular human,insulin,7151.0
+63323036920,ampicillin,intra_abdominal_antibiotics,7123.0
+71288040211,heparin,vte_prophylaxis,6497.0
+44567024010,cefepime,intra_abdominal_antibiotics,6293.0
+25021040010,heparin,vte_prophylaxis,6270.0
+00781320895,ceftriaxone,intra_abdominal_antibiotics,6256.0
+60687042401,metronidazole,intra_abdominal_antibiotics,6207.0
+63323050830,meropenem,intra_abdominal_antibiotics,5723.0
+00338080704,potassium chloride,electrolyte_replacement,5594.0
+00143928410,pantoprazole,stress_ulcer_prophylaxis,5580.0
+00075062430,enoxaparin,vte_prophylaxis,5537.0
+00206886002,piperacillin,intra_abdominal_antibiotics,5504.0
+00904635361,levofloxacin,intra_abdominal_antibiotics,5478.0
+00338067504,potassium chloride,electrolyte_replacement,5409.0
+71288041083,enoxaparin,vte_prophylaxis,5385.0
+00004196401,ceftriaxone,intra_abdominal_antibiotics,5364.0
+60505083404,cefepime,intra_abdominal_antibiotics,5304.0
+63739048910,ranitidine,stress_ulcer_prophylaxis,5294.0
+00172531110,ciprofloxacin,intra_abdominal_antibiotics,5265.0
+14789010910,potassium chloride,electrolyte_replacement,5237.0
+25021012120,cefepime,intra_abdominal_antibiotics,4946.0
+00409707426,potassium chloride,electrolyte_replacement,4935.0
+00182178989,metoclopramide,prokinetic,4759.0
+00045152010,levofloxacin,intra_abdominal_antibiotics,4681.0
+00002850101,insulin regular human,insulin,4589.0
+42292000120,metronidazole,intra_abdominal_antibiotics,4587.0
+00409272301,heparin,vte_prophylaxis,4549.0
+55150020720,meropenem,intra_abdominal_antibiotics,4446.0
+00075062280,enoxaparin,vte_prophylaxis,4438.0
+50458093010,levofloxacin,intra_abdominal_antibiotics,4380.0
+00409477750,ciprofloxacin,intra_abdominal_antibiotics,4318.0
+00338500341,ceftriaxone,intra_abdominal_antibiotics,4282.0
+55150020210,pantoprazole,stress_ulcer_prophylaxis,4228.0
+60505006500,omeprazole,stress_ulcer_prophylaxis,4095.0
+68084006901,ciprofloxacin,intra_abdominal_antibiotics,4074.0
+50458092510,levofloxacin,intra_abdominal_antibiotics,3994.0
+68084096601,metronidazole,intra_abdominal_antibiotics,3965.0
+60505614604,cefepime,intra_abdominal_antibiotics,3753.0
+00338080304,potassium chloride,electrolyte_replacement,3501.0
+00409272002,heparin,vte_prophylaxis,3359.0
+63739064510,famotidine,stress_ulcer_prophylaxis,3206.0
+44567023610,ceftazidime,intra_abdominal_antibiotics,3205.0
+00169183311,insulin aspart|insulin isophane human|insulin lispro|insulin regular human,insulin,3136.0
+00641611710,ampicillin,intra_abdominal_antibiotics,3013.0
+63323053501,enoxaparin,vte_prophylaxis,3004.0
+65162025310,ranitidine,stress_ulcer_prophylaxis,3004.0
+00904637861,ciprofloxacin,intra_abdominal_antibiotics,2915.0
+00165002241,magnesium oxide,electrolyte_replacement,2897.0
+10019095601,phosphorus,electrolyte_replacement,2794.0
+00121177510,phosphorus,electrolyte_replacement,2718.0
+00075062300,enoxaparin,vte_prophylaxis,2713.0
+36000000924,ciprofloxacin,intra_abdominal_antibiotics,2605.0
+14789010705,potassium chloride,electrolyte_replacement,2602.0
+00075062160,enoxaparin,vte_prophylaxis,2600.0
+00045006601,levofloxacin,intra_abdominal_antibiotics,2580.0
+54868416700,metoclopramide,prokinetic,2579.0
+00904107061,metoclopramide,prokinetic,2554.0
+00075062041,enoxaparin,vte_prophylaxis,2503.0
+00169368712,insulin detemir|insulin lispro|insulin regular human,insulin,2462.0
+00206885516,piperacillin,intra_abdominal_antibiotics,2439.0
+00338130148,cefepime,intra_abdominal_antibiotics,2434.0
+54868003404,metoclopramide,prokinetic,2408.0
+00045152510,levofloxacin,intra_abdominal_antibiotics,2396.0
+00781573413,lansoprazole,stress_ulcer_prophylaxis,2318.0
+63323050720,meropenem,intra_abdominal_antibiotics,2302.0
+60505075304,ceftriaxone,intra_abdominal_antibiotics,2238.0
+60687059501,famotidine,stress_ulcer_prophylaxis,2219.0
+68084067601,metoclopramide,prokinetic,2184.0
+50458016601,levofloxacin,intra_abdominal_antibiotics,2080.0
+68084048301,levofloxacin,intra_abdominal_antibiotics,2022.0
+25021012850,ceftazidime,intra_abdominal_antibiotics,2016.0
+00781320995,ceftriaxone,intra_abdominal_antibiotics,1956.0
+00338081104,potassium chloride,electrolyte_replacement,1955.0
+00006384371,ertapenem,intra_abdominal_antibiotics,1910.0
+00904691761,omeprazole,stress_ulcer_prophylaxis,1860.0
+61553094102,heparin,vte_prophylaxis,1837.0
+61553043241,magnesium sulfate,electrolyte_replacement,1828.0
+63323051610,phosphorus,electrolyte_replacement,1806.0
+00300154430,lansoprazole|omeprazole,stress_ulcer_prophylaxis,1754.0
+63323036019,calcium gluconate,electrolyte_replacement,1725.0
+63323054207,heparin,vte_prophylaxis,1704.0
+00409272003,heparin,vte_prophylaxis,1696.0
+68382077277,lansoprazole,stress_ulcer_prophylaxis,1690.0
+25021014330,ampicillin,intra_abdominal_antibiotics,1629.0
+51079021720,metronidazole,intra_abdominal_antibiotics,1616.0
+63323039923,ampicillin,intra_abdominal_antibiotics,1598.0
+65162025306,ranitidine,stress_ulcer_prophylaxis,1586.0
+44567023525,ceftazidime,intra_abdominal_antibiotics,1582.0
+00121177505,phosphorus,electrolyte_replacement,1561.0
+63323036820,ampicillin,intra_abdominal_antibiotics,1538.0
+00172572810,famotidine,stress_ulcer_prophylaxis,1533.0
+55150011420,ampicillin,intra_abdominal_antibiotics,1533.0
+63323024120,sodium glycerophosphate,electrolyte_replacement,1522.0
+61553094202,heparin,vte_prophylaxis,1475.0
+00075062281,enoxaparin,vte_prophylaxis,1474.0
+68084076425,phosphorus,electrolyte_replacement,1469.0
+51079088620,metoclopramide,prokinetic,1466.0
+00310032165,meropenem,intra_abdominal_antibiotics,1456.0
+63323056890,enoxaparin,vte_prophylaxis,1433.0
+63323053190,enoxaparin,vte_prophylaxis,1415.0
+25021013283,levofloxacin,intra_abdominal_antibiotics,1411.0
+63323096510,potassium chloride,electrolyte_replacement,1405.0
+00075062431,enoxaparin,vte_prophylaxis,1381.0
+60505075204,ceftriaxone,intra_abdominal_antibiotics,1370.0
+00206886102,piperacillin,intra_abdominal_antibiotics,1360.0
+00517231525,potassium phosphate,electrolyte_replacement,1352.0
+60569049501,magnesium oxide,electrolyte_replacement,1349.0
+63323054036,heparin,vte_prophylaxis,1340.0
+00310032130,meropenem,intra_abdominal_antibiotics,1338.0
+29300022701,metronidazole,intra_abdominal_antibiotics,1331.0
+50268061915,omeprazole,stress_ulcer_prophylaxis,1322.0
+00781340895,ampicillin,intra_abdominal_antibiotics,1316.0
+00075062301,enoxaparin,vte_prophylaxis,1311.0
+00409492834,calcium chloride,electrolyte_replacement,1296.0
+00173037934,ceftazidime,intra_abdominal_antibiotics,1269.0
+00904635261,levofloxacin,intra_abdominal_antibiotics,1231.0
+61314065625,ciprofloxacin,intra_abdominal_antibiotics,1221.0
+00075062161,enoxaparin,vte_prophylaxis,1217.0
+63323056888,enoxaparin,vte_prophylaxis,1214.0
+00641040025,heparin,vte_prophylaxis,1202.0
+00781317796,ceftazidime,intra_abdominal_antibiotics,1183.0
+63323056883,enoxaparin,vte_prophylaxis,1178.0
+00085174102,ciprofloxacin,intra_abdominal_antibiotics,1177.0
+00409672903,magnesium sulfate,electrolyte_replacement,1157.0
+25021012720,ceftazidime,intra_abdominal_antibiotics,1117.0
+44567021110,ampicillin,intra_abdominal_antibiotics,1113.0
+00045006801,levofloxacin,intra_abdominal_antibiotics,1101.0
+50458092010,levofloxacin,intra_abdominal_antibiotics,1091.0
+63323056884,enoxaparin,vte_prophylaxis,1043.0
+63323053383,enoxaparin,vte_prophylaxis,1008.0
+00169183411,insulin isophane human|insulin regular human,insulin,993.0
+00008084402,pantoprazole,stress_ulcer_prophylaxis,981.0
+67457038599,heparin,vte_prophylaxis,979.0
+58177000111,potassium chloride,electrolyte_replacement,972.0
+63323060584,enoxaparin,vte_prophylaxis,910.0
+50268063615,pantoprazole,stress_ulcer_prophylaxis,907.0
+00165005441,magnesium oxide,electrolyte_replacement,884.0
+63323056990,enoxaparin,vte_prophylaxis,882.0
+71288041085,enoxaparin,vte_prophylaxis,865.0
+71288000630,ampicillin,intra_abdominal_antibiotics,827.0
+00121155000,phosphorus,electrolyte_replacement,806.0
+63739010310,metoclopramide,prokinetic,766.0
+24987037934,ceftazidime,intra_abdominal_antibiotics,757.0
+43598056178,lansoprazole,stress_ulcer_prophylaxis,749.0
+64679093602,famotidine,stress_ulcer_prophylaxis,748.0
+63323040220,aztreonam,intra_abdominal_antibiotics,744.0
+68387029330,pantoprazole,stress_ulcer_prophylaxis,740.0
+00049001483,ampicillin,intra_abdominal_antibiotics,721.0
+00006351659,imipenem,intra_abdominal_antibiotics,714.0
+00781340495,ampicillin,intra_abdominal_antibiotics,690.0
+00075291201,enoxaparin,vte_prophylaxis,686.0
+00409477723,ciprofloxacin,intra_abdominal_antibiotics,683.0
+42023022110,ertapenem,intra_abdominal_antibiotics,677.0
+00338043103,heparin,vte_prophylaxis,676.0
+55150020830,meropenem,intra_abdominal_antibiotics,658.0
+68382041201,omeprazole,stress_ulcer_prophylaxis,640.0
+63323010615,magnesium sulfate,electrolyte_replacement,631.0
+00075291202,enoxaparin,vte_prophylaxis,621.0
+54868311105,ampicillin,intra_abdominal_antibiotics,618.0
+67457043322,famotidine,stress_ulcer_prophylaxis,609.0
+60505079204,enoxaparin,vte_prophylaxis,606.0
+00548560400,enoxaparin,vte_prophylaxis,596.0
+60505006502,omeprazole,stress_ulcer_prophylaxis,587.0
+00093274894,famotidine,stress_ulcer_prophylaxis,579.0
+63739093128,heparin,vte_prophylaxis,574.0
+00703856023,enoxaparin,vte_prophylaxis,573.0
+00002871517,insulin regular human,insulin,564.0
+24385038551,famotidine,stress_ulcer_prophylaxis,529.0
+00409508216,ceftazidime,intra_abdominal_antibiotics,511.0
+63323040120,aztreonam,intra_abdominal_antibiotics,508.0
+00186604001,esomeprazole|omeprazole,stress_ulcer_prophylaxis,491.0
+37205061465,famotidine,stress_ulcer_prophylaxis,484.0
+63323050831,meropenem,intra_abdominal_antibiotics,474.0
+00781940895,ampicillin,intra_abdominal_antibiotics,468.0
+00169368512,insulin aspart|insulin regular human,insulin,463.0
+00409509216,ceftazidime,intra_abdominal_antibiotics,461.0
+00045006701,levofloxacin,intra_abdominal_antibiotics,459.0
+00338068704,potassium chloride,electrolyte_replacement,455.0
+00008499020,tigecycline,intra_abdominal_antibiotics,448.0
+00338069504,potassium chloride,electrolyte_replacement,437.0
+00338068304,potassium chloride,electrolyte_replacement,432.0
+67457042010,phosphorus,electrolyte_replacement,428.0
+00548560500,enoxaparin,vte_prophylaxis,420.0
+51479004115,aztreonam,intra_abdominal_antibiotics,418.0
+00004080085,phosphorus,electrolyte_replacement,417.0
+00703095803,ciprofloxacin,intra_abdominal_antibiotics,415.0
+00781323909,ciprofloxacin,intra_abdominal_antibiotics,406.0
+51079088820,metoclopramide,prokinetic,401.0
+00299382060,metronidazole,intra_abdominal_antibiotics,398.0
+51079062920,metoclopramide,prokinetic,386.0
+00186502228,esomeprazole|omeprazole,stress_ulcer_prophylaxis,380.0
+70121145407,meropenem,intra_abdominal_antibiotics,366.0
+16729025269,omeprazole,stress_ulcer_prophylaxis,364.0
+51479004801,aztreonam,intra_abdominal_antibiotics,350.0
+00517260225,magnesium sulfate,electrolyte_replacement,330.0
+68084048211,levofloxacin,intra_abdominal_antibiotics,324.0
+00517391025,calcium gluconate,electrolyte_replacement,318.0
+63323060990,enoxaparin,vte_prophylaxis,315.0
+42023019110,meropenem,intra_abdominal_antibiotics,301.0
+63323056984,enoxaparin,vte_prophylaxis,301.0
+00049001383,ampicillin,intra_abdominal_antibiotics,300.0
+00075291502,enoxaparin,vte_prophylaxis,297.0
+00085173302,moxifloxacin,intra_abdominal_antibiotics,289.0
+00003224011,aztreonam,intra_abdominal_antibiotics,288.0
+00338070541,potassium chloride,electrolyte_replacement,286.0
+00517271025,calcium chloride,electrolyte_replacement,286.0
+70121123901,phosphorus,electrolyte_replacement,280.0
+63323054201,heparin,vte_prophylaxis,279.0
+00781324494,phosphorus,electrolyte_replacement,268.0
+00003223011,aztreonam,intra_abdominal_antibiotics,265.0
+00054856304,metoclopramide,prokinetic,262.0
+00409372001,ampicillin,intra_abdominal_antibiotics,257.0
+69315030802,ciprofloxacin,intra_abdominal_antibiotics,254.0
+00904635161,levofloxacin,intra_abdominal_antibiotics,247.0
+00015054841,phosphorus,electrolyte_replacement,246.0
+00085175502,ciprofloxacin,intra_abdominal_antibiotics,234.0
+00456270010,ceftazidime,intra_abdominal_antibiotics,232.0
+44567062101,calcium gluconate,electrolyte_replacement,232.0
+00008499002,tigecycline,intra_abdominal_antibiotics,228.0
+63323038910,ampicillin,intra_abdominal_antibiotics,227.0
+00338042418,heparin,vte_prophylaxis,221.0
+00781340795,ampicillin,intra_abdominal_antibiotics,217.0
+51079012220,metronidazole,intra_abdominal_antibiotics,216.0
+42023019210,meropenem,intra_abdominal_antibiotics,211.0
+67919003001,tazobactam,intra_abdominal_antibiotics,210.0
+00088250033,insulin glulisine|insulin regular human,insulin,207.0
+51479004215,aztreonam,intra_abdominal_antibiotics,204.0
+00641611610,ampicillin,intra_abdominal_antibiotics,196.0
+63739029310,metoclopramide,prokinetic,196.0
+00904656861,metronidazole,intra_abdominal_antibiotics,195.0
+71288000520,ampicillin,intra_abdominal_antibiotics,186.0
+00904552987,famotidine,stress_ulcer_prophylaxis,185.0
+00781365569,enoxaparin,vte_prophylaxis,178.0
+66689003150,metoclopramide,prokinetic,173.0
+00517265025,magnesium sulfate,electrolyte_replacement,172.0
+63323006403,magnesium sulfate,electrolyte_replacement,172.0
+51479004901,aztreonam,intra_abdominal_antibiotics,171.0
+50268030315,famotidine,stress_ulcer_prophylaxis,165.0
+00781214501,ampicillin,intra_abdominal_antibiotics,164.0
+25021013720,ampicillin,intra_abdominal_antibiotics,161.0
+00143939810,ertapenem,intra_abdominal_antibiotics,158.0
+00703485211,phosphorus,electrolyte_replacement,156.0
+00409508411,ceftazidime,intra_abdominal_antibiotics,151.0
+50268069215,ranitidine,stress_ulcer_prophylaxis,141.0
+63323053784,enoxaparin,vte_prophylaxis,141.0
+24987038237,ceftazidime,intra_abdominal_antibiotics,139.0
+67457035010,ampicillin,intra_abdominal_antibiotics,138.0
+63323016505,phosphorus,electrolyte_replacement,136.0
+63323054031,heparin,vte_prophylaxis,135.0
+36000000824,ciprofloxacin,intra_abdominal_antibiotics,134.0
+55111029209,ciprofloxacin,intra_abdominal_antibiotics,134.0
+66993006885,pantoprazole,stress_ulcer_prophylaxis,133.0
+00006096328,famotidine,stress_ulcer_prophylaxis,129.0
+00143972124,levofloxacin,intra_abdominal_antibiotics,129.0
+00781320695,ceftriaxone,intra_abdominal_antibiotics,129.0
+00075291501,enoxaparin,vte_prophylaxis,128.0
+63323006402,magnesium sulfate,electrolyte_replacement,126.0
+00409339004,piperacillin,intra_abdominal_antibiotics,124.0
+00409109732,phosphorus,electrolyte_replacement,123.0
+25021013282,levofloxacin,intra_abdominal_antibiotics,123.0
+00054413025,phosphorus,electrolyte_replacement,121.0
+00781309896,meropenem,intra_abdominal_antibiotics,121.0
+00093312701,phosphorus,electrolyte_replacement,115.0
+00781707787,metronidazole,intra_abdominal_antibiotics,114.0
+76329330401,calcium chloride,electrolyte_replacement,112.0
+00008084401,pantoprazole,stress_ulcer_prophylaxis,110.0
+00186502031,esomeprazole|omeprazole,stress_ulcer_prophylaxis,110.0
+00169266097,insulin degludec|insulin regular human,insulin,109.0
+00409163110,calcium chloride,electrolyte_replacement,109.0
+64679001201,piperacillin,intra_abdominal_antibiotics,109.0
+00169255013,insulin degludec|insulin regular human,insulin,106.0
+00054038325,phosphorus,electrolyte_replacement,105.0
+25021013281,levofloxacin,intra_abdominal_antibiotics,100.0
+00904043004,metronidazole,intra_abdominal_antibiotics,97.0
+00641036725,phosphorus,electrolyte_replacement,94.0
+50419077701,ciprofloxacin,intra_abdominal_antibiotics,90.0
+00024159601,phosphorus,electrolyte_replacement,88.0
+00703095603,ciprofloxacin,intra_abdominal_antibiotics,87.0
+00006353750,famotidine,stress_ulcer_prophylaxis,86.0
+08290306424,heparin,vte_prophylaxis,85.0
+63323032225,imipenem,intra_abdominal_antibiotics,84.0
+00065401303,moxifloxacin,intra_abdominal_antibiotics,83.0
+00409371801,ampicillin,intra_abdominal_antibiotics,81.0
+16571030216,phosphorus,electrolyte_replacement,81.0
+00206885416,piperacillin,intra_abdominal_antibiotics,80.0
+00409272101,heparin,vte_prophylaxis,79.0
+24201023701,phosphorus,electrolyte_replacement,79.0
+65862084003,moxifloxacin,intra_abdominal_antibiotics,78.0
+51079080720,cimetidine,stress_ulcer_prophylaxis,77.0
+00517490525,phosphorus,electrolyte_replacement,75.0
+51672416403,metronidazole,intra_abdominal_antibiotics,75.0
+60505079404,enoxaparin,vte_prophylaxis,74.0
+36000004824,levofloxacin,intra_abdominal_antibiotics,73.0
+00143972024,levofloxacin,intra_abdominal_antibiotics,72.0
+51079021620,metronidazole,intra_abdominal_antibiotics,70.0
+16590051672,pantoprazole,stress_ulcer_prophylaxis,68.0
+16729036468,tigecycline,intra_abdominal_antibiotics,66.0
+00172717149,cimetidine,stress_ulcer_prophylaxis,65.0
+00054412925,phosphorus,electrolyte_replacement,64.0
+00049002428,ampicillin,intra_abdominal_antibiotics,63.0
+67457023802,phosphorus,electrolyte_replacement,62.0
+00186504228,esomeprazole|omeprazole,stress_ulcer_prophylaxis,60.0
+54868381600,phosphorus,electrolyte_replacement,58.0
+55150011720,ampicillin,intra_abdominal_antibiotics,55.0
+00338012612,insulin regular human,insulin,54.0
+67457038499,heparin,vte_prophylaxis,54.0
+36000004724,levofloxacin,intra_abdominal_antibiotics,48.0
+63323019202,phosphorus,electrolyte_replacement,45.0
+00904145361,metronidazole,intra_abdominal_antibiotics,44.0
+44567043624,levofloxacin,intra_abdominal_antibiotics,42.0
+55150011210,ampicillin,intra_abdominal_antibiotics,42.0
+60505079504,enoxaparin,vte_prophylaxis,42.0
+00173041200,ceftazidime,intra_abdominal_antibiotics,41.0
+10019069102,ceftazidime,intra_abdominal_antibiotics,41.0
+63323064220,magnesium sulfate,electrolyte_replacement,41.0
+00015050541,phosphorus,electrolyte_replacement,40.0
+13668015590,esomeprazole|omeprazole,stress_ulcer_prophylaxis,39.0
+63323016501,phosphorus,electrolyte_replacement,39.0
+00093645056,esomeprazole|omeprazole,stress_ulcer_prophylaxis,38.0
+00093220401,metoclopramide,prokinetic,37.0
+60505079800,enoxaparin,vte_prophylaxis,37.0
+00641041012,heparin,vte_prophylaxis,36.0
+00093819201,cimetidine,stress_ulcer_prophylaxis,35.0
+25021040030,heparin,vte_prophylaxis,35.0
+55150011620,ampicillin,intra_abdominal_antibiotics,35.0
+61990013002,piperacillin,intra_abdominal_antibiotics,35.0
+63323096010,tigecycline,intra_abdominal_antibiotics,34.0
+00409350601,meropenem,intra_abdominal_antibiotics,33.0
+00641244045,heparin,vte_prophylaxis,33.0
+00173041300,ceftazidime,intra_abdominal_antibiotics,32.0
+25021040301,heparin,vte_prophylaxis,32.0
+00206240802,piperacillin,intra_abdominal_antibiotics,30.0
+50458040101,doripenem,intra_abdominal_antibiotics,30.0
+00054038225,phosphorus,electrolyte_replacement,29.0
+00085177701,ciprofloxacin,intra_abdominal_antibiotics,29.0
+00206886101,piperacillin,intra_abdominal_antibiotics,29.0
+44567010310,ampicillin,intra_abdominal_antibiotics,29.0
+00121472710,ranitidine,stress_ulcer_prophylaxis,28.0
+00015740320,ampicillin,intra_abdominal_antibiotics,27.0
+00409476586,ciprofloxacin,intra_abdominal_antibiotics,26.0
+00065853302,ciprofloxacin,intra_abdominal_antibiotics,24.0
+51479005530,cefepime,intra_abdominal_antibiotics,24.0
+60505076005,cefoxitin,intra_abdominal_antibiotics,23.0
+00300304611,lansoprazole,stress_ulcer_prophylaxis,22.0
+63323038810,ampicillin,intra_abdominal_antibiotics,22.0
+00409405101,phosphorus,electrolyte_replacement,21.0
+00703352403,phosphorus,electrolyte_replacement,21.0
+25021012250,cefepime,intra_abdominal_antibiotics,20.0
+52959013003,ampicillin,intra_abdominal_antibiotics,20.0
+65862056090,pantoprazole,stress_ulcer_prophylaxis,20.0
+00031670972,metoclopramide,prokinetic,19.0
+00409350701,imipenem,intra_abdominal_antibiotics,19.0
+00186116502,calcium chloride,electrolyte_replacement,17.0
+00245086070,metronidazole,intra_abdominal_antibiotics,17.0
+00409477886,ciprofloxacin,intra_abdominal_antibiotics,17.0
+00603154358,potassium chloride,electrolyte_replacement,17.0
+51079080820,cimetidine,stress_ulcer_prophylaxis,17.0
+00378037201,cimetidine,stress_ulcer_prophylaxis,16.0
+00409818301,potassium acetate,electrolyte_replacement,16.0
+00002751201,insulin regular human,insulin,15.0
+00006385602,imipenem,intra_abdominal_antibiotics,15.0
+00026858231,moxifloxacin,intra_abdominal_antibiotics,15.0
+00378031701,cimetidine,stress_ulcer_prophylaxis,14.0
+45963062151,phosphorus,electrolyte_replacement,14.0
+00121157610,metoclopramide,prokinetic,13.0
+00781317895,ceftazidime,intra_abdominal_antibiotics,13.0
+10019095616,phosphorus,electrolyte_replacement,13.0
+44567024625,cefoxitin,intra_abdominal_antibiotics,13.0
+58016032730,omeprazole,stress_ulcer_prophylaxis,13.0
+00075801601,enoxaparin,vte_prophylaxis,11.0
+00121475210,ranitidine,stress_ulcer_prophylaxis,11.0
+65862060330,moxifloxacin,intra_abdominal_antibiotics,11.0
+00062401002,doripenem,intra_abdominal_antibiotics,10.0
+00206886201,piperacillin,intra_abdominal_antibiotics,10.0
+00300154111,lansoprazole,stress_ulcer_prophylaxis,10.0
+00904401408,ampicillin,intra_abdominal_antibiotics,10.0
+25021024202,phosphorus,electrolyte_replacement,10.0
+60505079604,enoxaparin,vte_prophylaxis,10.0
+00004196301,ceftriaxone,intra_abdominal_antibiotics,9.0
+60505075004,ceftriaxone,intra_abdominal_antibiotics,9.0
+63323007620,potassium acetate,electrolyte_replacement,9.0
+63323050601,phosphorus,electrolyte_replacement,9.0
+00003256016,aztreonam,intra_abdominal_antibiotics,8.0
+08881200441,insulin regular human,insulin,8.0
+50419051106,phosphorus,electrolyte_replacement,8.0
+60258000601,phosphorus,electrolyte_replacement,8.0
+63323073820,famotidine,stress_ulcer_prophylaxis,8.0
+64253033335,heparin,vte_prophylaxis,8.0
+00015740420,ampicillin,intra_abdominal_antibiotics,7.0
+00409733701,ceftriaxone,intra_abdominal_antibiotics,7.0
+00641243645,heparin,vte_prophylaxis,7.0
+00641602110,famotidine,stress_ulcer_prophylaxis,7.0
+10019004603,famotidine,stress_ulcer_prophylaxis,7.0
+55150012150,piperacillin,intra_abdominal_antibiotics,7.0
+58016103201,ampicillin,intra_abdominal_antibiotics,7.0
+60687032201,ranitidine,stress_ulcer_prophylaxis,7.0
+67457042312,phosphorus,electrolyte_replacement,7.0
+36000000124,metronidazole,intra_abdominal_antibiotics,6.0
+51479005420,cefepime,intra_abdominal_antibiotics,6.0
+60432021208,sodium phosphate,electrolyte_replacement,6.0
+60505058204,moxifloxacin,intra_abdominal_antibiotics,6.0
+63323017005,sodium phosphate,electrolyte_replacement,6.0
+67457042254,phosphorus,electrolyte_replacement,6.0
+00132020145,sodium phosphate,electrolyte_replacement,5.0
+00186074382,omeprazole,stress_ulcer_prophylaxis,5.0
+00781320795,ceftriaxone,intra_abdominal_antibiotics,5.0
+00074744501,cimetidine,stress_ulcer_prophylaxis,4.0
+00173038237,ceftazidime,intra_abdominal_antibiotics,4.0
+24385080701,magnesium sulfate,electrolyte_replacement,4.0
+60505075905,cefoxitin,intra_abdominal_antibiotics,4.0
+63323036061,calcium gluconate,electrolyte_replacement,4.0
+00009090218,phosphorus,electrolyte_replacement,3.0
+00025274234,phosphorus,electrolyte_replacement,3.0
+00169320111,insulin regular human,insulin,3.0
+00409420101,potassium phosphate,electrolyte_replacement,3.0
+10019063101,ampicillin,intra_abdominal_antibiotics,3.0
+59762372802,phosphorus,electrolyte_replacement,3.0
+68180015001,famotidine,stress_ulcer_prophylaxis,3.0
+00008536002,tigecycline,intra_abdominal_antibiotics,2.0
+00015050641,phosphorus,electrolyte_replacement,2.0
+00015340420,phosphorus,electrolyte_replacement,2.0
+00074744716,cimetidine,stress_ulcer_prophylaxis,2.0
+00168020130,phosphorus,electrolyte_replacement,2.0
+00409115170,heparin,vte_prophylaxis,2.0
+00472098792,phosphorus,electrolyte_replacement,2.0
+00517345025,sodium phosphate,electrolyte_replacement,2.0
+25021011506,phosphorus,electrolyte_replacement,2.0
+43598050930,omeprazole,stress_ulcer_prophylaxis,2.0
+45802056202,phosphorus,electrolyte_replacement,2.0
+47781046168,phosphorus,electrolyte_replacement,2.0
+49884046565,insulin aspart,insulin,2.0
+54868476800,phosphorus,electrolyte_replacement,2.0
+54868479700,nizatidine,stress_ulcer_prophylaxis,2.0
+55150023805,phosphorus,electrolyte_replacement,2.0
+63323008650,potassium phosphate,electrolyte_replacement,2.0
+64679098601,cefotaxime,intra_abdominal_antibiotics,2.0
+65219005629,potassium phosphate,electrolyte_replacement,2.0
+00006335645,cefoxitin,intra_abdominal_antibiotics,1.0
+00132000119,sodium phosphate,electrolyte_replacement,1.0
+00168020160,phosphorus,electrolyte_replacement,1.0
+00173044100,ranitidine,stress_ulcer_prophylaxis,1.0
+00264314311,ceftazidime,intra_abdominal_antibiotics,1.0
+00517235025,potassium phosphate,electrolyte_replacement,1.0
+00603154258,potassium chloride,electrolyte_replacement,1.0
+00781340995,ampicillin,intra_abdominal_antibiotics,1.0
+08290036005,heparin,vte_prophylaxis,1.0
+08290306513,heparin,vte_prophylaxis,1.0
+08290326730,insulin regular human,insulin,1.0
+10019063002,ampicillin,intra_abdominal_antibiotics,1.0
+24987036210,ranitidine,stress_ulcer_prophylaxis,1.0
+36000001101,ciprofloxacin,intra_abdominal_antibiotics,1.0
+37000002304,insulin aspart,insulin,1.0
+45963046003,lansoprazole,stress_ulcer_prophylaxis,1.0
+51801001230,potassium chloride,electrolyte_replacement,1.0
+60505075100,ceftriaxone,intra_abdominal_antibiotics,1.0
+60977045102,metoclopramide,prokinetic,1.0

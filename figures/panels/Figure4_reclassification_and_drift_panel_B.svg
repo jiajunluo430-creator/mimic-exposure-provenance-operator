@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="504pt" height="403.2pt" viewBox="0 0 504 403.2" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-31T22:28:22.230524</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <defs>
+  <clipPath id="padce0c2d36">
+   <rect x="100.8" y="56.448" width="388.08" height="262.08"/>
+  </clipPath>
+ </defs>
+<g id="panel_B">
+   <g id="panel_B_axis"><desc>axis objects for panel B</desc><g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 100.8 318.528  L 100.8 56.448  " clip-path="url(#padce0c2d36)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="md07018f7b4" d="M 0 0  L 0 3.5  " style="stroke: #5b6573; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md07018f7b4" x="100.8" y="318.528" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="100.8" y="331.716232" transform="rotate(-0 100.8 331.716232)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 149.31 318.528  L 149.31 56.448  " clip-path="url(#padce0c2d36)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#md07018f7b4" x="149.31" y="318.528" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="149.31" y="331.716232" transform="rotate(-0 149.31 331.716232)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 197.82 318.528  L 197.82 56.448  " clip-path="url(#padce0c2d36)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#md07018f7b4" x="197.82" y="318.528" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="197.82" y="331.716232" transform="rotate(-0 197.82 331.716232)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 246.33 318.528  L 246.33 56.448  " clip-path="url(#padce0c2d36)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#md07018f7b4" x="246.33" y="318.528" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="246.33" y="331.716232" transform="rotate(-0 246.33 331.716232)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 294.84 318.528  L 294.84 56.448  " clip-path="url(#padce0c2d36)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#md07018f7b4" x="294.84" y="318.528" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="294.84" y="331.716232" transform="rotate(-0 294.84 331.716232)">40</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 343.35 318.528  L 343.35 56.448  " clip-path="url(#padce0c2d36)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#md07018f7b4" x="343.35" y="318.528" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="343.35" y="331.716232" transform="rotate(-0 343.35 331.716232)">50</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 391.86 318.528  L 391.86 56.448  " clip-path="url(#padce0c2d36)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#md07018f7b4" x="391.86" y="318.528" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="391.86" y="331.716232" transform="rotate(-0 391.86 331.716232)">60</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 440.37 318.528  L 440.37 56.448  " clip-path="url(#padce0c2d36)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#md07018f7b4" x="440.37" y="318.528" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="440.37" y="331.716232" transform="rotate(-0 440.37 331.716232)">70</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <path d="M 488.88 318.528  L 488.88 56.448  " clip-path="url(#padce0c2d36)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#md07018f7b4" x="488.88" y="318.528" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="488.88" y="331.716232" transform="rotate(-0 488.88 331.716232)">80</text>
+     </g>
+    </g>
+    <g id="labels__B_xlabel">
+     <text style="font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="294.84" y="344.421311" transform="rotate(-0 294.84 344.421311)">Share of original broad administration-only cell, %</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_19">
+      <defs>
+       <path id="mc29e9352aa" d="M 0 0  L -3.5 0  " style="stroke: #5b6573; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc29e9352aa" x="100.8" y="74.891334" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="93.8" y="77.98545" transform="rotate(-0 93.8 77.98545)">A1: order elsewhere in admission</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#mc29e9352aa" x="100.8" y="97.410667" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="93.8" y="100.507191" transform="rotate(-0 93.8 100.507191)">A1: same POE outside eligibility</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#mc29e9352aa" x="100.8" y="119.93" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="93.8" y="123.024117" transform="rotate(-0 93.8 123.024117)">A1: metadata inconsistent</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#mc29e9352aa" x="100.8" y="142.449334" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="93.8" y="145.545857" transform="rotate(-0 93.8 145.545857)">A1: different ICU-assigned POE</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#mc29e9352aa" x="100.8" y="164.968667" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="93.8" y="168.062783" transform="rotate(-0 93.8 168.062783)">A1: no mapped order</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#mc29e9352aa" x="100.8" y="210.007333" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="93.8" y="213.103857" transform="rotate(-0 93.8 213.103857)">A2: different-POE order</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#mc29e9352aa" x="100.8" y="232.526666" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="93.8" y="235.62319" transform="rotate(-0 93.8 235.62319)">A2: same POE outside window</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#mc29e9352aa" x="100.8" y="255.046" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="93.8" y="258.140116" transform="rotate(-0 93.8 258.140116)">A2: eMAR identity unresolved</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#mc29e9352aa" x="100.8" y="277.565333" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="93.8" y="280.659449" transform="rotate(-0 93.8 280.659449)">A2: pharmacy-linked PPI Rx</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#mc29e9352aa" x="100.8" y="300.084666" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="93.8" y="303.178782" transform="rotate(-0 93.8 303.178782)">A2: unresolved residual</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_1">
+    <path d="M 100.8 318.528  L 100.8 56.448  " style="fill: none; stroke: #5b6573; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 100.8 318.528  L 488.88 318.528  " style="fill: none; stroke: #5b6573; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   </g><g id="panel_B_data"><desc>data objects for panel B</desc><g id="data__B_provenance_bar_0">
+    <path d="M 100.8 68.360727  L 421.336331 68.360727  L 421.336331 81.421941  L 100.8 81.421941  z " clip-path="url(#padce0c2d36)" style="fill: #2878b5; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__B_provenance_bar_1">
+    <path d="M 100.8 90.88006  L 222.241816 90.88006  L 222.241816 103.941274  L 100.8 103.941274  z " clip-path="url(#padce0c2d36)" style="fill: #2878b5; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__B_provenance_bar_2">
+    <path d="M 100.8 113.399394  L 123.403525 113.399394  L 123.403525 126.460607  L 100.8 126.460607  z " clip-path="url(#padce0c2d36)" style="fill: #2878b5; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__B_provenance_bar_3">
+    <path d="M 100.8 135.918727  L 121.234921 135.918727  L 121.234921 148.97994  L 100.8 148.97994  z " clip-path="url(#padce0c2d36)" style="fill: #2878b5; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__B_provenance_bar_4">
+    <path d="M 100.8 158.43806  L 100.883408 158.43806  L 100.883408 171.499273  L 100.8 171.499273  z " clip-path="url(#padce0c2d36)" style="fill: #2878b5; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__B_provenance_bar_5">
+    <path d="M 100.8 203.476727  L 254.852027 203.476727  L 254.852027 216.53794  L 100.8 216.53794  z " clip-path="url(#padce0c2d36)" style="fill: #e76f51; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__B_provenance_bar_6">
+    <path d="M 100.8 225.99606  L 115.549662 225.99606  L 115.549662 239.057273  L 100.8 239.057273  z " clip-path="url(#padce0c2d36)" style="fill: #e76f51; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__B_provenance_bar_7">
+    <path d="M 100.8 248.515393  L 115.549662 248.515393  L 115.549662 261.576606  L 100.8 261.576606  z " clip-path="url(#padce0c2d36)" style="fill: #e76f51; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__B_provenance_bar_8">
+    <path d="M 100.8 271.034726  L 400.709797 271.034726  L 400.709797 284.09594  L 100.8 284.09594  z " clip-path="url(#padce0c2d36)" style="fill: #e76f51; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__B_provenance_bar_9">
+    <path d="M 100.8 293.554059  L 102.438851 293.554059  L 102.438851 306.615273  L 100.8 306.615273  z " clip-path="url(#padce0c2d36)" style="fill: #e76f51; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   </g><g id="panel_B_labels"><desc>labels objects for panel B</desc><g id="labels__B_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="294.84" y="50.448" transform="rotate(-0 294.84 50.448)">Broad-only exposure resolves into distinct provenance cells</text>
+   </g>
+  </g><g id="panel_B_legend"><desc>legend objects for panel B</desc></g><g id="panel_B_annotations"><desc>annotations objects for panel B</desc><g id="annotations__B_group_separator">
+    <path d="M 100.8 197.6217  L 488.88 197.6217  " clip-path="url(#padce0c2d36)" style="fill: none; stroke: #d4d9de; stroke-linecap: square"/>
+   </g>
+   <g id="annotations__B_provenance_value_0">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="427.157531" y="76.728736" transform="rotate(-0 427.157531 76.728736)">n=3,843; outcome 1.51%</text>
+   </g>
+   <g id="annotations__B_provenance_value_1">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="228.063016" y="99.248069" transform="rotate(-0 228.063016 99.248069)">n=1,456; outcome 21.70%</text>
+   </g>
+   <g id="annotations__B_provenance_value_2">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="129.224725" y="121.767403" transform="rotate(-0 129.224725 121.767403)">n=271; outcome 14.76%</text>
+   </g>
+   <g id="annotations__B_provenance_value_3">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="127.056121" y="144.286736" transform="rotate(-0 127.056121 144.286736)">n=245; outcome 9.80%</text>
+   </g>
+   <g id="annotations__B_provenance_value_4">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="106.704608" y="166.806069" transform="rotate(-0 106.704608 166.806069)">n=1; outcome 0.00%</text>
+   </g>
+   <g id="annotations__B_provenance_value_5">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="260.673227" y="211.844736" transform="rotate(-0 260.673227 211.844736)">n=94; outcome 22.34%</text>
+   </g>
+   <g id="annotations__B_provenance_value_6">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="121.370862" y="234.364069" transform="rotate(-0 121.370862 234.364069)">n=9; outcome 44.44%</text>
+   </g>
+   <g id="annotations__B_provenance_value_7">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="121.370862" y="256.883402" transform="rotate(-0 121.370862 256.883402)">n=9; outcome 55.56%</text>
+   </g>
+   <g id="annotations__B_provenance_value_8">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="406.530997" y="279.402735" transform="rotate(-0 406.530997 279.402735)">n=183; outcome 27.87%</text>
+   </g>
+   <g id="annotations__B_provenance_value_9">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="108.260051" y="301.922068" transform="rotate(-0 108.260051 301.922068)">n=1; outcome 0.00%</text>
+   </g>
+   <g id="annotations__B_panel_tag">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="65.8728" y="40.60816" transform="rotate(-0 65.8728 40.60816)">B</text>
+   </g>
+   </g></g>
+ </svg>

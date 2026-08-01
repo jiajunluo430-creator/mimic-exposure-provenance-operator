@@ -1,0 +1,371 @@
+drug_class,event_category,event_txt,complete_dose_not_given,administration_type,reason_for_no_barcode,barcode_type,route,events_n
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,<NULL>,<NULL>,23941
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,3965
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,<NULL>,<NULL>,<NULL>,3935
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,if,<NULL>,3035
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,2468
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,2422
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,iv,<NULL>,1233
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,922
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,<NULL>,iv,<NULL>,578
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,<NULL>,if,<NULL>,351
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,PO,221
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,bc,<NULL>,183
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,<NULL>,<NULL>,<NULL>,77
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,<NULL>,if,PO,69
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,59
+electrolyte_replacement,not_given,Delayed Administered,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,48
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,44
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,43
+electrolyte_replacement,not_given,Not Given,true,Standard Maintenance Medication,<NULL>,if,<NULL>,42
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,40
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,___,<NULL>,<NULL>,40
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: scanner,<NULL>,<NULL>,36
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,<NULL>,bc,<NULL>,34
+electrolyte_replacement,not_given,Administered,true,Sliding Scale,<NULL>,iv,<NULL>,34
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,32
+electrolyte_replacement,not_given,Not Given,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,31
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,31
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,___,<NULL>,<NULL>,25
+electrolyte_replacement,not_given,Not Given,false,<NULL>,<NULL>,bc,<NULL>,17
+electrolyte_replacement,not_given,Delayed Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,17
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,Discarded Packaging,<NULL>,<NULL>,16
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,Stopped: No Orders associated with this barcode,<NULL>,<NULL>,15
+electrolyte_replacement,not_given,Partial Administered,true,Sliding Scale,<NULL>,iv,<NULL>,13
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,___,<NULL>,<NULL>,12
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,<NULL>,bc,<NULL>,12
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,<NULL>,bc,<NULL>,11
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,Barcode Damaged,<NULL>,<NULL>,11
+electrolyte_replacement,not_given,Administered,true,Sliding Scale,<NULL>,if,<NULL>,10
+electrolyte_replacement,not_given,Not Given,false,<NULL>,<NULL>,if,<NULL>,10
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,___,<NULL>,<NULL>,10
+electrolyte_replacement,not_given,Not Given,false,<NULL>,<NULL>,<NULL>,<NULL>,9
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,Hardware issue: scanner,<NULL>,<NULL>,8
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,not scanning,<NULL>,<NULL>,7
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,barcode not scanning,<NULL>,<NULL>,7
+electrolyte_replacement,not_given,Delayed Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,5
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,Stopped: No Orders associated with this barcode,<NULL>,<NULL>,5
+electrolyte_replacement,not_given,Partial Administered,true,Sliding Scale,<NULL>,if,<NULL>,5
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,Stopped: Barcode not found on any pharmacy products,<NULL>,<NULL>,5
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,will not scan,<NULL>,<NULL>,4
+electrolyte_replacement,not_given,Delayed Administered,true,Standard Maintenance Medication,<NULL>,if,PO,3
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,barcode not scanning,<NULL>,<NULL>,3
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,pmto,<NULL>,3
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,not scanning,<NULL>,<NULL>,3
+electrolyte_replacement,not_given,Not Given,false,<NULL>,<NULL>,iv,<NULL>,3
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,Given in O.R. Holding,<NULL>,<NULL>,3
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,wont scan,<NULL>,<NULL>,3
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,Stopped: Barcode not found on any pharmacy products,<NULL>,<NULL>,3
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,PO,3
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,PO,3
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: computer,<NULL>,<NULL>,3
+electrolyte_replacement,not_given,Hold Dose,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,3
+electrolyte_replacement,not_given,Delayed Administered,true,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,2
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,sticker covering barcode,<NULL>,<NULL>,2
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,Scanner/Computer Malfunction,<NULL>,PO,2
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,<NULL>,if,NG,2
+electrolyte_replacement,not_given,Administered,true,Sliding Scale,___,<NULL>,<NULL>,2
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,Barcode Damaged,<NULL>,PO,2
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,unable to scan,<NULL>,<NULL>,2
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,already given,<NULL>,<NULL>,2
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,Scanner/Computer Malfunction,<NULL>,<NULL>,2
+electrolyte_replacement,not_given,Hold Dose,true,Standard Maintenance Medication,<NULL>,if,<NULL>,2
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,bag not scanning,<NULL>,<NULL>,2
+electrolyte_replacement,not_given,Not Given,true,Standard Maintenance Medication,___,<NULL>,<NULL>,2
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,<NULL>,<NULL>,PO,2
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,Unable to scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,threw out,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,barcode does not scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,scanner not working,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,true,Sliding Scale,<NULL>,iv,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,Scanner/Computer Malfunction,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,threw out,<NULL>,PO,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,___,<NULL>,PO,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,would not scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,no barcode on bag,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,didn't scan,<NULL>,PO,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,outside room,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,scanner not working ,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,won't scan ,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,if || iv,<NULL>,1
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,barcode not scanning,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,Other,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,not scanned,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,Hardware issue: computer,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,Does not scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Sliding Scale,Barcode Damaged,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,<NULL>,<NULL>,if,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,not in pt room,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,barcode will not scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,not given,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,false,Sliding Scale,.,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,wont scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,NG,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,NG,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,Unable to scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,true,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,scanner not scanning,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,not scanning properly,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Sliding Scale,Discarded Packaging,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,wont scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,bar code not scanning,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,not scanning,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,did not scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,bar code not scanning,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Delayed Administered,true,Standard Maintenance Medication,barcode will not scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,won't scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,unable to scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,no scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,forgot to scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,false,Standard Maintenance Medication,would not scan bag,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,did not scan,<NULL>,NG,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,thrown away,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Not Given,true,Standard Maintenance Medication,<NULL>,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,threw away ,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,barcode covered,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,barcode would not scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,___,iv,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,would not scan,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Administered,true,Standard Maintenance Medication,scanner broken ,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,barcode torn,<NULL>,<NULL>,1
+electrolyte_replacement,not_given,Partial Administered,true,Standard Maintenance Medication,scanner not working,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,<NULL>,<NULL>,<NULL>,107987
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,<NULL>,<NULL>,<NULL>,57605
+insulin,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,<NULL>,<NULL>,7451
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,<NULL>,if,<NULL>,2021
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,<NULL>,if,<NULL>,1418
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,<NULL>,if,<NULL>,1066
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,<NULL>,if,<NULL>,380
+insulin,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,if,<NULL>,144
+insulin,not_given,Not Given,false,Insulin SC Carb Counting,<NULL>,<NULL>,<NULL>,107
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,Discarded Packaging,<NULL>,<NULL>,75
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,___,<NULL>,<NULL>,43
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,Discarded Packaging,<NULL>,<NULL>,38
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,___,<NULL>,<NULL>,37
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,Discarded Packaging,<NULL>,<NULL>,37
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,Barcode Damaged,<NULL>,<NULL>,27
+insulin,not_given,Delayed Administered,true,Insulin SC Fixed Dose,<NULL>,if,<NULL>,25
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,Hardware issue: scanner,<NULL>,<NULL>,23
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,Barcode Damaged,<NULL>,<NULL>,23
+insulin,not_given,Not Given,false,<NULL>,<NULL>,<NULL>,<NULL>,22
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,Discarded Packaging,<NULL>,<NULL>,21
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,Barcode Damaged,<NULL>,<NULL>,19
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,___,<NULL>,<NULL>,16
+insulin,not_given,Not Given,false,Sliding Scale,<NULL>,<NULL>,<NULL>,14
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,Hardware issue: scanner,<NULL>,<NULL>,13
+insulin,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,12
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,Barcode Damaged,<NULL>,<NULL>,11
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,___,<NULL>,<NULL>,11
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,<NULL>,bc,<NULL>,8
+insulin,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,pmto,<NULL>,7
+insulin,not_given,Delayed Administered,true,Insulin SC Sliding Scale,<NULL>,if,<NULL>,7
+insulin,not_given,Not Given,false,Standard Maintenance Medication,Given in O.R. Holding,<NULL>,<NULL>,6
+insulin,not_given,Not Given,false,Insulin Infusion (IV Drip),<NULL>,<NULL>,<NULL>,6
+insulin,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: computer,<NULL>,<NULL>,4
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,not given,<NULL>,<NULL>,4
+insulin,not_given,Delayed Administered,true,Insulin SC Sliding Scale,Discarded Packaging,<NULL>,<NULL>,4
+insulin,not_given,Not Given,true,Insulin SC Sliding Scale,<NULL>,if,<NULL>,4
+insulin,not_given,Not Given,false,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,4
+insulin,not_given,Partial Administered,true,Insulin SC Fixed Dose,<NULL>,if,<NULL>,4
+insulin,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: scanner,<NULL>,<NULL>,3
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,Hardware issue: computer,<NULL>,<NULL>,3
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,not scanning,<NULL>,<NULL>,3
+insulin,not_given,Not Given,true,Insulin SC Fixed Dose,<NULL>,if,<NULL>,3
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,not given,<NULL>,<NULL>,3
+insulin,not_given,Not Given,false,Insulin SC Carb Counting,<NULL>,if,<NULL>,3
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,<NULL>,pmto,<NULL>,2
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,Stopped: Barcode not found on any pharmacy products,<NULL>,<NULL>,2
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,no barcode,<NULL>,<NULL>,2
+insulin,not_given,Not Given per Sliding Scale,true,Insulin SC Sliding Scale,<NULL>,if,<NULL>,2
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,Stopped: No Orders associated with this barcode,<NULL>,<NULL>,2
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,Given in O.R. Holding,<NULL>,<NULL>,2
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,Scanner/Computer Malfunction,<NULL>,<NULL>,2
+insulin,not_given,Delayed Administered,true,Insulin SC Fixed Dose,Discarded Packaging,<NULL>,<NULL>,2
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,Hardware issue: computer,<NULL>,<NULL>,2
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,Stopped: Barcode not found on any pharmacy products,<NULL>,<NULL>,2
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,___,if,<NULL>,2
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,no insulin needed,<NULL>,<NULL>,2
+insulin,not_given,Delayed Administered,true,Insulin SC Fixed Dose,___,<NULL>,<NULL>,2
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,error,<NULL>,<NULL>,2
+insulin,not_given,Delayed Administered,true,Insulin SC Sliding Scale,___,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,Barcode not scanning,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,out of labels,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,no labels,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,N/A,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,no insulin,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,no labels,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,barcode not available,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,no barcode,<NULL>,<NULL>,1
+insulin,not_given,Delayed Administered,true,Standard Maintenance Medication,___,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,scanner broken,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,will not scan,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,no labels in med room,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,<NULL>,pmto,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,order inactivated,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,Stopped: No Orders associated with this barcode,<NULL>,<NULL>,1
+insulin,not_given,Partial Administered,true,Insulin SC Fixed Dose,Discarded Packaging,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,barcode not scanning ,<NULL>,<NULL>,1
+insulin,not_given,Partial Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,no insulin required,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,n/a,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,<NULL>,pmto,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,ripped,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,bc,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,no scanner,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Standard Maintenance Medication,see comment,<NULL>,<NULL>,1
+insulin,not_given,Not Given,true,Insulin SC Fixed Dose,Barcode Damaged,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,none available,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,Other,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,Given in O.R. Holding,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,none given,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,no humalog stickers,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,no labels,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,using pt's own,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,won't scan,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,late entry,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,error,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,at rn station,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,no insulin given,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Standard Maintenance Medication,___,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,1
+insulin,not_given,Not Given per Sliding Scale,true,Insulin SC Sliding Scale,Discarded Packaging,<NULL>,<NULL>,1
+insulin,not_given,Hold Dose,true,Insulin SC Fixed Dose,<NULL>,if,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,.,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,out of reach,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Fixed Dose,scanner broken,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,<NULL>,bc,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,Other,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,barcode not scanning ,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,out of labels,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Sliding Scale,Discarded Packaging,if,<NULL>,1
+insulin,not_given,Not Given,false,Insulin SC Pump (Self Administering Medication),<NULL>,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,no sticker,<NULL>,<NULL>,1
+insulin,not_given,Partial Administered,true,Insulin SC Sliding Scale,<NULL>,if,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Fixed Dose,n/a,<NULL>,<NULL>,1
+insulin,not_given,Administered,true,Insulin SC Sliding Scale,not at bedside,<NULL>,<NULL>,1
+insulin,not_given,Not Given,false,insfix.Insulin Glargine,<NULL>,<NULL>,<NULL>,1
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,<NULL>,<NULL>,31695
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,iv,<NULL>,3549
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,if,<NULL>,935
+intra_abdominal_antibiotics,not_given,Administered,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,59
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,bc,<NULL>,58
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: scanner,<NULL>,<NULL>,34
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,30
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,19
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,___,<NULL>,<NULL>,14
+intra_abdominal_antibiotics,not_given,Not Given,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,12
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,Given in O.R. Holding,<NULL>,<NULL>,9
+intra_abdominal_antibiotics,not_given,Not Given,false,<NULL>,<NULL>,<NULL>,<NULL>,7
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: computer,<NULL>,<NULL>,7
+intra_abdominal_antibiotics,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,6
+intra_abdominal_antibiotics,not_given,Partial Administered,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,6
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,Stopped: Barcode not found on any pharmacy products,<NULL>,<NULL>,5
+intra_abdominal_antibiotics,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,PO,4
+intra_abdominal_antibiotics,not_given,Not Given,true,Standard Maintenance Medication,<NULL>,if,<NULL>,3
+intra_abdominal_antibiotics,not_given,Partial Administered,true,Standard Maintenance Medication,<NULL>,if,PO,3
+intra_abdominal_antibiotics,not_given,Administered,true,Standard Maintenance Medication,___,<NULL>,<NULL>,3
+intra_abdominal_antibiotics,not_given,Not Given,false,<NULL>,<NULL>,iv,<NULL>,2
+intra_abdominal_antibiotics,not_given,Partial Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,2
+intra_abdominal_antibiotics,not_given,Administered,true,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,2
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,Stopped: No Orders associated with this barcode,<NULL>,<NULL>,2
+intra_abdominal_antibiotics,not_given,Partial Administered,true,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,1
+intra_abdominal_antibiotics,not_given,Partial Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,1
+intra_abdominal_antibiotics,not_given,Administered,true,Standard Maintenance Medication,<NULL>,<NULL>,<NULL>,1
+intra_abdominal_antibiotics,not_given,Administered,true,Standard Maintenance Medication,___,<NULL>,PO,1
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,Scanner/Computer Malfunction,<NULL>,<NULL>,1
+intra_abdominal_antibiotics,not_given,Not Given,false,Standard Maintenance Medication,Other,<NULL>,<NULL>,1
+intra_abdominal_antibiotics,not_given,Not Given,false,Medication Infusion,<NULL>,if,<NULL>,1
+intra_abdominal_antibiotics,not_given,Hold Dose,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,1
+prokinetic,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,<NULL>,<NULL>,15207
+prokinetic,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,if,<NULL>,470
+prokinetic,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,8
+prokinetic,not_given,Not Given,false,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,5
+prokinetic,not_given,Not Given,false,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,2
+prokinetic,not_given,Not Given,false,Standard Maintenance Medication,Given in O.R. Holding,<NULL>,<NULL>,2
+prokinetic,not_given,Not Given,true,Standard Maintenance Medication,<NULL>,if,<NULL>,2
+prokinetic,not_given,Not Given,false,Standard Maintenance Medication,Stopped: No Orders associated with this barcode,<NULL>,<NULL>,1
+prokinetic,not_given,Not Given,false,Standard Maintenance Medication,scanner broken,<NULL>,<NULL>,1
+prokinetic,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,PO,1
+prokinetic,not_given,Hold Dose,true,Standard Maintenance Medication,<NULL>,if,<NULL>,1
+prokinetic,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: scanner,<NULL>,<NULL>,1
+prokinetic,not_given,Not Given,false,Standard Maintenance Medication,___,<NULL>,<NULL>,1
+prokinetic,not_given,Not Given,false,<NULL>,<NULL>,<NULL>,<NULL>,1
+prokinetic,not_given,Not Given,false,Standard Maintenance Medication,Stopped: Barcode not found on any pharmacy products,<NULL>,<NULL>,1
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,<NULL>,<NULL>,47157
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,if,<NULL>,4677
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,iv,<NULL>,626
+stress_ulcer_prophylaxis,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,60
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,28
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: scanner,<NULL>,<NULL>,27
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Given in O.R. Holding,<NULL>,<NULL>,26
+stress_ulcer_prophylaxis,not_given,Administered,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,20
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,10
+stress_ulcer_prophylaxis,not_given,Partial Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,10
+stress_ulcer_prophylaxis,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,PO,8
+stress_ulcer_prophylaxis,not_given,Partial Administered,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,6
+stress_ulcer_prophylaxis,not_given,Not Given,false,<NULL>,<NULL>,<NULL>,<NULL>,6
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,pmto,<NULL>,5
+stress_ulcer_prophylaxis,not_given,Not Given,true,Standard Maintenance Medication,<NULL>,if,<NULL>,4
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,not given,<NULL>,<NULL>,3
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: computer,<NULL>,<NULL>,2
+stress_ulcer_prophylaxis,not_given,Not Given,false,<NULL>,<NULL>,iv,<NULL>,2
+stress_ulcer_prophylaxis,not_given,Not Given,false,<NULL>,<NULL>,if,<NULL>,2
+stress_ulcer_prophylaxis,not_given,Not Given,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,2
+stress_ulcer_prophylaxis,not_given,Not Given,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,1
+stress_ulcer_prophylaxis,not_given,Hold Dose,true,Standard Maintenance Medication,<NULL>,iv,<NULL>,1
+stress_ulcer_prophylaxis,not_given,Partial Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,1
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Stopped: Barcode not found on any pharmacy products,<NULL>,<NULL>,1
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Stopped: No Orders associated with this barcode,<NULL>,<NULL>,1
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,not available,<NULL>,<NULL>,1
+stress_ulcer_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,thrown out,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,<NULL>,<NULL>,118284
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,if,<NULL>,13614
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,<NULL>,<NULL>,<NULL>,1754
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Given in O.R. Holding,<NULL>,<NULL>,226
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,143
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,<NULL>,if,<NULL>,68
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: scanner,<NULL>,<NULL>,67
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Barcode Damaged,<NULL>,<NULL>,44
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,<NULL>,iv,<NULL>,37
+vte_prophylaxis,not_given,Not Given,false,<NULL>,<NULL>,<NULL>,<NULL>,33
+vte_prophylaxis,not_given,Not Given,true,Standard Maintenance Medication,<NULL>,if,<NULL>,28
+vte_prophylaxis,not_given,Not Given,false,IV Bolus,<NULL>,<NULL>,<NULL>,18
+vte_prophylaxis,not_given,Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,14
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,___,<NULL>,<NULL>,12
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,bc,<NULL>,8
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Infusion,<NULL>,<NULL>,<NULL>,8
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Hardware issue: computer,<NULL>,<NULL>,4
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,Discarded Packaging,<NULL>,<NULL>,4
+vte_prophylaxis,not_given,Administered,true,Heparin IV Bolus,<NULL>,if,<NULL>,4
+vte_prophylaxis,not_given,Not Given,false,<NULL>,<NULL>,bc,<NULL>,3
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,discarded,<NULL>,<NULL>,2
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,Stopped: Barcode not found on any pharmacy products,<NULL>,<NULL>,2
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Stopped: No Orders associated with this barcode,<NULL>,<NULL>,2
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,Stopped: Barcode not found on any pharmacy products,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,<NULL>,pmto,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,scanner not working,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Administered,true,Standard Maintenance Medication,___,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,PACU-only order,<NULL>,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,IV Infusion,<NULL>,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,outside room,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,IV Bolus,<NULL>,if,<NULL>,1
+vte_prophylaxis,not_given,Administered,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,true,Standard Maintenance Medication,Unable to scan,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,pt at nurses station,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Administered,true,Sliding Scale,not scanning,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,___,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,not scanning,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,Other,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Infusion,<NULL>,iv,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,IV Bolus,<NULL>,iv,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,<NULL>,<NULL>,if,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,in MRI,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,Barcode Damaged,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,at nurses station,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,Hardware issue: computer,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Standard Maintenance Medication,not given,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,Heparin IV Bolus,Hardware issue: scanner,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,true,Standard Maintenance Medication,Discarded Packaging,<NULL>,<NULL>,1
+vte_prophylaxis,not_given,Not Given,false,IV Infusion,<NULL>,iv,<NULL>,1
+vte_prophylaxis,not_given,Delayed Administered,true,Standard Maintenance Medication,<NULL>,if,<NULL>,1

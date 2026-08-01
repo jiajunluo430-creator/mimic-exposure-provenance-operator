@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-07-31T22:05:41.561543-05:00",
+  "script": "38_finalize_published_operator_evidence_scope.py",
+  "script_sha256": "df206da677e6b189c8b520850bf5dbcfb42cc43900901f955acff7c60e48b21d",
+  "sample_n": 40,
+  "primary_coders_n": 1,
+  "independent_second_coder_complete": false,
+  "supplement_files_linked_n": 56,
+  "supplement_files_retrieved_n": 55,
+  "article_specific_repositories_reviewed_n": 3,
+  "coding_changes_n": 2,
+  "updated_reporting_counts": {
+    "Named native medication table/source": 7,
+    "Database-executable identity rule": 2,
+    "Time origin and exposure window": 35,
+    "Native event-state semantics": 0,
+    "Dose or route constraint": 30,
+    "Fully executable operator": 0
+  },
+  "outputs": {
+    "expanded_sample": {
+      "path": "outputs\\jamia_residual_provenance_v1_0\\tables\\published_operator_landscape_expanded_evidence_sample.csv",
+      "sha256": "c0db1670627006d88235c82f316705a57221888a6fb96fae2ef98345e1d6f286"
+    },
+    "expanded_reporting": {
+      "path": "outputs\\jamia_residual_provenance_v1_0\\tables\\published_operator_landscape_expanded_reporting_summary.csv",
+      "sha256": "20060710bc45195f6e6f3d01a7d0d9b11c398d02634ecda1887e576ab4356a3d"
+    },
+    "expanded_source": {
+      "path": "outputs\\jamia_residual_provenance_v1_0\\tables\\published_operator_landscape_expanded_source_summary.csv",
+      "sha256": "17308f6d399225c8f4bac2ee183ce15b126d38d411052a9834b889ff98c76db0"
+    },
+    "coding_diff": {
+      "path": "outputs\\jamia_residual_provenance_v1_0\\tables\\published_operator_landscape_evidence_scope_coding_diff.csv",
+      "sha256": "69b41160ee6e40412965a2b846db37c2c8ea8fb1ec5869e161b770236277f03a"
+    }
+  }
+}

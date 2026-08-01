@@ -1,0 +1,14 @@
+normalized_event_txt,category,include_decision_denominator,evidence_of_administration,priority,notes
+administered,given_strict,1,1,2,Strict positive administration
+delayed administered,given_strict,1,1,2,Strict positive administration with delay
+partial administered,given_strict,1,1,2,Strict positive partial administration
+applied,given_strict,1,1,2,Strict positive topical administration
+started,given_strict,1,1,2,Strict positive infusion start
+not given,not_given,1,0,1,Explicit non-administration
+held,not_given,1,0,1,Explicit held dose
+refused,not_given,1,0,1,Explicit refusal
+flushed,flushed,0,0,3,Required separate excluded category
+confirmed,confirmed,0,0,3,Required separate excluded category
+<blank>,blank,0,0,3,Required separate excluded category
+<all_other>,other_excluded,0,0,4,Reported exactly and never silently mapped
+

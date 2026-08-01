@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: Please cite the accompanying manuscript and this software release.
+title: Medication exposure provenance operator in MIMIC-IV
+version: 1.0.0
+date-released: 2026-07-31
+repository-code: https://github.com/jiajunluo430-creator/mimic-exposure-provenance-operator
+authors:
+  - family-names: Luo
+    given-names: Jiajun
+  - family-names: Chen
+    given-names: Qinglong
+  - family-names: Liu
+    given-names: Jing
+  - family-names: Lu
+    given-names: Fanghui
+  - family-names: Liang
+    given-names: Xiaolong

@@ -1,0 +1,15 @@
+gate_id,domain,status,observed,locked_rule,fail_action
+G01,source_integrity,PASS,14/14 monitored sources unchanged,Raw MIMIC/eICU sources remain read-only; all derived files stay under the project root.,NO-GO and stop
+G02,full_emar,PASS,"42,808,593/42,808,593 rows reconcile; full scan=True; ignore_errors=False","Full eMAR event_txt distribution reconciles exactly, without sampling or ignored parse errors.",NO-GO and repair before models
+G03,poe_link,PASS,A1 identity-link=99.76%; A2 identity-link=99.71%,Report POE identity linkage; both anchor classes cannot be below the locked 50% fatal threshold.,NO-GO if both anchors fall below 50%
+G04,emar_detail,PASS,32 class/category rows; 7/7 requested summary fields present,"Audit dose, unit, product amount, route, and not-given-related fields for all whitelisted eMAR events.",HOLD until repaired
+G05,dictionary_orphans,PASS,"complete zero-row list n=1,037; inputevents 225925 fact_rows=0",Produce the complete d_items zero-fact-row list and reproduce inputevents itemid 225925.,HOLD until repaired
+G06,event_exclusions,PASS,"blank_n=200,193, confirmed_n=357,796, flushed_n=235; categories stored separately from given/not-given","Flushed, Confirmed, and blank/null event_txt remain three separate categories outside the decision denominator.",NO-GO and repair
+G07,class_coverage,PASS,"6/6 frozen classes retained; eligible orders=633,081","All six frozen strict classes are reported; low counts are labeled, never dropped.",NO-GO if a class is silently removed
+G08,negative_stop_loss,NOT_TRIGGERED,all six conversion >97%=False; meaningful OASIS association=False,"If all six conversions exceed 97% and no meaningful OASIS association exists, cap decision at BACKUP and do not expand.",Complete negative validity report
+G09,association_A1,PASS,order OR=2.430; administration OR=2.145,"A1 is fitted twice under an identical cohort and covariates, changing only exposure definition.",NO-GO only if the locked fatal cohort threshold is met
+G10,association_A2,PASS,order HR=1.936; administration HR=1.231,"A2 is fitted twice under an identical cohort and covariates, changing only exposure definition.",NO-GO only if the locked fatal cohort threshold is met
+G11,material_effect_change,PASS,material anchors=A2,"Direction reversal, absolute log change >=log(1.25), or relative absolute log change >=25% in at least one anchor.",Required for GO; otherwise BACKUP
+G12,eicu_boundary,PASS,14 semantic summary rows; no eICU outcome model,"eICU is an interface-semantic contrast only, never external validation.",Repair wording before completion
+G13,prohibited_methods,PASS,No nomogram/ML/SHAP implementation detected,"No causal drug claim, nomogram, ML, SHAP, or significance-based selection.",NO-GO until repaired
+G14,reproducibility,PASS,QDP01-07=True; environment=True; validation=True,"Scripts, logs, manifests, Python environment, R sessionInfo, and QDP 01-07 are present and validation passes.",HOLD until complete

@@ -1,0 +1,7 @@
+drug_class,whitelisted_emar_events_n,product_code_available_events_n,product_code_available_events_pct,ndc_like_product_code_events_n,ndc_like_product_code_events_pct
+electrolyte_replacement,941900,834792,88.62851682768871,0,0.0
+insulin,2614086,1394849,53.35895605576863,0,0.0
+intra_abdominal_antibiotics,1312435,1208221,92.05949247010328,0,0.0
+prokinetic,136985,117898,86.06635763039749,0,0.0
+stress_ulcer_prophylaxis,1241812,1163705,93.71023955316907,0,0.0
+vte_prophylaxis,2181347,1941029,88.98304579693189,0,0.0

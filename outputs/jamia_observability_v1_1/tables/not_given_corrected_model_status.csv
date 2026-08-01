@@ -1,0 +1,5 @@
+analysis_population,event_mapping,converged,model_error,model_warnings,rows_n,decision_events_n,stays_n,oasis_event_weighted_mean,oasis_event_weighted_sd,meaningful_oasis
+all_periods_corrected_era,frozen_primary,TRUE,,"",285794,1000494,44163,34.59548583,8.78982023757465,FALSE
+post_implementation,frozen_primary,TRUE,,"",217232,781356,33672,34.6676982067073,8.79396979634218,FALSE
+all_periods_corrected_era,audit_semantic_sensitivity,TRUE,,"",304038,1199511,44521,34.520628822912,8.79839005240795,FALSE
+post_implementation,audit_semantic_sensitivity,TRUE,,"",231549,940740,33945,34.58144864681,8.80587941807736,FALSE

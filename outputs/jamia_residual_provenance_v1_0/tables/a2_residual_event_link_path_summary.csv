@@ -1,0 +1,7 @@
+link_path,linked_events_n,linked_patients_n,eligible_events_n,linked_events_pct
+any_ppi_prescription_in_admission,398,183,399,99.74937343358395
+ppi_pharmacy_id_link,396,183,399,99.24812030075188
+ppi_prescription_by_pharmacy_id,396,183,399,99.24812030075188
+ppi_prescription_by_pharmacy_poe,396,183,399,99.24812030075188
+raw_pharmacy_id_link,396,183,399,99.24812030075188
+raw_prescription_by_pharmacy_id,396,183,399,99.24812030075188

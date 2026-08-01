@@ -1,0 +1,4 @@
+stage,n,interpretation
+PubMed records returned by frozen query,379,frozen search universe
+English non-review records with open full text,293,eligible sampling frame
+Records excluded by open-full-text and related filters,86,direction of reporting-quality bias is unknown

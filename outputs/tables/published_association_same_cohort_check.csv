@@ -1,0 +1,7 @@
+anchor_id,model_variant,definitions_n,n_min,n_max,outcomes_min,outcomes_max,identical_n_and_outcomes
+A1,published_style_minimal,2,49114,49114,6057,6057,TRUE
+A1,enriched,2,49114,49114,6057,6057,TRUE
+A2,published_style_minimal,2,6625,6625,2591,2591,TRUE
+A2,enriched,2,6625,6625,2591,2591,TRUE
+A2,landmark_48h_minimal,2,6000,6000,2023,2023,TRUE
+A2,landmark_48h_enriched,2,6000,6000,2023,2023,TRUE

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="864pt" height="460.8pt" viewBox="0 0 864 460.8" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-31T22:28:12.162675</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <defs>
+  <clipPath id="p55ab0bf381">
+   <rect x="17.28" y="9.216" width="829.44" height="437.76"/>
+  </clipPath>
+ </defs>
+<g id="panel_A">
+   <g id="panel_A_axis"><desc>axis objects for panel A</desc></g><g id="panel_A_data"><desc>data objects for panel A</desc><g id="data__A_source_box_0">
+    <path d="M 44.65152 163.30752  L 155.79648 163.30752  Q 168.23808 163.30752 168.23808 156.74112  L 168.23808 98.08128  Q 168.23808 91.51488 155.79648 91.51488  L 44.65152 91.51488  Q 32.20992 91.51488 32.20992 98.08128  L 32.20992 156.74112  Q 32.20992 163.30752 44.65152 163.30752  z " clip-path="url(#p55ab0bf381)" style="fill: #e8ebef; stroke: #5b6573; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_source_arrow_0">
+    <path d="M 165.259508 127.4112  Q 182.337914 127.4112 198.186484 127.4112  " clip-path="url(#p55ab0bf381)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 193.386484 125.0112  L 198.186484 127.4112  L 193.386484 129.8112  z " clip-path="url(#p55ab0bf381)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_source_box_1">
+    <path d="M 210.53952 163.30752  L 346.56768 163.30752  Q 359.00928 163.30752 359.00928 156.74112  L 359.00928 98.08128  Q 359.00928 91.51488 346.56768 91.51488  L 210.53952 91.51488  Q 198.09792 91.51488 198.09792 98.08128  L 198.09792 156.74112  Q 198.09792 163.30752 210.53952 163.30752  z " clip-path="url(#p55ab0bf381)" style="fill: #d7e8f5; stroke: #173f5f; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_source_arrow_1">
+    <path d="M 356.030708 127.4112  Q 373.109114 127.4112 388.957684 127.4112  " clip-path="url(#p55ab0bf381)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 384.157684 125.0112  L 388.957684 127.4112  L 384.157684 129.8112  z " clip-path="url(#p55ab0bf381)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_source_box_2">
+    <path d="M 401.31072 163.30752  L 512.45568 163.30752  Q 524.89728 163.30752 524.89728 156.74112  L 524.89728 98.08128  Q 524.89728 91.51488 512.45568 91.51488  L 401.31072 91.51488  Q 388.86912 91.51488 388.86912 98.08128  L 388.86912 156.74112  Q 388.86912 163.30752 401.31072 163.30752  z " clip-path="url(#p55ab0bf381)" style="fill: #f3eac9; stroke: #876a13; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_source_arrow_2">
+    <path d="M 521.919315 127.4112  Q 543.144553 127.4112 563.139954 127.4112  " clip-path="url(#p55ab0bf381)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 558.339954 125.0112  L 563.139954 127.4112  L 558.339954 129.8112  z " clip-path="url(#p55ab0bf381)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_source_box_3">
+    <path d="M 575.49312 163.30752  L 703.22688 163.30752  Q 715.66848 163.30752 715.66848 156.74112  L 715.66848 98.08128  Q 715.66848 91.51488 703.22688 91.51488  L 575.49312 91.51488  Q 563.05152 91.51488 563.05152 98.08128  L 563.05152 156.74112  Q 563.05152 163.30752 575.49312 163.30752  z " clip-path="url(#p55ab0bf381)" style="fill: #d7f0eb; stroke: #2a9d8f; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_source_arrow_3">
+    <path d="M 712.689908 127.4112  Q 721.472772 127.4112 729.0258 127.4112  " clip-path="url(#p55ab0bf381)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 724.2258 125.0112  L 729.0258 127.4112  L 724.2258 129.8112  z " clip-path="url(#p55ab0bf381)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_source_box_4">
+    <path d="M 741.38112 163.30752  L 819.34848 163.30752  Q 831.79008 163.30752 831.79008 156.74112  L 831.79008 98.08128  Q 831.79008 91.51488 819.34848 91.51488  L 741.38112 91.51488  Q 728.93952 91.51488 728.93952 98.08128  L 728.93952 156.74112  Q 728.93952 163.30752 741.38112 163.30752  z " clip-path="url(#p55ab0bf381)" style="fill: #f8ded7; stroke: #e76f51; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_audit_box_0">
+    <path d="M 53.77536 339.28704  L 213.02784 339.28704  Q 227.95776 339.28704 227.95776 331.40736  L 227.95776 247.35744  Q 227.95776 239.47776 213.02784 239.47776  L 53.77536 239.47776  Q 38.84544 239.47776 38.84544 247.35744  L 38.84544 331.40736  Q 38.84544 339.28704 53.77536 339.28704  z " clip-path="url(#p55ab0bf381)" style="fill: #d7e8f5; stroke: #173f5f; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_audit_arrow_0">
+    <path d="M 222.491171 289.3824  Q 231.691013 289.3824 239.661016 289.3824  " clip-path="url(#p55ab0bf381)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 234.861016 286.9824  L 239.661016 289.3824  L 234.861016 291.7824  z " clip-path="url(#p55ab0bf381)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_audit_box_1">
+    <path d="M 252.84096 339.28704  L 412.09344 339.28704  Q 427.02336 339.28704 427.02336 331.40736  L 427.02336 247.35744  Q 427.02336 239.47776 412.09344 239.47776  L 252.84096 239.47776  Q 237.91104 239.47776 237.91104 247.35744  L 237.91104 331.40736  Q 237.91104 339.28704 252.84096 339.28704  z " clip-path="url(#p55ab0bf381)" style="fill: #e1edf7; stroke: #2878b5; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_audit_arrow_1">
+    <path d="M 421.556771 289.3824  Q 430.756613 289.3824 438.726616 289.3824  " clip-path="url(#p55ab0bf381)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 433.926616 286.9824  L 438.726616 289.3824  L 433.926616 291.7824  z " clip-path="url(#p55ab0bf381)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_audit_box_2">
+    <path d="M 451.90656 339.28704  L 611.15904 339.28704  Q 626.08896 339.28704 626.08896 331.40736  L 626.08896 247.35744  Q 626.08896 239.47776 611.15904 239.47776  L 451.90656 239.47776  Q 436.97664 239.47776 436.97664 247.35744  L 436.97664 331.40736  Q 436.97664 339.28704 451.90656 339.28704  z " clip-path="url(#p55ab0bf381)" style="fill: #d7f0eb; stroke: #2a9d8f; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_audit_arrow_2">
+    <path d="M 620.622371 289.3824  Q 629.822213 289.3824 637.792216 289.3824  " clip-path="url(#p55ab0bf381)" style="fill: none; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 632.992216 286.9824  L 637.792216 289.3824  L 632.992216 291.7824  z " clip-path="url(#p55ab0bf381)" style="fill: #5b6573; stroke: #5b6573; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="data__A_audit_box_3">
+    <path d="M 650.97216 339.28704  L 810.22464 339.28704  Q 825.15456 339.28704 825.15456 331.40736  L 825.15456 247.35744  Q 825.15456 239.47776 810.22464 239.47776  L 650.97216 239.47776  Q 636.04224 239.47776 636.04224 247.35744  L 636.04224 331.40736  Q 636.04224 339.28704 650.97216 339.28704  z " clip-path="url(#p55ab0bf381)" style="fill: #f8ded7; stroke: #e76f51; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   </g><g id="panel_A_labels"><desc>labels objects for panel A</desc><g id="labels__A_title">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="33.8688" y="37.64681" transform="rotate(-0 33.8688 37.64681)">Medication exposure is a joint provenance operator</text>
+   </g>
+   <g id="labels__A_subtitle">
+    <text style="font-size: 10px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6573" x="33.8688" y="60.272273" transform="rotate(-0 33.8688 60.272273)">A source becomes exposure only after identity, time, semantics, and required metadata are resolved</text>
+   </g>
+   <g id="labels__A_source_label_0">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(77.523453 124.699896)">Treatment</text>
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(87.29732 135.039496)">intent</text>
+   </g>
+   <g id="labels__A_source_label_1">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(245.821647 124.699896)">Provider order</text>
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(235.6611 135.039496)">POE + prescription</text>
+   </g>
+   <g id="labels__A_source_label_2">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(434.175231 124.699804)">Pharmacy</text>
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(436.300114 135.039589)">workflow</text>
+   </g>
+   <g id="labels__A_source_label_3">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(610.595039 124.699896)">Documented</text>
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(603.998477 135.039496)">eMAR workflow</text>
+   </g>
+   <g id="labels__A_source_label_4">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(761.888042 124.699804)">Analytic</text>
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(759.246597 135.039589)">exposure</text>
+   </g>
+   <g id="labels__A_audit_heading">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #173f5f" x="33.8688" y="209.106328" transform="rotate(-0 33.8688 209.106328)">Exposure operator = observable source × identity × time × event semantics × dose/route</text>
+   </g>
+   <g id="labels__A_audit_heading_0">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="133.4016" y="272.141696" transform="rotate(-0 133.4016 272.141696)">1  OBSERVE</text>
+   </g>
+   <g id="labels__A_audit_body_0">
+    <text style="font-size: 8.6px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(94.924663 302.485385)">Is the administration</text>
+    <text style="font-size: 8.6px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(103.523991 312.175334)">layer available?</text>
+   </g>
+   <g id="labels__A_audit_heading_1">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2878b5" x="332.4672" y="272.141696" transform="rotate(-0 332.4672 272.141696)">2  LINK</text>
+   </g>
+   <g id="labels__A_audit_body_1">
+    <text style="font-size: 8.6px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(270.805872 301.63076)">Which drug and record identities</text>
+    <text style="font-size: 8.6px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(305.216622 312.225725)">are accepted?</text>
+   </g>
+   <g id="labels__A_audit_heading_2">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2a9d8f" x="531.5328" y="272.141696" transform="rotate(-0 531.5328 272.141696)">3  INTERPRET</text>
+   </g>
+   <g id="labels__A_audit_body_2">
+    <text style="font-size: 8.6px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(485.650456 301.927057)">Which time, event state,</text>
+    <text style="font-size: 8.6px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(478.467441 312.175334)">and dose/route rules apply?</text>
+   </g>
+   <g id="labels__A_audit_heading_3">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #e76f51" x="730.5984" y="272.141696" transform="rotate(-0 730.5984 272.141696)">4  PROPAGATE</text>
+   </g>
+   <g id="labels__A_audit_body_3">
+    <text style="font-size: 8.6px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(671.797244 301.63076)">How does the operator change</text>
+    <text style="font-size: 8.6px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2933" transform="translate(675.868806 313.029959)">classification and estimates?</text>
+   </g>
+   </g><g id="panel_A_legend"><desc>legend objects for panel A</desc></g><g id="panel_A_annotations"><desc>annotations objects for panel A</desc><g id="annotations__A_output">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #e76f51" x="432" y="405.917285" transform="rotate(-0 432 405.917285)">Discordant provenance cells transmit operator choices to cohort composition and estimates</text>
+   </g>
+  </g></g>
+ </svg>

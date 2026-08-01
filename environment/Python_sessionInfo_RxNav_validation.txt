@@ -1,0 +1,5 @@
+timestamp=2026-07-31T18:10:37.100177-05:00
+python=3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]
+pandas=3.0.3
+script_sha256=16f1ceb3bc073d8d74228843c6333db7d52dc6d5bcd8616a98caa223b87f6bbe
+contract_sha256=0a851a99c9176c16deda2cde9e30fded7f2b5131a5a3f64ac7f050ebd8f81d9d

@@ -1,0 +1,4 @@
+pilot,rows_n,maximum_rows_per_stay,safety_gate
+a2_hospital_overlap_100_stays,41,3.0,PASS
+a1_metadata_100_stays,372,31.0,PASS
+ndc_projection_100000_prescription_rows,321,,PASS

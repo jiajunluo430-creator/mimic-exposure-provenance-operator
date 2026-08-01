@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-07-30T21:30:18.578744-05:00",
+  "finished_at": "2026-07-30T21:30:32.059899-05:00",
+  "elapsed_seconds": 13.481165647506714,
+  "script": "<PROJECT_ROOT>\\scripts\\13_build_jamia_observability_extension.py",
+  "script_sha256": "118caf867efcc64cea1605c2826cd7bcda787c780ff324c89528fe4fb8a9d0f0",
+  "extension_version": "v1_1",
+  "deployment_interval": "2014-2016_source_corrected",
+  "database": "<PROJECT_ROOT>\\cache\\n1_validity.duckdb",
+  "database_read_only": true,
+  "contract_manifest": "<PROJECT_ROOT>\\contracts\\jamia_observability_sha256_v1.1_2026-07-30.txt",
+  "contract_verified": true,
+  "full_emar_rows": 42808593,
+  "adult_stays_n": 94444,
+  "eligible_order_units_n": 633081,
+  "post_implementation_anchor_models_run": false,
+  "any_emar_used_for_outcome_cohort_selection": false
+}

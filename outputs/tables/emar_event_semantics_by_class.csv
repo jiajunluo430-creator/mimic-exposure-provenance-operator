@@ -1,0 +1,173 @@
+drug_class,event_txt,event_category,events_n,subjects_n,hadms_n,poe_ids_n,identity_linked_events_n
+electrolyte_replacement,Administered,given_strict,687849,69469,119396,447242,672047.0
+electrolyte_replacement,<NULL>,blank,174963,23595,32830,58045,170180.0
+electrolyte_replacement,Not Given,not_given,33589,14486,17186,23037,32785.0
+electrolyte_replacement,Started,given_strict,11327,7852,7613,11312,8385.0
+electrolyte_replacement,Stopped,other_excluded,10162,6737,6580,9386,7233.0
+electrolyte_replacement,Administered,not_given,6944,2813,3238,5211,6915.0
+electrolyte_replacement,Partial Administered,not_given,3653,1875,2076,3039,3648.0
+electrolyte_replacement,Confirmed,confirmed,2872,778,768,1242,2723.0
+electrolyte_replacement,Not Given per Sliding Scale,other_excluded,2580,1908,1933,2277,2533.0
+electrolyte_replacement,Hold Dose,other_excluded,1869,1484,1523,1643,1832.0
+electrolyte_replacement,Delayed Administered,given_strict,1720,1487,1530,1627,1687.0
+electrolyte_replacement,Administered in Other Location,other_excluded,884,769,767,876,865.0
+electrolyte_replacement,Restarted,other_excluded,877,773,648,842,608.0
+electrolyte_replacement, in Other Location,other_excluded,802,730,711,779,754.0
+electrolyte_replacement,Stopped in Other Location,other_excluded,584,550,529,584,514.0
+electrolyte_replacement,Stopped - Unscheduled,other_excluded,301,273,266,298,286.0
+electrolyte_replacement,Not Started,other_excluded,229,212,160,224,161.0
+electrolyte_replacement,Partial Administered,given_strict,218,201,203,218,218.0
+electrolyte_replacement,Not Stopped,other_excluded,194,162,147,168,162.0
+electrolyte_replacement,Delayed Administered,not_given,76,68,68,72,76.0
+electrolyte_replacement,Started in Other Location,other_excluded,72,71,66,72,67.0
+electrolyte_replacement,Delayed ,other_excluded,51,41,41,43,51.0
+electrolyte_replacement,Not Confirmed,other_excluded,26,23,23,23,26.0
+electrolyte_replacement,Documented in O.R. Holding,other_excluded,15,15,11,15,11.0
+electrolyte_replacement,Confirmed in Other Location,other_excluded,9,9,9,9,9.0
+electrolyte_replacement,Delayed Started,other_excluded,9,9,7,9,7.0
+electrolyte_replacement,Flushed,flushed,9,5,5,5,9.0
+electrolyte_replacement,Delayed Confirmed,other_excluded,7,7,7,7,7.0
+electrolyte_replacement,Hold Dose,not_given,5,5,5,5,5.0
+electrolyte_replacement,Not Flushed,other_excluded,2,2,2,2,2.0
+electrolyte_replacement,Assessed,other_excluded,1,1,1,1,1.0
+electrolyte_replacement,Stopped - Unscheduled in Other Location,other_excluded,1,1,1,1,1.0
+insulin,Administered,given_strict,1376285,36828,71347,254952,1343737.0
+insulin,Not Given per Sliding Scale,other_excluded,939379,39920,73070,164472,919840.0
+insulin,Not Given,not_given,177119,27771,46177,92066,172497.0
+insulin,Confirmed,confirmed,58581,7253,7733,10569,56828.0
+insulin,<NULL>,blank,18555,5980,9104,13044,18210.0
+insulin,Started,given_strict,10128,7468,7956,10070,9825.0
+insulin,Hold Dose,other_excluded,9132,5397,6457,7555,8877.0
+insulin,Stopped - Unscheduled,other_excluded,5654,4704,4929,5294,5557.0
+insulin,Delayed Administered,given_strict,4868,2947,3660,4312,4762.0
+insulin, in Other Location,other_excluded,3028,2446,2571,2805,2980.0
+insulin,Not Started,other_excluded,1865,1336,1340,1382,1840.0
+insulin,Administered in Other Location,other_excluded,1862,1433,1524,1659,1814.0
+insulin,Stopped,other_excluded,1773,1312,1420,1773,1663.0
+insulin,Administered,not_given,1635,760,918,1157,1631.0
+insulin,Not Confirmed,other_excluded,1293,816,833,914,1275.0
+insulin,Stopped As Directed,other_excluded,947,875,873,903,936.0
+insulin,Restarted,other_excluded,925,671,688,735,911.0
+insulin,Stopped in Other Location,other_excluded,230,223,222,228,223.0
+insulin,Not Stopped,other_excluded,187,168,169,176,174.0
+insulin,Started in Other Location,other_excluded,133,129,122,133,122.0
+insulin,Delayed Started,other_excluded,124,124,122,124,122.0
+insulin,Not Started per Sliding Scale,other_excluded,113,73,71,74,110.0
+insulin,Confirmed in Other Location,other_excluded,79,64,63,64,77.0
+insulin,Delayed ,other_excluded,51,42,42,42,50.0
+insulin,Delayed Administered,not_given,42,39,39,40,42.0
+insulin,Delayed Confirmed,other_excluded,24,24,23,24,23.0
+insulin,Stopped - Unscheduled in Other Location,other_excluded,20,20,20,20,20.0
+insulin,Documented in O.R. Holding,other_excluded,13,12,6,12,7.0
+insulin,Not Stopped per Sliding Scale,other_excluded,12,12,12,12,12.0
+insulin,Partial Administered,given_strict,9,9,9,9,9.0
+insulin,Partial Administered,not_given,7,7,7,7,7.0
+insulin,Delayed Stopped,other_excluded,3,3,3,3,3.0
+insulin,Flushed,flushed,3,3,3,3,3.0
+insulin,Not Given per Sliding Scale,not_given,3,3,3,3,3.0
+insulin,Not Given per Sliding Scale in Other Location,other_excluded,3,3,3,3,3.0
+insulin,Hold Dose,not_given,1,1,1,1,1.0
+intra_abdominal_antibiotics,Administered,given_strict,1155327,56580,86748,276061,1121756.0
+intra_abdominal_antibiotics,Started,given_strict,51551,26965,30907,47123,37669.0
+intra_abdominal_antibiotics,Stopped,other_excluded,47209,25315,29169,43056,34227.0
+intra_abdominal_antibiotics,Not Given,not_given,36384,17158,21487,28998,35575.0
+intra_abdominal_antibiotics,Delayed Administered,given_strict,6541,4966,5477,6095,6449.0
+intra_abdominal_antibiotics,<NULL>,blank,5045,682,708,1007,4988.0
+intra_abdominal_antibiotics,Administered in Other Location,other_excluded,2930,2383,2476,2857,2877.0
+intra_abdominal_antibiotics,Hold Dose,other_excluded,2505,2072,2137,2329,2460.0
+intra_abdominal_antibiotics,Stopped in Other Location,other_excluded,1845,1705,1630,1839,1535.0
+intra_abdominal_antibiotics, in Other Location,other_excluded,1032,953,894,1000,918.0
+intra_abdominal_antibiotics,Not Started,other_excluded,857,782,642,835,588.0
+intra_abdominal_antibiotics,Not Stopped,other_excluded,396,300,285,302,331.0
+intra_abdominal_antibiotics,Documented in O.R. Holding,other_excluded,275,231,188,267,171.0
+intra_abdominal_antibiotics,Started in Other Location,other_excluded,140,134,111,140,107.0
+intra_abdominal_antibiotics,Delayed Started,other_excluded,96,93,84,94,66.0
+intra_abdominal_antibiotics,Delayed ,other_excluded,85,68,69,76,85.0
+intra_abdominal_antibiotics,Administered,not_given,76,68,67,72,73.0
+intra_abdominal_antibiotics,Restarted,other_excluded,53,53,48,53,44.0
+intra_abdominal_antibiotics,Confirmed,confirmed,29,27,22,27,21.0
+intra_abdominal_antibiotics,Partial Administered,given_strict,19,18,19,19,19.0
+intra_abdominal_antibiotics,Partial Administered,not_given,13,13,13,13,12.0
+intra_abdominal_antibiotics,Assessed,other_excluded,8,8,6,8,4.0
+intra_abdominal_antibiotics,Not Assessed,other_excluded,6,6,3,6,3.0
+intra_abdominal_antibiotics,Not Confirmed,other_excluded,6,3,2,3,4.0
+intra_abdominal_antibiotics,Assessed in Other Location,other_excluded,5,5,5,5,5.0
+intra_abdominal_antibiotics,Delayed Confirmed,other_excluded,1,1,1,1,1.0
+intra_abdominal_antibiotics,Hold Dose,not_given,1,1,1,1,1.0
+prokinetic,Administered,given_strict,120012,13713,13294,24392,112835.0
+prokinetic,Not Given,not_given,15694,3480,4265,5216,15238.0
+prokinetic,Delayed Administered,given_strict,536,408,453,477,514.0
+prokinetic,Hold Dose,other_excluded,479,325,337,350,472.0
+prokinetic,Administered in Other Location,other_excluded,97,95,82,95,84.0
+prokinetic,<NULL>,blank,91,74,42,76,51.0
+prokinetic, in Other Location,other_excluded,44,41,42,43,43.0
+prokinetic,Delayed ,other_excluded,12,10,11,11,12.0
+prokinetic,Administered,not_given,9,9,3,9,3.0
+prokinetic,Pain score re-assessment,other_excluded,7,3,0,4,0.0
+prokinetic,Documented in O.R. Holding,other_excluded,3,3,3,3,3.0
+prokinetic,Hold Dose,not_given,1,1,1,1,1.0
+stress_ulcer_prophylaxis,Administered,given_strict,1169620,70363,134531,246468,1136731.0
+stress_ulcer_prophylaxis,Not Given,not_given,52582,19887,25611,32731,50929.0
+stress_ulcer_prophylaxis,Delayed Administered,given_strict,5157,3860,4353,4667,5085.0
+stress_ulcer_prophylaxis,Hold Dose,other_excluded,3753,2733,3031,3264,3709.0
+stress_ulcer_prophylaxis,Started,given_strict,3368,2882,1442,3333,1613.0
+stress_ulcer_prophylaxis,Stopped,other_excluded,2965,2587,1227,2910,1307.0
+stress_ulcer_prophylaxis,Confirmed,confirmed,1744,408,426,498,1710.0
+stress_ulcer_prophylaxis,<NULL>,blank,633,368,367,391,610.0
+stress_ulcer_prophylaxis,Administered in Other Location,other_excluded,603,564,556,590,584.0
+stress_ulcer_prophylaxis,Delayed ,other_excluded,514,369,392,409,513.0
+stress_ulcer_prophylaxis, in Other Location,other_excluded,255,238,203,246,208.0
+stress_ulcer_prophylaxis,Documented in O.R. Holding,other_excluded,182,180,139,181,53.0
+stress_ulcer_prophylaxis,Stopped in Other Location,other_excluded,104,103,76,104,69.0
+stress_ulcer_prophylaxis,Administered,not_given,88,69,66,71,84.0
+stress_ulcer_prophylaxis,Not Started,other_excluded,46,42,29,43,33.0
+stress_ulcer_prophylaxis,Not Stopped,other_excluded,41,39,34,40,34.0
+stress_ulcer_prophylaxis,Stopped - Unscheduled,other_excluded,37,34,34,36,37.0
+stress_ulcer_prophylaxis,Restarted,other_excluded,31,30,19,31,19.0
+stress_ulcer_prophylaxis,Started in Other Location,other_excluded,29,28,14,29,14.0
+stress_ulcer_prophylaxis,Not Confirmed,other_excluded,17,17,17,17,16.0
+stress_ulcer_prophylaxis,Partial Administered,not_given,17,14,14,14,17.0
+stress_ulcer_prophylaxis,Delayed Started,other_excluded,10,10,10,10,10.0
+stress_ulcer_prophylaxis,Confirmed in Other Location,other_excluded,6,5,5,5,6.0
+stress_ulcer_prophylaxis,Partial Administered,given_strict,4,4,4,4,4.0
+stress_ulcer_prophylaxis,Delayed Confirmed,other_excluded,3,3,3,3,2.0
+stress_ulcer_prophylaxis,Hold Dose,not_given,1,1,1,1,1.0
+stress_ulcer_prophylaxis,Pain score re-assessment,other_excluded,1,1,0,1,0.0
+stress_ulcer_prophylaxis,Stopped - Unscheduled in Other Location,other_excluded,1,1,1,1,1.0
+vte_prophylaxis,Administered,given_strict,1592398,93871,169060,304224,1555288.0
+vte_prophylaxis,Confirmed,confirmed,294570,17768,22615,63065,288928.0
+vte_prophylaxis,Not Given,not_given,134384,34102,48032,56162,131032.0
+vte_prophylaxis,Started,given_strict,50970,19577,25029,50629,49153.0
+vte_prophylaxis,Stopped,other_excluded,29526,14599,18340,29522,28547.0
+vte_prophylaxis,Restarted,other_excluded,20115,8612,10359,13887,19523.0
+vte_prophylaxis,Stopped As Directed,other_excluded,18410,8183,9805,12926,17835.0
+vte_prophylaxis,Stopped - Unscheduled,other_excluded,9085,5798,6455,8517,8866.0
+vte_prophylaxis,Not Confirmed,other_excluded,5750,3608,3964,4681,5676.0
+vte_prophylaxis,Delayed Administered,given_strict,5129,4327,4602,4761,5056.0
+vte_prophylaxis,Stopped in Other Location,other_excluded,4954,4216,4456,4916,4766.0
+vte_prophylaxis,Hold Dose,other_excluded,4744,3761,4028,4193,4688.0
+vte_prophylaxis,Not Stopped,other_excluded,2753,2342,2444,2656,2593.0
+vte_prophylaxis, in Other Location,other_excluded,1655,1457,1466,1596,1592.0
+vte_prophylaxis,Not Started,other_excluded,1389,1101,1110,1193,1369.0
+vte_prophylaxis,Delayed Confirmed,other_excluded,1199,987,1022,1076,1186.0
+vte_prophylaxis,Administered in Other Location,other_excluded,1084,1001,994,1021,1060.0
+vte_prophylaxis,<NULL>,blank,906,730,742,784,890.0
+vte_prophylaxis,Started in Other Location,other_excluded,853,814,759,849,785.0
+vte_prophylaxis,Confirmed in Other Location,other_excluded,463,406,415,432,447.0
+vte_prophylaxis,Flushed,flushed,223,111,113,127,223.0
+vte_prophylaxis,Stopped - Unscheduled in Other Location,other_excluded,222,211,217,221,222.0
+vte_prophylaxis,Delayed ,other_excluded,190,160,160,160,189.0
+vte_prophylaxis,Delayed Started,other_excluded,178,174,174,178,177.0
+vte_prophylaxis,Not Stopped per Sliding Scale,other_excluded,79,79,76,79,72.0
+vte_prophylaxis,Documented in O.R. Holding,other_excluded,47,46,32,46,25.0
+vte_prophylaxis,Delayed Stopped,other_excluded,22,22,21,22,21.0
+vte_prophylaxis,Administered,not_given,21,19,19,19,21.0
+vte_prophylaxis,Not Started per Sliding Scale,other_excluded,6,6,5,6,5.0
+vte_prophylaxis,Delayed Not Confirmed,other_excluded,5,5,5,5,5.0
+vte_prophylaxis,Not Flushed,other_excluded,5,4,4,4,5.0
+vte_prophylaxis,Restarted in Other Location,other_excluded,5,5,5,5,5.0
+vte_prophylaxis,Delayed Restarted,other_excluded,3,3,3,3,3.0
+vte_prophylaxis,Administered Bolus from IV Drip,other_excluded,1,1,1,1,1.0
+vte_prophylaxis,Delayed Administered,not_given,1,1,1,1,1.0
+vte_prophylaxis,Delayed Stopped As Directed,other_excluded,1,1,1,1,1.0
+vte_prophylaxis,Partial ,other_excluded,1,1,1,1,1.0

@@ -1,0 +1,169 @@
+dataset,source_table,native_id,label,role,tier,semantics,reason
+MIMIC-IV 3.1,icu/procedureevents,225802,Dialysis - CRRT,crrt,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/procedureevents,225803,Dialysis - CVVHD,crrt,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/procedureevents,225809,Dialysis - CVVHDF,crrt,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/procedureevents,225955,Dialysis - SCUF,crrt,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/chartevents,220048,Heart Rhythm,heart_rhythm,strict,timestamped chart/input event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/procedureevents,225792,Invasive Ventilation,invasive_ventilation,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/procedureevents,225794,Non-invasive Ventilation,noninvasive_ventilation,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/inputevents,225801,Lipids 20%,nutrition,broad_only,administration-like,parenteral component/lipid alone; sensitivity only
+MIMIC-IV 3.1,icu/inputevents,225947,Dextrose PN,nutrition,broad_only,administration-like,parenteral component/lipid alone; sensitivity only
+MIMIC-IV 3.1,icu/inputevents,225948,Amino Acids,nutrition,broad_only,administration-like,parenteral component/lipid alone; sensitivity only
+MIMIC-IV 3.1,icu/inputevents,225969,Lipids (additive),nutrition,broad_only,administration-like,parenteral component/lipid alone; sensitivity only
+MIMIC-IV 3.1,icu/inputevents,227090,Lipids 10%,nutrition,broad_only,administration-like,parenteral component/lipid alone; sensitivity only
+MIMIC-IV 3.1,icu/inputevents,222139,Potassium ACEtate,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,222190,Ranitidine,nutrition,exclude,administration-like,ranitidine miscoded in nutrition category
+MIMIC-IV 3.1,icu/inputevents,225918,Aminosyn 3.5%,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225919,D5 Aminosyn 3.5%,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225921,Hepatamine,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225922,Nephramine,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225923,Folate,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225924,Hydrochloric Acid,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225925,Potassium Phosphate,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225926,Sodium ACEtate,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225970,Beneprotein,nutrition,exclude,administration-like,protein/fiber supplement alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225991,Resource Fruit Beverage,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225993,Optisource,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225994,Mighty Shake (Vanilla/Strawberry),nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225995,Mighty Shake (Chocolate),nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225996,Mighty Shake (no sugar added),nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,225999,Vanilla Scandi Shake (mixed),nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,226000,Chocolate Scandi Shake (mixed),nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,226002,Vanilla Lactose Free Scandi Shake (mixed),nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,229574,Fiber Supplement (i.e. Banana Flakes),nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,229583,Beneprotein.,nutrition,exclude,administration-like,supplement/additive alone; not nutrition initiation
+MIMIC-IV 3.1,icu/inputevents,221036,Nutren Renal (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,221207,Impact (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,225916,TPN w/ Lipids,nutrition,strict,administration-like,complete TPN/PPN product in inputevents
+MIMIC-IV 3.1,icu/inputevents,225917,TPN without Lipids,nutrition,strict,administration-like,complete TPN/PPN product in inputevents
+MIMIC-IV 3.1,icu/inputevents,225920,Peripheral Parenteral Nutrition,nutrition,strict,administration-like,complete TPN/PPN product in inputevents
+MIMIC-IV 3.1,icu/inputevents,225928,Impact with Fiber (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,225929,ProBalance (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,225930,Peptamen 1.5 (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,225931,Nutren 2.0 (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,225934,Vivonex (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,225935,Replete (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,225936,Replete with Fiber (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,225937,Ensure (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226016,Nutren 2.0 (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226017,Nutren 2.0 (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226018,Nutren 2.0 (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226019,Nutren 2.0 (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226020,Impact (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226021,Impact (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226022,Impact (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226023,Impact (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226024,Impact with Fiber (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226025,Impact with Fiber (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226026,Impact with Fiber (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226027,Impact with Fiber (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226028,Nutren Renal (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226029,Nutren Renal (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226030,Nutren Renal (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226031,Nutren Renal (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226036,Peptamen 1.5 (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226037,Peptamen 1.5 (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226038,Peptamen 1.5 (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226039,Peptamen 1.5 (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226040,ProBalance (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226041,ProBalance (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226042,ProBalance (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226043,ProBalance (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226044,Replete (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226045,Replete (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226046,Replete (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226047,Replete (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226048,Replete with Fiber (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226049,Replete with Fiber (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226050,Replete with Fiber (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226051,Replete with Fiber (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226056,Vivonex (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226057,Vivonex (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226058,Vivonex (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226059,Vivonex (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226875,Ensure (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226876,Ensure (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226877,Ensure Plus (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226878,Ensure Plus (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226879,Ensure Plus (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226880,Nutren Pulmonary (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226881,Nutren Pulmonary (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,226882,Nutren Pulmonary (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227091,Ensure (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227092,Ensure Plus (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227370,Peptamen VHP (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227371,Peptamen VHP (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227372,Peptamen VHP (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227373,Peptamen VHP (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227374,Peptamen VHP (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227518,Nutren 2.0 (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227695,Fibersource HN (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227696,Fibersource HN (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227697,Fibersource HN (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227698,Fibersource HN (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227699,Fibersource HN (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227972,NovaSource Renal (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227973,NovaSource Renal (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227974,NovaSource Renal (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227975,NovaSource Renal (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227976,Boost Glucose Control (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227977,Boost Glucose Control (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227978,Boost Glucose Control (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,227979,Boost Glucose Control (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228131,Isosource 1.5 (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228132,Isosource 1.5 (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228133,Isosource 1.5 (2/3),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228134,Isosource 1.5 (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228135,Isosource 1.5 (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228348,Nepro (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228349,Nepro (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228350,Nepro (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228351,Nepro (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228352,Enlive (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228353,Enlive (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228354,Enlive (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228355,Enlive (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228356,Glucerna (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228357,Glucerna (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228358,Glucerna (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228359,Glucerna (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228360,Pulmocare (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228361,Pulmocare (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228362,Pulmocare (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228363,Pulmocare (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228364,Two Cal HN (1/2),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228365,Two Cal HN (1/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228366,Two Cal HN (3/4),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228367,Two Cal HN (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,228383,Peptamen Bariatric (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,229009,Promote (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,229010,Jevity 1.2 (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,229011,Jevity 1.5 (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,229012,Vital 1.5 (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,229013,Glucerna 1.2 (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,229014,Promote with Fiber (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,229294,Ensure Clear (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,229295,Glucerna 1.5 (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,229296,Vital High Protein (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,icu/inputevents,229297,Osmolite 1.5 (Full),nutrition,strict,administration-like,enteral formula in inputevents; requires positive amount/time
+MIMIC-IV 3.1,hosp/emar,,Phosphorus,phosphate_replacement,strict_actual_administration,event_txt Administered/Delayed Administered/Partial Administered; dose from emar_detail,exact electrolyte phosphate medication name
+MIMIC-IV 3.1,hosp/emar,,Sodium Phosphate,phosphate_replacement,strict_actual_administration,event_txt Administered/Delayed Administered/Partial Administered; dose from emar_detail,exact electrolyte phosphate medication name
+MIMIC-IV 3.1,hosp/emar,,Potassium Phosphate,phosphate_replacement,strict_actual_administration,event_txt Administered/Delayed Administered/Partial Administered; dose from emar_detail,exact electrolyte phosphate medication name
+MIMIC-IV 3.1,hosp/emar,,Potassium Phosphate Replacement (Oncology),phosphate_replacement,strict_actual_administration,event_txt Administered/Delayed Administered/Partial Administered; dose from emar_detail,exact electrolyte phosphate medication name
+MIMIC-IV 3.1,hosp/emar,,Sodium Glycerophosphate,phosphate_replacement,strict_actual_administration,event_txt Administered/Delayed Administered/Partial Administered; dose from emar_detail,exact electrolyte phosphate medication name
+MIMIC-IV 3.1,icu/inputevents,225925,Potassium Phosphate,phosphate_replacement,strict_administration_like,positive amount plus start/end; exclude Rewritten,potassium phosphate solution in inputevents
+MIMIC-IV 3.1,icu/procedureevents,227194,Extubation,planned_extubation,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,hosp/labevents,50970,Phosphate,serum_phosphate,strict,blood chemistry result at charttime,exact blood phosphate lab item
+MIMIC-IV 3.1,icu/procedureevents,225448,Percutaneous Tracheostomy,tracheostomy,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/procedureevents,226237,Open Tracheostomy,tracheostomy,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/procedureevents,225468,Unplanned Extubation (patient-initiated),unplanned_extubation,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/procedureevents,225477,Unplanned Extubation (non-patient initiated),unplanned_extubation,strict,procedure interval/event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/inputevents,221289,Epinephrine,vasopressor,strict,timestamped chart/input event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/inputevents,221662,Dopamine,vasopressor,strict,timestamped chart/input event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/inputevents,221749,Phenylephrine,vasopressor,strict,timestamped chart/input event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/inputevents,221906,Norepinephrine,vasopressor,strict,timestamped chart/input event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/inputevents,222315,Vasopressin,vasopressor,strict,timestamped chart/input event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/inputevents,229617,Epinephrine.,vasopressor,strict,timestamped chart/input event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/inputevents,229630,Phenylephrine (50/250),vasopressor,strict,timestamped chart/input event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/inputevents,229631,Phenylephrine (200/250)_OLD_1,vasopressor,strict,timestamped chart/input event,exact d_items label and linksto
+MIMIC-IV 3.1,icu/inputevents,229632,Phenylephrine (200/250),vasopressor,strict,timestamped chart/input event,exact d_items label and linksto

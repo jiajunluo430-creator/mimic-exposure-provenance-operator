@@ -1,0 +1,15 @@
+source_table,role,tier,semantics,labels_n,rows_n,stays_n_sum,positive_rows_n
+infusionDrug,nutrition,exclude_or_zero,rate/amount chart at infusionoffset,17,1053,214,201
+infusionDrug,nutrition,strict_administration_like,rate/amount chart at infusionoffset,25,24091,525,24091
+infusionDrug,phosphate_replacement,exclude_or_zero,rate/amount chart at infusionoffset,9,24,9,6
+infusionDrug,phosphate_replacement,strict_administration_like,rate/amount chart at infusionoffset,11,87,11,87
+intakeOutput,nutrition,exclude_or_zero,positive documented intake at event offset,23401,573592,188270,524693
+intakeOutput,nutrition,strict_administration_like,positive documented intake at event offset,16281,487533,48798,487533
+intakeOutput,phosphate_replacement,exclude_or_zero,positive documented intake at event offset,10,95,20,0
+intakeOutput,phosphate_replacement,strict_administration_like,positive documented intake at event offset,398,3763,989,3763
+medication,nutrition,exclude_non_nutrition,order/route text; not actual nutrition administration,1015,13137,7553,0
+medication,nutrition,order_audit_only,order/route text; not actual nutrition administration,212,20841,2376,0
+medication,phosphate_replacement,exclude_false_positive,order/planned start; not actual administration,152,3064,2766,0
+medication,phosphate_replacement,order_audit_only,order/planned start; not actual administration,692,32736,21717,0
+treatment,nutrition,documentation_only,treatment documentation; not actual intake,35,57882,11350,0
+treatment,phosphate_replacement,documentation_only,treatment documentation; not actual administration,18,4110,857,0

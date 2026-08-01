@@ -1,0 +1,3 @@
+pmcid,field,main_text_code,expanded_evidence_code,evidence_source,evidence_summary
+PMC12513587,named_native_table_reported,False,True,pone.0333795.s003.sql,supplement names mimiciv_icu.inputevents
+PMC12513587,database_identity_rule_reported,False,True,pone.0333795.s003.sql,supplement specifies heparin itemid 225975 and exclusion itemids

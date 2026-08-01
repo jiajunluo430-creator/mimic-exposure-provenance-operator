@@ -1,0 +1,21 @@
+{
+  "contract_sha256": "0a851a99c9176c16deda2cde9e30fded7f2b5131a5a3f64ac7f050ebd8f81d9d",
+  "script_sha256": "2db13028b3430a5d7125fa333c9081750265a432aa31c1a2b6d3b9037e0ad39d",
+  "a1_rows_n": 20248,
+  "a2_rows_n": 2813,
+  "a1_broad_admin_only_n": 5816,
+  "a2_broad_admin_only_n": 296,
+  "a2_hospital_order_units_n": 973,
+  "raw_source_before": {
+    "path": "${MIMIC_IV_ROOT}\\hosp\\prescriptions.csv.gz",
+    "size": 606298611,
+    "mtime_ns": 1712980208000000000
+  },
+  "raw_source_after": {
+    "path": "${MIMIC_IV_ROOT}\\hosp\\prescriptions.csv.gz",
+    "size": 606298611,
+    "mtime_ns": 1712980208000000000
+  },
+  "base_database_read_only": true,
+  "elapsed_seconds": 18.827070713043213
+}

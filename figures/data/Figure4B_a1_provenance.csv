@@ -1,0 +1,6 @@
+provenance_category,patients_n,hospital_deaths_n,hospital_death_pct,route_available_n,dose_unit_pair_available_n
+vte_prescription_elsewhere_in_admission,3843,58.0,1.5092375748113454,0.0,3679.0
+same_poe_vte_prescription_outside_original_eligibility,1456,316.0,21.703296703296704,0.0,336.0
+observed_metadata_inconsistent_with_prophylaxis,271,40.0,14.760147601476014,0.0,271.0
+different_poe_vte_order_assigned_to_icu_stay,245,24.0,9.79591836734694,0.0,99.0
+no_mapped_vte_prescription_in_admission,1,0.0,0.0,0.0,1.0

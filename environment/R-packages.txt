@@ -1,0 +1,7 @@
+R==4.5.2
+data.table==1.18.2.1
+digest==0.6.39
+jsonlite==2.0.0
+lmtest
+sandwich
+survival==3.8-3

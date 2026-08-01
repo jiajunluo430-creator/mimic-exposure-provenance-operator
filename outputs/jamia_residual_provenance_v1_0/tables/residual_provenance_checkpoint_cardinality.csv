@@ -1,0 +1,5 @@
+checkpoint,rows_n,distinct_stays_n
+residual stays,184,184
+qualifying eMAR events,399,184
+event link facts,399,184
+patient classifications,184,184

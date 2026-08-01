@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="460.8pt" height="352.8pt" viewBox="0 0 460.8 352.8" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-31T22:28:17.822827</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <defs>
+  <clipPath id="p0a09d1594e">
+   <rect x="92.16" y="49.392" width="354.816" height="229.32"/>
+  </clipPath>
+ </defs>
+<g id="panel_A">
+   <g id="panel_A_axis"><desc>axis objects for panel A</desc><g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 92.16 278.712  L 92.16 49.392  " clip-path="url(#p0a09d1594e)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m187c9bedd0" d="M 0 0  L 0 3.5  " style="stroke: #5b6573; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m187c9bedd0" x="92.16" y="278.712" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="92.16" y="291.900232" transform="rotate(-0 92.16 291.900232)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 163.1232 278.712  L 163.1232 49.392  " clip-path="url(#p0a09d1594e)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m187c9bedd0" x="163.1232" y="278.712" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="163.1232" y="291.900232" transform="rotate(-0 163.1232 291.900232)">20</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 234.0864 278.712  L 234.0864 49.392  " clip-path="url(#p0a09d1594e)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m187c9bedd0" x="234.0864" y="278.712" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="234.0864" y="291.900232" transform="rotate(-0 234.0864 291.900232)">40</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 305.0496 278.712  L 305.0496 49.392  " clip-path="url(#p0a09d1594e)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m187c9bedd0" x="305.0496" y="278.712" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="305.0496" y="291.900232" transform="rotate(-0 305.0496 291.900232)">60</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 376.0128 278.712  L 376.0128 49.392  " clip-path="url(#p0a09d1594e)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m187c9bedd0" x="376.0128" y="278.712" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="376.0128" y="291.900232" transform="rotate(-0 376.0128 291.900232)">80</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 446.976 278.712  L 446.976 49.392  " clip-path="url(#p0a09d1594e)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m187c9bedd0" x="446.976" y="278.712" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="446.976" y="291.900232" transform="rotate(-0 446.976 291.900232)">100</text>
+     </g>
+    </g>
+    <g id="labels__A_xlabel">
+     <text style="font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="269.568" y="304.605311" transform="rotate(-0 269.568 304.605311)">Events, %</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <defs>
+       <path id="m1685740197" d="M 0 0  L -3.5 0  " style="stroke: #5b6573; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m1685740197" x="92.16" y="172.242" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="85.16" y="175.336116" transform="rotate(-0 85.16 175.336116)">Insulin</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_1">
+    <path d="M 92.16 278.712  L 92.16 49.392  " style="fill: none; stroke: #5b6573; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 92.16 278.712  L 446.976 278.712  " style="fill: none; stroke: #5b6573; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   </g><g id="panel_A_data"><desc>data objects for panel A</desc><g id="data__A_insulin_state_0">
+    <path d="M 92.16 209.916  L 275.394012 209.916  L 275.394012 134.568  L 92.16 134.568  z " clip-path="url(#p0a09d1594e)" style="fill: #2a9d8f; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_insulin_state_1">
+    <path d="M 275.394012 209.916  L 422.024733 209.916  L 422.024733 134.568  L 275.394012 134.568  z " clip-path="url(#p0a09d1594e)" style="fill: #e9c46a; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_insulin_state_2">
+    <path d="M 422.024733 209.916  L 446.976 209.916  L 446.976 134.568  L 422.024733 134.568  z " clip-path="url(#p0a09d1594e)" style="fill: #e76f51; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   </g><g id="panel_A_labels"><desc>labels objects for panel A</desc><g id="labels__A_state_label_0">
+    <text style="font-weight: 700; font-size: 7.4px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2a9d8f" x="183.777006" y="118.465039" transform="rotate(-0 183.777006 118.465039)">Strict administration</text>
+   </g>
+   <g id="labels__A_state_label_1">
+    <text style="font-weight: 700; font-size: 7.4px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #e9c46a" x="342.322685" y="118.465039" transform="rotate(-0 342.322685 118.465039)">Protocol nonindication</text>
+   </g>
+   <g id="labels__A_state_label_2">
+    <text style="font-weight: 700; font-size: 6.8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #e76f51" x="443.42784" y="93.739699" transform="rotate(-0 443.42784 93.739699)">Other not-given</text>
+   </g>
+   <g id="labels__A_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="269.568" y="43.392" transform="rotate(-0 269.568 43.392)">Protocol nonindication is not failed administration</text>
+   </g>
+  </g><g id="panel_A_legend"><desc>legend objects for panel A</desc></g><g id="panel_A_annotations"><desc>annotations objects for panel A</desc><g id="annotations__A_state_value_0">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="183.777006" y="174.829891" transform="rotate(-0 183.777006 174.829891)">51.6%</text>
+   </g>
+   <g id="annotations__A_state_value_1">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="348.709373" y="174.829891" transform="rotate(-0 348.709373 174.829891)">41.3%</text>
+   </g>
+   <g id="annotations__A_state_value_2">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="434.500367" y="174.829891" transform="rotate(-0 434.500367 174.829891)">7.0%</text>
+   </g>
+   <g id="annotations__A_insulin_denominator_note">
+    <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6573" x="95.70816" y="59.802619" transform="rotate(-0 95.70816 59.802619)">n=376,740; 51,468 excluded-state events remain outside this denominator</text>
+   </g>
+   <g id="annotations__A_panel_tag">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="60.22656" y="35.19016" transform="rotate(-0 60.22656 35.19016)">A</text>
+   </g>
+   </g></g>
+ </svg>

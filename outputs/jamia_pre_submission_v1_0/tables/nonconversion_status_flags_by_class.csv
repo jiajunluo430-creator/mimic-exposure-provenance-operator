@@ -1,0 +1,7 @@
+drug_class,nonconverted_order_units_n,early_explicit_cancel_discontinue_n,any_explicit_cancel_discontinue_status_n,conditional_protocol_n,same_class_given_in_window_n,ambiguous_closed_status_n
+electrolyte_replacement,56446,5392.0,55115.0,53505.0,35309.0,56363.0
+insulin,17323,5020.0,16629.0,14887.0,10840.0,17320.0
+intra_abdominal_antibiotics,8414,4401.0,8225.0,1938.0,5774.0,8414.0
+prokinetic,474,165.0,449.0,275.0,131.0,474.0
+stress_ulcer_prophylaxis,5925,2253.0,5909.0,148.0,2771.0,5921.0
+vte_prophylaxis,4699,2272.0,4685.0,87.0,1640.0,4693.0

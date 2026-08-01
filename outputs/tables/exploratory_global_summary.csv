@@ -1,0 +1,16 @@
+metric,value
+eligible_orders_all_six_classes_n,633081.0
+documented_conversions_all_six_classes_n,218981.0
+weighted_conversion_pct,34.58972864451784
+weighted_order_nonconversion_pct,65.41027135548215
+class_conversion_min_pct,22.95967586339957
+class_conversion_max_pct,44.48504224708837
+full_emar_rows_n,42808593.0
+full_emar_poe_identity_link_pct,96.18790788101819
+full_emar_distinct_event_txt_n,73.0
+full_emar_not_given_per_sliding_scale_n,943457.0
+whitelist_insulin_not_given_per_sliding_scale_n,939379.0
+anchor_A1_order_only_pct_among_order_positive,56.02405613097227
+anchor_A2_order_only_pct_among_order_positive,57.27056019070322
+anchor_A2_material_variants_n,4.0
+anchor_A2_total_variants_n,4.0

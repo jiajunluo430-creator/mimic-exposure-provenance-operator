@@ -1,0 +1,60 @@
+drug_class,frequency_rank,route,prescription_rows_n
+electrolyte_replacement,1,iv,1773292
+electrolyte_replacement,2,po,524232
+electrolyte_replacement,3,po/ng,114299
+electrolyte_replacement,4,ng,3315
+electrolyte_replacement,5,iv drip,2114
+electrolyte_replacement,6,pb,385
+electrolyte_replacement,7,iv bolus,247
+electrolyte_replacement,8,oral,156
+electrolyte_replacement,9,ip,88
+electrolyte_replacement,10,tp,19
+insulin,1,sc,860095
+insulin,2,iv drip,45462
+insulin,3,iv,12446
+insulin,4,subcut,231
+insulin,5,ip,111
+insulin,6,scpump,70
+insulin,7,ij,9
+insulin,8,tp,6
+insulin,9,oral,5
+insulin,10,pb,4
+intra_abdominal_antibiotics,1,iv,697335
+intra_abdominal_antibiotics,2,po/ng,77388
+intra_abdominal_antibiotics,3,po,26081
+intra_abdominal_antibiotics,4,ip,750
+intra_abdominal_antibiotics,5,lock,595
+intra_abdominal_antibiotics,6,tp,483
+intra_abdominal_antibiotics,7,im,453
+intra_abdominal_antibiotics,8,both eyes,337
+intra_abdominal_antibiotics,9,pb,337
+intra_abdominal_antibiotics,10,right ear,284
+prokinetic,1,iv,31082
+prokinetic,2,po/ng,11096
+prokinetic,3,po,4365
+prokinetic,4,ng,124
+prokinetic,5,im,39
+prokinetic,6,oral,7
+prokinetic,7,pb,3
+prokinetic,8,g tube,1
+prokinetic,9,j tube,1
+stress_ulcer_prophylaxis,1,po,225873
+stress_ulcer_prophylaxis,2,iv,175237
+stress_ulcer_prophylaxis,3,po/ng,85217
+stress_ulcer_prophylaxis,4,ng,3441
+stress_ulcer_prophylaxis,5,iv drip,2268
+stress_ulcer_prophylaxis,6,iv bolus,2116
+stress_ulcer_prophylaxis,7,oral,1108
+stress_ulcer_prophylaxis,8,g tube,293
+stress_ulcer_prophylaxis,9,j tube,106
+stress_ulcer_prophylaxis,10,og,8
+vte_prophylaxis,1,sc,400050
+vte_prophylaxis,2,iv,333492
+vte_prophylaxis,3,dwell,40522
+vte_prophylaxis,4,dialys,3162
+vte_prophylaxis,5,lock,1474
+vte_prophylaxis,6,ip,686
+vte_prophylaxis,7,femoral vein,132
+vte_prophylaxis,8,iv drip,21
+vte_prophylaxis,9,impella,16
+vte_prophylaxis,10,po,9

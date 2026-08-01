@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-30T21:32:39-05:00",
+  "script": "<PROJECT_ROOT>\\scripts\\15_validate_jamia_analytics.py",
+  "script_sha256": "04c8597dbad5ac930fb9ce74d6413165c18b9b70d214968dc64a60d0517595b0",
+  "extension_version": "v1_1",
+  "elapsed_seconds": 0.037,
+  "checks_n": 14,
+  "checks_pass_n": 14,
+  "checks_fail_n": 0,
+  "all_checks_pass": true,
+  "failed_checks": [],
+  "decision": "GO_JAMIA_ANALYTIC",
+  "causal_claim": false,
+  "any_emar_used_for_outcome_selection": false
+}

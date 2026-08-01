@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="504pt" height="403.2pt" viewBox="0 0 504 403.2" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-31T22:28:21.629098</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <defs>
+  <clipPath id="p3e0dd8a625">
+   <rect x="100.8" y="56.448" width="388.08" height="262.08"/>
+  </clipPath>
+ </defs>
+<g id="panel_A">
+   <g id="panel_A_axis"><desc>axis objects for panel A</desc></g><g id="panel_A_data"><desc>data objects for panel A</desc><g id="data__A_cell_A1_1_0">
+    <path d="M 163.17 129.8304  L 298.998 129.8304  L 298.998 96.6336  L 163.17 96.6336  z " clip-path="url(#p3e0dd8a625)" style="fill: #a8cee4; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_cell_A1_1_1">
+    <path d="M 308.7 129.8304  L 444.528 129.8304  L 444.528 96.6336  L 308.7 96.6336  z " clip-path="url(#p3e0dd8a625)" style="fill: #c8dcf0; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_cell_A1_0_0">
+    <path d="M 163.17 165.648  L 298.998 165.648  L 298.998 132.4512  L 163.17 132.4512  z " clip-path="url(#p3e0dd8a625)" style="fill: #d6e5f4; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_cell_A1_0_1">
+    <path d="M 308.7 165.648  L 444.528 165.648  L 444.528 132.4512  L 308.7 132.4512  z " clip-path="url(#p3e0dd8a625)" style="fill: #e2edf8; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_cell_A2_1_0">
+    <path d="M 163.17 239.0304  L 298.998 239.0304  L 298.998 205.8336  L 163.17 205.8336  z " clip-path="url(#p3e0dd8a625)" style="fill: #084184; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_cell_A2_1_1">
+    <path d="M 308.7 239.0304  L 444.528 239.0304  L 444.528 205.8336  L 308.7 205.8336  z " clip-path="url(#p3e0dd8a625)" style="fill: #1764ab; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_cell_A2_0_0">
+    <path d="M 163.17 274.848  L 298.998 274.848  L 298.998 241.6512  L 163.17 241.6512  z " clip-path="url(#p3e0dd8a625)" style="fill: #5ba3d0; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_cell_A2_0_1">
+    <path d="M 308.7 274.848  L 444.528 274.848  L 444.528 241.6512  L 308.7 241.6512  z " clip-path="url(#p3e0dd8a625)" style="fill: #97c6df; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   </g><g id="panel_A_labels"><desc>labels objects for panel A</desc><g id="labels__A_matrix_global_title">
+    <text style="font-weight: 700; font-size: 10.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="298.998" y="66.513248" transform="rotate(-0 298.998 66.513248)">Outcome risk separates discordant cells</text>
+   </g>
+   <g id="labels__A_matrix_title_0">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="298.998" y="90.304247" transform="rotate(-0 298.998 90.304247)">A1 VTE  |  in-hospital mortality</text>
+   </g>
+   <g id="labels__A_admin_label_0_0">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="231.084" y="176.058594" transform="rotate(-0 231.084 176.058594)">Broad administration −</text>
+   </g>
+   <g id="labels__A_admin_label_0_1">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="376.614" y="176.058594" transform="rotate(-0 376.614 176.058594)">Broad administration +</text>
+   </g>
+   <g id="labels__A_order_plus_0">
+    <text style="font-size: 7.4px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="156.24" y="115.149135" transform="rotate(-0 156.24 115.149135)">Order +</text>
+   </g>
+   <g id="labels__A_order_minus_0">
+    <text style="font-size: 7.4px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="156.24" y="150.966735" transform="rotate(-0 156.24 150.966735)">Order −</text>
+   </g>
+   <g id="labels__A_matrix_title_1">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="298.998" y="199.504247" transform="rotate(-0 298.998 199.504247)">A2 PPI  |  90-day mortality</text>
+   </g>
+   <g id="labels__A_admin_label_1_0">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="231.084" y="285.258594" transform="rotate(-0 231.084 285.258594)">Broad administration −</text>
+   </g>
+   <g id="labels__A_admin_label_1_1">
+    <text style="font-size: 7.1px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="376.614" y="285.258594" transform="rotate(-0 376.614 285.258594)">Broad administration +</text>
+   </g>
+   <g id="labels__A_order_plus_1">
+    <text style="font-size: 7.4px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="156.24" y="224.349135" transform="rotate(-0 156.24 224.349135)">Order +</text>
+   </g>
+   <g id="labels__A_order_minus_1">
+    <text style="font-size: 7.4px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="156.24" y="260.166735" transform="rotate(-0 156.24 260.166735)">Order −</text>
+   </g>
+   </g><g id="panel_A_legend"><desc>legend objects for panel A</desc></g><g id="panel_A_annotations"><desc>annotations objects for panel A</desc><g id="annotations__A_cell_n_A1_1_0">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="231.084" y="112.244712" transform="rotate(-0 231.084 112.244712)">n=501</text>
+   </g>
+   <g id="annotations__A_cell_risk_A1_1_0">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="231.084" y="122.601659" transform="rotate(-0 231.084 122.601659)">24.15%</text>
+   </g>
+   <g id="annotations__A_cell_n_A1_1_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="376.614" y="112.244712" transform="rotate(-0 376.614 112.244712)">n=6,546</text>
+   </g>
+   <g id="annotations__A_cell_risk_A1_1_1">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="376.614" y="122.601659" transform="rotate(-0 376.614 122.601659)">16.76%</text>
+   </g>
+   <g id="annotations__A_cell_n_A1_0_0">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="231.084" y="148.062313" transform="rotate(-0 231.084 148.062313)">n=7,385</text>
+   </g>
+   <g id="annotations__A_cell_risk_A1_0_0">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="231.084" y="158.419259" transform="rotate(-0 231.084 158.419259)">11.83%</text>
+   </g>
+   <g id="annotations__A_cell_n_A1_0_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="376.614" y="148.062313" transform="rotate(-0 376.614 148.062313)">n=5,816</text>
+   </g>
+   <g id="annotations__A_cell_risk_A1_0_1">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="376.614" y="158.419259" transform="rotate(-0 376.614 158.419259)">7.53%</text>
+   </g>
+   <g id="annotations__A_cell_n_A2_1_0">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="231.084" y="221.444712" transform="rotate(-0 231.084 221.444712)">n=81</text>
+   </g>
+   <g id="annotations__A_cell_risk_A2_1_0">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="231.084" y="231.801659" transform="rotate(-0 231.084 231.801659)">65.43%</text>
+   </g>
+   <g id="annotations__A_cell_n_A2_1_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="376.614" y="221.444712" transform="rotate(-0 376.614 221.444712)">n=574</text>
+   </g>
+   <g id="annotations__A_cell_risk_A2_1_1">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="376.614" y="231.801659" transform="rotate(-0 376.614 231.801659)">55.92%</text>
+   </g>
+   <g id="annotations__A_cell_n_A2_0_0">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="231.084" y="257.262313" transform="rotate(-0 231.084 257.262313)">n=1,862</text>
+   </g>
+   <g id="annotations__A_cell_risk_A2_0_0">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="231.084" y="267.619259" transform="rotate(-0 231.084 267.619259)">38.35%</text>
+   </g>
+   <g id="annotations__A_cell_n_A2_0_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="376.614" y="257.262313" transform="rotate(-0 376.614 257.262313)">n=296</text>
+   </g>
+   <g id="annotations__A_cell_risk_A2_0_1">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="376.614" y="267.619259" transform="rotate(-0 376.614 267.619259)">27.36%</text>
+   </g>
+   <g id="annotations__A_matrix_note">
+    <text style="font-size: 7.3px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6573" x="298.998" y="309.566121" transform="rotate(-0 298.998 309.566121)">Cells show n and observed outcome risk</text>
+   </g>
+   <g id="annotations__A_panel_tag">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="65.8728" y="40.60816" transform="rotate(-0 65.8728 40.60816)">A</text>
+   </g>
+  </g></g>
+ </svg>

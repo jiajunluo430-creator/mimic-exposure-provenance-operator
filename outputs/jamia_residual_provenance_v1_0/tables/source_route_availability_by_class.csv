@@ -1,0 +1,7 @@
+drug_class,prescription_rows_n,prescription_route_available_n,prescription_route_available_pct,prescription_route_values_n,eligible_order_units_n,eligible_order_route_available_n,eligible_order_route_available_pct,strict_emar_events_n,strict_emar_route_available_n,strict_emar_route_available_pct
+electrolyte_replacement,2418552,2418186,99.98486697825807,20,287225,287225,100.0,167054,16878,10.103319884588217
+insulin,918452,918448,99.99956448458929,15,109475,109475,100.0,239238,0,0.0
+intra_abdominal_antibiotics,805919,805919,100.0,35,116654,116654,100.0,234478,11018,4.698948302186133
+prokinetic,46719,46718,99.99785954322653,9,10366,10366,100.0,14710,3538,24.051665533650578
+stress_ulcer_prophylaxis,495685,495683,99.99959651794991,15,71623,71623,100.0,193499,79885,41.284451082434536
+vte_prophylaxis,779636,779614,99.99717817032564,23,37738,37738,100.0,218831,0,0.0

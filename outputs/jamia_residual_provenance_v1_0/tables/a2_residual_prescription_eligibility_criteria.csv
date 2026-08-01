@@ -1,0 +1,8 @@
+criterion,prescription_units_n,units_meeting_n,units_meeting_pct,linked_stays_n,stays_with_any_meeting_n,stays_with_any_meeting_pct
+POE nonmissing,256,256,100.0,183,183,100.0
+POE identity resolves to same admission,256,256,100.0,183,183,100.0
+prescription POE matches eMAR POE,256,0,0.0,183,0,0.0
+prescription start at or before ICU+48h,256,252,98.4375,183,179,97.8142
+prescription stop overlaps ICU entry,256,256,100.0,183,183,100.0
+POE order/start at or before ICU+48h,256,0,0.0,183,0,0.0
+all hospital-overlap eligibility criteria,256,0,0.0,183,0,0.0

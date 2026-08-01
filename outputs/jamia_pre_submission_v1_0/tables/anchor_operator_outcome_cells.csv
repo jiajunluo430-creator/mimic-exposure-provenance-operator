@@ -1,0 +1,15 @@
+anchor_id,operator,order_exposure,administration_exposure,patients_n,outcomes_n,outcome_pct
+A1,broad_class_window,0,0,7385,874.0,11.834800270819228
+A1,broad_class_window,0,1,5816,438.0,7.530949105914718
+A1,broad_class_window,1,0,501,121.0,24.151696606786427
+A1,broad_class_window,1,1,6546,1097.0,16.758325695080966
+A1,strict_poe_identity,0,0,13201,1312.0,9.938641012044542
+A1,strict_poe_identity,1,0,1509,205.0,13.58515573227303
+A1,strict_poe_identity,1,1,5538,1013.0,18.291802094618994
+A2,broad_class_window,0,0,1862,714.0,38.34586466165413
+A2,broad_class_window,0,1,296,81.0,27.364864864864863
+A2,broad_class_window,1,0,81,53.0,65.4320987654321
+A2,broad_class_window,1,1,574,321.0,55.92334494773519
+A2,strict_poe_identity,0,0,2158,795.0,36.83966635773865
+A2,strict_poe_identity,1,0,137,69.0,50.36496350364964
+A2,strict_poe_identity,1,1,518,305.0,58.88030888030889

@@ -1,0 +1,10 @@
+exposure_source,term,beta,standard_error,p_value,joint_lrt_p_value,converged,model_error
+order,exposure:calendar_sensitivity_groupcrosses_2020_boundary,0.00270030146291236,0.199373086044507,0.989193812361572,,TRUE,
+order,exposure:calendar_sensitivity_groupyear_2020_plus_certain,0.0253486938485967,0.13771530875213,0.853961748125354,,TRUE,
+order,joint_exposure_by_calendar_interaction,,,,0.98097865192113,TRUE,
+strict_administration,exposure:calendar_sensitivity_groupcrosses_2020_boundary,0.0893251157986842,0.212372194513653,0.674042479655338,,TRUE,
+strict_administration,exposure:calendar_sensitivity_groupyear_2020_plus_certain,-0.00487743314764301,0.146468903867684,0.973435252228384,,TRUE,
+strict_administration,joint_exposure_by_calendar_interaction,,,,0.89355231793826,TRUE,
+broad_administration,exposure:calendar_sensitivity_groupcrosses_2020_boundary,0.117026987036862,0.19501077649953,0.548436106740956,,TRUE,
+broad_administration,exposure:calendar_sensitivity_groupyear_2020_plus_certain,0.0742779864647681,0.135652899686307,0.583994645089469,,TRUE,
+broad_administration,joint_exposure_by_calendar_interaction,,,,0.791195242960836,TRUE,

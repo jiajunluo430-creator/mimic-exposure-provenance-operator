@@ -1,0 +1,154 @@
+{
+  "generated_utc": "2026-08-01T00:24:22.318012+00:00",
+  "analytic_version": "JAMIA joint provenance-operator audit v2.0",
+  "decision": "HOLD_REQUIRED_CONTACT_APPROVAL_AND_REPOSITORY_FIELDS",
+  "checks_passed": 18,
+  "checks_total": 18,
+  "checks": [
+    {
+      "check_id": "required_submission_assets",
+      "passed": true,
+      "evidence": "missing=none; package files=33/33"
+    },
+    {
+      "check_id": "submission_manifest_hashes",
+      "passed": true,
+      "evidence": "declared=32; mismatches=none"
+    },
+    {
+      "check_id": "zip_contents",
+      "passed": true,
+      "evidence": "zip files=33; package files=33"
+    },
+    {
+      "check_id": "patient_free_reproducibility_bundle",
+      "passed": true,
+      "evidence": "members=261; required missing=none; forbidden=none"
+    },
+    {
+      "check_id": "plain_title_style",
+      "passed": true,
+      "evidence": "Title-style border present in: none"
+    },
+    {
+      "check_id": "table_structure_and_headers",
+      "passed": true,
+      "evidence": "tables=34; issues={'missing_header': 0, 'missing_width': 0, 'missing_grid': 0, 'missing_cell_width': 0, 'wrong_indent': 0}"
+    },
+    {
+      "check_id": "main_manuscript_structure",
+      "passed": true,
+      "evidence": "tables=3; embedded images=0; alt-text legends=4; style={'font': 'Times New Roman', 'size_half_points': '24', 'line': '480', 'line_rule': 'auto'}; letter_sections=True"
+    },
+    {
+      "check_id": "supporting_information_structure",
+      "passed": true,
+      "evidence": "physical tables=30 implementing 18 numbered tables; images=5; nonempty image alt=5"
+    },
+    {
+      "check_id": "no_placeholder_or_tool_leakage",
+      "passed": true,
+      "evidence": "detected=none"
+    },
+    {
+      "check_id": "verified_author_metadata_applied",
+      "passed": true,
+      "evidence": "authors=5; supplied metadata applied; documented upload blockers=6; old placeholders absent"
+    },
+    {
+      "check_id": "clean_first_submission_framing",
+      "passed": true,
+      "evidence": "upgraded title present; no revision-response or prior-review framing"
+    },
+    {
+      "check_id": "docx_render_and_visual_review",
+      "passed": true,
+      "evidence": "pages={'JAMIA_cover_letter': 1, 'JAMIA_main_manuscript': 21, 'JAMIA_RECORD_STROBE_checklist': 2, 'JAMIA_submission_completion_note': 1, 'JAMIA_supporting_information': 29, 'JAMIA_title_page': 2}; total=56; contact sheets=18; visual review=True"
+    },
+    {
+      "check_id": "docx_accessibility",
+      "passed": true,
+      "evidence": "audited=6/6; counts={'JAMIA_cover_letter': {'high': 0, 'medium': 0, 'low': 0}, 'JAMIA_main_manuscript': {'high': 0, 'medium': 0, 'low': 0}, 'JAMIA_RECORD_STROBE_checklist': {'high': 0, 'medium': 0, 'low': 0}, 'JAMIA_submission_completion_note': {'high': 0, 'medium': 0, 'low': 0}, 'JAMIA_supporting_information': {'high': 0, 'medium': 0, 'low': 0}, 'JAMIA_title_page': {'high': 0, 'medium': 0, 'low': 0}}"
+    },
+    {
+      "check_id": "figure_delivery_resolution",
+      "passed": true,
+      "evidence": "TIFFs=9/9; dpi={'Figure1_provenance_audit.tiff': [600, 600], 'Figure2_observability_and_delivery.tiff': [600, 600], 'Figure3_semantics_and_workflow.tiff': [600, 600], 'Figure4_reclassification_and_drift.tiff': [600, 600], 'FigureS1_full_emar_event_distribution.tiff': [600, 600], 'FigureS2_emar_detail_availability.tiff': [600, 600], 'FigureS3_join_plan_audit.tiff': [600, 600], 'FigureS4_participant_flow.tiff': [600, 600], 'FigureS5_complete_workflow_forest.tiff': [600, 600]}"
+    },
+    {
+      "check_id": "editable_vector_figures",
+      "passed": true,
+      "evidence": "structural reports passed=16/16; Illustrator opens passed=16/16"
+    },
+    {
+      "check_id": "contract_and_analysis_chain",
+      "passed": true,
+      "evidence": "contract=3/3; sensitivity contracts=3/3; operator contract=1/1; analytic=14/14; manuscript=15/15; diagnostics/models=PASS"
+    },
+    {
+      "check_id": "joint_operator_upgrade_chain",
+      "passed": true,
+      "evidence": "source unchanged/read-only; discordant cells=5816 and 296; hospital-overlap orders=973; models=28/28 static, 16/16 time-varying; paired bootstrap=22 x >=1000; upgrade validation=14/14"
+    },
+    {
+      "check_id": "identity_literature_and_boundary_audits",
+      "passed": true,
+      "evidence": "RxNav=139/139 successful, coverage=95.050%; published-operator sample=40; Sepsis-3/OMOP boundaries preserved"
+    }
+  ],
+  "pilot_gates": [
+    {
+      "gate_id": "J01",
+      "status": "PASS",
+      "evidence": "94444 unique adult stays; interval ordering and missingness checks passed"
+    },
+    {
+      "gate_id": "J02",
+      "status": "PASS",
+      "evidence": "42808593 full eMAR keys reconcile; coverage denominators sum to 94444 stays"
+    },
+    {
+      "gate_id": "J03",
+      "status": "PASS",
+      "evidence": "6 post-implementation classes retained"
+    },
+    {
+      "gate_id": "J04",
+      "status": "PASS",
+      "evidence": "4/4 corrected not-given models converged"
+    },
+    {
+      "gate_id": "J05",
+      "status": "PASS",
+      "evidence": "A1: n=20248, order=7047, admin=5538 | A2: n=2813, order=655, admin=870"
+    },
+    {
+      "gate_id": "J06",
+      "status": "PASS",
+      "evidence": "12/12 paired variants have identical n/outcomes"
+    },
+    {
+      "gate_id": "J07",
+      "status": "PASS",
+      "evidence": "Material post-implementation anchor(s): A2"
+    },
+    {
+      "gate_id": "J08",
+      "status": "PASS",
+      "evidence": "Outcome models used deployment_era inputs only; any_emar was not a filter"
+    },
+    {
+      "gate_id": "J09",
+      "status": "PASS",
+      "evidence": "13/13 manuscript value claim governance and first-submission checks passed"
+    },
+    {
+      "gate_id": "J10",
+      "status": "PASS",
+      "evidence": "18/18 package, hash, DOCX, render, a11y, figure, and provenance checks passed"
+    }
+  ],
+  "package_zip": "<PROJECT_ROOT>\\outputs\\researchwrite\\mimic_order_administration_validity_jamia\\exports\\submission_package\\JAMIA_submission_package.zip",
+  "package_zip_sha256": "5bf93ed8aa787001cc65b0098ecfa0674d0a3b0a670d99fb1e3ccb4c3c79c14c",
+  "reproducibility_manifest": "<PROJECT_ROOT>\\outputs\\jamia_prereview_upgrade_v1_0\\manifests\\jamia_first_submission_reproducibility_sha256.csv"
+}

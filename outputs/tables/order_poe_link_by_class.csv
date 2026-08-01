@@ -1,0 +1,7 @@
+drug_class,prescription_candidate_rows_n,poe_id_nonmissing_n,poe_any_link_n,poe_identity_link_n,poe_id_nonmissing_pct,identity_link_among_nonmissing_pct
+electrolyte_replacement,1005997,1005997.0,1005997.0,1005872.0,100.0,99.98757451562977
+insulin,178392,178392.0,178392.0,178376.0,100.0,99.99103098793668
+intra_abdominal_antibiotics,230167,230167.0,230167.0,230139.0,100.0,99.98783491986254
+prokinetic,10553,10553.0,10553.0,10553.0,100.0,100.0
+stress_ulcer_prophylaxis,108391,108391.0,108391.0,108372.0,100.0,99.98247086935262
+vte_prophylaxis,134279,134279.0,134279.0,134263.0,100.0,99.98808451060852

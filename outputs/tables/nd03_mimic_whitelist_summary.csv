@@ -1,0 +1,15 @@
+source_table,role,tier,semantics,labels_n
+hosp/emar,phosphate_replacement,strict_actual_administration,event_txt Administered/Delayed Administered/Partial Administered; dose from emar_detail,5
+hosp/labevents,serum_phosphate,strict,blood chemistry result at charttime,1
+icu/chartevents,heart_rhythm,strict,timestamped chart/input event,1
+icu/inputevents,nutrition,broad_only,administration-like,5
+icu/inputevents,nutrition,exclude,administration-like,21
+icu/inputevents,nutrition,strict,administration-like,114
+icu/inputevents,phosphate_replacement,strict_administration_like,positive amount plus start/end; exclude Rewritten,1
+icu/inputevents,vasopressor,strict,timestamped chart/input event,9
+icu/procedureevents,crrt,strict,procedure interval/event,4
+icu/procedureevents,invasive_ventilation,strict,procedure interval/event,1
+icu/procedureevents,noninvasive_ventilation,strict,procedure interval/event,1
+icu/procedureevents,planned_extubation,strict,procedure interval/event,1
+icu/procedureevents,tracheostomy,strict,procedure interval/event,2
+icu/procedureevents,unplanned_extubation,strict,procedure interval/event,2

@@ -1,0 +1,11 @@
+gate_id,status,evidence
+J01,PASS,94444 unique adult stays; interval ordering and missingness checks passed
+J02,PASS,42808593 full eMAR keys reconcile; coverage denominators sum to 94444 stays
+J03,PASS,6 post-implementation classes retained
+J04,PENDING_MODEL,Corrected all-period and post-implementation inputs written
+J05,PASS,"A1: n=20248, order=7047, admin=5538 | A2: n=2813, order=655, admin=870"
+J06,PENDING_MODEL,Paired-model same-cohort verification awaits R fits
+J07,PENDING_MODEL,Post-implementation material effect change not inspected
+J08,PASS,Outcome-model inputs select deployment_era only; any_emar_in_admission retained as descriptive column
+J09,PENDING_TEXT_QA,Claim-boundary scan follows results and manuscript revision
+J10,PENDING_FINAL_VALIDATION,Pre-model reproducibility assets are present

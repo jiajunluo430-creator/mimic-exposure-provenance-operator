@@ -1,0 +1,74 @@
+event_txt,rows_n,poe_id_nonmissing_n,poe_id_any_link_n,poe_id_identity_link_n,poe_id_identity_mismatch_n
+Administered,28419780,28419780,27329393,27308094,21299
+Flushed,3350325,3350325,3292667,3290384,2283
+Not Given,2978274,2978274,2895524,2891372,4152
+Confirmed,1852934,1852934,1819727,1818851,876
+Not Flushed,1444424,1444424,1418605,1416842,1763
+Not Given per Sliding Scale,943457,943457,922950,922478,472
+Started,808052,808052,707397,707039,358
+Assessed,582474,582474,571760,571410,350
+Stopped,517092,517092,434334,433871,463
+<NULL>,446102,446102,430021,429729,292
+Applied,232117,232117,217081,216764,317
+Removed,195372,195372,189492,189104,388
+Stopped - Unscheduled,169925,169925,165997,165833,164
+Delayed Administered,152898,152898,150106,149959,147
+Hold Dose,108624,108624,106665,106509,156
+Not Applied,72204,72204,69328,69175,153
+Infusion Reconciliation,68286,68286,67382,67351,31
+ in Other Location,54914,54914,52431,52278,153
+Restarted,50544,50544,48773,48743,30
+Administered Bolus from IV Drip,50484,50484,49641,49427,214
+Not Started,43798,43798,42073,42058,15
+Not Confirmed,41316,41316,40685,40634,51
+Stopped in Other Location,37452,37452,34659,34560,99
+Administered in Other Location,29113,29113,27590,27460,130
+Stopped As Directed,21467,21467,20845,20843,2
+Pain score re-assessment,20867,20867,0,0,0
+Not Stopped,20135,20135,18736,18717,19
+Removed Existing / Applied New,16070,16070,15692,15658,34
+Rate Change,9579,9579,9347,9344,3
+Flushed in Other Location,8638,8638,8520,8512,8
+Delayed ,7210,7210,7199,7190,9
+Not Assessed,6898,6898,6729,6670,59
+Not Removed,6627,6627,6422,6378,44
+Started in Other Location,6155,6155,5836,5754,82
+Delayed Started,6059,6059,5909,5901,8
+Partial Administered,5832,5832,5806,5805,1
+Pain score re-assess not done,5167,5167,0,0,0
+Delayed Flushed,3951,3951,3908,3904,4
+Delayed Confirmed,2499,2499,2470,2469,1
+Documented in O.R. Holding,2433,2433,1291,1288,3
+Confirmed in Other Location,2108,2108,1999,1993,6
+Applied in Other Location,1666,1666,1517,1196,321
+Stopped - Unscheduled in Other Location,797,797,789,787,2
+Infusion Reconciliation Not Done,730,730,727,727,0
+Delayed Stopped,678,678,650,649,1
+Assessed in Other Location,584,584,574,567,7
+Delayed Removed,536,536,526,523,3
+Read,462,462,453,453,0
+Delayed Assessed,321,321,320,319,1
+Removed in Other Location,168,168,165,160,5
+Not Started per Sliding Scale,167,167,164,163,1
+TPN Rate Not Changed,143,143,136,136,0
+Not Stopped per Sliding Scale,130,130,123,123,0
+Delayed Not Applied,104,104,104,104,0
+Removed Existing / Applied New in Other Location,101,101,96,94,2
+Delayed Applied,94,94,84,84,0
+Delayed Not Flushed,72,72,72,72,0
+Removed - Unscheduled,44,44,44,44,0
+Delayed Not Started,35,35,35,35,0
+Not Read,24,24,24,24,0
+Delayed Not Confirmed,22,22,22,22,0
+Delayed Not Removed,11,11,11,11,0
+Delayed Restarted,10,10,9,9,0
+Restarted in Other Location,9,9,8,8,0
+Delayed Rate Change,7,7,7,7,0
+Rate Change in Other Location,6,6,6,6,0
+Read in Other Location,5,5,5,5,0
+Partial ,4,4,4,4,0
+Not Given per Sliding Scale in Other Location,3,3,3,3,0
+Delayed Not Assessed,1,1,1,1,0
+Delayed Not Stopped,1,1,1,1,0
+Delayed Stopped As Directed,1,1,1,1,0
+Infusion Reconciliation in Other Location,1,1,1,1,0

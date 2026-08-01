@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-31T21:47:53.056657-05:00",
+  "script": "35_build_residual_prescription_eligibility_audit.py",
+  "script_sha256": "a65335716e5e9c2124770e264ce261096cd7f5afa29518bc58826d4f1cf8cd9d",
+  "contract_sha256": "af533e4d3a9b636c368dc6c76cc3e3ea472c77f9884476520d341ae09575dcfd",
+  "linked_rows_n": 571,
+  "linked_unique_stay_prescription_units_n": 256,
+  "linked_stays_n": 183,
+  "eligible_linked_rows_n": 0,
+  "criteria_rows_n": 7,
+  "failure_signature_rows_n": 2,
+  "timing_rows_n": 1,
+  "temporal_alignment_rows_n": 1,
+  "top_drug_route_rows_n": 6,
+  "elapsed_seconds": 1.8920233249664307
+}

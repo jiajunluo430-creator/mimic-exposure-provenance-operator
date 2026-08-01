@@ -1,0 +1,3 @@
+extension,required_local_input,searched_root,available,decision
+Sepsis-3 sensitivity,official versioned sepsis3 or complete derivation,${MIMIC_IV_ROOT},False,not executed; retain transparent ICD-sepsis anchor
+OMOP DRUG_EXPOSURE execution,versioned OMOP ETL and DRUG_EXPOSURE output,<PROJECT_ROOT>,False,not executed; retain conceptual translation only

@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="460.8pt" height="352.8pt" viewBox="0 0 460.8 352.8" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-31T22:28:15.143116</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <defs>
+  <clipPath id="p4eb52d1c49">
+   <rect x="92.16" y="49.392" width="354.816" height="229.32"/>
+  </clipPath>
+ </defs>
+<g id="panel_A">
+   <g id="panel_A_axis"><desc>axis objects for panel A</desc><g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m001503b4e7" d="M 0 0  L 0 3.5  " style="stroke: #5b6573; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m001503b4e7" x="146.453496" y="278.712" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6573" transform="translate(138.424981 292.537317)">Pre-</text>
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6573" transform="translate(117.635176 301.788538)">implementation</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m001503b4e7" x="269.568" y="278.712" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6573" transform="translate(240.513273 292.537317)">Implementation</text>
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6573" transform="translate(255.629992 301.788538)">overlap</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m001503b4e7" x="392.682504" y="278.712" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6573" transform="translate(382.763402 292.537317)">Post-</text>
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6573" transform="translate(363.864184 301.788538)">implementation</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 92.16 278.712  L 446.976 278.712  " clip-path="url(#p4eb52d1c49)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5">
+      <defs>
+       <path id="m77822bb345" d="M 0 0  L -3.5 0  " style="stroke: #5b6573; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m77822bb345" x="92.16" y="278.712" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="85.16" y="281.806116" transform="rotate(-0 85.16 281.806116)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 92.16 236.245333  L 446.976 236.245333  " clip-path="url(#p4eb52d1c49)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m77822bb345" x="92.16" y="236.245333" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="85.16" y="239.33945" transform="rotate(-0 85.16 239.33945)">20</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 92.16 193.778667  L 446.976 193.778667  " clip-path="url(#p4eb52d1c49)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m77822bb345" x="92.16" y="193.778667" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="85.16" y="196.872783" transform="rotate(-0 85.16 196.872783)">40</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 92.16 151.312  L 446.976 151.312  " clip-path="url(#p4eb52d1c49)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m77822bb345" x="92.16" y="151.312" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="85.16" y="154.406116" transform="rotate(-0 85.16 154.406116)">60</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 92.16 108.845333  L 446.976 108.845333  " clip-path="url(#p4eb52d1c49)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m77822bb345" x="92.16" y="108.845333" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="85.16" y="111.93945" transform="rotate(-0 85.16 111.93945)">80</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <path d="M 92.16 66.378667  L 446.976 66.378667  " clip-path="url(#p4eb52d1c49)" style="fill: none; stroke: #d4d9de; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m77822bb345" x="92.16" y="66.378667" style="fill: #5b6573; stroke: #5b6573; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6573" x="85.16" y="69.472783" transform="rotate(-0 85.16 69.472783)">100</text>
+     </g>
+    </g>
+    <g id="labels__A_ylabel">
+     <text style="font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="64.980156" y="164.052" transform="rotate(-90 64.980156 164.052)">Adult ICU stays with any admission eMAR row, %</text>
+    </g>
+   </g>
+   <g id="patch_1">
+    <path d="M 92.16 278.712  L 92.16 49.392  " style="fill: none; stroke: #5b6573; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 92.16 278.712  L 446.976 278.712  " style="fill: none; stroke: #5b6573; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   </g><g id="panel_A_data"><desc>data objects for panel A</desc><g id="data__A_coverage_bar_0">
+    <path d="M 108.288 278.712  L 184.618992 278.712  L 184.618992 276.98855  L 108.288 276.98855  z " clip-path="url(#p4eb52d1c49)" style="fill: #e8ebef; stroke: #5b6573; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_coverage_bar_1">
+    <path d="M 231.402504 278.712  L 307.733496 278.712  L 307.733496 126.049237  L 231.402504 126.049237  z " clip-path="url(#p4eb52d1c49)" style="fill: #e9c46a; stroke: #997c1d; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_coverage_bar_2">
+    <path d="M 354.517008 278.712  L 430.848 278.712  L 430.848 70.25203  L 354.517008 70.25203  z " clip-path="url(#p4eb52d1c49)" style="fill: #2a9d8f; stroke: #147a6d; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="data__A_coverage_line">
+    <path d="M 146.453496 276.98855  L 269.568 126.049237  L 392.682504 70.25203  " clip-path="url(#p4eb52d1c49)" style="fill: none; stroke: #173f5f; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m0dcaa05561" d="M 0 3  C 0.795609 3 1.55874 2.683901 2.12132 2.12132  C 2.683901 1.55874 3 0.795609 3 0  C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132  C 1.55874 -2.683901 0.795609 -3 0 -3  C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132  C -2.683901 -1.55874 -3 -0.795609 -3 0  C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132  C -1.55874 2.683901 -0.795609 3 0 3  z " style="stroke: #173f5f"/>
+    </defs>
+    <g clip-path="url(#p4eb52d1c49)">
+     <use xlink:href="#m0dcaa05561" x="146.453496" y="276.98855" style="fill: #173f5f; stroke: #173f5f"/>
+     <use xlink:href="#m0dcaa05561" x="269.568" y="126.049237" style="fill: #173f5f; stroke: #173f5f"/>
+     <use xlink:href="#m0dcaa05561" x="392.682504" y="70.25203" style="fill: #173f5f; stroke: #173f5f"/>
+    </g>
+   </g>
+   </g><g id="panel_A_labels"><desc>labels objects for panel A</desc><g id="labels__A_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1e2933" x="269.568" y="43.392" transform="rotate(-0 269.568 43.392)">Administration-layer observability</text>
+   </g>
+  </g><g id="panel_A_legend"><desc>legend objects for panel A</desc></g><g id="panel_A_annotations"><desc>annotations objects for panel A</desc><g id="annotations__A_coverage_value_0">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="146.453496" y="268.406949" transform="rotate(-0 146.453496 268.406949)">0.81%</text>
+   </g>
+   <g id="annotations__A_coverage_value_1">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="269.568" y="117.467637" transform="rotate(-0 269.568 117.467637)">71.90%</text>
+   </g>
+   <g id="annotations__A_coverage_value_2">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #173f5f" x="392.682504" y="61.670429" transform="rotate(-0 392.682504 61.670429)">98.18%</text>
+   </g>
+   <g id="annotations__A_deployment_note">
+    <text style="font-size: 8.3px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6573" x="99.25632" y="60.021027" transform="rotate(-0 99.25632 60.021027)">2014–2016 source-corrected deployment interval</text>
+   </g>
+   <g id="annotations__A_panel_tag">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1e2933" x="60.22656" y="35.19016" transform="rotate(-0 60.22656 35.19016)">A</text>
+   </g>
+   </g></g>
+ </svg>

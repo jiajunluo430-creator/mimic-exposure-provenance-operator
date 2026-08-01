@@ -1,0 +1,63 @@
+drug_class,class_label,subclass,ingredient,rxcui,tier,name_regex,negative_regex,route_rule,dose_rule,notes
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,PPI,pantoprazole,40790,strict,"pantoprazole|protonix",,any,any,Frozen PPI ingredient
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,PPI,omeprazole,7646,strict,"omeprazole|prilosec",,any,any,Frozen PPI ingredient
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,PPI,lansoprazole,17128,strict,"lansoprazole|prevacid",,any,any,Frozen PPI ingredient
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,PPI,esomeprazole,283742,strict,"esomeprazole|nexium",,any,any,Frozen PPI ingredient
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,PPI,rabeprazole,114979,strict,"rabeprazole|aciphex",,any,any,Frozen PPI ingredient
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,PPI,dexlansoprazole,816346,strict,"dexlansoprazole|dexilant",,any,any,Frozen PPI ingredient
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,H2RA,famotidine,4278,strict,"famotidine|pepcid",,any,any,Frozen H2RA ingredient
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,H2RA,ranitidine,9143,strict,"ranitidine|zantac",,any,any,Frozen H2RA ingredient
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,H2RA,cimetidine,2541,strict,"cimetidine|tagamet",,any,any,Frozen H2RA ingredient
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,H2RA,nizatidine,42319,strict,"nizatidine|axid",,any,any,Frozen H2RA ingredient
+stress_ulcer_prophylaxis,Stress ulcer prophylaxis,mucosal_protectant,sucralfate,10156,broad_sensitivity,"sucralfate|carafate",,any,any,Broad sensitivity only
+vte_prophylaxis,GI-bleed-relevant pharmacologic VTE prophylaxis,UFH,heparin,5224,strict,"(^|[^a-z])heparin([^a-z]|$)","flush|lock|line|catheter|dialysis|impella|ecmo|drip|infusion|therapeutic",subcutaneous,"UFH 5000 units per dose; 7500 units allowed for obesity sensitivity",Primary prophylaxis rule
+vte_prophylaxis,GI-bleed-relevant pharmacologic VTE prophylaxis,LMWH,enoxaparin,67108,strict,"enoxaparin|lovenox",,subcutaneous,"20-60 mg per dose; frequency no more than twice daily",Primary prophylaxis rule
+vte_prophylaxis,GI-bleed-relevant pharmacologic VTE prophylaxis,LMWH,dalteparin,67109,broad_sensitivity,"dalteparin|fragmin",,subcutaneous,"2500-7500 units per dose",Broad sensitivity only
+vte_prophylaxis,GI-bleed-relevant pharmacologic VTE prophylaxis,pentasaccharide,fondaparinux,321208,broad_sensitivity,"fondaparinux|arixtra",,subcutaneous,"1.5-2.5 mg per dose",Broad sensitivity only
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,penicillin_BLI,piperacillin,8339,strict,"piperacillin|zosyn",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,penicillin_BLI,tazobactam,37617,strict,"tazobactam|zosyn",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,penicillin_BLI,ampicillin,733,strict,"ampicillin|unasyn",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,penicillin_BLI,sulbactam,10167,strict,"sulbactam|unasyn",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,penicillin_BLI,amoxicillin,723,broad_sensitivity,"amoxicillin|augmentin",,systemic,any,Oral step-down sensitivity
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,penicillin_BLI,clavulanate,48203,broad_sensitivity,"clavulanate|clavulanic|augmentin",,systemic,any,Oral step-down sensitivity
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,cephalosporin,ceftriaxone,2193,strict,"ceftriaxone|rocephin",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,cephalosporin,cefepime,20481,strict,"cefepime|maxipime",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,cephalosporin,ceftazidime,2191,strict,"ceftazidime|fortaz",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,cephalosporin,cefotaxime,2186,strict,"cefotaxime|claforan",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,cephalosporin,cefoxitin,2189,strict,"cefoxitin|mefoxin",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,cephalosporin,cefotetan,2187,strict,"cefotetan|cefotan",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,nitroimidazole,metronidazole,6922,strict,"metronidazole|flagyl",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,carbapenem,ertapenem,325642,strict,"ertapenem|invanz",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,carbapenem,meropenem,29561,strict,"meropenem|merrem",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,carbapenem,imipenem,5690,strict,"imipenem|primaxin",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,carbapenem,cilastatin,2540,strict,"cilastatin|primaxin",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,carbapenem,doripenem,119771,strict,"doripenem|doribax",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,fluoroquinolone,ciprofloxacin,2551,strict,"ciprofloxacin|cipro",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,fluoroquinolone,levofloxacin,82122,strict,"levofloxacin|levaquin",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,fluoroquinolone,moxifloxacin,139462,strict,"moxifloxacin|avelox",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,monobactam,aztreonam,1272,strict,"aztreonam|azactam",,systemic,any,Indication not inferred
+intra_abdominal_antibiotics,Agents commonly used for intra-abdominal infection,glycylcycline,tigecycline,384455,strict,"tigecycline|tygacil",,systemic,any,Indication not inferred
+electrolyte_replacement,Electrolyte replacement,potassium,potassium chloride,8591,strict,"potassium chloride|kcl|k-?dur|klor-?con",,any,any,Frozen potassium replacement
+electrolyte_replacement,Electrolyte replacement,potassium,potassium acetate,54987,strict,"potassium acetate",,any,any,Frozen potassium replacement
+electrolyte_replacement,Electrolyte replacement,phosphate,potassium phosphate,34322,strict,"potassium phosphate|kphos|k-phos",,any,any,Frozen phosphate replacement
+electrolyte_replacement,Electrolyte replacement,phosphate,sodium phosphate,36709,strict,"sodium phosphate|naphos|na-phos",enema,any,any,Exclude bowel-prep/enema use
+electrolyte_replacement,Electrolyte replacement,phosphate,sodium glycerophosphate,1595589,strict,"sodium glycerophosphate",,any,any,Frozen phosphate replacement
+electrolyte_replacement,Electrolyte replacement,phosphate,phosphorus,8263,strict,"(^|[^a-z])phosphorus([^a-z]|$)|phospha",,any,any,Frozen oral phosphorus replacement
+electrolyte_replacement,Electrolyte replacement,magnesium,magnesium sulfate,6585,strict,"magnesium sulfate|mgso4",,any,any,Frozen magnesium replacement
+electrolyte_replacement,Electrolyte replacement,magnesium,magnesium oxide,6582,strict,"magnesium oxide|mag-?ox",,any,any,Frozen magnesium replacement
+electrolyte_replacement,Electrolyte replacement,calcium,calcium gluconate,1908,strict,"calcium gluconate",,any,any,Frozen calcium replacement
+electrolyte_replacement,Electrolyte replacement,calcium,calcium chloride,1901,strict,"calcium chloride",,any,any,Frozen calcium replacement
+electrolyte_replacement,Electrolyte replacement,calcium,calcium carbonate,1897,broad_sensitivity,"calcium carbonate|tums",,any,any,Broad oral sensitivity
+prokinetic,Prokinetic agents,dopamine_antagonist,metoclopramide,6915,strict,"metoclopramide|reglan",,any,any,Primary prokinetic
+prokinetic,Prokinetic agents,motilin_agonist,erythromycin,4053,broad_sensitivity,"erythromycin|ery-tab|erythrocin",,systemic,"Low-dose prokinetic regimen only when dose/frequency available",Antibiotic indication ambiguity
+prokinetic,Prokinetic agents,cholinesterase_inhibitor,neostigmine,7315,broad_sensitivity,"neostigmine|prostigmin",,systemic,any,Broad ileus/pseudo-obstruction sensitivity
+prokinetic,Prokinetic agents,5HT4_agonist,prucalopride,2107310,broad_sensitivity,"prucalopride|motegrity",,oral,any,Broad sensitivity
+prokinetic,Prokinetic agents,dopamine_antagonist,domperidone,3626,broad_sensitivity,"domperidone|motilium",,oral,any,Broad sensitivity
+insulin,Insulin,short_acting,insulin regular human,253182,strict,"(^|[^a-z])insulin([^a-z]|$)|humulin r|novolin r","insulin-like|growth factor|syringe|needle",any,any,Generic insulin pattern captures products
+insulin,Insulin,rapid_acting,insulin lispro,86009,strict,"lispro|humalog|admelog|lyumjev",,any,any,Frozen insulin ingredient
+insulin,Insulin,rapid_acting,insulin aspart,51428,strict,"aspart|novolog|fiasp",,any,any,Frozen insulin ingredient
+insulin,Insulin,long_acting,insulin glargine,274783,strict,"glargine|lantus|basaglar|toujeo|semglee",,any,any,Frozen insulin ingredient
+insulin,Insulin,long_acting,insulin detemir,139825,strict,"detemir|levemir",,any,any,Frozen insulin ingredient
+insulin,Insulin,intermediate_acting,insulin isophane human,253181,strict,"isophane|(^|[^a-z])nph([^a-z]|$)|humulin n|novolin n",,any,any,Frozen insulin ingredient
+insulin,Insulin,long_acting,insulin degludec,1670007,strict,"degludec|tresiba",,any,any,Frozen insulin ingredient
+insulin,Insulin,rapid_acting,insulin glulisine,400008,strict,"glulisine|apidra",,any,any,Frozen insulin ingredient

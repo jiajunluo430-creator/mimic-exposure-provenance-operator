@@ -1,0 +1,2 @@
+adult_stays_n,gcs_available_n,hr_available_n,mbp_available_n,rr_available_n,temperature_available_n,urine_available_n,oasis_mean,oasis_median,oasis_p25,oasis_p75,mean_missing_components
+94444,93792.0,94341.0,94230.0,94197.0,91741.0,89428.0,30.80190377366482,30.0,24.0,36.0,0.09460632755918852

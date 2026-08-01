@@ -1,0 +1,12 @@
+check_id,status,evidence
+contract_hash,PASS,observed=af533e4d3a9b636c368dc6c76cc3e3ea472c77f9884476520d341ae09575dcfd; expected=af533e4d3a9b636c368dc6c76cc3e3ea472c77f9884476520d341ae09575dcfd
+required_outputs,PASS,missing=[]
+a2_patient_trace_partition,PASS,"partition={'direct_pharmacy_id_to_ppi_prescription': 183, 'no_resolved_pharmacy_record_or_ppi_prescription': 1}"
+a2_event_native_linkage,PASS,"linked_events={'any_ppi_prescription_in_admission': 398, 'ppi_pharmacy_id_link': 396, 'ppi_prescription_by_pharmacy_id': 396, 'ppi_prescription_by_pharmacy_poe': 396, 'raw_pharmacy_id_link': 396, 'raw_prescription_by_pharmacy_id': 396}; denominator=399"
+a2_medication_string_specificity,PASS,"events=399; strings=['Lansoprazole Oral Disintegrating Tab', 'Omeprazole', 'Pantoprazole', 'Pantoprazole (Granules for DR Suspension)']"
+a2_linked_prescription_identity,PASS,"units={'POE nonmissing': 256, 'POE identity resolves to same admission': 256, 'prescription POE matches eMAR POE': 0, 'prescription start at or before ICU+48h': 252, 'prescription stop overlaps ICU entry': 256, 'POE order/start at or before ICU+48h': 0, 'all hospital-overlap eligibility criteria': 0}; stays={'POE nonmissing': 183, 'POE identity resolves to same admission': 183, 'prescription POE matches eMAR POE': 0, 'prescription start at or before ICU+48h': 179, 'prescription stop overlaps ICU entry': 183, 'POE order/start at or before ICU+48h': 0, 'all hospital-overlap eligibility criteria': 0}"
+a2_frozen_hospital_eligibility_preserved,PASS,0/256 directly linked prescription units meet all frozen criteria
+a2_identity_time_discordance,PASS,256/256 prescription POEs differ from eMAR POE and have first POE ordertime after first linked administration
+a1_route_layer_asymmetry,PASS,order route 9940/9940; strict eMAR route 0/87569
+query_plan_join_safety,PASS,unsafe_plans=[]; plans_checked=9
+scratch_cardinality,PASS,"selected_table_counts={'a2_any_admission_ppi': 183, 'a2_direct_mapped_pharmacy': 396, 'a2_direct_ppi_prescription': 396, 'a2_direct_raw_pharmacy': 396, 'a2_direct_raw_prescription': 396, 'a2_pharmacy_poe_keys': 396, 'a2_pharmacy_poe_ppi': 396, 'a2_residual_emar_events': 399, 'a2_residual_event_link_facts': 399, 'a2_residual_linked_prescription_rows': 571, 'a2_residual_patient_classification': 184, 'a2_residual_stays': 184}"

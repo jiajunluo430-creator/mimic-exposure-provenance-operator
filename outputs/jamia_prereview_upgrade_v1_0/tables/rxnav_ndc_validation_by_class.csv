@@ -1,0 +1,7 @@
+drug_class,queried_codes_n,represented_prescription_rows_n,api_mapped_rows_n,api_mapped_rows_pct,class_agreement_rows_n,class_agreement_among_mapped_rows_pct,ingredient_agreement_rows_n,ingredient_agreement_among_mapped_rows_pct
+electrolyte_replacement,43.0,1559996.0,1559996.0,100.0,1559996.0,100.0,1559996.0,100.0
+insulin,12.0,763420.0,763420.0,100.0,763420.0,100.0,763420.0,100.0
+intra_abdominal_antibiotics,40.0,378442.0,378442.0,100.0,378442.0,100.0,378442.0,100.0
+prokinetic,3.0,33235.0,33235.0,100.0,33235.0,100.0,33235.0,100.0
+stress_ulcer_prophylaxis,23.0,381197.0,381197.0,100.0,381197.0,100.0,381197.0,100.0
+vte_prophylaxis,18.0,607091.0,607091.0,100.0,607091.0,100.0,607091.0,100.0

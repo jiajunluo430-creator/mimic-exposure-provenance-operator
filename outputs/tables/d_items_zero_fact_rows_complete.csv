@@ -1,0 +1,1038 @@
+linksto,itemid,label,abbreviation,category,unitname,param_type,fact_rows_n
+chartevents,220069,Left Artrial Pressure,LAP,Hemodynamics,mmHg,Numeric,0
+chartevents,220218,Vital Capacity,VC,Respiratory,Liters,Numeric,0
+chartevents,220541,ZFibrinogen,ZFibrinogen,Labs,None,Numeric,0
+chartevents,220560,ZProthrombin time,ZPT,Labs,None,Numeric,0
+chartevents,220561,ZINR,ZINR,Labs,None,Numeric,0
+chartevents,220562,ZPTT,ZPTT,Labs,None,Numeric,0
+chartevents,220574,ZAlbumin,ZAlbumin,Labs,None,Numeric,0
+chartevents,220611,ZCortisol,ZCortisol,Labs,None,Numeric,0
+chartevents,220612,ZC Reactive Protein (CRP),ZC Reaction Protein (CRP),Labs,None,Numeric,0
+chartevents,220640,ZPotassium (serum),ZPotassium (serum),Labs,None,Numeric,0
+chartevents,220799,ZSpecific Gravity (urine),ZSpecific gravity (urine),Labs,None,Numeric,0
+chartevents,222871,Mallampati classification (Intubation),Mallampati classification (Intubation),Intubation,,Text,0
+chartevents,223804,TOF Response/Twitch,TOF Response/Twitch,Pain/Sedation,,Text,0
+chartevents,223851,Rate,Rate,Respiratory,,Text,0
+chartevents,223867,Additional Settings,Additional Settings,Respiratory,,Text,0
+chartevents,223870,Wean,Wean,Respiratory,,Text,0
+chartevents,223871,Physio,Physio,Respiratory,,Text,0
+chartevents,223877,ZCath Lab Intake,ZCath Lab Intake,ZIntake,mL,Numeric,0
+chartevents,223878,ZOR Intake,ZOR Intake,ZIntake,mL,Numeric,0
+chartevents,223879,ZPACU Intake,ZPACU Intake,ZIntake,mL,Numeric,0
+chartevents,223880,ZFree Form Intake,ZFree Form Intake,ZIntake,mL,Numeric,0
+chartevents,223881,ZGU Irrigant Intake,ZGU Irrigant Intake,ZIntake,mL,Numeric,0
+chartevents,223933,Heat Sounds,Heat Sounds,Cardiovascular (Pulses),,Text,0
+chartevents,223957,Pacer Rate,Pacer Rate,Cardiovascular (Pulses),,Text,0
+chartevents,223964,Transcutaneous Pacer,Transcutaneous Pacer,Cardiovascular (Pacer Data),,Text,0
+chartevents,223969,Transcutaneous Pacer Rate,Transcutaneous Pacer Rate,Cardiovascular (Pacer Data),None,Numeric,0
+chartevents,224078,Education Handout,Education Handout,Restraint/Support Systems,,Text,0
+chartevents,224135,Dialysis Access Site,Dialysis Access Site,Dialysis,,Text,0
+chartevents,224139,Dialysis Site Appearance,Dialysis Site Appearance,Dialysis,,Text,0
+chartevents,224336,Type of catheter (CVL),Type of catheter (CVL),CVL Insertion,,Text,0
+chartevents,224337,Insertion site (CVL),Insertion site (CVL),CVL Insertion,,Text,0
+chartevents,224339,Guidewire exchange (CVL),Guidewire exchange (CVL),CVL Insertion,,Text,0
+chartevents,224340,Side (CVL),Side (CVL),CVL Insertion,,Text,0
+chartevents,224341,Acuity (CVL),Acuity (CVL),CVL Insertion,,Text,0
+chartevents,224345,Barrier precautions in place (CVL),Barrier precautions in place (CVL),CVL Insertion,,Text,0
+chartevents,224347,Timeout performed by (CVL),Timeout performed by (CVL),CVL Insertion,,Text,0
+chartevents,224348,Patient identified correctly (CVL),Patient identified correctly (CVL),CVL Insertion,,Text,0
+chartevents,224349,Verification of (CVL),Verification of (CVL),CVL Insertion,,Text,0
+chartevents,224351,Number of attempts required to place line (CVL),Number of attempts required to place line (CVL),CVL Insertion,,Text,0
+chartevents,224380,Neuro Waveform Appearance,Neuro Waveform Appearance,Neurological,,Text,0
+chartevents,224451,Traction/Immobile #4,Traction/Immobile #4,Treatments,,Text,0
+chartevents,224468,Ultrasound (CVL),Ultrasound (CVL),CVL Insertion,,Text,0
+chartevents,224469,Medications / anesthetic (PA line),Medications / anesthetic (PA line),PA Line Insertion,,Text,0
+chartevents,224472,Indications (PA line),Indications (PA line),PA Line Insertion,,Text,0
+chartevents,224476,Insertion site (PA line),Insertion site (PA line),PA Line Insertion,,Text,0
+chartevents,224478,Type of catheter (PA line),Type of catheter (PA line),PA Line Insertion,,Text,0
+chartevents,224479,Complications (PA line),Complications (PA line),PA Line Insertion,,Text,0
+chartevents,224489,Indication (LP),Indication (LP),Lumbar Puncture,,Text,0
+chartevents,224490,Site cleansed with ChloraPrep(TM) (LP),Site cleansed with ChloraPrep(TM) (LP),Lumbar Puncture,,Checkbox,0
+chartevents,224491,Lidocaine 1% (LP),Lidocaine 1% (LP),Lumbar Puncture,mL SC,Numeric,0
+chartevents,224495,Patient position (LP),Patient position (LP),Lumbar Puncture,,Text,0
+chartevents,224496,Entry site (LP),Entry site (LP),Lumbar Puncture,,Text,0
+chartevents,224498,Amount of fluid removed (LP),Amount of fluid removed (LP),Lumbar Puncture,mL,Numeric,0
+chartevents,224499,Fluid removed (LP),Fluid removed (LP),Lumbar Puncture,,Text,0
+chartevents,224503,Patient (THCEN),Patient (THCEN),Thoracentesis,,Text,0
+chartevents,224504,With ultrasound (THCEN),With ultrasound (THCEN),Thoracentesis,,Text,0
+chartevents,224505,Lidocaine 1% (THCEN),Lidocaine 1% (THCEN),Thoracentesis,mL SC,Numeric,0
+chartevents,224506,Conscious sedation (THCEN),Conscious sedation (THCEN),Thoracentesis,,Checkbox,0
+chartevents,224508,Location (PICC),Location (PICC),PICC Line Insertion,,Text,0
+chartevents,224511,Type of catheter (PICC),Type of catheter (PICC),PICC Line Insertion,,Text,0
+chartevents,224512,Insertion site (PICC),Insertion site (PICC),PICC Line Insertion,,Text,0
+chartevents,224515,Timeout performed by (PICC),Timeout performed by (PICC),PICC Line Insertion,,Text,0
+chartevents,224517,Patient identified correctly (PICC),Patient identified correctly (PICC),PICC Line Insertion,,Text,0
+chartevents,224568,Barrier precautions in place (PICC),Barrier precautions in place (PICC),PICC Line Insertion,,Text,0
+chartevents,224571,Guidewire exchange (PICC),Guidewire exchange (PICC),PICC Line Insertion,,Text,0
+chartevents,224577,Side (PICC),Side (PICC),PICC Line Insertion,,Text,0
+chartevents,224581,Ultrasound (PICC),Ultrasound (PICC),PICC Line Insertion,,Text,0
+chartevents,224582,Verification of (PICC),Verification of (PICC),PICC Line Insertion,,Text,0
+chartevents,224584,Number of attempts required to place line (PICC),Number of attempts required to place line (PICC),PICC Line Insertion,,Text,0
+chartevents,224596,Acuity (PICC),Acuity (PICC),PICC Line Insertion,,Text,0
+chartevents,224604,Thermodilution (PA line),Thermodilution (PA line),PA Line Insertion,,Checkbox,0
+chartevents,224605,Fick (PA line),Fick (PA line),PA Line Insertion,,Checkbox,0
+chartevents,224617,Timeout performed by (PA line),Timeout performed by (PA line),PA Line Insertion,,Text,0
+chartevents,224618,Patient identified correctly (PA line),Patient identified correctly (PA line),PA Line Insertion,,Text,0
+chartevents,224619,Verification of (PA line),Verification of (PA line),PA Line Insertion,,Text,0
+chartevents,224624,Barrier precautions in place (PA line),Barrier precautions in place (PA line),PA Line Insertion,,Text,0
+chartevents,224629,Number of operators (CVL),Number of operators (CVL),CVL Insertion,,Text,0
+chartevents,224699,ZAuto Peep Level,ZAuto Peep Level,Respiratory,cmH2O,Numeric,0
+chartevents,224703,ZATC Tube #,ZATC Tube #,Respiratory,None,Numeric,0
+chartevents,224718,RR > 35 for > 5 min,RR > 35 for > 5 min,Respiratory,,Text,0
+chartevents,224719,SaO2 < 90% > 2 min,SaO2 < 90% > 2 min,Respiratory,,Text,0
+chartevents,224720,Arrythmia,Arrythmia,Respiratory,,Text,0
+chartevents,224721,HR > 140,HR > 140,Respiratory,,Text,0
+chartevents,224723,Accessory Muscle Use,Accessory Muscle Use,Respiratory,,Text,0
+chartevents,224748,Cont Neb - Dose (mg/hr/drug),Cont Neb - Dose (mg/hr/drug),Respiratory,mg/hour,Numeric,0
+chartevents,224764,Neuro Drain Location,Neuro Drain Location,Neurological,,Text,0
+chartevents,224765,Neuro Drain Head of Bed,Neuro Drain HOB,Neurological,,Text,0
+chartevents,224818,GI #3 Tube Place Method,GI #3 Tube Place Method,GI/GU,,Text,0
+chartevents,224826,ZHCO3 (serum),ZHCO3 (serum),Labs,None,Numeric,0
+chartevents,224864,ZTrach Care,ZTrach Care,Respiratory,,Text,0
+chartevents,225242,Indication (THCEN),Indication (THCEN),Thoracentesis,,Text,0
+chartevents,225244,Side (THCEN),Side (THCEN),Thoracentesis,,Text,0
+chartevents,225245,Patient position (THCEN),Patient position (THCEN),Thoracentesis,,Text,0
+chartevents,225246,Fluid Removed (THCEN),Fluid Removed (THCEN),Thoracentesis,mL,Numeric,0
+chartevents,225247,Fluid Removed Description (THCEN),Fluid Removed Description (THCEN),Thoracentesis,,Text,0
+chartevents,225250,Complications (THCEN),Complications (THCEN),Thoracentesis,,Text,0
+chartevents,225254,Indication (PACEN),Indication (PACEN),Paracentesis,,Text,0
+chartevents,225255,Ultrasound (PACEN),Ultrasound (PACEN),Paracentesis,,Text,0
+chartevents,225256,Insertion site prepped and draped (PACEN),Insertion site prepped and draped (PACEN),Paracentesis,,Checkbox,0
+chartevents,225257,Lidocaine 1% (PACEN),Lidocaine 1% (PACEN),Paracentesis,mL SC,Numeric,0
+chartevents,225260,Entry site (PACEN),Entry site (PACEN),Paracentesis,,Text,0
+chartevents,225261,Fluid removed (PACEN),Fluid removed (PACEN),Paracentesis,mL,Numeric,0
+chartevents,225262,Fluid removed description (PACEN),Fluid removed description (PACEN),Paracentesis,,Text,0
+chartevents,225267,Difficult to Intubate,Difficult to Intubate,Intubation,,Checkbox,0
+chartevents,225271,Induction/Drugs/Doses (Intubation),Induction/Drugs/Doses (Intubation),Intubation,,Text,0
+chartevents,225277,ETT Position (cm at teeth),ETT Position (cm at teeth),Respiratory,None,Numeric,0
+chartevents,225278,ETT Route,ETT Route,Respiratory,,Text,0
+chartevents,225281,Indications (PICC),Indications (PICC),PICC Line Insertion,,Text,0
+chartevents,225283,Hand Cleansing Prior to Procedure (PICC),Hand Cleansing Prior to Procedure (PICC),PICC Line Insertion,,Checkbox,0
+chartevents,225284,PICC Ordered on POE,PICC Ordered on POE,PICC Line Insertion,,Checkbox,0
+chartevents,225285,Catheter repositioned (PICC),Catheter repositioned (PICC),PICC Line Insertion,,Text,0
+chartevents,225287,Transparent dressing applied and dated (PICC),Transparent dressing applied (PICC),PICC Line Insertion,,Checkbox,0
+chartevents,225288,Follow-up X-RAY Ordered (PICC),Follow-up X-RAY Ordered (PICC),PICC Line Insertion,,Checkbox,0
+chartevents,225289,Attending/Supervisor is Clinician Operator (PICC),Attending/Supervisor is Clinician Operator (PICC),PICC Line Insertion,,Checkbox,0
+chartevents,225290,Present during key moments and agree with checklist (PICC),Present during procedure/agree w/ checklist (PICC),PICC Line Insertion,,Checkbox,0
+chartevents,225291,Indication (Intubation),Indication (Intubation),Intubation,,Text,0
+chartevents,225292,Unable to complete Airway Assessment (Intubation),Unable to complete Airway (Intubation),Intubation,,Checkbox,0
+chartevents,225294,Mouth Opening (Intubation),Mouth Opening (Intubation),Intubation,,Text,0
+chartevents,225295,Thyromental Distance (Intubation),Thyromental Distance (Intubation),Intubation,,Text,0
+chartevents,225296,Mandibular Prognatism (Intubation),Mandibular Prognatism (Intubation),Intubation,,Text,0
+chartevents,225297,Teeth/Dentition (Intubation),Teeth/Dentition (Intubation),Intubation,,Text,0
+chartevents,225298,Neck ROM (Intubation),Neck ROM (Intubation),Intubation,,Text,0
+chartevents,225300,No Drugs Administered (Intubation),No Drugs Administered (Intubation),Intubation,,Checkbox,0
+chartevents,225301,RSI (Intubation),RSI (Intubation),Intubation,,Checkbox,0
+chartevents,225302,Pre-Oxygentated (Intubation),Pre-Oxygentated (Intubation),Intubation,,Checkbox,0
+chartevents,225303,Mask Ventilation (Intubation),Mask Ventilation (Intubation),Intubation,,Text,0
+chartevents,225304,Blade / Equipment (Intubation),Blade / Equipment (Intubation),Intubation,,Text,0
+chartevents,225306,Number of Attempts (Intubation),Number of Attempts (Intubation),Intubation,,Text,0
+chartevents,225307,Oral ETT,Oral ETT,Intubation,,Checkbox,0
+chartevents,225308,Nasal ETT,Nasal ETT,Intubation,,Checkbox,0
+chartevents,225414,Home without services,Home without services,Case Management,,Checkbox,0
+chartevents,225485,Insertion kit used (THCEN),Insertion kit used (THCEN),Thoracentesis,,Checkbox,0
+chartevents,225486,Hand cleansing prior to procedure (THCEN),Hand cleansing prior to procedure (THCEN),Thoracentesis,,Checkbox,0
+chartevents,225487,Barrier precautions in place (THCEN),Barrier precautions in place (THCEN),Thoracentesis,,Text,0
+chartevents,225488,Follow-up X-RAY Ordered (THCEN),Follow-up X-RAY Ordered (THCEN),Thoracentesis,,Checkbox,0
+chartevents,225489,Site cleansed with ChloraPrep (THCEN),Site cleansed with ChloraPrep (THCEN),Thoracentesis,,Checkbox,0
+chartevents,225490,Timeout Performed by (THCEN),Timeout Performed by (THCEN),Thoracentesis,,Text,0
+chartevents,225491,Patient identified correctly by 2 means (THCEN),Patient identified correctly by 2 means (THCEN),Thoracentesis,,Text,0
+chartevents,225492,Verification of (THCEN),Verification of (THCEN),Thoracentesis,,Text,0
+chartevents,225498,Timeout performed by (PACEN),Timeout performed by (PACEN),Paracentesis,,Text,0
+chartevents,225499,Patient identified correctly by 2 means (PACEN),Patient identified correctly by 2 means (PACEN),Paracentesis,,Text,0
+chartevents,225500,Verification of (PACEN),Verification of (PACEN),Paracentesis,,Text,0
+chartevents,225501,Insertion kit used (PACEN),Insertion kit used (PACEN),Paracentesis,,Checkbox,0
+chartevents,225503,Hand cleansing prior to procedure (PACEN),Hand cleansing prior to procedure (PACEN),Paracentesis,,Checkbox,0
+chartevents,225504,Site cleaned with ChloraPrep (PACEN),Site cleaned with ChloraPrep (PACEN),Paracentesis,,Checkbox,0
+chartevents,225506,Barrier precautions in place (PACEN),Barrier precautions in place (PACEN),Paracentesis,,Text,0
+chartevents,225510,Patient (Bronch),Patient (Bronch),Bronchoscopy,,Text,0
+chartevents,225511,Indications (Bronch),Indications (Bronch),Bronchoscopy,,Text,0
+chartevents,225513,Route (Bronch),Route (Bronch),Bronchoscopy,,Text,0
+chartevents,225514,Type (Bronch),Type (Bronch),Bronchoscopy,,Text,0
+chartevents,225516,Location (Bronch),Location (Bronch),Bronchoscopy,,Text,0
+chartevents,225518,Services (Bronch),Services (Bronch),Bronchoscopy,,Text,0
+chartevents,225524,Complications (Bronch),Complications (Bronch),Bronchoscopy,,Text,0
+chartevents,225526,Bronchoalveolar lavage (BAL) / washing (Bronch),Bronchoalveolar lavage (BAL) / (Bronch),Bronchoscopy,,Checkbox,0
+chartevents,225527,Endobronchial ultrasound (EBUS) (Bronch),Endobronchial ultrasound (EBUS) (Bronch),Bronchoscopy,,Checkbox,0
+chartevents,225528,Brushings (Bronch),Brushings (Bronch),Bronchoscopy,,Checkbox,0
+chartevents,225529,Transbronchial biopsy (Bronch),Transbronchial biopsy (Bronch),Bronchoscopy,,Checkbox,0
+chartevents,225530,Transbronchial needle aspirate (Bronch),Transbronchial needle aspirate (Bronch),Bronchoscopy,,Checkbox,0
+chartevents,225531,Conscious sedation used (Bronch),Conscious sedation used (Bronch),Bronchoscopy,,Checkbox,0
+chartevents,225532,Photodynamic therapy PDT (Bronch),Photodynamic therapy PDT (Bronch),Bronchoscopy,,Checkbox,0
+chartevents,225533,Autofluorescence AF (Bronch),Autofluorescence AF (Bronch),Bronchoscopy,,Checkbox,0
+chartevents,225536,Hand cleansing prior to procedure (Bronch),Hand cleansing prior to procedure(Bronch),Bronchoscopy,,Checkbox,0
+chartevents,225538,Barrier precautions in place (Bronch),Barrier precautions in place (Bronch),Bronchoscopy,,Text,0
+chartevents,225539,Timeout performed by (Bronch),Timeout performed by (Bronch),Bronchoscopy,,Text,0
+chartevents,225540,Patient identified correctly (Bronch),Patient identified correctly (Bronch),Bronchoscopy,,Text,0
+chartevents,225541,Verification of (Bronch),Verification of (Bronch),Bronchoscopy,,Text,0
+chartevents,225550,Side (A-Line),Side (A-Line),Arterial Line Insertion,,Text,0
+chartevents,225552,Insertion site (A-Line),Insertion site (A-Line),Arterial Line Insertion,,Text,0
+chartevents,225556,Replaced previous Arterial line over wire,Replaced previous Arterial line,Arterial Line Insertion,,Checkbox,0
+chartevents,225565,Insertion kit used (A-Line),Insertion kit used (A-Line),Arterial Line Insertion,,Checkbox,0
+chartevents,225567,Hand cleansing prior to procedure (A-Line),Hand cleansing prior to procedure(A-Line),Arterial Line Insertion,,Checkbox,0
+chartevents,225568,Site cleaned with ChloraPrep(TM) (A-Line),Site cleaned with ChloraPrep(TM) (A-Line),Arterial Line Insertion,,Checkbox,0
+chartevents,225571,Number of attempts required to place line (A-Line),Number of attempts required to place line (A-Line),Arterial Line Insertion,,Text,0
+chartevents,225573,Transparent dressing applied and dated (A-Line),Transparent dressing applied (A-Line),Arterial Line Insertion,,Checkbox,0
+chartevents,225575,Arterial Line ordered on POE,Arterial Line ordered on POE,Arterial Line Insertion,,Checkbox,0
+chartevents,225578,Indications (CVL),Indications (CVL),CVL Insertion,,Text,0
+chartevents,225580,Is alternative vascular access present (CVL),Is alternative vascular access (CVL),CVL Insertion,,Checkbox,0
+chartevents,225581,Location (CVL),Location (CVL),CVL Insertion,,Text,0
+chartevents,225585,ETT Depth (Intubation),ETT Depth (Intubation),Intubation,,Text,0
+chartevents,225586,Stylette (Intubation),Stylette (Intubation),Intubation,,Checkbox,0
+chartevents,225587,Bougie (Intubation),Bougie (Intubation),Intubation,,Checkbox,0
+chartevents,225588,Tube Secured (Intubation),Tube Secured (Intubation),Intubation,,Checkbox,0
+chartevents,225590,Tracheal Confirmation (Intubation),Tracheal Confirmation (Intubation),Intubation,,Text,0
+chartevents,225592,ETT Size (Intubation),ETT Size (Intubation),Intubation,,Text,0
+chartevents,225593,Best Larynx View Obtained (Intubation),Best Larynx View Obtained (Intubation),Intubation,,Text,0
+chartevents,225596,Timeout Performed by (LP),Timeout Performed by (LP),Lumbar Puncture,,Text,0
+chartevents,225597,Patient identified correctly (LP),Patient identified correctly (LP),Lumbar Puncture,,Text,0
+chartevents,225598,Verification of (LP),Verification of (LP),Lumbar Puncture,,Text,0
+chartevents,225599,Insertion kit used (LP),Insertion kit used (LP),Lumbar Puncture,,Checkbox,0
+chartevents,225601,Hand cleansing prior to procedure (LP),Hand cleansing prior to procedure (LP),Lumbar Puncture,,Checkbox,0
+chartevents,225602,Barrier precautions in place (LP),Barrier precautions in place (LP),Lumbar Puncture,,Text,0
+chartevents,225607,Hand cleansing prior to procedure (PA Line),Hand cleansing prior (PA Line),PA Line Insertion,,Checkbox,0
+chartevents,225608,Insertion kit used (PA line),Insertion kit used (PA line),PA Line Insertion,,Checkbox,0
+chartevents,225609,Site cleaned with ChloraPrep(TM) (PA line),Site cleaned ChloraPrep(TM) (PA line),PA Line Insertion,,Checkbox,0
+chartevents,225615,Location (PA line),Location (PA line),PA Line Insertion,,Text,0
+chartevents,225622,ZBrain Natiuretic Peptide (BNP),ZBrain Natiuretic Peptide (BNP),Labs,None,Numeric,0
+chartevents,225623,Number of attempts require to place line (PA line),Number of attempts require to place line (PA line),PA Line Insertion,,Text,0
+chartevents,225629,Guidewire (PA Line),Guidewire (PA Line),PA Line Insertion,,Text,0
+chartevents,225630,Ultrasound (PA line),Ultrasound (PA line),PA Line Insertion,,Text,0
+chartevents,225631,Side (PA line),Side (PA line),PA Line Insertion,,Text,0
+chartevents,225632,ZCK-MB,ZCK-MB,Labs,None,Numeric,0
+chartevents,225633,Acuity (PA line),Acuity (PA line),PA Line Insertion,,Text,0
+chartevents,225644,ZDigoxin,ZDigoxin,Labs,None,Numeric,0
+chartevents,225645,ZPhenytoin (Dilantin),ZPhenytoin (Dilantin),Labs,None,Numeric,0
+chartevents,225646,Transparent dressing applied and dated (PA line),Transparent dressing applied  (PA line),PA Line Insertion,,Checkbox,0
+chartevents,225647,PA line ordered on POE,PA line ordered on POE,PA Line Insertion,,Checkbox,0
+chartevents,225648,Follow-up X-RAYordered (PA Line),Follow-up X-RAY ordered (PA Line),PA Line Insertion,,Checkbox,0
+chartevents,225655,ZFK506,ZFK506,Labs,None,Numeric,0
+chartevents,225658,Freeform Drug Level,Freeform Drug Level,Labs,None,Numeric,0
+chartevents,225659,Freeform Enzymes,Freeform Enzymes,Labs,None,Numeric,0
+chartevents,225660,Freeform Hematology,Freeform Hematology,Labs,None,Numeric,0
+chartevents,225662,ZGentamicin (Peak),ZGentamicin (Peak),Labs,None,Numeric,0
+chartevents,225670,ZLDL measured,ZLDL measured,Labs,None,Numeric,0
+chartevents,225676,ZPhenobarbital,ZPhenobarbital,Labs,None,Numeric,0
+chartevents,225678,ZPlatelet Count,ZPlatelet Count,Labs,None,Numeric,0
+chartevents,225679,ZProcan,ZProcan,Labs,None,Numeric,0
+chartevents,225680,ZProcan Napa,ZProcan Napa,Labs,None,Numeric,0
+chartevents,225683,ZSed Rate,ZSed Rate,Labs,None,Numeric,0
+chartevents,225685,Thiocynate,Thiocynate,Labs,None,Numeric,0
+chartevents,225686,ZThrombin,ZThrombin,Labs,None,Numeric,0
+chartevents,225688,ZTobramycin (Peak),ZTobramycin (Peak),Labs,None,Numeric,0
+chartevents,225689,Insertion kit used (PICC Line),Insertion kit used (PICC Line),PICC Line Insertion,,Checkbox,0
+chartevents,225694,ZTropinin - T,ZTropinin - T,Labs,None,Numeric,0
+chartevents,225697,ZVancomycin (Peak),ZVancomycin (Peak),Labs,None,Numeric,0
+chartevents,225700,Immediate complications (CVL),Immediate complications (CVL),CVL Insertion,,Checkbox,0
+chartevents,225701,Transparent dressing applied and dated (CVL),Transparent dressing applied  (CVL),CVL Insertion,,Checkbox,0
+chartevents,225702,Follow-up chest X-RAY ordered (CVL),Follow-up chest X-RAY ordered (CVL),CVL Insertion,,Checkbox,0
+chartevents,225704,Site cleaned with ChloraPrep(TM) (CVL),Site cleaned with ChloraPrep(TM) (CVL),CVL Insertion,,Checkbox,0
+chartevents,225705,Hand cleansing prior to procedure (CVL),Hand cleansing prior to procedure (CVL),CVL Insertion,,Checkbox,0
+chartevents,225706,Insertion kit used (CVL),Insertion kit used (CVL),CVL Insertion,,Checkbox,0
+chartevents,225707,Central Line ordered on POE,Central Line ordered on POE,CVL Insertion,,Checkbox,0
+chartevents,225708,Immediate complications (PICC),Immediate complications (PICC),PICC Line Insertion,,Checkbox,0
+chartevents,225714,Location (A-Line),Location (A-Line),Arterial Line Insertion,,Text,0
+chartevents,225717,Guidewire (A-Line),Guidewire (A-Line),Arterial Line Insertion,,Text,0
+chartevents,225718,Ultrasound (A-Line),Ultrasound (A-Line),Arterial Line Insertion,,Text,0
+chartevents,225719,Number of operators (A-Line),Number of operators (A-Line),Arterial Line Insertion,,Text,0
+chartevents,225721,Acuity (A-Line),Acuity (A-Line),Arterial Line Insertion,,Text,0
+chartevents,225727,IABP Line Tip Cultured,IABP Line Tip Cultured,Access Lines - Invasive,,Checkbox,0
+chartevents,225733,Indwelling Port (PortaCath) Line Tip Cultured,Indwelling Port (PortaCath) Line Tip Cultured_2016,Access Lines - Invasive,,Checkbox,0
+chartevents,225774,CCO PAC Dressing Type,CCO PAC Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225775,Cordis Introducer Dressing Type,Cordis Introducer Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225776,Dialysis Catheter Dressing Type,Dialysis Catheter Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225777,Tunneled (Hickman) Dressing Type,Tunneled (Hickman) Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225778,IABP Dressing Type,IABP Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225779,Midline Dressing Type,Midline Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225780,Multi Lumen Dressing Type,Multi Lumen Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225781,PA Catheter Dressing Type,PA Catheter Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225782,Pheresis Catheter Dressing Type,Pheresis Catheter Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225784,Indwelling Port (PortaCath) Dressing Type,Indwelling Port (PortaCath) Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225785,Presep Catheter Dressing Type,Presep Catheter Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225786,Sheath Dressing Type,Sheath Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225787,Trauma Line Dressing Type,Trauma Line Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225788,Triple Introducer Dressing Type,Triple Introducer Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,225790,Site cleaned with ChloraPrep(TM) (PICC),Site cleaned with ChloraPrep(TM) (PICC),PICC Line Insertion,,Checkbox,0
+chartevents,226005,Sterile field maintained throughout procedure (CVL),Sterile field throughout procedure (CVL),CVL Insertion,,Checkbox,0
+chartevents,226007,Number of operators (PA line),Number of operators (PA line),PA Line Insertion,,Text,0
+chartevents,226008,Arterial line sutured,Arterial line sutured,Arterial Line Insertion,,Checkbox,0
+chartevents,226009,Dressing applied and dated (THCEN),Dressing applied and dated (THCEN),Thoracentesis,,Checkbox,0
+chartevents,226010,Number of operators (PACEN),Number of operators (PACEN),Paracentesis,,Text,0
+chartevents,226011,Number of attempts (PACEN),Number of attempts (PACEN),Paracentesis,None,Numeric,0
+chartevents,226012,Dressing applied and dated (PACEN),Dressing applied and dated (PACEN),Paracentesis,,Checkbox,0
+chartevents,226014,Dressing applied and dated (LP),Dressing applied and dated (LP),Lumbar Puncture,,Checkbox,0
+chartevents,226064,ZVancomycin (Trough),ZVancomycin (Trough),Labs,None,Numeric,0
+chartevents,226065,ZVancomycin (Random),ZVancomycin (Random),Labs,None,Numeric,0
+chartevents,226066,ZTobramycin (Trough),ZTobramycin (Trough),Labs,None,Numeric,0
+chartevents,226067,ZTobramycin (Random),ZTobramycin (Random),Labs,None,Numeric,0
+chartevents,226068,ZGentamicin (Trough),ZGentamicin (Trough),Labs,None,Numeric,0
+chartevents,226069,ZGentamicin (Random),ZGentamicin (Random),Labs,None,Numeric,0
+chartevents,226127,ICP Line Dressing Type,ICP Line Dressing Type,Access Lines - Invasive,,Text,0
+chartevents,226161,Sterile field maintained throughout procedure (PICC),Sterile field throughout procedure (PICC),PICC Line Insertion,,Checkbox,0
+chartevents,226162,Sterile field maintained throughout procedure (PA line),Sterile field through procedure (PAline),PA Line Insertion,,Checkbox,0
+chartevents,226164,Sterile field maintained throughout procedure (A-Line),Sterile field maintained (A-Line),Arterial Line Insertion,,Checkbox,0
+chartevents,226166,No Complications (Intubation),No Complications (Intubation),Intubation,,Checkbox,0
+chartevents,226188,Timeout Performed by (Intubation),Timeout Performed by (Intubation),Intubation,,Text,0
+chartevents,226189,Patient identified correctly by 2 means (Intubation),Patient identified correctly by 2 means (Intubatio,Intubation,,Text,0
+chartevents,226190,Hand Cleansing prior to procedure (Intubation),Hand Cleansing prior to (Intubation),Intubation,,Checkbox,0
+chartevents,226191,Barrier precautions in place (Intubation),Barrier precautions in place (Intubation),Intubation,,Text,0
+chartevents,226226,Enteral Nutriton Residuals,Enteral Nutriton Residuals,Nutrition - Enteral,None,Numeric,0
+chartevents,226228,Gender,Gender,ADT,,Text,0
+chartevents,226230,Attending/Supervisor is Clinician Operator (CVL),Attending/Supervisor is Clinician Operator (CVL),CVL Insertion,,Checkbox,0
+chartevents,226232,Present during key moments and agree with checklist (CVL),Present during procedure/agree w/ checklist (CVL),CVL Insertion,,Checkbox,0
+chartevents,226239,Number of operators (PICC),Number of operators (PICC),PICC Line Insertion,,Text,0
+chartevents,226259,ZOn Pressors,ZOn Pressors,General,,Checkbox,0
+chartevents,226260,Mechanically Ventilated,Mechanically Ventilated,General,,Checkbox,0
+chartevents,226429,ETT Type (Intubation),ETT Type (Intubation),Intubation,,Text,0
+chartevents,226430,Complications (Intubation),Complications (Intubation),Intubation,,Text,0
+chartevents,226431,Verification of (Intubation),Verification of (Intubation),Intubation,,Text,0
+chartevents,226432,Drugs (Intubation),Drugs (Intubation),Intubation,,Text,0
+chartevents,226439,Complications (PACEN),Complications (PACEN),Paracentesis,,Text,0
+chartevents,226443,Complications (LP),Complications (LP),Lumbar Puncture,,Text,0
+chartevents,226523,Barrier precautions in place (A-Line),Barrier precautions in place (A-Line),Arterial Line Insertion,,Text,0
+chartevents,226524,Complications (A-Line),Complications (A-Line),Arterial Line Insertion,,Text,0
+chartevents,226525,Indications (A-Line),Indications (A-Line),Arterial Line Insertion,,Text,0
+chartevents,226526,Patient identified correctly (A-Line),Patient identified correctly (A-Line),Arterial Line Insertion,,Text,0
+chartevents,226527,Timeout performed by (A-Line),Timeout performed by (A-Line),Arterial Line Insertion,,Text,0
+chartevents,226528,Verification of (A-Line),Verification of (A-Line),Arterial Line Insertion,,Text,0
+chartevents,226535,ZPotassium (whole blood),ZPotassium (whole blood),Labs,None,Numeric,0
+chartevents,226545,Race,Race,ADT,,Text,0
+chartevents,226740,APACHE II Diagnosistic weight factors - Medical,Diagnostic weight category - Medical,Scores - APACHE II,,Text,0
+chartevents,226741,APACHE II Diagnosistic weight factors - Surgical emergency,Diagnosistic weight categories - Surgical emergenc,Scores - APACHE II,,Text,0
+chartevents,226742,APACHE II Diagnosistic weight factors - Surgical,Diagnosistic weight categories - Surgical,Scores - APACHE II,,Text,0
+chartevents,226746,ApacheII chronic health,ApacheII chronic health,Scores - APACHE II,,Text,0
+chartevents,226747,APACHEII-Chronic health points,APACHEII-Chp,Scores - APACHE II,,Text,0
+chartevents,226750,Chronic Dilaysis,Chronic Dilaysis,Scores - APACHE IV (2),,Checkbox,0
+chartevents,226770,PO2ApacheIIValue,PO2ApacheIIValue,Scores - APACHE II,None,Numeric,0
+chartevents,226849,RA (mean) pressure (PA Line),RA (mean) pressure (PA Line),PA Line Insertion,mmHg,Numeric,0
+chartevents,226850,RV systolic pressure(PA Line),RV systolic pressure(PA Line),PA Line Insertion,mmHg,Numeric,0
+chartevents,226851,RV diastolic pressure(PA Line),RV diastolic pressure(PA Line),PA Line Insertion,mmHg,Numeric,0
+chartevents,226852,PA systolic pressure(PA Line),PA systolic pressure(PA Line),PA Line Insertion,mmHg,Numeric,0
+chartevents,226853,PA diastolic pressure(PA Line),PA diastolic pressure(PA Line),PA Line Insertion,mmHg,Numeric,0
+chartevents,226854,PCWP (v wave) (PA Line),PCWP (v wave) (PA Line),PA Line Insertion,mmHg,Numeric,0
+chartevents,226855,PCWP (mean) (PA Line),PCWP (mean) (PA Line),PA Line Insertion,mmHg,Numeric,0
+chartevents,226857,PA mean pressure (PA Line),PA mean pressure (PA Line),PA Line Insertion,mmHg,Numeric,0
+chartevents,226858,CO pressure (PA Line),CO pressure (PA Line),PA Line Insertion,L/min,Numeric,0
+chartevents,226859,CI pressure (PA Line),CI pressure (PA Line),PA Line Insertion,L/min/m2,Numeric,0
+chartevents,226860,RA %O2 Saturation (PA Line),RA %O2 Saturation (PA Line),PA Line Insertion,%,Numeric,0
+chartevents,226861,ART %O2 saturation (PA Line),ART %O2 saturation (PA Line),PA Line Insertion,%,Numeric,0
+chartevents,226862,PA %O2 Saturation (PA Line),PA %O2 Saturation (PA Line),PA Line Insertion,%,Numeric,0
+chartevents,226863,PVR %O2 Saturation (PA Line),PVR %O2 Saturation (PA Line),PA Line Insertion,dynes*sec/cm5,Numeric,0
+chartevents,226865,SVR %O2 Saturation (PA Line),SVR %O2 Saturation (PA Line),PA Line Insertion,dynes*sec/cm5,Numeric,0
+chartevents,226892,Re-admit < 48 hours,Re-admit < 48 hours,General,,Checkbox,0
+chartevents,226893,Coefficient Hospital Mortality,Coefficient Hospital Mortality,Scores - APACHE IV (2),,Text,0
+chartevents,226894,Coefficient ICU length of stay,Coefficient ICU length of stay,Scores - APACHE IV (2),,Text,0
+chartevents,226979,Admission location,Admission location,Scores - APACHE IV (2),,Text,0
+chartevents,226985,APACHE IV diagnosis choice 1,APACHE IV diagnosis choice 1,Scores - APACHE IV,,Text,0
+chartevents,226986,APACHE IV diagnosis choice 2,APACHE IV diagnosis choice 2,Scores - APACHE IV,,Text,0
+chartevents,226987,APACHE IV diagnosis,APACHE IV diagnosis,Scores - APACHE IV,,Text,0
+chartevents,226988,APACHE IV main groups non-operative,APACHE IV main group non-operatives,Scores - APACHE IV,,Text,0
+chartevents,226989,APACHE IV main groups operative,APACHE IV main group operative,Scores - APACHE IV,,Text,0
+chartevents,227002,CABG Patient,CABG Patient,Scores - APACHE IV (2),,Checkbox,0
+chartevents,227003,Chronic health on admission,Chronic health on admission,Scores - APACHE IV (2),,Text,0
+chartevents,227007,Diabetes,Diabetes,Scores - APACHE IV (2),,Checkbox,0
+chartevents,227008,Ejection Fraction,Ejection Fraction,Scores - APACHE IV (2),%,Numeric,0
+chartevents,227009,FiO2_ApacheIV_old,FiO2_ApacheIV_old,Scores - APACHE IV (2),None,Numeric,0
+chartevents,227011,GCSEye_ApacheIV,GCSEye_ApacheIV,Scores - APACHE IV (2),,Text,0
+chartevents,227012,GCSMotor_ApacheIV,GCSMotor_ApacheIV,Scores - APACHE IV (2),,Text,0
+chartevents,227014,GCSVerbal_ApacheIV,GCSVerbal_ApacheIV,Scores - APACHE IV (2),,Text,0
+chartevents,227022,LOS pre-ICU admission,LOS pre-ICU admission,Scores - APACHE IV (2),None,Numeric,0
+chartevents,227025,Non-Operative Cardiovascular (CARDIOVASC),Cardiovascular Non-Operative,Scores - APACHE IV,,Text,0
+chartevents,227026,Non-Operative Gastrointestinal (GI),Gastrointestinal Non-Operative,Scores - APACHE IV,,Text,0
+chartevents,227027,Non-Operative Genitourinary (GENITOURIN),Genitourinary Non-Operative,Scores - APACHE IV,,Text,0
+chartevents,227028,Non-Operative Hematology (HEMATO),Hematology Non-Operative,Scores - APACHE IV,,Text,0
+chartevents,227029,Non-Operative Metabolic/Endocrine (METAB/ENDO),Metabolic/Endocrine Non-Operative,Scores - APACHE IV,,Text,0
+chartevents,227030,Non-Operative Musculoskeletal/Skin (MUSKELSKIN),Musculoskeletal/Skin Non-Operative,Scores - APACHE IV,,Text,0
+chartevents,227031,Non-Operative Neurologic (NEUROLOGIC),Neurologic Non-Operative,Scores - APACHE IV,,Text,0
+chartevents,227032,Non-Operative Respiratory (RESPIRAT),Respiratory Non-Operative,Scores - APACHE IV,,Text,0
+chartevents,227033,Non-Operative Transplant (TRANSPLANT),Transplant Non-Operative,Scores - APACHE IV,,Text,0
+chartevents,227034,Non-Operative Trauma (TRAUMA),Trauma Non-Operative,Scores - APACHE IV,,Text,0
+chartevents,227040,Post-Operative Cardiovascular (CARDIOVASC),Cardiovascular Post-Operative,Scores - APACHE IV,,Text,0
+chartevents,227041,Post-Operative Gastrointestinal (GI),Gastrointestinal Post-Operative,Scores - APACHE IV,,Text,0
+chartevents,227042,Post-Operative Genitourinary (GENITOURIN),Genitourinary Post-Operative,Scores - APACHE IV,,Text,0
+chartevents,227043,Post-Operative Hematology (HEMATO),Hematology Post-Operative,Scores - APACHE IV,,Text,0
+chartevents,227044,Post-Operative Metabolic/Endocrine (METAB/ENDO),Metabolic/Endocrine Post-Operative,Scores - APACHE IV,,Text,0
+chartevents,227045,Post-Operative Musculoskeletal/Skin (MUSKELSKIN),Musculoskeletal/Skin Post-Operative,Scores - APACHE IV,,Text,0
+chartevents,227046,Post-Operative Neurologic (NEUROLOGIC),Neurologic Post-Operative,Scores - APACHE IV,,Text,0
+chartevents,227047,Post-Operative Respiratory (RESPIRAT),Respiratory Post-Operative,Scores - APACHE IV,,Text,0
+chartevents,227048,Post-Operative Transplant (TRANSPLANT),Transplant Post-Operative,Scores - APACHE IV,,Text,0
+chartevents,227049,Post-Operative Trauma (TRAUMA),Trauma Post-Operative,Scores - APACHE IV,,Text,0
+chartevents,227056,Thrombolytic therapy,Thrombolytic therapy,Scores - APACHE IV,,Checkbox,0
+chartevents,227057,Type of admission,Type of admission,Scores - APACHE IV,,Text,0
+chartevents,227061,Ventilated at any time during ICU Day 1,Ventilated at any time during ICU Day 1,Scores - APACHE IV,,Checkbox,0
+chartevents,227088,Admit from,Admit from,General,,Text,0
+chartevents,227089,Discharge to,Discharge to,General,,Text,0
+chartevents,227100,Catheter insertion length (PICC),Catheter insertion length (PICC),PICC Line Insertion,cm,Numeric,0
+chartevents,227105,Catheter insertion length (CVL),Catheter insertion length (CVL),CVL Insertion,cm,Numeric,0
+chartevents,227210,Propofol (Intubation),Propofol (Intubation),Intubation,mg,Numeric,0
+chartevents,227211,Ketamine (Intubation),Ketamine (Intubation),Intubation,mg,Numeric,0
+chartevents,227212,Etomidate (Intubation),Etomidate (Intubation),Intubation,mg,Numeric,0
+chartevents,227213,Vecuronium (Intubation),Vecuronium (Intubation),Intubation,mg,Numeric,0
+chartevents,227214,Cis-atracurium (Intubation),Cis-atracurium (Intubation),Intubation,mg,Numeric,0
+chartevents,227215,Succynlocholine (Intubation),Succynlocholine (Intubation),Intubation,mg,Numeric,0
+chartevents,227438,Volume not removed,Volume not removed,Dialysis,mL,Numeric,0
+chartevents,227485,Print Job,Print Job,General,,Text,0
+chartevents,227486,Printer,Printer,General,,Text,0
+chartevents,227521,KCL Bolus),KCL (Bolus),Medications,mL,Numeric,0
+chartevents,227527,ADA-A (500ml),ADA-A (500ml),Medications,mL,Numeric,0
+chartevents,227685,ZCentral Venous O2% Sat,ZCentral Venous O2% Sat,Labs,None,Numeric,0
+chartevents,227778,Skeletal Traction #4 - Pounds,Skeletal Traction #4 - Pounds,Treatments,lbs,Numeric,0
+chartevents,227849,Toilet,Toilet,OT Notes,,Text,0
+chartevents,227851,Shower / Tub,Shower / Tub,OT Notes,,Text,0
+chartevents,228019,Insertion kit used (A-Line),Insertion kit used (A-Line),Arterial Line Insertion,,Text,0
+chartevents,228020,Hand cleansing prior to procedure (A-Line),Hand cleansing prior to procedure (A-Line),Arterial Line Insertion,,Text,0
+chartevents,228021,Site cleaned with ChloraPrep(TM) (A-Line),Site cleaned with ChloraPrep(TM) (A-Line),Arterial Line Insertion,,Text,0
+chartevents,228022,Replaced previous Arterial line over wire,Replaced previous Arterial line over wire,Arterial Line Insertion,,Text,0
+chartevents,228023,Arterial line sutured,Arterial line sutured,Arterial Line Insertion,,Text,0
+chartevents,228024,Sterile field maintained throughout procedure (A-Line),Sterile field maintained (A-Line),Arterial Line Insertion,,Text,0
+chartevents,228025,Transparent dressing applied and dated (A-Line)_New,Transparent dressing applied and dated (A-Line)New,Arterial Line Insertion,,Text,0
+chartevents,228026,Arterial Line ordered on POE,Arterial Line ordered on POE,Arterial Line Insertion,,Text,0
+chartevents,228027,The Attending /Supervisor is the Clinician Operator (Aline),The Attending/Supervisor (A-Line),Arterial Line Insertion,,Checkbox,0
+chartevents,228028,I was present during the above procedure and agree with the chacklist (A-Line),I was present during the procedure (A-Line),Arterial Line Insertion,,Checkbox,0
+chartevents,228030,Is alternative vascular access present (CVL),Is alternative vascular access present (CVL),CVL Insertion,,Text,0
+chartevents,228031,Insertion kit used (CVL),Insertion kit used (CVL),CVL Insertion,,Text,0
+chartevents,228032,Hand cleansing prior to procedure (CVL),Hand cleansing prior to procedure (CVL),CVL Insertion,,Text,0
+chartevents,228033,Site cleaned with ChloraPrep(TM) (CVL),Site cleaned with ChloraPrep(TM) (CVL),CVL Insertion,,Text,0
+chartevents,228034,Sterile field maintained throughout procedure (CVL),Sterile field throughout procedure (CVL),CVL Insertion,,Text,0
+chartevents,228035,Transparent dressing applied and dated (CVL),Transparent dressing applied and dated (CVL),CVL Insertion,,Text,0
+chartevents,228036,Central Line ordered on POE,Central Line ordered on POE,CVL Insertion,,Text,0
+chartevents,228037,Follow-up chest X-RAY ordered (CVL),Follow-up chest X-RAY ordered (CVL),CVL Insertion,,Text,0
+chartevents,228038,Immediate complications (CVL),Immediate complications (CVL),CVL Insertion,,Text,0
+chartevents,228039,The Attending/Supervisor is the Clinician Operator (CVL),The Attending/Supervisor is the Operator (CVL),CVL Insertion,,Checkbox,0
+chartevents,228040,I was present during the above procedure and agree with the checklist (CVL),I was present during the above procedure (CVL),CVL Insertion,,Checkbox,0
+chartevents,228041,Insertion kit used (PICC Line),Insertion kit used (PICC Line),PICC Line Insertion,,Text,0
+chartevents,228042,Hand Cleansing Prior to Procedure (PICC),Hand Cleansing Prior to Procedure (PICC),PICC Line Insertion,,Text,0
+chartevents,228043,Site cleaned with ChloraPrep(TM) (PICC),Site cleaned with ChloraPrep(TM) (PICC),PICC Line Insertion,,Text,0
+chartevents,228044,Sterile field maintained throughout procedure (PICC),Sterile field throughout procedure (PICC),PICC Line Insertion,,Text,0
+chartevents,228045,Transparent dressing applied and dated (PICC),Transparent dressing applied and dated (PICC),PICC Line Insertion,,Text,0
+chartevents,228046,PICC Ordered on POE,PICC Ordered on POE,PICC Line Insertion,,Text,0
+chartevents,228047,Follow-up X-RAY Ordered (PICC),Follow-up X-RAY Ordered (PICC),PICC Line Insertion,,Text,0
+chartevents,228048,Immediate complications (PICC),Immediate complications (PICC),PICC Line Insertion,,Text,0
+chartevents,228049,Attending/Supervisor is the Clinical Operator (PICC)_New,Attending/Supervisor is Clinical Operator (PICC)_N,PICC Line Insertion,,Checkbox,0
+chartevents,228050,I was present during the above procedure and agree with the checklist (PICC),I was present during the procedure (PICC),PICC Line Insertion,,Checkbox,0
+chartevents,228051,Hand cleansing prior to procedure (Bronch),Hand cleansing prior to procedure (Bronch),Bronchoscopy,,Text,0
+chartevents,228052,Topical Lidocaine used (Bronch),Topical Lidocaine used (Bronch),Bronchoscopy,,Text,0
+chartevents,228053,Topical Cetacaine used (Bronch),Topical Cetacaine used (Bronch),Bronchoscopy,,Text,0
+chartevents,228055,Bronchoalveolar lavage (BAL) / washing (Bronch,Bronchoalveolar lavage (BAL) / wash (Bronch),Bronchoscopy,,Text,0
+chartevents,228056,Endobronchial ultrasound (EBUS) (Bronch),Endobronchial ultrasound (EBUS) (Bronch),Bronchoscopy,,Text,0
+chartevents,228057,Brushings (Bronch),Brushings (Bronch),Bronchoscopy,,Text,0
+chartevents,228058,Transbronchial biopsy (Bronch),Transbronchial biopsy (Bronch),Bronchoscopy,,Text,0
+chartevents,228059,Transbronchial needle aspirate (Bronch),Transbronchial needle aspirate (Bronch),Bronchoscopy,,Text,0
+chartevents,228060,Conscious sedation used (Bronch),Conscious sedation used (Bronch),Bronchoscopy,,Text,0
+chartevents,228061,Photodynamic therapy PDT (Bronch),Photodynamic therapy PDT (Bronch),Bronchoscopy,,Text,0
+chartevents,228062,Autofluorescence AF (Bronch),Autofluorescence AF (Bronch),Bronchoscopy,,Text,0
+chartevents,228063,The Attending/Supervisor is the Clinician Operator (Bronch),The Attending/Supervisor (Bronch),Bronchoscopy,,Checkbox,0
+chartevents,228064,I was present during the above procedure and agree with the checklist (Bronch),I was present during the above procedure (Bronch),Bronchoscopy,,Checkbox,0
+chartevents,228065,Hand Cleansing prior to procedure (Intubation),Hand Cleansing prior to procedure (Intubation),Intubation,,Text,0
+chartevents,228066,Unable to complete Airway Assessment (Intubation),Unable to complete  Assessment (Intubation),Intubation,,Text,0
+chartevents,228067,Stylette (Intubation),Stylette (Intubation),Intubation,,Text,0
+chartevents,228068,Bougie (Intubation),Bougie (Intubation),Intubation,,Text,0
+chartevents,228069,Tube Secured (Intubation),Tube Secured (Intubation),Intubation,,Text,0
+chartevents,228070,The Attending/Supervisor is the Clinical Operator (Intubation),The Attending/Supervisor (Intubation),Intubation,,Checkbox,0
+chartevents,228071,I was present during the above procedure and agree with the checklist (Intubation),I was present during the procedure (Intubation),Intubation,,Checkbox,0
+chartevents,228072,Hand cleansing prior to procedure (LP),Hand cleansing prior to procedure (LP),Lumbar Puncture,,Text,0
+chartevents,228073,Site cleansed with Providone Iodine (LP),Site cleansed with Providone Iodine (LP),Lumbar Puncture,,Text,0
+chartevents,228074,Number of attempts to perform (LP),Number of attempts to perform (LP),Lumbar Puncture,,Text,0
+chartevents,228075,Number of operators (LP),Number of operators (LP),Lumbar Puncture,,Text,0
+chartevents,228077,Dressing applied and dated (LP),Dressing applied and dated (LP),Lumbar Puncture,,Text,0
+chartevents,228078,The Attending/Supervisor is the Clinician Operator (LP),The Attending/Supervisor (LP),Lumbar Puncture,,Checkbox,0
+chartevents,228079,I was present during the above procedure and agree with the checklist (LP),I was present during the above procedure (LP),Lumbar Puncture,,Checkbox,0
+chartevents,228080,Insertion kit used (PACEN),Insertion kit used (PACEN),Paracentesis,,Text,0
+chartevents,228081,Hand cleansing prior to procedure (PACEN),Hand cleansing prior to procedure (PACEN),Paracentesis,,Text,0
+chartevents,228082,Site cleaned with ChloraPrep (PACEN),Site cleaned with ChloraPrep (PACEN),Paracentesis,,Text,0
+chartevents,228084,Dressing applied and dated (PACEN),Dressing applied and dated (PACEN),Paracentesis,,Text,0
+chartevents,228085,The Attending/Supervisor is the Clinical Operator (PACEN),The Attending/Supervisor (PACEN),Paracentesis,,Checkbox,0
+chartevents,228086,I was present during the above procedure and agree with the checklist (PACEN),I was present during the above procedure (PACEN),Paracentesis,,Checkbox,0
+chartevents,228087,Insertion kit used (THCEN),Insertion kit used (THCEN),Thoracentesis,,Text,0
+chartevents,228088,Hand cleansing prior to procedure (THCEN),Hand cleansing prior to procedure (THCEN),Thoracentesis,,Text,0
+chartevents,228089,Site cleansed with ChloraPrep (THCEN),Site cleansed with ChloraPrep (THCEN),Thoracentesis,,Text,0
+chartevents,228090,Number of attempts (THCEN),Number of attempts (THCEN),Thoracentesis,None,Numeric,0
+chartevents,228091,Number of operators (THCEN),Number of operators (THCEN),Thoracentesis,,Text,0
+chartevents,228092,Dressing applied and dated (THCEN),Dressing applied and dated (THCEN),Thoracentesis,,Text,0
+chartevents,228093,Follow-up X-RAY Ordered (THCEN),Follow-up X-RAY Ordered (THCEN),Thoracentesis,,Text,0
+chartevents,228094,The Attending/Supervisor is the Clinician Operator (THCEN),The Attending/Supervisor (THCEN),Thoracentesis,,Checkbox,0
+chartevents,228095,I was present during the above procedure and agree with the checklist (THCEN),I was present during the above procedure (THCEN),Thoracentesis,,Checkbox,0
+chartevents,228106,NonOperative Diagnoses,NonOperative Diagnoses,ApacheII Parameters,,Text,0
+chartevents,228107,Elective Postoperative Diagnoses,Elective Postoperative Diagnoses,ApacheII Parameters,,Text,0
+chartevents,228108,Emergency Postoperative Diagnoses,Emergency Postoperative Diagnoses,ApacheII Parameters,,Text,0
+chartevents,228109,APACHE IV diagnoses,APACHE IV diagnoses,ApacheIV Parameters,,Text,0
+chartevents,228110,APACHE IV diagnoses-2,APACHE IV diagnoses-2,ApacheIV Parameters,,Text,0
+chartevents,228111,Readmission,Readmission,Scores - APACHE IV (2),,Checkbox,0
+chartevents,228112,GCSVerbalApacheIIValue (intubated),GCSVerbalApacheIIValue (intubated),Scores - APACHE II,,Text,0
+chartevents,228113,Insertion kit used (PA line),Insertion kit used (PA line),PA Line Insertion,,Text,0
+chartevents,228114,Hand cleansing prior to procedure (PA Line),Hand cleansing prior to procedure (PA Line),PA Line Insertion,,Text,0
+chartevents,228115,Site cleansed with ChloraPrep(TM) (PA line),Site cleansed with ChloraPrep(TM) (PA line),PA Line Insertion,,Text,0
+chartevents,228116,Sterile field maintained throughout procedure (PA line),Sterile field throughout procedure (PALine),PA Line Insertion,,Text,0
+chartevents,228117,Thermodilution (PA line),Thermodilution (PA line),PA Line Insertion,,Text,0
+chartevents,228118,Fick (PA line),Fick (PA line),PA Line Insertion,,Text,0
+chartevents,228120,Transparent dressing applied and dated (PA line),Transparent dressing  (PA line),PA Line Insertion,,Text,0
+chartevents,228121,PA line ordered on POE,PA line ordered on POE,PA Line Insertion,,Text,0
+chartevents,228122,Follow-up X-RAYordered (PA Line),Follow-up X-RAYordered (PA Line),PA Line Insertion,,Text,0
+chartevents,228123,The Attending/Supervisor is the Clinical Operator (PA Line),The Attending/Supervisor (PA Line),PA Line Insertion,,Checkbox,0
+chartevents,228124,I was present during the above procedure and agree with the checklist (PA Line),I was present for procedure (PA Line),PA Line Insertion,,Checkbox,0
+chartevents,228148,ABI Ankle BP R (Impella),ABI Ankle BP R (Impella),Impella,mmHg,Numeric,0
+chartevents,228149,ABI Brachial BP L (Impella),ABI Brachial BP L (Impella),Impella,mmHg,Numeric,0
+chartevents,228183,SVRI (PiCCO)_OLD_1,SVRI (PiCCO)_OLD_1,PiCCO,dynes.sec.cm-5/m2,Numeric,0
+chartevents,228239,Phenytoin (Free) (SOFT),Phenytoin (Free) (SOFT),Labs,None,Numeric,0
+chartevents,228240,D-Dimer (SOFT),D-Dimer (SOFT),Labs,None,Numeric with tag,0
+chartevents,228241,Ammonia (Soft)_OLD_1,Ammonia (Soft)_OLD_1,Labs,None,Numeric,0
+chartevents,228242,Pt. Temperature (BG) (SOFT),Pt. Temperature (BG) (SOFT),Labs,None,Numeric,0
+chartevents,228243,PH (SOFT),PH (SOFT),Labs,None,Numeric,0
+chartevents,228260,FM Pt Preferences,FM Pt Preferences,Family Mtg Note,,Checkbox,0
+chartevents,228261,FM CM Consult,FM CM Consult,Family Mtg Note,,Checkbox,0
+chartevents,228263,FM Concerns elicited,FM Concerns elicited,Family Mtg Note,,Checkbox,0
+chartevents,228264,FM Condition Rev,FM Condition Rev,Family Mtg Note,,Checkbox,0
+chartevents,228265,FM Prehuddle,FM Prehuddle,Family Mtg Note,,Checkbox,0
+chartevents,228267,FM Discord noted,FM Discord noted,Family Mtg Note,,Checkbox,0
+chartevents,228268,FM Dx reviewed,FM Dx reviewed,Family Mtg Note,,Checkbox,0
+chartevents,228270,FM ICU-Hosp duration,FM ICU-Hosp duration,Family Mtg Note,,Checkbox,0
+chartevents,228271,FM Intepreter present,FM Intepreter present,Family Mtg Note,,Checkbox,0
+chartevents,228272,FM Location,FM Location,Family Mtg Note,,Text,0
+chartevents,228273,FM Measures,FM Measures,Family Mtg Note,,Checkbox,0
+chartevents,228276,FM Prognosis reviewed,FM Prognosis reviewed,Family Mtg Note,,Checkbox,0
+chartevents,228277,FM Pt present,FM Pt present,Family Mtg Note,,Checkbox,0
+chartevents,228279,FM Spirit/cultural,FM Spirit/cultural,Family Mtg Note,,Checkbox,0
+chartevents,228282,FM SW consult,FM SW consult,Family Mtg Note,,Checkbox,0
+chartevents,228283,FM Sx controlled,FM Sx controlled,Family Mtg Note,,Checkbox,0
+chartevents,228284,FM Time spent,FM Time spent,Family Mtg Note,min,Numeric,0
+chartevents,228285,FM Tx/goals,FM Tx/goals,Family Mtg Note,,Checkbox,0
+chartevents,228319,PC Assessment of spiritual issues,PC Assessment of spiritual issues,Pastoral Care Note,,Text,0
+chartevents,228322,PC Interpreter present,PC Interpreter present,Pastoral Care Note,,Checkbox,0
+chartevents,228323,PC Ministries offered,PC Ministries offered / requested,Pastoral Care Note,,Text,0
+chartevents,228324,PC Spiritual interventions,PC Spiritual interventions,Pastoral Care Note,,Text,0
+chartevents,228327,PC Reason for visit,PC Reason for visit,Pastoral Care Note,,Text,0
+chartevents,228328,PC Source of assessment data,PC Source of assessment data,Pastoral Care Note,,Text,0
+chartevents,228371,DO2I (NICOM),DO2I (NICOM),NICOM,mL/min/m2,Numeric,0
+chartevents,228384,Number of days (CVL),Number of days (CVL),CVL Insertion,None,Numeric,0
+chartevents,228385,Chloride (serum) (soft),Chloride (serum) (soft),Labs,None,Numeric with tag,0
+chartevents,228386,Chloride (whole blood) (soft),Chloride (whole blood) (soft),Labs,None,Numeric with tag,0
+chartevents,228388,Glucose (whole blood) (soft),Glucose (whole blood) (soft),Labs,None,Numeric with tag,0
+chartevents,228389,Sodium (serum) (soft),Sodium (serum) (soft),Labs,None,Numeric with tag,0
+chartevents,228390,Sodium (whole blood) (soft),Sodium (whole blood) (soft),Labs,None,Numeric with tag,0
+chartevents,228391,Ammonia (SOFT),Ammonia (SOFT),Labs,None,Numeric with tag,0
+chartevents,228425,Complications (MBAL),Complications (MBAL),Bronchoscopy,,Text,0
+chartevents,228426,Complications - bleeding (MBAL),Complications - bleeding (MBAL),Bronchoscopy,,Text,0
+chartevents,228427,Contraindications (MBAL),Contraindications (MBAL),Bronchoscopy,,Text,0
+chartevents,228429,Critical Proc Steps (MBAL),Critical Proc Steps (MBAL),Bronchoscopy,,Text,0
+chartevents,228430,Indications (MBAL),Indications (MBAL),Bronchoscopy,,Text,0
+chartevents,228434,Route (MBAL),Route (MBAL),Bronchoscopy,,Text,0
+chartevents,228435,Volume instilled (MBAL),Volume instilled (MBAL),Bronchoscopy,mL,Numeric,0
+chartevents,228436,Volume obtained (MBAL),Volume obtained (MBAL),Bronchoscopy,mL,Numeric,0
+chartevents,228437,Hand cleansing prior to procedure (MBAL),Hand cleansing prior to procedure (MBAL),Bronchoscopy,,Text,0
+chartevents,228438,Timeout performed by (MBAL),Timeout performed by (MBAL),Bronchoscopy,,Text,0
+chartevents,228439,Patient identified correctly (MBAL),Patient identified correctly (MBAL),Bronchoscopy,,Text,0
+chartevents,228440,Verification of (MBAL),Verification of (MBAL),Bronchoscopy,,Text,0
+chartevents,228441,Barrier precautions in place (MBAL),Barrier precautions in place (MBAL),Bronchoscopy,,Text,0
+chartevents,228456,Location (Gen Proc),Location (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228460,Indication (Gen Proc),Indication (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228462,Patient (Gen Proc),Patient (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228463,Acuity (Gen Proc),Acuity (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228465,Timeout Performed By (Gen Proc),Timeout Performed By (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228466,Patient Identified Correctly (Gen Proc),Patient Identified Correctly (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228467,Verification (Gen Proc),Verification (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228468,Hand Cleansing (Gen Proc),Hand Cleansing (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228469,Site Cleansed With ChloraPrep (Gen Proc),Site Cleansed With ChloraPrep (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228471,Barrier Precautions (Gen Proc),Barrier Precautions (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228473,Conscious Sedation (Gen Proc),Conscious Sedation (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228474,Patient Position (Gen Proc),Patient Position (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228475,Side (Gen Proc),Side (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228476,With Ultrasound (Gen Proc),With Ultrasound (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228478,Number of Attempts (Gen Proc),Number of Attempts (Gen Proc),Generic Proc Note,None,Numeric,0
+chartevents,228479,Number of Operators (Gen Proc),Number of Operators (Gen Proc),Generic Proc Note,None,Numeric,0
+chartevents,228482,Dressing Applied (Gen Proc),Dressing Applied (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228483,Follow Up Xray (Gen Proc),Follow Up Xray (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228485,Complications (Gen Proc),Complications (Gen Proc),Generic Proc Note,,Text,0
+chartevents,228491,Clinical Operator (Gen Proc),Clinical Operator (Gen Proc),Generic Proc Note,,Checkbox,0
+chartevents,228492,Present and Agree (Gen Proc),Present and Agree (Gen Proc),Generic Proc Note,,Checkbox,0
+chartevents,228495,Skin Location,Skin Location,Skin - Incisions,,Text,0
+chartevents,228517,Skin Cleanse,Skin Cleanse,Skin - Incisions,,Text,0
+chartevents,228528,Skin Treatment,Skin Treatment,Skin - Incisions,,Text,0
+chartevents,228586,Dressing Status,Dressing Status,Skin - Impairment,,Text,0
+chartevents,228612,Pressure Ulcer #3- Depth,Pressure Ulcer #3- Depth,Skin - Impairment,cm,Numeric,0
+chartevents,228642,Barrier precautions in place (Bronch),Barrier precautions in place (Bronch),Bronchoscopy,,Text,0
+chartevents,228643,Barrier precautions in place (Intubation),Barrier precautions in place (Intubation),Intubation,,Text,0
+chartevents,228644,Barrier precautions in place (LP),Barrier precautions in place (LP),Lumbar Puncture,,Text,0
+chartevents,228645,Barrier precautions in place (PACEN),Barrier precautions in place (PACEN),Paracentesis,,Text,0
+chartevents,228646,Barrier precautions in place (THCEN),Barrier precautions in place (THCEN),Thoracentesis,,Text,0
+chartevents,228647,Barrier precautions in place (A-Line),Barrier precautions in place (A-Line),Arterial Line Insertion,,Text,0
+chartevents,228684,Abdominal - (GI / Hepatic)_OLD_1,Abdominal - (GI / Hepatic)_OLD_1,MD Progress Note,,Text,0
+chartevents,228685,Admission type,Admission type,MD Progress Note,,Text,0
+chartevents,228686,Cardiovascular_OLD_1,Cardiovascular_OLD_1,MD Progress Note,,Text,0
+chartevents,228688,Delirium,Delirium,MD Progress Note,,Text,0
+chartevents,228690,DVT Prophy_OLD_1,DVT Prophy_OLD_1,MD Progress Note,,Text,0
+chartevents,228693,Hematological_OLD_1,Hematological_OLD_1,MD Progress Note,,Text,0
+chartevents,228695,Lines/Tubes_OLD_1,Lines/Tubes_OLD_1,MD Progress Note,,Text,0
+chartevents,228718,Billing Diagnosis,Billing Diagnosis,MD Progress Note,,Text,0
+chartevents,229022,Incision #10- Cleanse,Incision #10- Cleanse,Skin - Incisions,,Text,0
+chartevents,229115,Sensory disturbance NCP - Problem resolved,Sensory disturbance NCP - Problem resolved,Care Plans,,Text,0
+chartevents,229116,Sensory disturbance NCP - Plan revised,Sensory disturbance NCP - Plan revised,Care Plans,,Text,0
+chartevents,229118,Sensory disturbance NCP - Interventions,Sensory disturbance NCP - Interventions,Care Plans,,Text,0
+chartevents,229120,Sensory disturbance NCP - Expected outcomes,Sensory disturbance NCP - Expected outcomes,Care Plans,,Text,0
+chartevents,229162,Specrecbyhand (Bronch),Specrecbyhand (Bronch),Bronchoscopy,,Text,0
+chartevents,229163,Specreclabeled (Bronch),Specreclabeled (Bronch),Bronchoscopy,,Text,0
+chartevents,229164,SpecrecPOE (Bronch),SpecrecPOE (Bronch),Bronchoscopy,,Text,0
+chartevents,229166,Specrectolabby (Bronch),Specrectolabby (Bronch),Bronchoscopy,,Text,0
+chartevents,229167,Specrectolabbyother (Bronch)_OLD_1,Specrectolabbyother (Bronch)_OLD_1,Bronchoscopy,,Text,0
+chartevents,229168,Specrecbyhand (MBAL),Specrecbyhand (MBAL),Bronchoscopy,,Text,0
+chartevents,229169,Specreclabeled (MBAL),Specreclabeled (MBAL),Bronchoscopy,,Text,0
+chartevents,229170,SpecrecPOE (MBAL),SpecrecPOE (MBAL),Bronchoscopy,,Text,0
+chartevents,229172,Specrectolabby (MBAL),Specrectolabby (MBAL),Bronchoscopy,,Text,0
+chartevents,229173,Specrectolabbyother (MBAL)old,Specrectolabbyother (MBAL)old,Bronchoscopy,,Text,0
+chartevents,229174,Specrecbyhand (PACEN),Specrecbyhand (PACEN),Paracentesis,,Text,0
+chartevents,229175,Specreclabeled (PACEN),Specreclabeled (PACEN),Paracentesis,,Text,0
+chartevents,229176,SpecrecPOE (PACEN),SpecrecPOE (PACEN),Paracentesis,,Text,0
+chartevents,229178,Specrectolabby (PACEN),Specrectolabby (PACEN),Paracentesis,,Text,0
+chartevents,229179,Specrectolabbyother (PACEN)_OLD_1,Specrectolabbyother (PACEN)_OLD_1,Paracentesis,,Text,0
+chartevents,229180,Specrecbyhand (THCEN),Specrecbyhand (THCEN),Thoracentesis,,Text,0
+chartevents,229181,Specreclabeled (THCEN),Specreclabeled (THCEN),Thoracentesis,,Text,0
+chartevents,229182,SpecrecPOE (THCEN),SpecrecPOE (THCEN),Thoracentesis,,Text,0
+chartevents,229184,Specrectolabby (THCEN),Specrectolabby (THCEN),Thoracentesis,,Text,0
+chartevents,229185,Specrectolabbyother (THCEN)_OLD_1,Specrectolabbyother (THCEN)_OLD_1,Thoracentesis,,Text,0
+chartevents,229186,Specrecbyhand (LP),Specrecbyhand (LP),Lumbar Puncture,,Text,0
+chartevents,229187,Specreclabeled (LP),Specreclabeled (LP),Lumbar Puncture,,Text,0
+chartevents,229188,SpecrecPOE (LP),SpecrecPOE (LP),Lumbar Puncture,,Text,0
+chartevents,229190,Specrectolabby (LP),Specrectolabby (LP),Lumbar Puncture,,Text,0
+chartevents,229191,Specrectolabbyother (LP)_OLD_1,Specrectolabbyother (LP)_OLD_1,Lumbar Puncture,,Text,0
+chartevents,229192,Specrecbyhand (Gen Proc),Specrecbyhand (Gen Proc),Generic Proc Note,,Text,0
+chartevents,229193,Specreclabeled (Gen Proc),Specreclabeled (Gen Proc),Generic Proc Note,,Text,0
+chartevents,229194,SpecrecPOE (Gen Proc),SpecrecPOE (Gen Proc),Generic Proc Note,,Text,0
+chartevents,229196,Specrectolabby (Gen Proc),Specrectolabby (Gen Proc),Generic Proc Note,,Text,0
+chartevents,229197,Specrectolabbyother (Gen Proc)old,Specrectolabbyother (Gen Proc)old,Generic Proc Note,,Text,0
+chartevents,229286,Prophylaxisold,Prophylaxisold,MD Progress Note,,Text,0
+chartevents,229291,Prophylaxis,Prophylaxis,MD Progress Note,,Text,0
+chartevents,229332,Activity Intolerance  NCP - outcomes met,AI NCP - outcomes met,Care Plans,,Text,0
+chartevents,229335,Activity Intolerance NCP - Goal,AI NCP - Goal,Care Plans,,Text,0
+chartevents,229341,Domestic Violence NCP - outcomes met,DV NCP - outcomes met,Care Plans,,Text,0
+chartevents,229362,Absolute Count - Retic,Absolute Count - Retic,Labs,None,Numeric,0
+chartevents,229372,AT ( Antithrombin funct),AT ( Antithrombin funct),Labs,None,Numeric,0
+chartevents,229373,UF Heparin (Anti-Xa)_U_1,UF Heparin (Anti-Xa)_U_1,Labs,None,Numeric,0
+chartevents,229382,Orientation Score (new)_OLD_1,Orientation Score (new)_OLD_1,Neurological,None,Numeric,0
+chartevents,229393,PF Ratio Value,PF Ratio Value,Respiratory,None,Numeric,0
+chartevents,229394,SF Ratio Value,SF Ratio Value,Respiratory,None,Numeric,0
+chartevents,229405,PF Value,PF Value,Respiratory,None,Numeric,0
+chartevents,229406,PFImputedValue,PFImputedValue,Respiratory,None,Numeric,0
+chartevents,229407,PFRatio_Value,PFRatio_Value,Respiratory,None,Numeric,0
+chartevents,229408,PFImputedRatio_Value,PFImputedRatio_Value,Respiratory,None,Numeric,0
+chartevents,229417,MyICU Reviewed,My ICU Reviewed,MD Progress Note,,Checkbox,0
+chartevents,229477,Indications (SBNET),Indications  (SBNET),SBNET,,Text,0
+chartevents,229479,Timeout performed by  (SBNET),Timeout performed by  (SBNET),SBNET,,Text,0
+chartevents,229480,Patient identified correctly  (SBNET),Patient identified correctly  (SBNET),SBNET,,Text,0
+chartevents,229481,Verification of  (SBNET),Verification of  (SBNET),SBNET,,Text,0
+chartevents,229482,Hand cleansing prior to procedure  (SBNET),Hand cleansing prior to procedure  (SBNET),SBNET,,Text,0
+chartevents,229483,Barrier precautions in place  (SBNET),Barrier precautions in place  (SBNET),SBNET,,Text,0
+chartevents,229484,Route  (SBNET),Route  (SBNET),SBNET,,Text,0
+chartevents,229486,Topical Lidocaine used (SBNET),Topical Lidocaine used (SBNET),SBNET,,Text,0
+chartevents,229487,2 Stage CXR Insertion Technique (SBNET),2 Stage CXR Insertion Technique (SBNET),SBNET,,Text,0
+chartevents,229489,Complications (SBNET),Complications (SBNET),SBNET,,Text,0
+chartevents,229495,The Attending/Supervisor is the Clinician Operator (SBNET),The Attending/Supervisor (SBNET),SBNET,,Checkbox,0
+chartevents,229496,I was present during the above procedure and agree with the checklist (SBNET),I was present during the above procedure (SBNET),SBNET,,Checkbox,0
+chartevents,229497,Final Position confirmed (SBNET),Final Position confirmed (SBNET),SBNET,,Text,0
+chartevents,229498,Guidewire removed (SBNET),Guidewire removed (SBNET),SBNET,,Text,0
+chartevents,229499,Order to use in POE (SBNET),Order to use in POE (SBNET),SBNET,,Text,0
+chartevents,229503,Trendelenburg position during insertion (CVL),Trendelenburg position during insertion (CVL),CVL Insertion,,Text,0
+chartevents,229504,Inner Cannula Change,Inner Cannula Change,Respiratory,,Checkbox,0
+chartevents,229569,Plan-Endocrine,Plan-Endocrine,MD Progress Note,,Text,0
+chartevents,229570,Plan-ID,Plan-ID,MD Progress Note,,Text,0
+chartevents,229588,Ultrasound Images Interpreted and Stored (CVL),Ultrasound Images Interpreted and Stored (CVL),CVL Insertion,,Text,0
+chartevents,229589,Ultrasound Images Interpreted and Stored (A-Line),Ultrasound Images Interpreted and Stored (A-Line),Arterial Line Insertion,,Text,0
+chartevents,229605,Manometry,Manometry Performed,CVL Insertion,,Text,0
+chartevents,229606,Manometry Method,Method,CVL Insertion,,Text,0
+chartevents,229607,Ultrasound Images used for preproc assess (CVL),Ultrasound Images used for preproc assess (CVL),CVL Insertion,,Text,0
+chartevents,229608,Ultrasound Images probe covered (CVL),Ultrasound Images probe covered (CVL),CVL Insertion,,Text,0
+chartevents,229609,Ultrasound Images stored (CVL),Ultrasound Images stored (CVL),CVL Insertion,,Text,0
+chartevents,229610,Ultrasound Images printed (CVL),Ultrasound Images printed (CVL),CVL Insertion,,Text,0
+chartevents,229611,Ultrasound Images uploaded (CVL),Ultrasound Images uploaded (CVL),CVL Insertion,,Text,0
+chartevents,229612,Ultrasound Images interpreted (CVL),Ultrasound Images interpreted (CVL),CVL Insertion,,Text,0
+chartevents,229637,Treatments (AM-PAC),Treatments (AM-PAC),Treatments,,Text,0
+chartevents,229688,Pain Assessment Method (BIS),Pain Assessment Method (BIS),Pain/Sedation,,Text,0
+chartevents,229690,CPOT-Pain Assessment Method-Post,Pain Assessment Method-Post,Pain/Sedation,,Text,0
+chartevents,229693,Vocalization (CPOTb)_OLD_1,Vocalization (CPOTb)_OLD_1,Pain/Sedation,,Text,0
+chartevents,229702,Pain Level Response-b,Pain Level Response-b,Pain/Sedation,,Text,0
+chartevents,229710,Ultrasound (Aline),Ultrasound (Aline),Arterial Line Insertion,,Text,0
+chartevents,229712,Ultrasound Images interpreted (Aline),Ultrasound Images interpreted (Aline),Arterial Line Insertion,,Text,0
+chartevents,229713,Ultrasound Images printed (Aline),Ultrasound Images printed (Aline),Arterial Line Insertion,,Text,0
+chartevents,229714,Ultrasound Images probe covered (Aline),Ultrasound Images probe covered (Aline),Arterial Line Insertion,,Text,0
+chartevents,229715,Ultrasound Images stored (Aline),Ultrasound Images stored (Aline),Arterial Line Insertion,,Text,0
+chartevents,229716,Ultrasound Images uploaded (Aline),Ultrasound Images uploaded (Aline),Arterial Line Insertion,,Text,0
+chartevents,229717,Ultrasound Images used for preproc assess (Aline),Ultrasound Images used for preproc assess (Aline),Arterial Line Insertion,,Text,0
+chartevents,229718,Manometry (PACath),Manometry Performed (PACath),PA Line Insertion,,Text,0
+chartevents,229719,Manometry Method (PACath),Method (PACath),PA Line Insertion,,Text,0
+chartevents,229720,Ultrasound (PACath),Ultrasound (PACath),PA Line Insertion,,Text,0
+chartevents,229722,Ultrasound Images interpreted (PACath),Ultrasound Images interpreted (PACath),PA Line Insertion,,Text,0
+chartevents,229723,Ultrasound Images printed (PACath),Ultrasound Images printed (PACath),PA Line Insertion,,Text,0
+chartevents,229724,Ultrasound Images probe covered (PACath),Ultrasound Images probe covered (PACath),PA Line Insertion,,Text,0
+chartevents,229725,Ultrasound Images stored (PACath),Ultrasound Images stored (PACath),PA Line Insertion,,Text,0
+chartevents,229726,Ultrasound Images uploaded (PACath),Ultrasound Images uploaded (PACath),PA Line Insertion,,Text,0
+chartevents,229727,Ultrasound Images used for preproc assess (PACath),Ultrasound Images used for preproc assess (PACath),PA Line Insertion,,Text,0
+chartevents,229743,Trigger Initiated by,Trigger Initiated by,Triggers Note,,Text,0
+chartevents,229744,Reason for Trigger,Reason for Trigger,Triggers Note,,Text,0
+chartevents,229745,Cognitive Aid Card,Cognitive Aid Card,Triggers Note,,Text,0
+chartevents,229746,Card Used,Card Used,Triggers Note,,Text,0
+chartevents,229747,Attending Notified,Attending Notified,Triggers Note,,Text,0
+chartevents,229748,Team members at bedside,Team members at bedside,Triggers Note,,Text,0
+chartevents,229782,Estimated Blood Loss (CVL),EBL (CVL),CVL Insertion,mL,Numeric,0
+chartevents,229783,Estimated Blood Loss (A-line),EBL (A-line),Arterial Line Insertion,mL,Numeric,0
+chartevents,229784,Code Status (Intubation),Code Status (Intubation),Intubation,,Text,0
+chartevents,229786,Preoxygenation (Intubation),Preoxygenation (Intubation),Intubation,,Text,0
+chartevents,229787,Rigid Stylette (Intubation),Rigid Stylette (Intubation),Intubation,,Text,0
+chartevents,229788,Rocuronium (Intubation),Rocuronium (Intubation),Intubation,mg,Numeric,0
+chartevents,229789,Phenylephrine (Intubation),Phenylephrine (Intubation),Intubation,mcg,Numeric,0
+chartevents,229790,Estimated Blood Loss (Bronch),EBL (Bronch),Bronchoscopy,mL,Numeric,0
+chartevents,229791,Estimated Blood Loss (GenProc),EBL (GenProc),Generic Proc Note,mL,Numeric,0
+chartevents,229792,Estimated Blood Loss (Intub),EBL (Intub),Intubation,mL,Numeric,0
+chartevents,229793,Estimated Blood Loss (LP),EBL (LP),Lumbar Puncture,mL,Numeric,0
+chartevents,229794,Estimated Blood Loss (MBAL),EBL (MBAL),Bronchoscopy,mL,Numeric,0
+chartevents,229795,Estimated Blood Loss (Para),EBL (Para),Paracentesis,mL,Numeric,0
+chartevents,229796,Estimated Blood Loss (PACath),EBL (PACath),PA Line Insertion,mL,Numeric,0
+chartevents,229797,Estimated Blood Loss (PICC),EBL (PICC),PICC Line Insertion,mL,Numeric,0
+chartevents,229798,Estimated Blood Loss (Thora),EBL (Thora),Thoracentesis,mL,Numeric,0
+chartevents,229832,ZzWaveform Variability (VAD)old,ZzWaveform Variability (VAD)old,Durable VAD,None,Numeric,0
+chartevents,229833,ZzWaveform Variability (VAD),ZzWaveform Variability (VAD),Durable VAD,,Text,0
+chartevents,229837,Other Imaging Reviewed in OMR,Other Imaging Reviewed in OMR,MD Progress Note,,Checkbox,0
+chartevents,229838,Other Labs Reviewed in OMR,Other Labs Reviewed in OMR,MD Progress Note,,Checkbox,0
+chartevents,229839,Other Micro / Path Reviewed in OMR,Other Micro / Path Reviewed in OMR,MD Progress Note,,Checkbox,0
+chartevents,229866,Checklist,Checklist,Skin - Assessment,,Text,0
+chartevents,229869,Pressure Injury Prevention Interventions,Pressure Injury Prevention Interventions,Skin - Assessment,,Text,0
+chartevents,229987,Filters checked,Filters checked,Respiratory,,Checkbox,0
+chartevents,230068,Documented in DC Summary (Bronch)_OLD_1,Documented in DC Summary (Bronch)_OLD_1,Bronchoscopy,,Checkbox,0
+chartevents,230069,Documented in DC Summary (Bronch),Documented in DC Summary (Bronch),Bronchoscopy,,Text,0
+chartevents,230070,Documented in DC Summary (Aline),Documented in DC Summary (Aline),Arterial Line Insertion,,Text,0
+chartevents,230071,Documented in DC Summary (CVL),Documented in DC Summary (CVL),CVL Insertion,,Text,0
+chartevents,230072,Documented on DC Summary (GenProc),Documented on DC Summary (GenProc),Generic Proc Note,,Text,0
+chartevents,230073,Documented in DC Summary (Intub),Documented in DC Summary (Intub),Intubation,,Text,0
+chartevents,230074,Documented in DC Summary (LP),Documented in DC Summary (LP),Lumbar Puncture,,Text,0
+chartevents,230075,Documented on DC Summary (PA),Documented on DC Summary (PA),PA Line Insertion,,Text,0
+chartevents,230076,Documented on DC Summary (Para),Documented on DC Summary (Para),Paracentesis,,Text,0
+chartevents,230077,Documented on DC Summary (PICC),Documented on DC Summary (PICC),PICC Line Insertion,,Text,0
+chartevents,230078,Documented on DC Summary (Thora),Documented on DC Summary (Thora),Thoracentesis,,Text,0
+chartevents,230088,AGB+ (antimicrobial catheter w/ chlorhexidine/silver sulfadiazine),AGB+ (CHG/silver),CVL Insertion,,Checkbox,0
+chartevents,230089,CHGAllergy,CHGAllergy,CVL Insertion,,Checkbox,0
+chartevents,230090,ArrowGard Blue (antimicrobial) catheter,ArrowGard Blue (antimicrobial) catheter,CVL Insertion,,Checkbox,0
+chartevents,230092,Exam-Neuro,Exam-Neuro,MD Progress Note,,Text,0
+chartevents,230093,Cardiovascular,Cardiovascular,MD Progress Note,,Text,0
+chartevents,230094,Respiratory,Respiratory,MD Progress Note,,Text,0
+chartevents,230095,Exam-GU,Exam-GU,MD Progress Note,,Text,0
+chartevents,230096,Exam-Lines,Exam-Lines,MD Progress Note,,Text,0
+chartevents,230129,MAC SecurePort IV,MAC SecurePort IV,Access Lines - Invasive,,Checkbox,0
+chartevents,230130,Chest SecurePort IV,Chest SecurePort IV,Access Lines - Invasive,,Checkbox,0
+chartevents,230132,Suction events (R),Suction events (R),Impella,,Text,0
+chartevents,230146,Blocker Type,Blocker Type,Respiratory,,Text,0
+chartevents,230147,Blocker Mark,Blocker Mark,Respiratory,cm,Numeric,0
+chartevents,230148,Blocker External Location,Blocker External Location,Respiratory,,Text,0
+chartevents,230149,Blocker Secured,Blocker Secured,Respiratory,,Checkbox,0
+chartevents,230150,Blocker Balloon Status,Blocker Balloon Status,Respiratory,,Text,0
+chartevents,230151,Blocker Volume,Blocker Volume,Respiratory,mL,Numeric,0
+chartevents,230152,CFS-HR,CFS-HR,Neurological,,Text,0
+chartevents,230153,CFS-RR,CFS-RR,Neurological,,Text,0
+chartevents,230154,CFS-SBP,CFS-SBP,Neurological,,Text,0
+chartevents,230155,CFS-Temp,CFS-Temp,Neurological,,Text,0
+chartevents,230156,CFS-Sweating,CFS-Sweating,Neurological,,Text,0
+chartevents,230157,CFS-Posturing,CFS-Posturing,Neurological,,Text,0
+chartevents,230159,Oxymetry location (ECMO),Oxymetry location (ECMO),ECMO,,Text,0
+chartevents,230160,Oxymetry location (CH),Oxymetry location (CH),ECMO,,Text,0
+chartevents,230161,StO2 R (ECMO),StO2 R (ECMO),ECMO,%,Numeric,0
+chartevents,230162,StO2 R (CH),StO2 R (CH),ECMO,%,Numeric,0
+chartevents,230163,StO2 L (CH),StO2 L (CH),ECMO,%,Numeric,0
+chartevents,230164,StO2 L (ECMO),StO2 L (ECMO),ECMO,%,Numeric,0
+chartevents,230165,Pint (CH),Pint (CH),ECMO,None,Numeric,0
+chartevents,230166,Pven Alarm (High) (CH),Pven Alarm (High) (CH),ECMO,None,Numeric,0
+chartevents,230167,Pint Alarm (Hi) (CH),Pint Alarm (Hi) (CH),ECMO,None,Numeric,0
+chartevents,230168,Delta P (ECMO),Delta P (ECMO),ECMO,None,Numeric,0
+chartevents,230169,Delta P Alarm (ECMO),Delta P Alarm (ECMO),ECMO,None,Numeric,0
+chartevents,230170,Part Alarm (Hi) (ECMO),Part Alarm (Hi) (ECMO),ECMO,None,Numeric,0
+chartevents,230171,Pint Alarm (Hi) (ECMO),Pint Alarm (Hi) (ECMO),ECMO,None,Numeric,0
+chartevents,230176,IUC Stabilization Device,IUC Stabilization Device,GI/GU,,Checkbox,0
+chartevents,230177,CRRT - Filter Type,CRRT - Filter Type,Dialysis,,Text,0
+datetimeevents,220003,ICU Admission date,ICU Admission date,ADT,,Date and time,0
+datetimeevents,225279,Date of Admission to Hospital,Date of Admission to Hospital,Adm History/FHPA,,Date and time,0
+datetimeevents,225335,IABP Cap Change,IABP Cap Change,Access Lines - Invasive,,Date and time,0
+datetimeevents,225376,Indwelling Port (PortaCath) Change over Wire Date,Indwelling Port (PortaCath) Change over Wire Date,Access Lines - Invasive,,Date and time,0
+datetimeevents,225377,Indwelling Port (PortaCath) Dressing Change,Indwelling Port (PortaCath) Dressing Change,Access Lines - Invasive,,Date and time,0
+datetimeevents,226482,Blood Clot Outdates,Blood Clot Outdates,Labs,,Date and time,0
+datetimeevents,226515,Date of Birth,DOB,ADT,,Date and time,0
+datetimeevents,226516,Discharge Date/Time,Discharge Date/Time,ADT,,Date and time,0
+datetimeevents,226518,Expected Discharge Date,Expected Discharge Date,ADT,,Date and time,0
+datetimeevents,226532,Organ Bank Notified,Organ Bank Notified,General,,Date and time,0
+datetimeevents,226724,Hospital Admit Date,Hospital Admit Date,ADT,,Date and time,0
+datetimeevents,228266,FM Date/Time,FM Date/Time,Family Mtg Note,,Date and time,0
+datetimeevents,228321,PC Date,PC Date,Pastoral Care Note,,Date and time,0
+datetimeevents,228331,PC Time of visit,PC Time of visit,Pastoral Care Note,,Date and time,0
+datetimeevents,228631,Date signed,Date signed,Research Enrollment Note,,Date and time,0
+datetimeevents,229883,Pressure ulcer #1- Date Indentified_OLD_1,Pressure ulcer #1- Date Indentified_OLD_1,Skin - Impairment,,Date and time,0
+ingredientevents,220341,Alanine (ingr),Alanine (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220344,Amino Acid,Amino Acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220346,Arachidic acid,Arachidic acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220347,Arginine,Arginine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220349,Ascorbic acid,Vit C,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220351,Aspartic Acid,Aspartic Acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220354,Beta Carotene,Pro Vit A,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220356,Biotine,Vit B7,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220362,Calciferol,Vit D,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220365,Carnitine,Carnitine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220367,Chloride (ingr),Cl (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220368,Cholecalciferol,Vit D3,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220369,Choline,Choline,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220370,Chromium (ingr),Cr (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220373,Cobolamin,Vit B12,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220375,Copper (ingr),Cu (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220377,Cysteine,Cysteine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220387,Fat,Fat,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220388,Fibers,Fibers,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220389,Fluoride,Fl,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220390,Folic Acid (ingr),Folic Acid (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220396,Glutamic acid,Glutamic acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220397,Glutamine,Glutamine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220399,Glycine,Glycine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220402,Histidine,Histidine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220407,Inositol,Inositol,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220408,Iodine,I,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220410,Iron (ingr),Fe,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220411,Isoleucine,Isoleucine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220415,L-carnitine,Vit BT,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220417,Leucine,Leucine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220418,Linolenic acids,Linolenic acids,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220421,Lysine,Lysine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220422,Magnesium (ingr),Mg (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220423,Manganese,Mn,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220424,Menaquinon,Vit K2,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220426,Methionine,Methionine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220427,Molybdenum,Mo,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220429,Myristic acid,Myristic acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220432,Niacin,Vit B3,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220435,Nitrogen,N,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220444,Pantotanic acid,Vit B5,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220446,Phenylalanine,Phenylalanine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220447,Philoquinone,Vit K1,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220448,Phosphorus,P,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220451,Potassium (ingr),K (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220453,Proline,Proline,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220455,Pyridoxine,Vit B6,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220456,Retinol,Vit A,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220457,Rhenium,Re,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220458,Rhodium,Rh,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220459,Riboflavin,Vit B2,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220460,Rubidium,Rb,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220461,Samarium,Sm,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220462,Scandium,Sc,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220463,Selenium,Se,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220464,Serine,Serine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220465,Silicone,Si,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220466,Silver,Ag,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220467,Sodium (ingr),Na (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220468,Sorbitol,Sorbitol,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220469,Stearic Acid,Stearic Acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220470,Strontium,Sr,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220471,Sulfur,S,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220472,Tantalum,Ta,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220473,Taurine,Taurine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220474,Tellurium,Te,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220475,Terbium,Tb,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220476,Thallium,Thallium,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220477,Thorium,Th,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220478,Threonine,Threonine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220479,Thryptophan,Thryptophan,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220480,Thulium,Tm,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220481,Tin,Sn,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220482,Tintanium,Tintanium,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220483,Tocopherol,Vit E,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220484,Tungsten,W,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220485,Tyrosine,Tyrosine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220486,Valine,Valine,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220487,Vanadium,V,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220488,Vitamin D12,Vit D12,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220489,Vitamin K,Vit K,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220491,Ytterbium,Yb,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220492,Zinc (ingr),Zn (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220494,Linoleic acids,Linoleic acids,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220497,AThiamine,ZVit B1,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220948,Lactate (ingr),Lactate (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220957,Acetate (ingr),Acetate (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220974,Gelatin succinylated,Gelatin,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220976,Pentastarch,Pentastarch,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220978,Hetastarch (ingr),Hetastarch (ingr),Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220981,Glycerol,Glycerol,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220982,Soya oil,Soya oil,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220983,Lecithin,Lecithin,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220987,D-Mannitol (C6H14O6),D-Mannitol,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,220994,Bicarbonate (ingr),ZHCO3,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,221019,Carotenoids,Carotenoids,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,221030,Caprylic acid,Caprylic acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,221031,Capric acid,Capric acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,221032,Lauric acid,Lauric acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,221033,Palmitic acid,Palmitic acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,221035,Oleic acid,Oleic acid,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,221194,Hexastarch,Hexastarch,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,221343,Theophylline_DI,Theophylline_DI,Ingredients - general (Not In Use),mg,Ingredient,0
+ingredientevents,226222,Insulin Ingredient,Insulin Ingredient,Ingredients,units,Ingredient,0
+ingredientevents,226224,Propofol Ingredient,Propofol Ingredient,Ingredients,mg,Ingredient,0
+ingredientevents,226407,GU Irrigant Intake Ingredient,GU Irrigant Intake Ingredient,Ingredients,mL,Ingredient,0
+ingredientevents,226506,PO Intake_Ingr,PO Intake_Ingr,Ingredients,mL,Ingredient,0
+inputevents,220861,Albumin (Human) 20%,Albumin 20%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220863,Albumin (Human) 4%,Albumin 4%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220865,Aquadestila,Aquadest,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220866,Darrow,Darrow,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220951,Dextrose 20.%,Dextrose 20.%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220953,Ringers,Ringers,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220954,"Saline 0,9%","Saline 0,9%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220955,Ringers Lactate,Ringers Lactate,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220956,Ringers Acetate,Ringers Acetate,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220958,"Saline 0,255%","Saline 0,255%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220959,"Saline 0,3%","Saline 0,3%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220960,"Saline 0,45%","Saline 0,45%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220961,"Saline 0,65%","Saline 0,65%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220962,Saline 3%,Saline 3%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220963,"Dextrose 4,3% / Saline 0,18%","Dextrose 4,3% / Saline 0,18%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220964,"Dextrose 5% / Saline 0,9%","Dextrose 5% / Saline 0,9%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220965,"Dextrose 5% / Saline 0,45%","Dextrose 5% / Saline 0,45%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220966,"Dextrose 2,5% / Saline 0,45%","Dextrose 2,5% / Saline 0,45%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220967,Dextrose 5% / Ringers Lactate,Dextrose 5% / Ringers Lactate,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220968,Dextrose 10% / Ringers Lactate,Dextrose 10% / Ringers Lactate,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220969,Filtered erytrocytes,Filtered erytrocytes,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220971,ESDEP (Solvent / Detergent Virus-Inactivated Plasma),ESDEP,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220972,Octoplas,Octoplas,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220973,Gelofusine,Gelofusine,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220975,"Pentastarch 6% (HAES, Hemohes)",Pentastarch 6%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220977,"Pentastarch 10% (HAES, Hemohes)",Pentastarch 10%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220979,"Hetastarch 6% (Saline 0,9%)","Hetastarch 6% (Saline 0,9%)",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220980,Hextend (Hetastarch 6% in Lactate),Hextend (Hetastarch 6% in Lactate),Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220984,Intralipid 10%,Intralipid 10%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220985,Intralipid 20%,Intralipid 20%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220986,Intralipid 30%,Intralipid 30%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220988,Mannitol 5%,Mannitol 5%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220989,Mannitol 10%,Mannitol 10%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220990,Mannitol 15%,Mannitol 15%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220991,Mannitol 20%,Mannitol 20%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220992,Mannitol 25%,Mannitol 25%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,220996,Packed Red Cells,PRC,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221000,Dextran 40 / Dextrose 5% (Gentran - Rheomacrodex),Dextran 40 / Dextrose 5%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221001,"Dextran 40 / Saline 0,9% (Gentran - Rheomacrodex)","Dextran 40 / Saline 0,9%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221002,Dextran 70 / Dextrose 5% (Gentran - Macrodex - RescueFlow),Dextran 70 / Dextrose 5%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221003,"Dextran 70 / Saline 0,9% (Gentran - Macrodex - RescueFlow)","Dextran 70 / Saline 0,9%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221004,Thrombocyte suspension,Thrombocyte suspension,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221005,Vamin 14 Electrolyte free,Vamin 14-,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221006,Vamin 18 Electrolyte free,Vamin 18-,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221007,Vamin 14 Plus electrolytes,Vamin 14+,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221008,Vamin Novum 18,Vamin Novum 18,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221009,Vivinox T.E.N.,Vivonex T.E.N.,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221011,Vivonex Plus,Vivonex Plus,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221012,Vivonex Pediatric,Vivonex Pediatric,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221013,Whole Blood,Whole Blood,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221014,Dextrose 19%,Dextrose 19%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221015,Ensure,Ensure,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221016,Ensure Plus,Ensure Plus,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221017,"Dextrose 2,5%","Dextrose 2,5%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221018,Nutrison Standard,Nutrison Standard,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221020,Nutrison concentrated,Nutrison concentrated,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221021,Nutrison Energy,Nutrison Energy,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221022,Nutrison Energy Multi Fibre,Nutrison Energy Multi Fibre,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221024,Nutrison Multi Fibre,Nutrison Multi Fibre,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221025,Pediasure,Pediasure,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221027,Pulmocare,Pulmocare,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221028,Stresson,Stresson,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221029,Osmolite,Osmolite,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221037,Jevity 1.2,Jevity 1.2,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221038,Jevity,Jevity,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221193,Auto transfusion,Auto transfusion,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221195,"Hexastarch 6% (Elohaes) / Saline 0,9%","Hexastarch 6%  / Saline 0,9%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221196,Fresubin Original,Fresubin Original,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221197,Fresubin Original Fibre,Fresubin Original Fibre,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221198,Fresubin Energy,Fresubin Energy,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221199,Fresubin Energy Fibre,Fresubin Energy Fibre,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221200,Fibrini,Fibrini,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221201,Fibrini Energy,Fibrini Energy,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221202,Infatrini,Infatrini,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221203,Nutrini,Nutrini,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221204,Tentrini,Tentrini,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221205,Nutrison pre,Nutrison pre,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221206,Novasource,Novasource,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221208,Normosol,Normosol,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221209,Peptisorb,Peptisorb,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221210,Suplena,Suplena,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221211,"Sodium Bicarbonate 1,4%","NaBic 1,4%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221212,"Saline 0,18%","Saline 0,18%",Fluids - Other (Not In Use),mL,Solution,0
+inputevents,221213,Saline 30%,Saline 30%,Fluids - Other (Not In Use),mL,Solution,0
+inputevents,222139,Potassium ACEtate,Potassium ACEtate,Nutrition - Supplements,mEq,Solution,0
+inputevents,225162,Prismasate K2,Prismasate K2,Fluids/Intake,mL,Solution,0
+inputevents,225163,Prismasate K4,Prismasate K4,Fluids/Intake,mL,Solution,0
+inputevents,225164,Trisodium Citrate 0.4%,Trisodium Citrate 0.4%,Fluids/Intake,mL,Solution,0
+inputevents,225165,Bicarbonate Base,Bicarbonate Base,Fluids/Intake,mL,Solution,0
+inputevents,225796,Dextran 70,Dextran 70,Blood Products/Colloids,mL,Solution,0
+inputevents,225857,Chloroquine,Chloroquine,Antibiotics,dose,Solution,0
+inputevents,225882,Mefloquine,Mefloquine,Antibiotics,dose,Solution,0
+inputevents,225889,Oxacillin,Oxacillin,Antibiotics,dose,Solution,0
+inputevents,225897,Ribavirin,Ribavirin,Antibiotics,dose,Solution,0
+inputevents,225900,Dalfopristin/Quinupristin (Synercid),Dalfopristin/Quinupristin (Synercid),Antibiotics,dose,Solution,0
+inputevents,225918,Aminosyn 3.5%,Aminosyn 3.5%,Nutrition - Supplements,mL,Solution,0
+inputevents,225919,D5 Aminosyn 3.5%,D5 Aminosyn 3.5%,Nutrition - Supplements,mL,Solution,0
+inputevents,225921,Hepatamine,Hepatamine,Nutrition - Supplements,mL,Solution,0
+inputevents,225922,Nephramine,Nephramine,Nutrition - Supplements,mL,Solution,0
+inputevents,225923,Folate,Folate,Nutrition - Supplements,mg,Solution,0
+inputevents,225924,Hydrochloric Acid,Hydrochloric Acid,Nutrition - Supplements,mEq,Solution,0
+inputevents,225925,Potassium Phosphate,Potassium Phosphate,Nutrition - Supplements,mmol,Solution,0
+inputevents,225926,Sodium ACEtate,Sodium ACEtate,Nutrition - Supplements,mEq,Solution,0
+inputevents,225972,Fentanyl (Push),Fentanyl (Push),Medications,mcg,Solution,0
+inputevents,226018,Nutren 2.0 (3/4),Nutren 2.0 (3/4),Nutrition - Enteral,mL,Solution,0
+inputevents,226021,Impact (2/3),Impact (2/3),Nutrition - Enteral,mL,Solution,0
+inputevents,226025,Impact with Fiber (2/3),Impact with Fiber (2/3),Nutrition - Enteral,mL,Solution,0
+inputevents,226029,Nutren Renal (2/3),Nutren Renal (2/3),Nutrition - Enteral,mL,Solution,0
+inputevents,226037,Peptamen 1.5 (2/3),Peptamen 1.5 (2/3),Nutrition - Enteral,mL,Solution,0
+inputevents,226040,ProBalance (1/4),ProBalance (1/4),Nutrition - Enteral,mL,Solution,0
+inputevents,226041,ProBalance (2/3),ProBalance (2/3),Nutrition - Enteral,mL,Solution,0
+inputevents,226042,ProBalance (3/4),ProBalance (3/4),Nutrition - Enteral,mL,Solution,0
+inputevents,226043,ProBalance (1/2),ProBalance (1/2),Nutrition - Enteral,mL,Solution,0
+inputevents,226056,Vivonex (1/4),Vivonex (1/4),Nutrition - Enteral,mL,Solution,0
+inputevents,226057,Vivonex (2/3),Vivonex (2/3),Nutrition - Enteral,mL,Solution,0
+inputevents,226362,ZGastric/TF Residual Intake,ZGastric/TF Residual Intake,Fluids/Intake,mL,Solution,0
+inputevents,226401,GU Irrigant - Normal Saline,GU Irrigant - Normal Saline,Fluids/Intake,mL,Solution,0
+inputevents,226402,GU Irrigant - Sterile Water,GU Irrigant - Sterile Water,Fluids/Intake,mL,Solution,0
+inputevents,226403,GU Irrigant - Amphotericin B,GU Irrigant - Amphotericin B,Fluids/Intake,mL,Solution,0
+inputevents,226876,Ensure (1/2),Ensure (1/2),Nutrition - Enteral,mL,Solution,0
+inputevents,226878,Ensure Plus (3/4),Ensure Plus (3/4),Nutrition - Enteral,mL,Solution,0
+inputevents,226879,Ensure Plus (1/2),Ensure Plus (1/2),Nutrition - Enteral,mL,Solution,0
+inputevents,227091,Ensure (1/4),Ensure (1/4),Nutrition - Enteral,mL,Solution,0
+inputevents,227092,Ensure Plus (1/4),Ensure Plus (1/4),Nutrition - Enteral,mL,Solution,0
+inputevents,227370,Peptamen VHP (Full),Peptamen VHP (Full),Nutrition - Enteral,mL,Solution,0
+inputevents,227371,Peptamen VHP (3/4),Peptamen VHP (3/4),Nutrition - Enteral,mL,Solution,0
+inputevents,227372,Peptamen VHP (2/3),Peptamen VHP (2/3),Nutrition - Enteral,mL,Solution,0
+inputevents,227373,Peptamen VHP (1/4),Peptamen VHP (1/4),Nutrition - Enteral,mL,Solution,0
+inputevents,227374,Peptamen VHP (1/2),Peptamen VHP (1/2),Nutrition - Enteral,mL,Solution,0
+inputevents,227697,Fibersource HN (2/3),Fibersource HN (2/3),Nutrition - Enteral,mL,Solution,0
+inputevents,227972,NovaSource Renal (1/4),NovaSource Renal (1/4),Nutrition - Enteral,mL,Solution,0
+inputevents,228317,Calcium Gluconate (Bolus)_OLD_1,Calcium Gluconate (Bolus)_OLD_1,Medications,mL,Solution,0
+inputevents,228349,Nepro (1/4),Nepro (1/4),Nutrition - Enteral,mL,Solution,0
+inputevents,228350,Nepro (3/4),Nepro (3/4),Nutrition - Enteral,mL,Solution,0
+inputevents,228352,Enlive (1/2),Enlive (1/2),Nutrition - Enteral,mL,Solution,0
+inputevents,228353,Enlive (1/4),Enlive (1/4),Nutrition - Enteral,mL,Solution,0
+inputevents,228354,Enlive (3/4),Enlive (3/4),Nutrition - Enteral,mL,Solution,0
+inputevents,228357,Glucerna (1/4),Glucerna (1/4),Nutrition - Enteral,mL,Solution,0
+inputevents,228358,Glucerna (3/4),Glucerna (3/4),Nutrition - Enteral,mL,Solution,0
+inputevents,228362,Pulmocare (3/4),Pulmocare (3/4),Nutrition - Enteral,mL,Solution,0
+inputevents,228365,Two Cal HN (1/4),Two Cal HN (1/4),Nutrition - Enteral,mL,Solution,0
+inputevents,228366,Two Cal HN (3/4),Two Cal HN (3/4),Nutrition - Enteral,mL,Solution,0
+inputevents,229059,Chloramphenicol,Chloramphenicol,Antibiotics,dose,Solution,0
+inputevents,229067,Granulocytes,Granulocytes,Blood Products/Colloids,mL,Solution,0
+inputevents,229249,Aminocaproic acid (Amicar),Aminocaproic acid (Amicar),Medications,mg,Solution,0
+inputevents,229294,Ensure Clear (Full),Ensure Clear (Full),Nutrition - Enteral,mL,Solution,0
+inputevents,229631,Phenylephrine (200/250)_OLD_1,Phenylephrine (200/250)_OLD_1,Medications,mg,Solution,0
+inputevents,230141,Titrated Inhaled Isoflurane,Titrated Inhaled Isoflurane,Medications,mL,Solution,0
+inputevents,230143,Titrated Inhaled Isoflurane (Bolus),Titrated Inhaled Isoflurane (Bolus),Medications,mL,Solution,0
+outputevents,224458,Drain Output_ingr,Drain Output_ingr,Drains,mL,Ingredient,0
+outputevents,226566,Urine and GU Irrigant Out,Urine and GU Irrigant Out,Output,mL,Numeric,0
+outputevents,226586,Stool Estimate,Stool Estimate,Output,,Text,0
+outputevents,226713,Incontinent/voids (estimate),Incontinent/voids (estimate),Output,,Text,0
+outputevents,227487,GU Irrigant Type,GU Irrigant Type,Output,,Text,0
+outputevents,228103,Stool containment device placed,Stool containment device placed,Output,,Date and time,0
+procedureevents,225456,Ventricular Drain,Ventricular Drain,3-Significant Events,None,Processes,0
+procedureevents,225478,Operation,Operation,3-Significant Events,None,Processes,0
+procedureevents,225761,Sheath Insertion,Sheath Insertion,Access Lines - Invasive,None,Processes,0
+procedureevents,225803,Dialysis - CVVHD,Dialysis - CVVHD,Dialysis,None,Processes,0
+procedureevents,225809,Dialysis - CVVHDF,Dialysis - CVVHDF,Dialysis,None,Processes,0
+procedureevents,225815,Peritoneal Fluid,Peritoneal Fluid,3-Significant Events,None,Processes,0
+procedureevents,225818,Pleural Fluid Culture,Pleural Fluid Culture,6-Cultures,None,Processes,0
+procedureevents,225955,Dialysis - SCUF,Dialysis - SCUF,Dialysis,None,Processes,0
+procedureevents,229533,Camino,Camino,Access Lines - Invasive,None,Processes,0
+procedureevents,229996,Nitrous Oxide (Inhaled),Nitrous Oxide (Inhaled),Medications,None,Processes,0
+procedureevents,230133,Fecal Management System (Internal),Internal FMS,GI/GU,None,Processes,0
+procedureevents,230172,Patient Reversed,Patient Reversed,3-Significant Events,None,Processes,0
+procedureevents,230173,Patient - Fast Track Protocol,Patient - Fast Track Protocol,3-Significant Events,None,Processes,0
+procedureevents,230174,Nerve block in OR,Nerve block in OR,3-Significant Events,None,Processes,0

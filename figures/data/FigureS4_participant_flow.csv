@@ -1,0 +1,11 @@
+cohort,step,rows_n
+source_observability,raw ICU stays,94458
+source_observability,linked to patient and admission records,94458
+source_observability,adult age at ICU entry,94458
+source_observability,valid nonmissing ICU interval; final adult stays,94444
+A1_post_implementation,post-implementation adult stays,37222
+A1_post_implementation,exactly one ICU stay per subject and valid outcome,20248
+A2_post_implementation,post-implementation adult first ICU stays,25410
+A2_post_implementation,operational ICD-sepsis admissions,4321
+A2_post_implementation,after acid-indication exclusions; final cohort,2813
+A2_post_implementation,48-hour landmark eligible,2544
