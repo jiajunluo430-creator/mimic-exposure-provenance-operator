@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://medprov.org/schemas/medication_exposure_reporting.schema.json",
+  "title": "Medication-exposure reporting record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "study_id", "citation", "database", "evidence_scope", "dimensions", "repository", "operational_indicators"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "study_id": {"type": "string", "minLength": 1},
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title"],
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "pmid": {"type": ["string", "null"]},
+        "pmcid": {"type": ["string", "null"]},
+        "doi": {"type": ["string", "null"]}
+      }
+    },
+    "database": {"type": "string", "minLength": 1},
+    "evidence_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["main_text", "supplement", "article_repository"],
+      "properties": {
+        "main_text": {"enum": ["reviewed", "not_available", "not_reviewed"]},
+        "supplement": {"enum": ["reviewed", "none_linked", "not_available", "not_reviewed"]},
+        "article_repository": {"enum": ["reviewed", "none_linked", "generic_only", "not_available", "not_reviewed"]}
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_layer", "identity_rule", "time_origin_window", "event_semantics_map", "required_metadata"],
+      "properties": {
+        "source_layer": {"$ref": "#/$defs/dimension"},
+        "identity_rule": {"$ref": "#/$defs/dimension"},
+        "time_origin_window": {"$ref": "#/$defs/dimension"},
+        "event_semantics_map": {"$ref": "#/$defs/dimension"},
+        "required_metadata": {"$ref": "#/$defs/dimension"}
+      }
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url_reported", "version_reported", "hash_reported"],
+      "properties": {
+        "url_reported": {"type": "boolean"},
+        "version_reported": {"type": "boolean"},
+        "hash_reported": {"type": "boolean"},
+        "urls": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "operational_indicators": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["named_native_source", "executable_identity", "complete_executable_operator"],
+      "properties": {
+        "named_native_source": {"type": "boolean"},
+        "executable_identity": {"type": "boolean"},
+        "complete_executable_operator": {"type": "boolean"}
+      }
+    },
+    "coder": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "coder_id": {"type": ["string", "null"]},
+        "review_date": {"type": ["string", "null"], "format": "date"},
+        "notes": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "$defs": {
+    "dimension": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "evidence"],
+      "properties": {
+        "status": {"enum": ["reported", "missing", "ambiguous", "not_applicable"]},
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source", "location"],
+            "properties": {
+              "source": {"enum": ["main_text", "supplement", "repository"]},
+              "location": {"type": "string"},
+              "short_note": {"type": "string", "maxLength": 240}
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,67 +1,75 @@
-# Medication exposure provenance operator in MIMIC-IV
+# medprov: machine-executable medication-exposure provenance operators
 
-This repository accompanies **Medication Exposure Depends on Source, Time,
-and Identity: A Provenance-Operator Audit in MIMIC-IV**. It implements a joint
-medication-exposure operator across source observability, database-executable
-identity, time, native event semantics, and required dose/route metadata.
+`medprov` is a lightweight, versioned, adapter-aware specification and Python
+reference implementation for medication-exposure phenotyping in electronic
+health records. It treats exposure as a deterministic five-dimensional
+operator—source, identity, time, event semantics, and required metadata—rather
+than as a table label.
 
-Headline reproducibility findings include:
+The package provides:
 
-- 42,808,593 complete eMAR rows and 73 literal event states audited;
-- 64.69% same-POE versus 86.06% same-class/window order conversion among
-  264,171 post-deployment order units;
-- route present in 9,940/9,940 eligible A1 order units but 0/87,569 strict VTE
-  eMAR events;
-- 183/184 fixed A2 residual stays linked by native pharmacy identifiers to PPI
-  prescriptions; 256 rows collapsed to 183 independent order units, with eMAR
-  POE preceding administration by median 5.68 hours and the linked prescription
-  POE following it by 97.18 hours (paired separation 106.10 hours);
-- after main text, 55/56 linked supplements, and three article-specific
-  repositories were reviewed, only 7/40 studies named a native source, 2/40
-  supplied executable identity, and 0/40 reported native event semantics.
+- Draft 2020-12 JSON Schemas and seven contract-generated YAML operators;
+- one CLI for validation, capability assessment, compilation, aggregate
+  execution, comparison, and reporting validation;
+- MIMIC native, MIMIC-IV-on-FHIR, OMOP, eICU, and synthetic adapter interfaces;
+- explicit `exposed`, `unexposed`, `unresolved`, and `unmeasurable` states;
+- an aggregate-only privacy guard and public synthetic test data;
+- exact local parity tests against the frozen MIMIC-IV 3.1 reference analysis.
 
-These are measurement and reproducibility diagnostics, not causal estimates
-of medication efficacy or safety. eICU is an interface-semantic contrast, not
-external validation.
-
-## Data access
-
-No raw data, patient identifiers, stay-level rows, or derived patient-level
-cohorts are included. Credentialed users must obtain MIMIC-IV 3.1 and eICU-CRD
-2.0 directly from PhysioNet and comply with their training, license, and
-data-use agreements.
-
-Set these environment variables before running:
+## Quickstart
 
 ```powershell
-$env:MIMIC_IV_ROOT = 'path\to\mimic-iv-3.1'
-$env:EICU_ZIP = 'path\to\eicu-crd-2.0.zip'
-$env:PYTHON_EXE = 'python'
-$env:RSCRIPT_EXE = 'Rscript'
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install .
+.\.venv\Scripts\medprov.exe validate-spec examples\mimic_strict_same_poe.yaml
+.\.venv\Scripts\medprov.exe demo --out demo_output
 ```
 
-Install the recorded Python and R dependencies in `environment/`, then run
-`scripts/run_pipeline.ps1`. The script is staged: core QDP, observability,
-presubmission diagnostics, operator upgrade, residual trace, literature-scope
-audit, and figure generation. Network access is required for RxNav, PubMed,
-Europe PMC, and article-specific repository retrieval. The committed aggregate
-tables are the versioned reference outputs for the frozen 1 August 2026 audit.
+See [the CLI guide](docs/CLI_QUICKSTART.md), the
+[formal method specification](METHOD_SPECIFICATION.md), and the
+[adapter guide](docs/ADAPTER_AUTHORING_GUIDE.md).
 
-## Repository structure
+## Reference evaluation
 
-- `contracts/`: hashed analysis/addendum contracts and published-operator codebook
-- `config/`: frozen drug, event-state, anchor, and interface whitelists
-- `scripts/`: executable Python/R/PowerShell pipeline
-- `outputs/`: patient-free aggregate reference results, manifests, and QA
-- `figures/`: figure deliverables and panel-level source data; Figure 1 is an
-  appearance-preserving SVG raster container, while Figures 2-4 and S4-S5 have
-  live-text vector backups
-- `reports/`: QDP and implementation-failure audit reports
-- `environment/`: recorded sessions and dependency files
+The frozen MIMIC-IV 3.1 evaluation provides an exact-parity reference, not a
+new causal medication study. Verified reference results include:
 
-The first stopped event-level join is retained as an engineering failure audit.
-The production implementation projects required columns, filters frozen drug
-definitions first, deduplicates orders, preaggregates eMAR, and joins bounded
-small tables.
+- 264,171 post-deployment order units;
+- 170,890 (64.69%) strict same-POE conversions and 227,355 (86.06%) same-
+  class/window sensitivity conversions;
+- construct-required route present for 9,940/9,940 eligible A1 order units but
+  0/87,569 strict VTE eMAR events, demonstrating a source-layer measurability
+  boundary;
+- A2 first-48-hour PPI exposure of 655/2,813 under the original order operator,
+  776/2,813 under hospital-overlap eligibility, and 518/2,813 under strict
+  administration identity;
+- a 40-study reporting audit in which 7 studies named a native source, 2
+  supplied executable identity, and none reported a complete executable
+  operator.
+
+These results quantify exposure-definition propagation. They are not estimates
+of drug efficacy, harm, optimal treatment, or external clinical validation.
+
+## Data boundary
+
+No MIMIC-IV/eICU raw data, identifiers, stay-level rows, or patient-level
+cohorts are distributed. Credentialed users obtain data directly from
+PhysioNet. The public executor emits aggregate outputs only. See
+[SECURITY_PRIVACY.md](SECURITY_PRIVACY.md).
+
+For licensed local reproduction, define the source/cache paths and run the
+reference pipeline under `scripts/`. The original frozen analysis remains in
+place as a reference pipeline; `medprov` does not rewrite its scientific
+contract.
+
+## Repository layout
+
+- `schemas/`, `examples/`: versioned specification and generated operators;
+- `src/medprov/`: compiler, executor, validator, reports, and adapters;
+- `tests/`: synthetic, schema, CLI, capability, privacy, and local parity tests;
+- `contracts/`, `config/`: frozen scientific and implementation definitions;
+- `scripts/`: generator and original reproducible reference pipeline;
+- `outputs/`, `reports/`, `figures/`: patient-free aggregate evidence;
+- `docs/`: CLI and adapter documentation.
 
 Repository: https://github.com/jiajunluo430-creator/mimic-exposure-provenance-operator

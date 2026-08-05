@@ -1,0 +1,6 @@
+analysis_unit_key,medication_class,event_state,dose,unit,route,frequency,status
+SYN-1,insulin,administered,2,unit,SC,q6h,complete
+SYN-2,insulin,not given,2,unit,SC,q6h,complete
+SYN-3,insulin,confirmed,2,unit,SC,q6h,complete
+SYN-4,insulin,administered,,,SC,q6h,complete
+SYN-5,stress_ulcer_prophylaxis,administered,40,mg,IV,daily,complete

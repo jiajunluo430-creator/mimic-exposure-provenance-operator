@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://medprov.org/schemas/medication_exposure_operator.schema.json",
+  "title": "Medication-exposure provenance operator",
+  "description": "A versioned five-dimensional operator for deterministic medication-exposure phenotyping.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "operator_id",
+    "operator_version",
+    "clinical_construct",
+    "analysis_unit",
+    "target_event",
+    "data_model",
+    "provenance",
+    "source_layer",
+    "identity_rule",
+    "time_origin_window",
+    "event_semantics_map",
+    "required_metadata",
+    "output_specification"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "operator_id": {"type": "string", "pattern": "^[a-z][a-z0-9_.-]{2,127}$"},
+    "operator_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "clinical_construct": {"type": "string", "minLength": 3},
+    "analysis_unit": {"type": "string", "minLength": 3},
+    "target_event": {
+      "enum": ["order", "documented_administration", "dispense", "reconciliation", "documentation"]
+    },
+    "data_model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["adapter", "model_name", "model_version"],
+      "properties": {
+        "adapter": {"enum": ["mimic_native", "mimic_fhir", "omop", "eicu", "synthetic"]},
+        "model_name": {"type": "string", "minLength": 2},
+        "model_version": {"type": "string", "minLength": 1},
+        "source_release_hash": {"type": ["string", "null"], "pattern": "^[a-fA-F0-9]{64}$"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["author", "date", "contract_path", "contract_sha256", "generator", "generator_sha256"],
+      "properties": {
+        "author": {"type": "string", "minLength": 2},
+        "date": {"type": "string", "format": "date"},
+        "contract_path": {"type": "string", "minLength": 3},
+        "contract_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "generator": {"type": "string", "minLength": 3},
+        "generator_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "generated_at_utc": {"type": "string", "format": "date-time"}
+      }
+    },
+    "source_layer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tables_or_resources", "source_type", "observability_gate"],
+      "properties": {
+        "tables_or_resources": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "source_type": {"enum": ["order", "administration", "dispense", "documentation", "reconciliation", "mixed"]},
+        "observability_gate": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["enabled", "rule", "failure_state"],
+          "properties": {
+            "enabled": {"type": "boolean"},
+            "rule": {"type": "string", "minLength": 1},
+            "deployment_start": {"type": ["string", "null"]},
+            "deployment_end": {"type": ["string", "null"]},
+            "failure_state": {"enum": ["unmeasurable", "unresolved", "exclude"]}
+          }
+        }
+      }
+    },
+    "identity_rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vocabulary", "vocabulary_version", "code_list", "native_keys", "match_mode", "deduplication_unit", "revision_handling", "class_filter"],
+      "properties": {
+        "vocabulary": {"type": "string", "minLength": 2},
+        "vocabulary_version": {"type": "string", "minLength": 1},
+        "code_list": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["path", "sha256", "tier"],
+          "properties": {
+            "path": {"type": "string", "minLength": 1},
+            "sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+            "tier": {"enum": ["strict", "broad_sensitivity", "mixed"]}
+          }
+        },
+        "native_keys": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "match_mode": {"enum": ["exact_native_key", "same_class_window", "standard_code", "source_code", "name_regex", "composite"]},
+        "deduplication_unit": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "revision_handling": {"enum": ["collapse_to_unit", "earliest_active", "latest_active", "retain_all"]},
+        "class_filter": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "ingredient_filter": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "negative_match_rule": {"type": ["string", "null"]}
+      }
+    },
+    "time_origin_window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["origin", "assignment_timestamp", "start_offset_hours", "end_offset_hours", "lower_inclusive", "upper_inclusive", "grace_before_hours", "grace_after_hours", "censoring_boundary", "window_rule"],
+      "properties": {
+        "origin": {"enum": ["poe_ordertime", "prescription_starttime", "icu_intime", "hospital_admittime", "event_time", "visit_start", "custom"]},
+        "assignment_timestamp": {"enum": ["ordertime", "starttime", "charttime", "recorded_time", "event_time", "custom"]},
+        "start_offset_hours": {"type": ["number", "null"]},
+        "end_offset_hours": {"type": ["number", "null"]},
+        "lower_inclusive": {"type": "boolean"},
+        "upper_inclusive": {"type": "boolean"},
+        "grace_before_hours": {"type": "number", "minimum": 0},
+        "grace_after_hours": {"type": "number", "minimum": 0},
+        "censoring_boundary": {"enum": ["icu_outtime", "hospital_discharge", "prescription_stop", "visit_end", "none", "custom"]},
+        "window_rule": {"type": "string", "minLength": 3}
+      }
+    },
+    "event_semantics_map": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["positive", "negative", "excluded", "unresolved", "precedence", "normalization"],
+      "properties": {
+        "positive": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "negative": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "excluded": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "unresolved": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "precedence": {"enum": ["detail_override", "event_first", "source_priority"]},
+        "normalization": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["trim", "lowercase", "null_token"],
+          "properties": {
+            "trim": {"type": "boolean"},
+            "lowercase": {"type": "boolean"},
+            "null_token": {"type": "string"}
+          }
+        }
+      }
+    },
+    "required_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["route", "dose", "unit", "frequency", "status", "missing_policy", "constraints"],
+      "properties": {
+        "route": {"enum": ["required", "optional", "ignored"]},
+        "dose": {"enum": ["required", "optional", "ignored"]},
+        "unit": {"enum": ["required", "optional", "ignored"]},
+        "frequency": {"enum": ["required", "optional", "ignored"]},
+        "status": {"enum": ["required", "optional", "ignored"]},
+        "missing_policy": {"enum": ["unmeasurable", "unresolved", "exclude", "error"]},
+        "constraints": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "output_specification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["profile", "aggregate_only", "allow_patient_level", "trace_level", "classifications", "formats"],
+      "properties": {
+        "profile": {"enum": ["six_class_conversion", "anchor_exposure", "event_classification", "capability_only", "synthetic_demo"]},
+        "aggregate_only": {"const": true},
+        "allow_patient_level": {"const": false},
+        "trace_level": {"enum": ["none", "aggregate", "local_record"]},
+        "classifications": {
+          "type": "array",
+          "minItems": 4,
+          "uniqueItems": true,
+          "contains": {"const": "unmeasurable"},
+          "items": {"enum": ["exposed", "unexposed", "unresolved", "unmeasurable"]}
+        },
+        "formats": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["json", "markdown", "html", "csv"]}}
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "study_id": "synthetic-study-001",
+  "citation": {
+    "title": "Synthetic medication exposure reporting record",
+    "pmid": null,
+    "pmcid": null,
+    "doi": null
+  },
+  "database": "MIMIC-IV",
+  "evidence_scope": {
+    "main_text": "reviewed",
+    "supplement": "reviewed",
+    "article_repository": "none_linked"
+  },
+  "dimensions": {
+    "source_layer": {
+      "status": "reported",
+      "evidence": [{"source": "main_text", "location": "Methods", "short_note": "eMAR named"}]
+    },
+    "identity_rule": {
+      "status": "reported",
+      "evidence": [{"source": "supplement", "location": "Table S1", "short_note": "code list supplied"}]
+    },
+    "time_origin_window": {
+      "status": "reported",
+      "evidence": [{"source": "main_text", "location": "Methods", "short_note": "48-hour ICU window"}]
+    },
+    "event_semantics_map": {
+      "status": "missing",
+      "evidence": []
+    },
+    "required_metadata": {
+      "status": "ambiguous",
+      "evidence": [{"source": "main_text", "location": "Exposure", "short_note": "route mentioned without missing policy"}]
+    }
+  },
+  "repository": {
+    "url_reported": false,
+    "version_reported": false,
+    "hash_reported": false,
+    "urls": []
+  },
+  "operational_indicators": {
+    "named_native_source": true,
+    "executable_identity": true,
+    "complete_executable_operator": false
+  },
+  "coder": {
+    "coder_id": "synthetic",
+    "review_date": "2026-08-05",
+    "notes": "Test fixture only"
+  }
+}
