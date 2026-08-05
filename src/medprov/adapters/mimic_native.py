@@ -124,9 +124,24 @@ class MimicNativeAdapter(BaseAdapter):
                 if "decision_events_scoped" in tables:
                     event_fields = self._table_columns(connection, "decision_events_scoped")
                     fields.update(event_fields)
-                    required = self.required_metadata_fields(spec)
-                    class_filter = spec["identity_rule"]["class_filter"]
-                    if "route" in required:
+        required = self.required_metadata_fields(spec)
+        if "route" in required and target in {"documented_administration", "reconciliation"}:
+            route_row: tuple[Any, ...] | None = None
+            if (
+                str(spec["clinical_construct"])
+                == "a1_vte_prophylaxis_administration_exposure_route_required"
+                and upgrade_db
+            ):
+                with duckdb.connect(str(upgrade_db), read_only=True) as connection:
+                    fields.update(self._table_columns(connection, "a1_given_events"))
+                    route_row = connection.execute(
+                        "SELECT count(*), count(route) FROM a1_given_events"
+                    ).fetchone()
+                status["required_route_reference"] = "a1_given_events"
+            elif base_db:
+                class_filter = spec["identity_rule"]["class_filter"]
+                with duckdb.connect(str(base_db), read_only=True) as connection:
+                    if "decision_events_scoped" in self._tables(connection):
                         placeholders = ",".join("?" for _ in class_filter)
                         query = (
                             "SELECT count(*) AS n, "
@@ -137,16 +152,17 @@ class MimicNativeAdapter(BaseAdapter):
                             "AND event_category = 'given_strict'"
                         )
                         route_row = connection.execute(query, class_filter).fetchone()
-                        if route_row is None:
-                            raise RuntimeError("Route capability query returned no aggregate row")
-                        n, route_n = route_row
-                        status["required_route_population_n"] = int(n or 0)
-                        status["required_route_nonmissing_n"] = int(route_n or 0)
-                        if int(n or 0) > 0 and int(route_n or 0) == 0:
-                            fields.discard("route")
-                            reasons.append(
-                                "Route column exists but is 0% populated among qualifying documented administrations."
-                            )
+                    status["required_route_reference"] = "decision_events_scoped"
+            if route_row is None:
+                raise RuntimeError("Route capability query returned no aggregate row")
+            n, route_n = route_row
+            status["required_route_population_n"] = int(n or 0)
+            status["required_route_nonmissing_n"] = int(route_n or 0)
+            if int(n or 0) > 0 and int(route_n or 0) == 0:
+                fields.discard("route")
+                reasons.append(
+                    "Route column exists but is 0% populated among qualifying documented administrations."
+                )
         if not selected_db:
             reasons.append(
                 "Materialized MIMIC reference database not found; native CSV compilation is available but execution is not enabled."
@@ -265,6 +281,20 @@ class MimicNativeAdapter(BaseAdapter):
                 if capability.supported and capability.source_status.get("data_available")
                 else "not_executed_data_unavailable"
             )
+            analysis_units = 0
+            if (
+                state == "unmeasurable"
+                and spec["output_specification"]["profile"] == "anchor_exposure"
+            ):
+                reference_name, reference_table = self._reference_for_spec(spec)
+                reference_db = self._find_database(data_root, reference_name)
+                if reference_db is not None:
+                    with duckdb.connect(str(reference_db), read_only=True) as connection:
+                        count_row = connection.execute(
+                            f"SELECT count(*) FROM {reference_table}"
+                        ).fetchone()
+                    if count_row is not None:
+                        analysis_units = int(count_row[0])
             return ExecutionResult(
                 operator_id=spec["operator_id"],
                 operator_version=spec["operator_version"],
@@ -275,7 +305,13 @@ class MimicNativeAdapter(BaseAdapter):
                 measurable=capability.measurable,
                 executable=False,
                 aggregate_only=True,
-                counts={"exposed": 0, "unexposed": 0, "unresolved": 0, "unmeasurable": 0},
+                counts={
+                    "analysis_units": analysis_units,
+                    "exposed": 0,
+                    "unexposed": 0,
+                    "unresolved": 0,
+                    "unmeasurable": analysis_units,
+                },
                 metrics={},
                 failure_reasons={reason: 1 for reason in capability.reasons},
                 provenance=base_provenance,

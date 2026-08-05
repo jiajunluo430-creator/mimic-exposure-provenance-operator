@@ -1,0 +1,8 @@
+{
+  "checks_n": 19,
+  "continuous_tolerance_same_stored_estimate": 1e-10,
+  "failed_n": 0,
+  "integer_tolerance": 0,
+  "parity_status": "PASS",
+  "passed_n": 19
+}

@@ -1,0 +1,404 @@
+# Structured reporting validator result
+
+- **dimension_counts**
+  - **event_semantics_map**
+    - **ambiguous:** 0
+    - **missing:** 40
+    - **not_applicable:** 0
+    - **reported:** 0
+  - **identity_rule**
+    - **ambiguous:** 0
+    - **missing:** 38
+    - **not_applicable:** 0
+    - **reported:** 2
+  - **required_metadata**
+    - **ambiguous:** 0
+    - **missing:** 10
+    - **not_applicable:** 0
+    - **reported:** 30
+  - **source_layer**
+    - **ambiguous:** 0
+    - **missing:** 33
+    - **not_applicable:** 0
+    - **reported:** 7
+  - **time_origin_window**
+    - **ambiguous:** 0
+    - **missing:** 5
+    - **not_applicable:** 0
+    - **reported:** 35
+- **invalid_records_n:** 0
+- **operational_indicator_counts**
+  - **complete_executable_operator:** 0
+  - **executable_identity:** 2
+  - **named_native_source:** 7
+- **primary_validator_mode:** structured_human_coded_input
+- **records**
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-01
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-02
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-03
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-04
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+      - required_metadata
+    - **reported_dimensions_n:** 1
+    - **study_id:** mimic-medication-05
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-06
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-07
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-08
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-09
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 3
+    - **study_id:** mimic-medication-10
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+      - required_metadata
+    - **reported_dimensions_n:** 1
+    - **study_id:** mimic-medication-11
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+      - required_metadata
+    - **reported_dimensions_n:** 1
+    - **study_id:** mimic-medication-12
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 3
+    - **study_id:** mimic-medication-13
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+      - required_metadata
+    - **reported_dimensions_n:** 1
+    - **study_id:** mimic-medication-14
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 3
+    - **study_id:** mimic-medication-15
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - time_origin_window
+      - event_semantics_map
+    - **reported_dimensions_n:** 1
+    - **study_id:** mimic-medication-16
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+      - required_metadata
+    - **reported_dimensions_n:** 1
+    - **study_id:** mimic-medication-17
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+      - required_metadata
+    - **reported_dimensions_n:** 1
+    - **study_id:** mimic-medication-18
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-19
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - time_origin_window
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-20
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-21
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-22
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - identity_rule
+      - event_semantics_map
+      - required_metadata
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-23
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-24
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - time_origin_window
+      - event_semantics_map
+    - **reported_dimensions_n:** 1
+    - **study_id:** mimic-medication-25
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-26
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-27
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-28
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 3
+    - **study_id:** mimic-medication-29
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-30
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 3
+    - **study_id:** mimic-medication-31
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-32
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+      - required_metadata
+    - **reported_dimensions_n:** 1
+    - **study_id:** mimic-medication-33
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - time_origin_window
+      - event_semantics_map
+      - required_metadata
+    - **reported_dimensions_n:** 0
+    - **study_id:** mimic-medication-34
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - time_origin_window
+      - event_semantics_map
+    - **reported_dimensions_n:** 3
+    - **study_id:** mimic-medication-35
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-36
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-37
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-38
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+    - **reported_dimensions_n:** 2
+    - **study_id:** mimic-medication-39
+    - **valid:** True
+  -
+    - **database_executable_operator:** False
+    - **missing_or_ambiguous_dimensions**
+      - source_layer
+      - identity_rule
+      - event_semantics_map
+      - required_metadata
+    - **reported_dimensions_n:** 1
+    - **study_id:** mimic-medication-40
+    - **valid:** True
+- **records_n:** 40
+- **text_assist_used_for_primary_results:** False
+- **valid_records_n:** 40

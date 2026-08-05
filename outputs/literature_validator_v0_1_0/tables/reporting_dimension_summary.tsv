@@ -1,0 +1,6 @@
+dimension	reported_n	missing_n	ambiguous_n	not_applicable_n	sample_n
+source_layer	7	33	0	0	40
+identity_rule	2	38	0	0	40
+time_origin_window	35	5	0	0	40
+event_semantics_map	0	40	0	0	40
+required_metadata	30	10	0	0	40

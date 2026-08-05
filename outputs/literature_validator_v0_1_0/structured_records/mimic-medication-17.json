@@ -1,0 +1,62 @@
+{
+  "citation": {
+    "doi": "10.1038/s41598-026-40860-5",
+    "pmcid": "PMC13031553",
+    "pmid": "41741602",
+    "title": "Association of antibiotic type and timing with sepsis mortality using target trial emulation."
+  },
+  "coder": {
+    "coder_id": "primary_coder_1",
+    "notes": "Single-primary-coder structured transformation; no independent recode available.",
+    "review_date": "2026-08-01"
+  },
+  "database": "MIMIC-IV",
+  "dimensions": {
+    "event_semantics_map": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "identity_rule": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "required_metadata": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "source_layer": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "time_origin_window": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "within 48 h of sepsis diagnosis with hourly strata",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    }
+  },
+  "evidence_scope": {
+    "article_repository": "reviewed",
+    "main_text": "reviewed",
+    "supplement": "reviewed"
+  },
+  "operational_indicators": {
+    "complete_executable_operator": false,
+    "executable_identity": false,
+    "named_native_source": false
+  },
+  "repository": {
+    "hash_reported": false,
+    "url_reported": true,
+    "urls": [
+      "https://github.com/mohuaifengw/SR1ef8ce959be9/blob/main/main.R"
+    ],
+    "version_reported": false
+  },
+  "schema_version": "1.0.0",
+  "study_id": "mimic-medication-17"
+}

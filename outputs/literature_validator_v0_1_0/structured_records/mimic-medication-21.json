@@ -1,0 +1,66 @@
+{
+  "citation": {
+    "doi": "10.1097/JS9.0000000000004773",
+    "pmcid": "PMC13105501",
+    "pmid": "41631998",
+    "title": "Delayed anticoagulation is associated with lower mortality in sepsis-induced coagulopathy: a large-scale, propensity-score-matched cohort study from MIMIC-IV."
+  },
+  "coder": {
+    "coder_id": "primary_coder_1",
+    "notes": "Single-primary-coder structured transformation; no independent recode available.",
+    "review_date": "2026-08-01"
+  },
+  "database": "MIMIC-IV",
+  "dimensions": {
+    "event_semantics_map": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "identity_rule": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "required_metadata": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "IV/SC routes and anticoagulant type",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    },
+    "source_layer": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "time_origin_window": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "48-h ICU landmark",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    }
+  },
+  "evidence_scope": {
+    "article_repository": "none_linked",
+    "main_text": "reviewed",
+    "supplement": "none_linked"
+  },
+  "operational_indicators": {
+    "complete_executable_operator": false,
+    "executable_identity": false,
+    "named_native_source": false
+  },
+  "repository": {
+    "hash_reported": false,
+    "url_reported": false,
+    "urls": [],
+    "version_reported": false
+  },
+  "schema_version": "1.0.0",
+  "study_id": "mimic-medication-21"
+}

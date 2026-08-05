@@ -1,0 +1,7 @@
+drug_class	expected_orders_n	actual_orders_n	expected_strict_n	actual_strict_n	expected_broad_n	actual_broad_n	status
+electrolyte_replacement	113854	113854	57408	57408	92717	92717	PASS
+insulin	56081	56081	38758	38758	49598	49598	PASS
+intra_abdominal_antibiotics	49119	49119	40705	40705	46479	46479	PASS
+prokinetic	2329	2329	1855	1855	1986	1986	PASS
+stress_ulcer_prophylaxis	24655	24655	18730	18730	21501	21501	PASS
+vte_prophylaxis	18133	18133	13434	13434	15074	15074	PASS

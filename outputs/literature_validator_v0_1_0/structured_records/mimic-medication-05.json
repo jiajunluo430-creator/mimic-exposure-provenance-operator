@@ -1,0 +1,60 @@
+{
+  "citation": {
+    "doi": "10.1186/s12890-024-03441-8",
+    "pmcid": "PMC11658092",
+    "pmid": "39695560",
+    "title": "Antibiotics versus Non-Antibiotic in the treatment of Aspiration Pneumonia: analysis of the MIMIC-IV database."
+  },
+  "coder": {
+    "coder_id": "primary_coder_1",
+    "notes": "Single-primary-coder structured transformation; no independent recode available.",
+    "review_date": "2026-08-01"
+  },
+  "database": "MIMIC-IV",
+  "dimensions": {
+    "event_semantics_map": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "identity_rule": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "required_metadata": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "source_layer": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "time_origin_window": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "24 h before to 48 h after ICU admission",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    }
+  },
+  "evidence_scope": {
+    "article_repository": "none_linked",
+    "main_text": "reviewed",
+    "supplement": "reviewed"
+  },
+  "operational_indicators": {
+    "complete_executable_operator": false,
+    "executable_identity": false,
+    "named_native_source": false
+  },
+  "repository": {
+    "hash_reported": false,
+    "url_reported": false,
+    "urls": [],
+    "version_reported": false
+  },
+  "schema_version": "1.0.0",
+  "study_id": "mimic-medication-05"
+}

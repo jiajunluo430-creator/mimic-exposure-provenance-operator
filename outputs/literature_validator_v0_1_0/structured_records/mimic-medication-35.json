@@ -1,0 +1,72 @@
+{
+  "citation": {
+    "doi": "10.1371/journal.pone.0333795",
+    "pmcid": "PMC12513587",
+    "pmid": "41071834",
+    "title": "Heparin improves the mortality of patients with non-pulmonary sepsis-associated ARDS: A MIMIC-IV database analysis based on propensity score matching."
+  },
+  "coder": {
+    "coder_id": "primary_coder_1",
+    "notes": "Single-primary-coder structured transformation; no independent recode available.",
+    "review_date": "2026-08-01"
+  },
+  "database": "MIMIC-IV",
+  "dimensions": {
+    "event_semantics_map": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "identity_rule": {
+      "evidence": [
+        {
+          "location": "pone.0333795.s003.sql",
+          "short_note": "supplement specifies heparin itemid 225975 and exclusion itemids",
+          "source": "supplement"
+        }
+      ],
+      "status": "reported"
+    },
+    "required_metadata": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "subcutaneous route and daily-dose groups",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    },
+    "source_layer": {
+      "evidence": [
+        {
+          "location": "pone.0333795.s003.sql",
+          "short_note": "supplement names mimiciv_icu.inputevents",
+          "source": "supplement"
+        }
+      ],
+      "status": "reported"
+    },
+    "time_origin_window": {
+      "evidence": [],
+      "status": "missing"
+    }
+  },
+  "evidence_scope": {
+    "article_repository": "none_linked",
+    "main_text": "reviewed",
+    "supplement": "reviewed"
+  },
+  "operational_indicators": {
+    "complete_executable_operator": false,
+    "executable_identity": true,
+    "named_native_source": true
+  },
+  "repository": {
+    "hash_reported": false,
+    "url_reported": false,
+    "urls": [],
+    "version_reported": false
+  },
+  "schema_version": "1.0.0",
+  "study_id": "mimic-medication-35"
+}

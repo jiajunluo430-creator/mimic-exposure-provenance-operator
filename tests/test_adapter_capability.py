@@ -15,8 +15,15 @@ def test_a1_route_construct_is_unmeasurable_not_unexposed(repo_root, local_cache
     assert capability.measurable is False
     assert capability.executable is False
     assert capability.dimension_status["required_metadata"] == "unmeasurable"
+    assert capability.source_status["required_route_population_n"] == 87569
     assert capability.source_status["required_route_nonmissing_n"] == 0
     assert "route" in capability.missing_fields
+
+    result = get_adapter("mimic_native").execute(spec, local_cache)
+    assert result.status == "unmeasurable"
+    assert result.counts["analysis_units"] == 20248
+    assert result.counts["unmeasurable"] == 20248
+    assert result.counts["unexposed"] == 0
 
 
 @pytest.mark.parametrize("adapter", ["mimic_fhir", "omop", "eicu"])

@@ -1,0 +1,66 @@
+{
+  "citation": {
+    "doi": "10.3389/fphar.2025.1518716",
+    "pmcid": "PMC11903409",
+    "pmid": "40083381",
+    "title": "Unfractionated heparin may improve near-term survival in patients admitted to the ICU with sepsis attributed to pneumonia: an observational study using the MIMIC-IV database."
+  },
+  "coder": {
+    "coder_id": "primary_coder_1",
+    "notes": "Single-primary-coder structured transformation; no independent recode available.",
+    "review_date": "2026-08-01"
+  },
+  "database": "MIMIC-IV",
+  "dimensions": {
+    "event_semantics_map": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "identity_rule": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "single pharmacy_id explicitly reported",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    },
+    "required_metadata": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "injection formulation",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    },
+    "source_layer": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "time_origin_window": {
+      "evidence": [],
+      "status": "missing"
+    }
+  },
+  "evidence_scope": {
+    "article_repository": "generic_only",
+    "main_text": "reviewed",
+    "supplement": "reviewed"
+  },
+  "operational_indicators": {
+    "complete_executable_operator": false,
+    "executable_identity": true,
+    "named_native_source": false
+  },
+  "repository": {
+    "hash_reported": false,
+    "url_reported": false,
+    "urls": [],
+    "version_reported": false
+  },
+  "schema_version": "1.0.0",
+  "study_id": "mimic-medication-20"
+}

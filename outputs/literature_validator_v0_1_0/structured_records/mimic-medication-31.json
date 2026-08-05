@@ -1,0 +1,74 @@
+{
+  "citation": {
+    "doi": "10.1186/s12967-026-08093-2",
+    "pmcid": "PMC13169735",
+    "pmid": "41947218",
+    "title": "Long-term enoxaparin use and osteoporosis risk: a real-world cohort study with integrative computational and network toxicology approaches."
+  },
+  "coder": {
+    "coder_id": "primary_coder_1",
+    "notes": "Single-primary-coder structured transformation; no independent recode available.",
+    "review_date": "2026-08-01"
+  },
+  "database": "MIMIC-IV",
+  "dimensions": {
+    "event_semantics_map": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "identity_rule": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "required_metadata": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "days, cumulative dose, frequency, daily dose",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    },
+    "source_layer": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "inputevents and prescriptions tables",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    },
+    "time_origin_window": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "index hospitalization from first administration",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    }
+  },
+  "evidence_scope": {
+    "article_repository": "reviewed",
+    "main_text": "reviewed",
+    "supplement": "none_linked"
+  },
+  "operational_indicators": {
+    "complete_executable_operator": false,
+    "executable_identity": false,
+    "named_native_source": true
+  },
+  "repository": {
+    "hash_reported": false,
+    "url_reported": true,
+    "urls": [
+      "https://github.com/Liuzhenjiangdoctor/Long-Term-Enoxaparin-Use-and-Osteoporosis-Risk"
+    ],
+    "version_reported": false
+  },
+  "schema_version": "1.0.0",
+  "study_id": "mimic-medication-31"
+}

@@ -1,0 +1,72 @@
+{
+  "citation": {
+    "doi": "10.3389/fneur.2026.1753639",
+    "pmcid": "PMC13012946",
+    "pmid": "41890797",
+    "title": "Early prophylactic heparin use is associated with reduced mortality in patients with non-traumatic subarachnoid hemorrhage."
+  },
+  "coder": {
+    "coder_id": "primary_coder_1",
+    "notes": "Single-primary-coder structured transformation; no independent recode available.",
+    "review_date": "2026-08-01"
+  },
+  "database": "MIMIC-IV",
+  "dimensions": {
+    "event_semantics_map": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "identity_rule": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "required_metadata": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "subcutaneous route and total dose",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    },
+    "source_layer": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "eMAR and pharmacy records",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    },
+    "time_origin_window": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "first 72 h after hospital admission",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    }
+  },
+  "evidence_scope": {
+    "article_repository": "none_linked",
+    "main_text": "reviewed",
+    "supplement": "reviewed"
+  },
+  "operational_indicators": {
+    "complete_executable_operator": false,
+    "executable_identity": false,
+    "named_native_source": true
+  },
+  "repository": {
+    "hash_reported": false,
+    "url_reported": false,
+    "urls": [],
+    "version_reported": false
+  },
+  "schema_version": "1.0.0",
+  "study_id": "mimic-medication-15"
+}

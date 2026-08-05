@@ -1,0 +1,66 @@
+{
+  "citation": {
+    "doi": "10.3389/fcimb.2026.1814760",
+    "pmcid": "PMC13375620",
+    "pmid": "42490849",
+    "title": "Association between pravastatin use and short-term mortality in ICU patients with sepsis: a retrospective propensity score-matched cohort study."
+  },
+  "coder": {
+    "coder_id": "primary_coder_1",
+    "notes": "Single-primary-coder structured transformation; no independent recode available.",
+    "review_date": "2026-08-01"
+  },
+  "database": "MIMIC-IV",
+  "dimensions": {
+    "event_semantics_map": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "identity_rule": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "required_metadata": {
+      "evidence": [],
+      "status": "missing"
+    },
+    "source_layer": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "prescriptions table",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    },
+    "time_origin_window": {
+      "evidence": [
+        {
+          "location": "Expanded main-text coding packet",
+          "short_note": "first 24 h after ICU admission",
+          "source": "main_text"
+        }
+      ],
+      "status": "reported"
+    }
+  },
+  "evidence_scope": {
+    "article_repository": "none_linked",
+    "main_text": "reviewed",
+    "supplement": "not_available"
+  },
+  "operational_indicators": {
+    "complete_executable_operator": false,
+    "executable_identity": false,
+    "named_native_source": true
+  },
+  "repository": {
+    "hash_reported": false,
+    "url_reported": false,
+    "urls": [],
+    "version_reported": false
+  },
+  "schema_version": "1.0.0",
+  "study_id": "mimic-medication-23"
+}

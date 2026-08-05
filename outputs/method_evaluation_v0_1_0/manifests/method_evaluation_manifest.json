@@ -1,0 +1,55 @@
+{
+  "aggregate_only": true,
+  "artifact": "medprov_method_evaluation_v0_1_0",
+  "contract": "contracts/OPERATOR_ABLATION_CONTRACT_v1.0_2026-08-05.md",
+  "contract_sha256": "3bc76aae516be8dbbb6f815a67ba07638861a183c1affb7bc204c6b6690ee43e",
+  "evaluation_date": "2026-08-05",
+  "files": [
+    {
+      "bytes": 163,
+      "path": "outputs/method_evaluation_v0_1_0/method_evaluation_summary.json",
+      "sha256": "c387f5095b37e9e5189d1eefc006370e88f6dd04c9741c84c15b94982aaab148"
+    },
+    {
+      "bytes": 1549,
+      "path": "outputs/method_evaluation_v0_1_0/reports/MIMIC_NATIVE_PARITY_REPORT.md",
+      "sha256": "84b3affe71d35e110cc6fc0801c0f7fa31f818dbe707f6ced776863a79a4a7b3"
+    },
+    {
+      "bytes": 3951,
+      "path": "outputs/method_evaluation_v0_1_0/reports/OPERATOR_ABLATION_REPORT.md",
+      "sha256": "cef0131b76bd17922e871ed3ff30030af33e51b70922be700e5fcfa47aa1a5b1"
+    },
+    {
+      "bytes": 1375,
+      "path": "outputs/method_evaluation_v0_1_0/tables/anchor_crossclassification_parity.tsv",
+      "sha256": "83e27de5c39ae426af059bf768d3d14c5c6bea1c1cd50de0d3fd0ad78376c100"
+    },
+    {
+      "bytes": 1277,
+      "path": "outputs/method_evaluation_v0_1_0/tables/mimic_native_parity_checks.tsv",
+      "sha256": "1262d35fa10b9804216a1d4bac9203f7401a1afa6b6b565e8566ed2e6d0440e5"
+    },
+    {
+      "bytes": 479,
+      "path": "outputs/method_evaluation_v0_1_0/tables/mimic_six_class_parity.tsv",
+      "sha256": "46268f0af6e46c9e19926930012f8b21691ed4faee7e790e745ff306ad7c565b"
+    },
+    {
+      "bytes": 1334,
+      "path": "outputs/method_evaluation_v0_1_0/tables/operator_ablation_matrix.tsv",
+      "sha256": "9513410058a6a80b48c7e3fea8415e1510f3c70d383bba69d6f71ce0629d1cef"
+    },
+    {
+      "bytes": 2060,
+      "path": "outputs/method_evaluation_v0_1_0/tables/operator_estimate_drift.tsv",
+      "sha256": "639fb8987254b451dc08ced8a4b91290e5f564ee252d5a2f7d1ed5e76cc8a80e"
+    },
+    {
+      "bytes": 1752,
+      "path": "outputs/method_evaluation_v0_1_0/tables/operator_reclassification_metrics.tsv",
+      "sha256": "7c8871e2c71f5e2ed0d0b052b61db2420782cf8f2b5deab0054738dc922a7474"
+    }
+  ],
+  "patient_level_files": 0
+}

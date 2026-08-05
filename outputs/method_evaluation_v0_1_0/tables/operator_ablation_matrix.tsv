@@ -1,0 +1,13 @@
+evaluation_id	anchor	operator_label	syntactically_valid	adapter_supported	measurable	executable	analysis_units_n	exposed_n	unexposed_n	unresolved_n	unmeasurable_n	notes
+BASE-01	A1	table-only	TRUE	TRUE	TRUE	TRUE	20248	12950	7298	0	0	
+BASE-02	A1	source+class+window	TRUE	TRUE	TRUE	TRUE	20248	12362	7886	0	0	
+ABL-04	A1	collapsed event semantics	TRUE	TRUE	TRUE	TRUE	20248	12722	7526	0	0	
+FULL-01	A1	full exact-identity operator	TRUE	TRUE	TRUE	TRUE	20248	5538	14710	0	0	
+BASE-01	A2	table-only	TRUE	TRUE	TRUE	TRUE	2813	1061	1752	0	0	
+BASE-02	A2	source+class+window	TRUE	TRUE	TRUE	TRUE	2813	870	1943	0	0	
+ABL-04	A2	collapsed event semantics	TRUE	TRUE	TRUE	TRUE	2813	871	1942	0	0	
+FULL-01	A2	full exact-identity operator	TRUE	TRUE	TRUE	TRUE	2813	518	2295	0	0	
+ABL-05	A1	route required	TRUE	TRUE	FALSE	FALSE	20248	0	0	0	20248	Required eMAR route is 0% populated; construct is unmeasurable, not unexposed.
+ABL-05	A1	route ignored / broad administration	TRUE	TRUE	TRUE	TRUE	20248	12362	7886	0	0	Ablation only; cannot replace the route-dependent construct.
+ABL-01	six_class_order_units	deployment gate retained	TRUE	TRUE	TRUE	TRUE	264171	170890	93281	0	0	Frozen primary observable era
+ABL-01	six_class_order_units	deployment gate removed	TRUE	TRUE	PARTIAL	TRUE	633081	218981	414100	0	0	All-period denominator includes pre-eMAR units
