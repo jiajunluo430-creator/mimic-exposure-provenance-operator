@@ -1,0 +1,22 @@
+item\tstatus\tevidence_or_boundary
+existing_patient_free_git_repository\tPRESENT\tclean baseline at 294b93a
+jamia_archive_branch_and_tag\tPRESENT\tlocal only; no push
+jamia_portal_package\tPRESENT\tfrozen outside public repository
+public_release_validator\tPRESENT\t352 files; 351 manifest entries; 0 failures
+frozen_contracts_and_aggregate_outputs\tPRESENT\treuse-only unless integrity fails
+poe_temporal_mechanism\tPRESENT\t183/183 linked; timing aggregates complete
+independent_second_coder_result\tMISSING\tblank 20-percent packet only
+operator_json_schema\tMISSING\tPhase 1 required
+installable_package_cli\tMISSING\tPhase 1 required
+adapter_api_canonical_ir\tMISSING\tPhase 1 required
+pytest_ci_build\tMISSING\tPhase 1/8 required
+mimic_native_3_1\tPRESENT\tread-only local source
+eicu_2_0\tPRESENT\tread-only local ZIP
+mimic_native_2_2\tMISSING\tno exact FHIR parity
+mimic_fhir_2_1\tMISSING\tadapter/synthetic only
+matched_fhir_demo\tMISSING\tadapter/synthetic only
+omop_demo_v0_9\tMISSING\tsynthetic capability only
+python_3_13_duckdb\tPRESENT\texisting analysis runtime
+r_4_5_2\tPRESENT\texisting model runtime
+disk_headroom\tPARTIAL\tabout 16 GB free at audit
+
