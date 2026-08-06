@@ -39,7 +39,7 @@ Email: lufh@cqmu.edu.cn
 - Abstract: to be populated from validated build
 - Main text (Introduction through Conclusion): to be populated from validated build
 - References: 42
-- Main tables: 3
+- Word tables: 3 (Statement of Significance and numbered Tables 1–2)
 - Main figures: 5
 - Supplementary file: 1
 
@@ -54,8 +54,3 @@ This work was supported by the National Natural Science Foundation of China Yout
 # Declaration of competing interest
 
 The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
-
-# Acknowledgments
-
-None.
-

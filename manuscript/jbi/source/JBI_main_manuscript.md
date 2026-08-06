@@ -24,11 +24,11 @@ To make medication-exposure phenotypes executable across electronic health recor
 
 ## Methods
 
-We specified a deterministic five-dimensional operator, O=(S,I,T,E,M): source, identity, time, event semantics, and required metadata. The Python reference implementation (`medprov`) compiles versioned specifications through representation-specific adapters and returns exposed, unexposed, unresolved, or unmeasurable. We compared it with table/resource existence, OMOP/ATLAS-style `DRUG_EXPOSURE` existence, and FHIR resource-role/status baselines. Evaluation comprised MIMIC-IV implementation fidelity and ablations, matched native/FHIR and OMOP demonstrations, eICU interface observability, a validator applied to 40 studies, and two measurement stress tests.
+We specified a deterministic five-dimensional operator, O=(S,I,T,E,M): source, identity, time, event semantics, and required metadata. The Python reference implementation (`medprov`) compiles versioned specifications through representation-specific adapters and returns exposed, unexposed, unresolved, or unmeasurable. We compared it with table/resource existence, OMOP `DRUG_EXPOSURE` record existence, and FHIR resource-role/status baselines. Evaluation comprised MIMIC-IV implementation fidelity and ablations, matched native/FHIR and OMOP demonstrations, eICU interface observability, a validator applied to 40 studies, and two measurement stress tests.
 
 ## Results
 
-`medprov` reproduced the frozen native implementation across 19 checks and 264,171 order units (implementation fidelity). Exact same-order identity linked 170,890 units to strict administrations; same-class/window matching linked 227,355. A route-dependent anticoagulation construct was unmeasurable because route was present in 9,940/9,940 eligible orders but 0/87,569 strict eMAR events. In FHIR, top-level status classified 6,697 administrations positive, whereas `dosage.method` recovered 5,740 strict positives, a 16.7% overcall by the role/status baseline. In OMOP, record existence exposed 37/37 demonstration units while strict administration was unmeasurable for 37/37 without event state. None of 40 coded studies reported a complete operator. Prespecified reclassification changed one stress-test odds ratio from 1.868 to 0.907.
+`medprov` reproduced the frozen native implementation across 19 checks and 264,171 order units (implementation fidelity). Exact same-order identity linked 170,890 units to strict administrations; same-class/window matching linked 227,355. A route-dependent anticoagulation construct was unmeasurable because route was present in 9,940/9,940 eligible orders but 0/87,569 strict eMAR events. In FHIR, resource role/status classified 6,697 administrations positive, 16.7% more than the 5,740 meeting the prespecified event-semantic criterion. In OMOP, record existence exposed 37/37 demonstration units while strict administration was unmeasurable for 37/37 without event state. None of 40 coded studies reported a complete operator. Prespecified reclassification changed one stress-test odds ratio from 1.868 to 0.907.
 
 ## Conclusion
 
@@ -49,8 +49,8 @@ We developed a machine-executable medication-exposure provenance operator that m
 | Statement element | Summary |
 |---|---|
 | Problem or Issue | Medication exposure is often treated as record existence even though source role, identity, time, event meaning, and metadata jointly determine the construct. |
-| What is Already Known | FHIR, OMOP/ATLAS, CQL, computable-phenotype platforms, and reporting frameworks support interoperability, execution, or transparency, but do not by themselves distinguish non-exposure from non-measurability across medication representations. |
-| What this Paper Adds | A five-dimensional fail-closed operator and reference implementation; executed comparisons with record-existence, OMOP/ATLAS-style, and FHIR role/status baselines; and tests that localize semantic transformation, loss, and downstream reclassification. |
+| What is Already Known | FHIR, the OMOP common data model and ATLAS, CQL, computable-phenotype platforms, and reporting frameworks support interoperability, execution, or transparency, but do not by themselves distinguish non-exposure from non-measurability across medication representations. |
+| What this Paper Adds | A five-dimensional fail-closed operator and reference implementation; executed comparisons with table/resource existence, a prespecified OMOP drug-record-existence rule, and FHIR role/status baselines; and tests that localize semantic transformation, loss, and downstream reclassification. |
 | Who would benefit from the new knowledge in this paper | EHR phenotype developers, pharmacoepidemiologists, common-data-model implementers, clinical informaticians, and reviewers of medication studies. |
 
 # 2. Related work
@@ -105,7 +105,7 @@ In matched native/FHIR demonstrations, we assessed class counts, native identity
 
 ### 3.5.3. Executed comparison with current baselines
 
-We froze four comparison operators before tabulation. A table/resource-existence baseline classified any class-mapped record as exposed. An OMOP/ATLAS-style baseline applied executable class and temporal criteria to `DRUG_EXPOSURE` without requiring literal administration state. A FHIR role/status-only baseline treated a class-mapped MedicationAdministration with a positive top-level status as exposed. The full `medprov` operator additionally required its prespecified identity, workflow clock, literal event semantics, and construct-bound metadata. We compared terminal-state counts and documented which requirement each baseline could not express. This was a bounded semantic-capability comparison, not a universal accuracy or performance contest.
+We froze four comparison operators before tabulation. A table/resource-existence baseline classified any class-mapped record as exposed. A prespecified OMOP `DRUG_EXPOSURE` record-existence baseline, expressible in ATLAS, applied class and temporal criteria without requiring literal administration state. A FHIR role/status-only baseline treated a class-mapped MedicationAdministration with a positive top-level status as exposed. The full `medprov` operator additionally required its prespecified identity, workflow clock, literal event semantics, and construct-bound metadata. We compared terminal-state counts and documented which requirement each baseline could not express. This was a bounded semantic-capability comparison, not a universal accuracy or performance contest, and it did not purport to evaluate all capabilities of ATLAS.
 
 ### 3.5.4. Structured literature validator
 
@@ -117,13 +117,13 @@ Two published MIMIC associations were prespecified before results: an A1 VTE-pro
 
 ## 3.6. Software and artifact validation
 
-Unit, integration, schema, command-line, privacy, synthetic-state, adapter, and parity tests were run locally. A clean virtual environment installed the built wheel and executed a bundled deterministic demo. Cross-model outputs were checked against frozen manifests, contract hashes, privacy constraints, and prespecified invariants. Vector figures were generated from committed aggregate tables; no patient-level coordinates were used.
+Unit, integration, schema, command-line, privacy, synthetic-state, adapter, and parity tests were run locally. The committed continuous-integration matrix ran linting, static type checks, and the test suite under Python 3.10–3.13 on Ubuntu and Windows, with package builds on Python 3.13. A clean virtual environment installed the built wheel and executed a bundled deterministic demo. Cross-model outputs were checked against frozen manifests, contract hashes, privacy constraints, and prespecified invariants. Vector figures were generated from committed aggregate tables; no patient-level coordinates were used.
 
 # 4. Results
 
 ## 4.1. Executable method and software validation
 
-The implementation produced versioned, machine-validatable specifications and deterministic four-state classifications (Figure 1; Table 1). All 10 release checks passed. Sixty-one tests completed with no failures and 86.03% branch-aware code coverage. Both wheel and source distribution built successfully; clean-environment wheel installation resolved contract, code-list and generator hashes and reproduced the four-state demo. Cross-model package validation passed 39/39 artifact, contract, privacy, and internal-consistency checks (Table 2).
+The implementation produced versioned, machine-validatable specifications and deterministic four-state classifications (Figure 1; Table 1). All 10 release checks passed. Sixty-one tests completed with no failures. Coverage.py branch mode yielded 86.0% overall coverage (90.3% statement and 74.4% branch coverage). All eight Ubuntu/Windows and Python 3.10–3.13 continuous-integration jobs passed. Both wheel and source distribution built successfully; clean-environment wheel installation resolved contract, code-list and generator hashes and reproduced the four-state demo. Cross-model package validation passed 39/39 artifact, contract, privacy, and internal-consistency checks (Table 2).
 
 ## 4.2. Exact native parity
 
@@ -143,15 +143,15 @@ A1 demonstrated a stronger boundary: route was present and subcutaneous-compatib
 
 No evaluated representation preserved every dimension identically (Figure 3). In the matched MIMIC native/FHIR demonstrations, native pharmacy and FHIR MedicationDispense achieved exact class-mapped identity for 3,870/3,870 pharmacy-by-class units. Request transport was partial: frozen-class units numbered 3,903 in native prescriptions and 2,726 in FHIR MedicationRequest. For 2,249 deterministically paired request units, FHIR `authoredOn` equaled native pharmacy `entertime` in every case, not prescription `starttime` or usually POE `ordertime`. First-administration time matched exactly in 1,347/1,353 linked units.
 
-Administration semantics relocated across fields. All 6,697 class-mapped FHIR MedicationAdministration records appeared positive by top-level status, whereas `dosage.method` recovered 5,740 strict-positive events, close to 5,696 native strict eMAR events. The role/status-only baseline therefore overclassified strict administration by 957 records, or 16.7% relative to the stricter FHIR count. FHIR omitted native `emar_id`; a frozen pharmacy/class/time/semantic composite paired 5,220 of 6,253 native-linkable administration events. These results distinguish exact transport, partial transformation, semantic relocation, and non-retention of native record identity.
+Administration semantics relocated across fields. All 6,697 class-mapped FHIR MedicationAdministration records appeared positive by top-level status, whereas `dosage.method` recovered 5,740 events meeting the prespecified event-semantic criterion, close to 5,696 native strict eMAR events. The resource-role/status baseline therefore yielded 957 records, or 16.7%, more positive classifications than the event-semantic rule. FHIR omitted native `emar_id`; a frozen pharmacy/class/time/semantic composite paired 5,220 of 6,253 native-linkable administration events. These results distinguish exact transport, partial transformation, semantic relocation, and non-retention of native record identity; neither FHIR rule was treated as chart-adjudicated truth.
 
-The OMOP demonstration contained 18,229 `DRUG_EXPOSURE` rows; 48 PPI rows collapsed to 37 person-visit-class units. Record-existence exposure classified all 37 as exposed, but strict documented administration classified all 37 as unmeasurable because literal event state was absent. On the four-unit synthetic fixture, an ATLAS-style record-existence rule classified all four as exposed; the provenance extension separated one exposed, one unexposed, one unresolved, and one unmeasurable unit. Removing the extension made all four unmeasurable.
+The OMOP demonstration contained 18,229 `DRUG_EXPOSURE` rows; 48 PPI rows collapsed to 37 person-visit-class units. Record-existence exposure classified all 37 as exposed, but strict documented administration classified all 37 as unmeasurable because literal event state was absent. On the four-unit synthetic fixture, the prespecified OMOP `DRUG_EXPOSURE` record-existence rule classified all four as exposed; the provenance extension separated one exposed, one unexposed, one unresolved, and one unmeasurable unit. Removing the extension made all four unmeasurable.
 
 The eICU positive control recovered all 100/100 constructed pairs across 10 hospitals, confirming that the same adapter linked records when every frozen predicate was satisfied. Full streaming then processed 7,301,853 medication rows and 4,803,719 infusion rows without a full-table many-to-many join. Three of six classes passed all frozen interface gates. Same-stay/class/window reconciliation linked 3,696/167,806 stress-ulcer-prophylaxis, 7,491/134,102 VTE-prophylaxis, and 224/88,816 intra-abdominal-antibiotic order units to an administration-like infusion record. Electrolytes and insulin failed identity-unambiguity because three composite labels matched both classes; prokinetics failed minimum event/hospital gates. These low reconciliations describe non-equivalent interfaces and observability, not external clinical validity.
 
 ## 4.5. Executed baseline comparison exposed distinct failure modes
 
-The head-to-head comparison separated capabilities that a conceptual checklist alone would not reveal (Table 2). In the public OMOP demonstration, the OMOP/ATLAS-style record-existence baseline classified all 37 PPI person-visit-class units as exposed; the strict `medprov` administration operator classified all 37 as unmeasurable because `DRUG_EXPOSURE` did not contain literal administration state. In FHIR, resource role plus top-level status classified 6,697 records as positive, whereas the event-semantic operator identified 5,740 strict positives. Table-only MIMIC ablations likewise classified 12,950/20,248 A1 and 1,061/2,813 A2 units as exposed, compared with 5,538 and 518 under full exact-identity operators. The baselines remained executable for the questions they encode; `medprov` made the unsupported stricter construct explicit rather than returning a binary label.
+The head-to-head comparison separated capabilities that a conceptual checklist alone would not reveal (Table 2). In the public OMOP demonstration, the prespecified `DRUG_EXPOSURE` record-existence baseline, expressible in ATLAS, classified all 37 PPI person-visit-class units as exposed; the strict `medprov` administration operator classified all 37 as unmeasurable because `DRUG_EXPOSURE` did not contain literal administration state. In FHIR, resource role plus top-level status classified 6,697 records as positive, whereas 5,740 met the event-semantic criterion. Table-only MIMIC ablations likewise classified 12,950/20,248 A1 and 1,061/2,813 A2 units as exposed, compared with 5,538 and 518 under full exact-identity operators. The baselines remained executable for the questions they encode; `medprov` made the unsupported stricter construct explicit rather than returning a binary label.
 
 On the four-unit OMOP conformance fixture, record existence classified all four units as exposed. With a provenance extension, the same four records resolved to one exposed, one unexposed, one unresolved, and one unmeasurable; removing event state made all four unmeasurable. Thus, the increment was not a higher score but an executable distinction between evidence of absence and absence of required evidence.
 
@@ -161,7 +161,7 @@ The deterministic reporting validator reproduced the structured landscape audit 
 
 ## 4.7. Reclassification propagated to downstream estimates
 
-The two anchors showed different exposure sensitivity (Figure 5; Table 3). In A1, the order-defined odds ratio (OR) was 1.868 (95% confidence interval [CI], 1.715–2.036). Strict same-POE administration produced OR 1.953 (1.788–2.133; Δlog effect 0.044), whereas same-class/window administration produced OR 0.907 (0.831–0.990; Δlog effect −0.723), crossing the null direction. The dose-constrained broad comparator was similar (OR 0.909), while the clinically required route remained structurally unmeasurable.
+The two anchors showed different exposure sensitivity (Figure 5; Supplementary Table S14). In A1, the order-defined odds ratio (OR) was 1.868 (95% confidence interval [CI], 1.715–2.036). Strict same-POE administration produced OR 1.953 (1.788–2.133; Δlog effect 0.044), whereas same-class/window administration produced OR 0.907 (0.831–0.990; Δlog effect −0.723), crossing the null direction. The dose-constrained broad comparator was similar (OR 0.909), while the clinically required route remained structurally unmeasurable.
 
 In A2, the original order-defined hazard ratio (HR) was 1.904 (1.683–2.154), strict administration HR was 1.926 (1.689–2.196; Δlog effect 0.012), and same-class/window administration HR was 1.208 (1.070–1.363; Δlog effect −0.455). Under hospital-overlap order eligibility, order HR was 1.643 (1.457–1.854), strict administration HR was 1.927 (1.691–2.196; Δlog effect 0.159), and same-class/window administration HR remained 1.208 (Δlog effect −0.308). Identity alignment was therefore necessary but not sufficient: changing the time operator altered both cohort membership and the paired estimate. These are propagation demonstrations, not drug-effect conclusions.
 
@@ -175,7 +175,7 @@ Three findings carry the main methodological increment. First, identity is not a
 
 ## 5.2. Relation to existing standards
 
-The method complements rather than replaces existing interoperability, common-data-model, phenotyping, and reporting systems. FHIR makes workflow roles explicit, but the executed comparison showed that top-level status alone overclassified strict administration and that native event meaning had relocated to `dosage.method`. OMOP/ATLAS makes common-model cohorts reusable and executable, but its record-existence result and the stricter administration result answered different questions in all 37 public-demo units. PheKB and CQL support dissemination and executable logic, while RECORD-PE, STaRT-RWE, and HARPER improve reporting and protocol transparency. `medprov` supplies the medication-specific provenance contract those systems can carry or call.
+The method complements rather than replaces existing interoperability, common-data-model, phenotyping, and reporting systems. FHIR makes workflow roles explicit, but the executed comparison showed that top-level status yielded more positive classifications than the prespecified `dosage.method` event-semantic rule and that native event meaning had relocated across fields. OMOP standardizes common-model drug records and ATLAS makes cohort logic executable; the evaluated record-existence rule and the stricter administration operator nevertheless answered different questions in all 37 public-demo units. PheKB and CQL support dissemination and executable logic, while RECORD-PE, STaRT-RWE, and HARPER improve reporting and protocol transparency. `medprov` supplies the medication-specific provenance contract those systems can carry or call.
 
 This framing is consistent with broader calls to retain provenance during EHR harmonization [38] and to report data-quality assessment transparently [39]. It adds a concrete execution consequence: a missing dimension yields a declared capability state and, when scientifically required, a fail-closed classification. Versioned contracts, hashes, synthetic fixtures, and aggregate evidence also align with FAIR principles [40] and reproducible computational practice [41]. The established MIMIC code ecosystem demonstrates the value of public query artifacts [42]; the present method adds a schema that records what each medication query means.
 
@@ -213,7 +213,7 @@ The authors declare that they have no known competing financial interests or per
 
 # Declaration of generative AI and AI-assisted technologies in the manuscript preparation process
 
-During preparation of this work, the authors used OpenAI GPT-based tools for English-language editing, code drafting, document assembly, and quality-control scripting. After using these tools, the authors reviewed and edited the content as needed and take full responsibility for the published article. No generative AI or AI-assisted tool was used to create or alter the submitted figures or graphical abstract.
+During preparation of this work, the authors used OpenAI ChatGPT and Codex for English-language editing, code drafting, document assembly, and quality-control scripting. All outputs were reviewed and verified by the authors, who take full responsibility for the article. All figures and the graphical abstract were generated deterministically from aggregate data using author-reviewed code; no generative image model or AI-based image-editing tool was used.
 
 # Data and code availability
 
@@ -237,22 +237,9 @@ MIMIC-IV and eICU are available to credentialed users through PhysioNet under th
 | Approach | Source and identity | Event/metadata behavior | Terminal states | Executed result |
 |---|---|---|---|---|
 | Table/resource existence | Any class-mapped row is exposure | Does not require literal administration state, route, or dose | Exposed/unexposed | MIMIC A1: 12,950/20,248 exposed; A2: 1,061/2,813 exposed |
-| OMOP/ATLAS-style `DRUG_EXPOSURE` existence | Standardized drug row plus class/time logic | Event state not required by the evaluated record | Exposed/unexposed | Public demo: 37/37 PPI units exposed |
-| FHIR resource-role/status-only | MedicationAdministration plus top-level status | Workflow role retained; native event meaning may relocate | Exposed/unexposed | 6,697 positives; 957 (16.7%) above `dosage.method` strict count |
+| Prespecified OMOP `DRUG_EXPOSURE` record existence, expressible in ATLAS | Standardized drug row plus class/time logic | Event state not required by the evaluated record | Exposed/unexposed | Public demo: 37/37 PPI units exposed |
+| FHIR resource-role/status-only | MedicationAdministration plus top-level status | Workflow role retained; native event meaning may relocate | Exposed/unexposed | 6,697 positives; 957 (16.7%) more than the event-semantic criterion |
 | `medprov` full operator | Versioned S, I, and T predicates | Literal E and construct-required M; fails closed | Exposed, unexposed, unresolved, unmeasurable | A1: 5,538 exact-identity exposed; OMOP strict: 37/37 unmeasurable; FHIR strict: 5,740 positives |
-
-## Table 3. Prespecified downstream measurement stress tests
-
-| Anchor | Order operator/window | Administration operator | Order exposed | Administration exposed | Order estimate (95% CI) | Administration estimate (95% CI) | Δlog(admin−order) |
-|---|---|---|---:|---:|---|---|---:|
-| A1 | Original | Strict same-POE | 7,047 | 5,538 | OR 1.868 (1.715–2.036) | OR 1.953 (1.788–2.133) | 0.044 |
-| A1 | Original | Same-class/window | 7,047 | 12,362 | OR 1.868 (1.715–2.036) | OR 0.907 (0.831–0.990) | −0.723 |
-| A2 | Original ICU window | Strict same-POE | 655 | 518 | HR 1.904 (1.683–2.154) | HR 1.926 (1.689–2.196) | 0.012 |
-| A2 | Original ICU window | Same-class/window | 655 | 870 | HR 1.904 (1.683–2.154) | HR 1.208 (1.070–1.363) | −0.455 |
-| A2 | Hospital-overlap | Strict same-POE | 776 | 521 | HR 1.643 (1.457–1.854) | HR 1.927 (1.691–2.196) | 0.159 |
-| A2 | Hospital-overlap | Same-class/window | 776 | 870 | HR 1.643 (1.457–1.854) | HR 1.208 (1.070–1.363) | −0.308 |
-
-**Note:** A1 additionally required prophylactic route. At the administration layer this construct was unmeasurable because route was available for 0/87,569 strict VTE eMAR events. All estimates are measurement stress tests; none is a causal drug-effect estimate.
 
 # Figure legends
 

@@ -135,8 +135,15 @@ def validate_sources() -> dict:
             f"Statement of significance exceeds JBI limit: {significance_wc}"
         )
 
-    main_tables = len(re.findall(r"(?m)^## Table \d+\.", main))
+    numbered_main_tables = len(re.findall(r"(?m)^## Table \d+\.", main))
+    significance_tables = 1 if significance_rows else 0
+    main_tables = numbered_main_tables + significance_tables
     main_figures = len(re.findall(r"(?m)^## Figure \d+\.", main))
+    if numbered_main_tables != 2 or "## Table 3." in main:
+        raise SystemExit(
+            "Submission-ready main text must retain only numbered Tables 1-2; "
+            "full stress-test estimates belong in Supplementary Table S14"
+        )
     if main_tables + main_figures > 8:
         raise SystemExit(f"JBI display limit exceeded: {main_tables}+{main_figures}")
 
@@ -159,6 +166,8 @@ def validate_sources() -> dict:
         "main_text_words": body_wc,
         "statement_of_significance_words": significance_wc,
         "references": len(ref_ids),
+        "numbered_main_tables": numbered_main_tables,
+        "statement_of_significance_tables": significance_tables,
         "main_tables": main_tables,
         "main_figures": main_figures,
         "main_displays": main_tables + main_figures,
@@ -555,7 +564,7 @@ def main() -> int:
         f"- Main text: {stats['main_text_words']} words (limit 6000).",
         f"- Statement of significance: {stats['statement_of_significance_words']} words (limit 150; four required headings present).",
         f"- References: {stats['references']}; citation order 1–42 passed.",
-        f"- Main displays: {stats['main_figures']} figures + {stats['main_tables']} tables = {stats['main_displays']} (limit 8).",
+        f"- Main displays: {stats['main_figures']} figures + {stats['main_tables']} Word tables (Statement of Significance + numbered Tables 1-{stats['numbered_main_tables']}) = {stats['main_displays']} (limit 8).",
         f"- Highlights: {len(stats['highlights'])}; all ≤85 characters.",
         "- Reference registry: 42/42 entries verified.",
         "- Editable DOCX files and separate PDF/TIFF figures generated.",

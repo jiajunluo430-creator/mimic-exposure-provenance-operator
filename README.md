@@ -83,8 +83,8 @@ passed. The frozen comparison against PheKB, OMOP/ATLAS, FHIR, CQL,
 RECORD-PE, STaRT-RWE, and HARPER uses dimension-level states and no arbitrary
 quality score.
 
-The v0.1.0 release validation passed 10/10 gates: 61 tests passed with 86.03%
-branch-aware coverage, both distributions built, the wheel installed in an
+The v0.1.0 release validation passed 10/10 gates: 61 tests passed with 86.0%
+overall coverage under branch mode (90.3% statement, 74.4% branch), both distributions built, the wheel installed in an
 isolated environment, and the aggregate-only privacy scan passed.
 
 ## Data boundary

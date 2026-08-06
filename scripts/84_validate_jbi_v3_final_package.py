@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 JBI = ROOT / "manuscript" / "jbi"
-NAME = "JBI_first_submission_package_2026-08-06_v3_method_complete"
+NAME = "JBI_first_submission_package_2026-08-06_v3.1_submission_ready"
 PACKAGE = JBI / NAME
 ZIP_PATH = JBI / f"{NAME}.zip"
 ZIP_QC = JBI / f"{NAME}_ZIP_VERIFICATION.json"
@@ -66,6 +66,7 @@ with zipfile.ZipFile(ZIP_PATH) as archive:
             failures.append(f"ZIP content differs: {member}")
 
 zip_qc = json.loads(ZIP_QC.read_text(encoding="utf-8"))
+package_qc = json.loads((PACKAGE / "PACKAGE_VALIDATION.json").read_text(encoding="utf-8"))
 zip_sha = digest_file(ZIP_PATH)
 if zip_qc.get("sha256") != zip_sha:
     failures.append("ZIP sidecar SHA-256 differs from the ZIP")
@@ -77,6 +78,7 @@ result = {
     "zip_members": len(actual_zip_names),
     "zip_bytes": ZIP_PATH.stat().st_size,
     "zip_sha256": zip_sha,
+    "submission_decision": package_qc.get("submission_decision"),
     "failures": failures,
     "gate": "PASS_INDEPENDENT_FINAL_PACKAGE_VALIDATION" if not failures else "FAIL",
 }

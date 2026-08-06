@@ -147,7 +147,7 @@ The A1 and A2 anchors were used to show propagation from operator choice to pati
 |---|---:|---:|---|---|
 | Dispense `pharmacy_id × class` | 3,870 | 3,870 | 3,870/3,870 exact | Exact transport |
 | Frozen-class request units | 3,903 | 2,726 | Not forced to parity | Partial transport |
-| Administration top-level role/status | — | 6,697 positive | 957 above strict `dosage.method` count (16.7% relative) | Role/status-only overclassification |
+| Administration top-level role/status | — | 6,697 positive | 957 more than the `dosage.method` event-semantic count (16.7% relative) | Different positive-classification count |
 | Administration strict positives | 5,696 | 5,740 by `dosage.method` | Similar semantic count | Semantic relocation |
 | Administration composite identity | 6,253 native-linkable | 6,697 mapped FHIR | 5,220 paired (83.5%) | Composite concordance |
 | Request clock | 2,249 deterministic pairs | 2,249 | `authoredOn`=`pharmacy.entertime` in 2,249/2,249 | Exact workflow-clock transport |
@@ -160,7 +160,7 @@ The A1 and A2 anchors were used to show propagation from operator choice to pati
 |---|---:|---:|---:|---:|---:|
 | Official demo, record existence | 37 | 37 | 0 | 0 | 0 |
 | Official demo, strict administration | 37 | 0 | 0 | 0 | 37 |
-| Synthetic fixture, ATLAS-style existence | 4 | 4 | 0 | 0 | 0 |
+| Synthetic fixture, prespecified OMOP `DRUG_EXPOSURE` record existence | 4 | 4 | 0 | 0 | 0 |
 | Synthetic fixture, medprov extension | 4 | 1 | 1 | 1 | 1 |
 | Synthetic fixture, extension removed | 4 | 0 | 0 | 0 | 4 |
 
@@ -196,7 +196,8 @@ The A1 and A2 anchors were used to show propagation from operator choice to pati
 |---|---|
 | Software version | `medprov` 0.1.0 |
 | Tests | 61 passed, 0 failed |
-| Branch-aware coverage | 86.03% |
+| Coverage.py branch mode | 86.0% overall; 90.3% statement; 74.4% branch (476/640; 130 partial) |
+| Cross-platform continuous integration | 8/8 jobs passed; Ubuntu/Windows; Python 3.10–3.13 |
 | Release checks | 10/10 passed |
 | Wheel build/install | Passed in clean virtual environment |
 | Source distribution | Built successfully |
@@ -231,7 +232,7 @@ The A1 and A2 anchors were used to show propagation from operator choice to pati
 | Family | Primary contribution | Provenance-operator complement |
 |---|---|---|
 | FHIR medication resources | Separates request, dispense, administration and statement roles | Declares identity, clock and event-semantic mappings across resources |
-| OMOP CDM / ATLAS | Standard drug records and executable common-model cohorts | Retains source role and fail-closed event/metadata capability |
+| OMOP CDM and ATLAS | Standard drug records and executable common-model cohorts | Retains source role and fail-closed event/metadata capability |
 | CQL | Executable clinical logic | Supplies the medication-specific observable-evidence contract |
 | PheKB / computable phenotypes | Dissemination and portability workflows | Adds machine-testable source, identity, time, semantics and metadata fields |
 | RECORD-PE / RECORD / STROBE | Reporting transparency | Provides executable evidence rather than narrative reporting alone |
@@ -266,12 +267,4 @@ No numeric superiority score was calculated because these families solve complem
 
 # Reproducibility notes
 
-The public repository contains the schema, example operators, source code, command-line guide, adapter-authoring guide, contracts, class lists, synthetic fixtures, tests, aggregate reports, figure data, and figure-generation script. Licensed source data must be acquired directly from PhysioNet. The public executor rejects native identifiers and writes aggregate outputs only.
-
-Core commands after installation are:
-
-`medprov validate-spec examples/mimic_strict_same_poe.yaml`
-
-`medprov demo --out demo_output`
-
-Credentialed local MIMIC and full eICU runs are outside the public smoke test; distributed aggregate expected values and manifests let authorized users verify local execution without receiving restricted rows.
+Public artifacts include schemas, operators, code, tests, aggregate reports, and generation scripts. Licensed data remain on PhysioNet; the executor emits aggregates only. Smoke tests are `medprov demo` and `medprov validate-spec examples/mimic_strict_same_poe.yaml`.

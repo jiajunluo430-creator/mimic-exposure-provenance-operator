@@ -17,12 +17,12 @@ This checklist maps relevant observational secondary-data reporting items to the
 | 9 | Source layer, coding, identity and validation | Methods 3.2–3.5; Tables S4–S10 | Reported |
 | 10 | Bias and misclassification addressed | Methods 3.5; Discussion 5.1 and 5.4 | Reported |
 | 11 | Study size rationale | Frozen available datasets and prespecified gates; Methods 3.5 | Reported |
-| 12 | Quantitative variables and transformations | Methods 3.5; Table 3; Tables S5–S6 and S14 | Reported |
+| 12 | Quantitative variables and transformations | Methods 3.5; Figure 5; Tables S5–S6 and S14 | Reported |
 | 13 | Statistical methods and comparison measures | Methods 3.5 and 3.6 | Reported |
 | 14 | Missing/unavailable information handling | Four-state classifier; Methods 3.2; Table S2 | Reported |
 | 15 | Sensitivity/ablation analyses | Methods 3.5.1; Results 4.3; Tables S5–S7 | Reported |
 | 16 | Flow/counts and main descriptive results | Results 4.2–4.5; Tables 2–3; Tables S4–S11 | Reported |
-| 17 | Main estimates with precision | Results 4.6; Table 3; Table S14 | Reported as measurement stress tests |
+| 17 | Main estimates with precision | Results 4.7; Figure 5; Table S14 | Reported as measurement stress tests |
 | 18 | Other analyses and negative gates | Results 4.3–4.4; Tables S7, S9 and S10 | Reported |
 | 19 | Key results tied to objectives | Discussion 5.1 | Reported |
 | 20 | Limitations and direction of uncertainty | Discussion 5.4 | Reported |
@@ -36,4 +36,3 @@ This checklist maps relevant observational secondary-data reporting items to the
 | 28 | Competing interests | Declaration of competing interest | Reported |
 | 29 | Participant recruitment/consent by investigators | Not applicable: deidentified secondary databases | Not applicable |
 | 30 | Causal treatment-effect interpretation | Explicitly prohibited; Methods 3.5.4 and Discussion 5.4 | Not applicable |
-

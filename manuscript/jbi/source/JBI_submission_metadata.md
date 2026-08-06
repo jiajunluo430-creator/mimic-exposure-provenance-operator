@@ -36,6 +36,6 @@
 | JBI_Figure1.pdf through JBI_Figure5.pdf | Figure 1 through Figure 5 |
 | JBI_RECORD_STROBE_checklist.docx | Reporting checklist / supplementary file if requested |
 
-**Main display count:** 5 figures + 3 tables = 8.
+**Main display count:** 5 figures + 3 Word tables (Statement of Significance and Tables 1–2) = 8.
 
-**Administrative confirmation required before clicking Submit:** all authors have reviewed and approved the final generated files; author names/order and affiliations match the portal; corresponding-author account is correct.
+**Administrative confirmation required before clicking Submit:** all authors have reviewed and approved the final generated files; author names/order and affiliations match the portal; corresponding-author account is correct; and a real corresponding-author telephone number has been added wherever required by the portal/checklist.

@@ -19,9 +19,9 @@ JBI = ROOT / "manuscript" / "jbi"
 SOURCE = JBI / "submission_package"
 FIGURE_SOURCE = JBI / "figure_redesign_2026-08-06_v3" / "final_figures"
 GA_SOURCE = JBI / "graphical_abstract_2026-08-06"
-DOCX_QC = JBI / "rendered_qc_v3_method_complete"
+DOCX_QC = JBI / "rendered_qc_v3_1_submission_ready"
 SOFTWARE_QC = ROOT / "outputs" / "software_validation_v0_1_0"
-PACKAGE_NAME = "JBI_first_submission_package_2026-08-06_v3_method_complete"
+PACKAGE_NAME = "JBI_first_submission_package_2026-08-06_v3.1_submission_ready"
 PACKAGE = JBI / PACKAGE_NAME
 ZIP_PATH = JBI / f"{PACKAGE_NAME}.zip"
 ZIP_QC_PATH = JBI / f"{PACKAGE_NAME}_ZIP_VERIFICATION.json"
@@ -33,6 +33,11 @@ RELEASE_URL = (
 RELEASE_COMMIT = "91d1c9c005d548462778d2e2b0977953e35cfc70"
 WHEEL_SHA256 = "de654ab1a304c92852344b1770a7ba76f04518157b228a090be7d8d6c473599d"
 SDIST_SHA256 = "aa720c9955f1a772f4366808c0726156d73eb08d201834f356dde4edfdbd6987"
+CI_RUN_URL = (
+    "https://github.com/jiajunluo430-creator/"
+    "mimic-exposure-provenance-operator/actions/runs/31128996312"
+)
+CI_HEAD_SHA = "799a9353b837d0fa8ddb2882a89c024690f6823f"
 
 
 def sha256(path: Path) -> str:
@@ -247,11 +252,19 @@ release_record = {
     json.dumps(release_record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
 )
 
+telephone_present = bool(
+    re.search(
+        r"(?im)^\s*(?:telephone|phone|tel\.?):\s*\+?\d",
+        (JBI / "source" / "JBI_title_page.md").read_text(encoding="utf-8"),
+    )
+)
+submission_decision = "GO_JBI_SUBMIT" if telephone_present else "STOP_ADMIN_REQUIRED"
+
 readme = f"""# JBI first-submission upload map
 
-Package status: **GO_JBI_BASICALLY_SUBMITTABLE**  
-Article type: **Research Paper**  
-Journal: **Journal of Biomedical Informatics**  
+Package status: **{submission_decision}**<br>
+Article type: **Research Paper**<br>
+Journal: **Journal of Biomedical Informatics**<br>
 Software release: {RELEASE_URL}
 
 ## Upload these files
@@ -267,33 +280,34 @@ Software release: {RELEASE_URL}
 | 7 | `JBI_Graphical_Abstract.pdf` | Graphical Abstract |
 | 8–12 | `JBI_Figure1.pdf` through `JBI_Figure5.pdf` | Figure |
 
-The main manuscript contains editable Tables 1–3 and all figure legends. JBI uses single-anonymized review, so author information in the manuscript is permitted. The five figure PDFs and graphical-abstract PDF are single-page vector files. Use the TIFF folder only if the portal rejects PDF artwork or requests a raster alternative. The SVG folder contains live-text editable sources and is not a routine first-submission upload.
+The main manuscript contains the editable four-row Statement of Significance, numbered Tables 1–2, and all figure legends. The full downstream stress-test estimates remain in Supplementary Table S14. JBI uses single-anonymized review, so author information in the manuscript is permitted. The five figure PDFs and graphical-abstract PDF are single-page vector files. Use the TIFF folder only if the portal rejects PDF artwork or requests a raster alternative. The SVG folder contains live-text editable sources and is not a routine first-submission upload.
 
 `JBI_RECORD_STROBE_checklist.docx` is optional; upload it only if the portal requests a research checklist or an editor-only supplementary file. Do **not** upload the QC, administrative-backup, manifest, or package-validation files.
 
 ## Verified manuscript limits
 
-- Structured abstract: 247 words.
-- Main text: 4,033 words.
-- Statement of Significance: 89 words in the required four-row format.
+- Structured abstract: 243 words.
+- Main text: 4,134 words.
+- Statement of Significance: 99 words in the required four-row format.
 - References: 42, cited in contiguous first-appearance order.
-- Main displays: 5 figures + 3 tables = 8.
+- Main displays: 5 figures + 3 Word tables (Statement of Significance and Tables 1–2) = 8.
 - Highlights: 5; each is at most 85 characters.
-- Graphical abstract: 1400 × 560 design canvas; the TIFF alternative is 5834 × 2334 pixels at 300 dpi. No generative AI was used for artwork.
+- Graphical abstract: 1400 × 560 design canvas; the TIFF alternative is 5834 × 2334 pixels at 300 dpi. Figures were rendered deterministically from aggregate data; no generative image model or AI image-editing tool was used.
 
 ## Items completed from pre-review
 
 - Public `medprov` 0.1.0 package, schemas, CLI, tests, examples, LICENSE, and release assets are online.
 - The downloaded release wheel and sdist match Table S13 SHA-256 values.
-- Executed SoA comparisons are reported for record-existence, OMOP/ATLAS-style, and FHIR role/status baselines.
+- Executed SoA comparisons are reported for table/resource existence, a prespecified OMOP `DRUG_EXPOSURE` record-existence baseline expressible in ATLAS, and a FHIR role/status baseline; the paper does not claim to evaluate all ATLAS capabilities.
 - The eICU adapter has a 100/100 constructed positive control and remains an interface-semantic comparison, not external validation.
-- Native parity is labeled implementation fidelity; the software suite has 61 passing tests and 86.03% branch-aware coverage.
+- Native parity is labeled implementation fidelity; the software suite has 61 passing tests and 86.0% overall coverage under branch mode (90.3% statement, 74.4% branch).
+- Cross-platform CI passed 8/8 jobs on Ubuntu/Windows and Python 3.10–3.13: {CI_RUN_URL}
 - The graphical abstract and four-row Statement of Significance are present.
 
-## Non-blocking author confirmations before clicking Submit
+## Author confirmations before clicking Submit
 
 - Confirm final approval and author order with all authors.
-- Enter any telephone number only if the portal makes it mandatory; it is intentionally not invented here.
+- **Blocking administrative item:** add a real telephone number, including country and area code, for the submission-handling corresponding author. No number was found in the supplied author file, and none was invented.
 - The 40-study coding remains single-primary-coder work and is transparently disclosed; do not claim kappa without an actual independent recode.
 - Full-release MIMIC-IV-on-FHIR scaling remains future work and is explicitly bounded in the manuscript.
 - Zenodo DOI creation was deferred by author decision; the immutable GitHub tag and release are used here.
@@ -304,13 +318,13 @@ Official guide checked August 6, 2026: https://www.sciencedirect.com/journal/jou
 
 readiness = f"""# Submission readiness decision
 
-**Decision: GO_JBI_BASICALLY_SUBMITTABLE**
+**Decision: {submission_decision}**
 
-The four P0 conditions identified in pre-review are complete: a verifiable public software release, a standalone graphical abstract, the required four-row Statement of Significance, and an executed main-text comparison with current baselines. The added eICU positive control, expanded negative-path tests, precise implementation-fidelity language, time-trace reconciliation, named source ethics bodies, and final figure redesign address the remaining executable-method concerns without changing the frozen scientific contract.
+The four P0 conditions identified in pre-review are complete: a verifiable public software release, a standalone graphical abstract, the required four-row Statement of Significance, and an executed main-text comparison with current baselines. The added eICU positive control, expanded negative-path tests, 8/8-job cross-platform CI matrix, precise implementation-fidelity language, time-trace reconciliation, named source ethics bodies, and final figure redesign address the remaining executable-method concerns without changing the frozen scientific contract.
 
-This is a method paper about provenance-sensitive medication-exposure computation. A1 demonstrates construct unmeasurability; A2 demonstrates identity/time sensitivity; neither is a causal drug-effect claim. eICU remains an interface-semantic comparison. The current package is suitable for first submission after ordinary author/portal confirmations.
+This is a method paper about provenance-sensitive medication-exposure computation. A1 demonstrates construct unmeasurability; A2 demonstrates identity/time sensitivity; neither is a causal drug-effect claim. eICU remains an interface-semantic comparison. All scientific and package gates pass. If the decision above is `STOP_ADMIN_REQUIRED`, the sole blocking item is the missing real corresponding-author telephone number; no scientific rerun is required.
 
-Release: {RELEASE_URL}  
+Release: {RELEASE_URL}<br>
 Release commit: `{RELEASE_COMMIT}`
 """
 (PACKAGE / "SUBMISSION_READINESS.md").write_text(readiness, encoding="utf-8")
@@ -336,6 +350,9 @@ build_stats = json.loads((SOURCE / "JBI_BUILD_VALIDATION.json").read_text(encodi
 software_stats = json.loads(
     (SOFTWARE_QC / "software_validation_summary.json").read_text(encoding="utf-8-sig")
 )
+coverage_stats = json.loads(
+    (SOFTWARE_QC / "coverage.json").read_text(encoding="utf-8-sig")
+)["totals"]
 page_stats = json.loads((DOCX_QC / "DOCX_RENDER_QC.json").read_text(encoding="utf-8-sig"))
 
 failures: list[str] = []
@@ -366,6 +383,10 @@ if software_stats.get("tests_passed_n") != 61 or software_stats.get("tests_faile
     failures.append("Software test counts differ from the frozen release report")
 if round(float(software_stats.get("coverage_percent", 0)), 2) != 86.03:
     failures.append("Coverage differs from the manuscript report")
+if round(float(coverage_stats.get("percent_statements_covered", 0)), 1) != 90.3:
+    failures.append("Statement coverage differs from the manuscript report")
+if round(float(coverage_stats.get("percent_branches_covered", 0)), 1) != 74.4:
+    failures.append("Branch coverage differs from the manuscript report")
 if software_stats.get("wheel", {}).get("sha256") != WHEEL_SHA256:
     failures.append("Wheel hash mismatch")
 if software_stats.get("sdist", {}).get("sha256") != SDIST_SHA256:
@@ -375,6 +396,10 @@ validation = {
     "schema_version": "1.0.0",
     "generated_utc": datetime.now(timezone.utc).isoformat(),
     "package": PACKAGE_NAME,
+    "submission_decision": submission_decision,
+    "administrative_stop": None
+    if telephone_present
+    else "REAL_CORRESPONDING_AUTHOR_TELEPHONE_REQUIRED",
     "release_url": RELEASE_URL,
     "release_commit": RELEASE_COMMIT,
     "required_uploads_n": len(required_upload_names),
@@ -390,9 +415,22 @@ validation = {
     "software": {
         "tests_passed": software_stats["tests_passed_n"],
         "tests_failed": software_stats["tests_failed_n"],
-        "coverage_percent": software_stats["coverage_percent"],
+        "overall_coverage_under_branch_mode_percent": software_stats["coverage_percent"],
+        "statement_coverage_percent": coverage_stats["percent_statements_covered"],
+        "branch_coverage_percent": coverage_stats["percent_branches_covered"],
+        "covered_branches": coverage_stats["covered_branches"],
+        "total_branches": coverage_stats["num_branches"],
+        "partial_branches": coverage_stats["num_partial_branches"],
         "wheel_sha256": software_stats["wheel"]["sha256"],
         "sdist_sha256": software_stats["sdist"]["sha256"],
+        "continuous_integration": {
+            "run_url": CI_RUN_URL,
+            "head_sha": CI_HEAD_SHA,
+            "matrix": "Ubuntu/Windows x Python 3.10-3.13",
+            "jobs_passed": 8,
+            "jobs_failed": 0,
+            "conclusion": "success",
+        },
     },
     "docx_checks": docx_checks,
     "pdf_checks": pdf_checks,
@@ -430,6 +468,7 @@ if bad_member:
 zip_qc = {
     "schema_version": "1.0.0",
     "zip": ZIP_PATH.name,
+    "submission_decision": submission_decision,
     "bytes": ZIP_PATH.stat().st_size,
     "sha256": sha256(ZIP_PATH),
     "members": len(zip_members),
@@ -449,6 +488,7 @@ print(
             "manifest_rows": len(manifest_rows),
             "zip_bytes": ZIP_PATH.stat().st_size,
             "zip_sha256": zip_qc["sha256"],
+            "submission_decision": submission_decision,
             "gate": "PASS_FINAL_JBI_DELIVERY",
         },
         ensure_ascii=False,

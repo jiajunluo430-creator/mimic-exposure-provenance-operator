@@ -1,8 +1,10 @@
 {
-  "abstract_words": 247,
-  "main_text_words": 4033,
-  "statement_of_significance_words": 89,
+  "abstract_words": 243,
+  "main_text_words": 4134,
+  "statement_of_significance_words": 99,
   "references": 42,
+  "numbered_main_tables": 2,
+  "statement_of_significance_tables": 1,
   "main_tables": 3,
   "main_figures": 5,
   "main_displays": 8,
@@ -20,8 +22,8 @@
       "characters": 82
     },
     {
-      "text": "FHIR role/status-only execution overcalled strict administration by 16.7%.",
-      "characters": 74
+      "text": "FHIR role/status yielded 16.7% more positives than the event-semantic rule.",
+      "characters": 75
     },
     {
       "text": "None of 40 coded studies reported a complete executable exposure operator.",
