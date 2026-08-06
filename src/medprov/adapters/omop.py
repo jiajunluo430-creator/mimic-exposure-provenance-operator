@@ -6,6 +6,7 @@ import csv
 from pathlib import Path
 from typing import Any
 
+from medprov.identity import classify_strings, load_name_rules
 from medprov.models import ExecutionResult, QueryPlan
 from medprov.utils import canonical_json_sha256, utc_now
 
@@ -16,6 +17,10 @@ class OmopAdapter(BaseAdapter):
     name = "omop"
     version = "0.1.0"
     supported_models = ("OMOP CDM", "OMOP")
+    field_aliases = {
+        **BaseAdapter.field_aliases,
+        "status": ("medprov_event_state", "event_state", "status"),
+    }
 
     @staticmethod
     def _drug_exposure(data_root: str | Path | None) -> Path | None:
@@ -29,6 +34,22 @@ class OmopAdapter(BaseAdapter):
             if candidate.is_file():
                 return candidate
         return None
+
+    @staticmethod
+    def _concept_names(source: Path) -> dict[str, str]:
+        names: dict[str, str] = {}
+        for filename in ("2b_concept.csv", "concept.csv", "CONCEPT.csv"):
+            candidate = source.parent / filename
+            if not candidate.is_file():
+                continue
+            with candidate.open("r", encoding="utf-8-sig", newline="") as handle:
+                for row in csv.DictReader(handle):
+                    concept_id = str(row.get("concept_id", "")).strip()
+                    concept_name = str(row.get("concept_name", "")).strip()
+                    if concept_id and concept_name:
+                        names[concept_id] = concept_name
+            break
+        return names
 
     def inspect_source(self, spec, data_root):
         source = self._drug_exposure(data_root)
@@ -112,7 +133,15 @@ class OmopAdapter(BaseAdapter):
             "unresolved": 0,
             "unmeasurable": 0,
         }
-        if not capability.executable:
+        source = self._drug_exposure(data_root)
+        semantic_ablation = bool(
+            source is not None
+            and capability.supported
+            and set(capability.missing_fields) == {"status"}
+            and str(spec["target_event"])
+            in {"administration", "documented_administration"}
+        )
+        if not capability.executable and not semantic_ablation:
             return ExecutionResult(
                 spec["operator_id"],
                 spec["operator_version"],
@@ -129,21 +158,51 @@ class OmopAdapter(BaseAdapter):
                 provenance,
                 capability.reasons,
             )
-        source = self._drug_exposure(data_root)
         assert source is not None
         classes = set(spec["identity_rule"]["class_filter"])
         ingredients = {
             str(item).lower() for item in spec["identity_rule"].get("ingredient_filter", [])
         }
+        rules = load_name_rules(spec)
+        if ingredients:
+            rules = [rule for rule in rules if rule.ingredient.lower() in ingredients]
+        concept_names = self._concept_names(source)
         required = self.required_metadata_fields(spec)
+        positive = {
+            str(item).strip().lower() for item in spec["event_semantics_map"]["positive"]
+        }
+        negative = {
+            str(item).strip().lower() for item in spec["event_semantics_map"]["negative"]
+        }
+        event_state_required = (
+            "status" in required
+            or str(spec["target_event"]) in {"administration", "documented_administration"}
+        )
+        state_rank = {"unmeasurable": 0, "unresolved": 1, "unexposed": 2, "exposed": 3}
+        units: dict[tuple[str, str, str], str] = {}
+        matched_source_rows = 0
+        event_state_available_rows = 0
+        identity_unmapped_rows = 0
         with source.open("r", encoding="utf-8-sig", newline="") as handle:
             for row in csv.DictReader(handle):
                 med_class = row.get("medprov_class", "")
-                source_value = str(row.get("drug_source_value", "")).lower()
-                if med_class not in classes and not any(
-                    item in source_value for item in ingredients
-                ):
+                if med_class not in classes or ingredients:
+                    med_class, identity_state = classify_strings(
+                        [
+                            row.get("drug_source_value", ""),
+                            concept_names.get(str(row.get("drug_concept_id", "")), ""),
+                            concept_names.get(
+                                str(row.get("drug_source_concept_id", "")), ""
+                            ),
+                        ],
+                        rules,
+                    )
+                    if med_class is None or identity_state != "resolved":
+                        identity_unmapped_rows += 1
+                        continue
+                if med_class not in classes:
                     continue
+                matched_source_rows += 1
                 missing = []
                 alias = {
                     "route": ("route_source_value", "route_concept_id"),
@@ -155,24 +214,60 @@ class OmopAdapter(BaseAdapter):
                 for logical in required:
                     if not any(str(row.get(field, "")).strip() for field in alias[logical]):
                         missing.append(logical)
-                state = "unmeasurable" if missing else "exposed"
-                counts[state] += 1
+                literal = str(row.get("medprov_event_state", "")).strip().lower()
+                if literal:
+                    event_state_available_rows += 1
+                if missing or (event_state_required and not literal):
+                    state = "unmeasurable"
+                elif event_state_required:
+                    if literal in positive:
+                        state = "exposed"
+                    elif literal in negative:
+                        state = "unexposed"
+                    else:
+                        state = "unresolved"
+                else:
+                    state = "exposed"
+                unit_key = (
+                    str(row.get("person_id", "")).strip(),
+                    str(row.get("visit_occurrence_id", "")).strip(),
+                    str(med_class),
+                )
+                if not unit_key[0] or not unit_key[1]:
+                    unit_key = (
+                        str(row.get("drug_exposure_id", "")).strip(),
+                        "missing_visit",
+                        str(med_class),
+                    )
+                previous = units.get(unit_key)
+                if previous is None or state_rank[state] > state_rank[previous]:
+                    units[unit_key] = state
+        for state in units.values():
+            counts[state] += 1
         counts["analysis_units"] = sum(
             counts[key] for key in ("exposed", "unexposed", "unresolved", "unmeasurable")
         )
+        result_status = "unmeasurable" if semantic_ablation else "executed"
         return ExecutionResult(
             spec["operator_id"],
             spec["operator_version"],
             self.name,
-            "executed",
+            result_status,
             True,
-            True,
-            True,
-            True,
+            capability.supported,
+            capability.measurable,
+            not semantic_ablation,
             True,
             counts,
-            {"interpretation": "OMOP capability/smoke test; not clinical external validation"},
-            {},
+            {
+                "interpretation": "OMOP capability/smoke test; not clinical external validation",
+                "matched_source_rows": matched_source_rows,
+                "analysis_unit": "person_id x visit_occurrence_id x medication_class",
+                "event_state_available_rows": event_state_available_rows,
+                "identity_unmapped_rows": identity_unmapped_rows,
+                "concept_dictionary_available": bool(concept_names),
+            },
+            ({reason: 1 for reason in capability.reasons} if semantic_ablation else {}),
             provenance,
-            [],
+            capability.reasons if semantic_ablation else [],
         )

@@ -1,0 +1,15 @@
+{
+  "comparators_n": 8,
+  "contract": {
+    "path": "contracts/SOTA_COMPARISON_CONTRACT_v1.0_2026-08-05.md",
+    "sha256": "9383bc70e037ca86880659fe9b9fcb64f038c3031a28c12f8b346c1b0cd0a1a6"
+  },
+  "dimensions_n": 9,
+  "evidence_sources_n": 12,
+  "executable_comparator_rows_n": 4,
+  "gate": "PASS_BOUNDED_SOTA_COMPARISON",
+  "matrix_cells_n": 72,
+  "no_superiority_score": true,
+  "novelty_claim": "medprov complements existing standards with a versioned, adapter-aware medication-exposure provenance operator and fail-closed measurability states; it does not replace them",
+  "schema_version": "1.0.0"
+}

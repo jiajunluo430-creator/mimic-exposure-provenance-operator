@@ -1,0 +1,39 @@
+{
+  "adapter": "omop",
+  "adapter_supported": true,
+  "aggregate_only": true,
+  "counts": {
+    "analysis_units": 4,
+    "exposed": 0,
+    "unexposed": 0,
+    "unmeasurable": 4,
+    "unresolved": 0
+  },
+  "executable": false,
+  "failure_reasons": {
+    "Missing required metadata: status": 1
+  },
+  "measurable": false,
+  "metrics": {
+    "analysis_unit": "person_id x visit_occurrence_id x medication_class",
+    "concept_dictionary_available": false,
+    "event_state_available_rows": 0,
+    "identity_unmapped_rows": 1,
+    "interpretation": "OMOP capability/smoke test; not clinical external validation",
+    "matched_source_rows": 4
+  },
+  "operator_id": "transport.omop_synthetic_ppi_administration",
+  "operator_version": "1.0.0",
+  "provenance": {
+    "adapter_version": "0.1.0",
+    "aggregate_only": true,
+    "evaluation_level": "demo_or_fixture_smoke_test",
+    "executed_at_utc": "2026-08-06T00:26:36+00:00",
+    "spec_sha256": "491ae32a9463451f71dbf46c022e17307e8fbe1f36d4f1244b91639296206bc7"
+  },
+  "status": "unmeasurable",
+  "syntactically_valid": true,
+  "warnings": [
+    "Missing required metadata: status"
+  ]
+}

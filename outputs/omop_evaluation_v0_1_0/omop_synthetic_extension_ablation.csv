@@ -1,0 +1,4 @@
+﻿operator,analysis_units,exposed,unexposed,unresolved,unmeasurable,interpretation
+atlas_style_record_existence,4,4,0,0,0,drug record exists
+medprov_with_provenance_extension,4,1,1,1,1,strict source-event semantics
+medprov_without_provenance_extension,4,0,0,0,4,strict source-event semantics

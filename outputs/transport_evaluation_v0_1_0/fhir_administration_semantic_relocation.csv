@@ -1,0 +1,157 @@
+﻿medication_class,semantic_literal,native_event_txt_n,fhir_top_level_status_n,fhir_dosage_method_n,native_semantic_state
+stress_ulcer_prophylaxis,<blank>,0,0,0,unresolved
+stress_ulcer_prophylaxis,administered,941,0,991,exposed
+stress_ulcer_prophylaxis,administered in other location,0,0,0,unresolved
+stress_ulcer_prophylaxis,completed,0,996,0,unresolved
+stress_ulcer_prophylaxis,confirmed,0,0,0,unresolved
+stress_ulcer_prophylaxis,confirmed in other location,0,0,0,unresolved
+stress_ulcer_prophylaxis,delayed,0,0,0,unresolved
+stress_ulcer_prophylaxis,delayed administered,3,0,3,exposed
+stress_ulcer_prophylaxis,delayed confirmed,0,0,0,unresolved
+stress_ulcer_prophylaxis,flushed,0,0,0,unresolved
+stress_ulcer_prophylaxis,hold dose,4,0,0,unresolved
+stress_ulcer_prophylaxis,in other location,0,0,0,unresolved
+stress_ulcer_prophylaxis,not confirmed,0,0,0,unresolved
+stress_ulcer_prophylaxis,not given,21,0,0,unexposed
+stress_ulcer_prophylaxis,not given per sliding scale,0,0,0,unresolved
+stress_ulcer_prophylaxis,not started,0,0,0,unresolved
+stress_ulcer_prophylaxis,not stopped,0,0,0,unresolved
+stress_ulcer_prophylaxis,partial administered,0,0,0,exposed
+stress_ulcer_prophylaxis,restarted,0,0,0,unresolved
+stress_ulcer_prophylaxis,started,4,0,1,exposed
+stress_ulcer_prophylaxis,started in other location,0,0,0,unresolved
+stress_ulcer_prophylaxis,stopped,2,0,1,unresolved
+stress_ulcer_prophylaxis,stopped - unscheduled,0,0,0,unresolved
+stress_ulcer_prophylaxis,stopped - unscheduled in other location,0,0,0,unresolved
+stress_ulcer_prophylaxis,stopped as directed,0,0,0,unresolved
+stress_ulcer_prophylaxis,stopped in other location,0,0,0,unresolved
+vte_prophylaxis,<blank>,1,0,497,unresolved
+vte_prophylaxis,administered,1340,0,1362,exposed
+vte_prophylaxis,administered in other location,0,0,0,unresolved
+vte_prophylaxis,completed,0,1883,0,unresolved
+vte_prophylaxis,confirmed,361,0,2,unresolved
+vte_prophylaxis,confirmed in other location,1,0,0,unresolved
+vte_prophylaxis,delayed,0,0,0,unresolved
+vte_prophylaxis,delayed administered,8,0,8,exposed
+vte_prophylaxis,delayed confirmed,5,0,0,unresolved
+vte_prophylaxis,flushed,0,0,1,unresolved
+vte_prophylaxis,hold dose,5,0,0,unresolved
+vte_prophylaxis,in other location,0,0,0,unresolved
+vte_prophylaxis,not confirmed,12,0,0,unresolved
+vte_prophylaxis,not given,73,0,13,unexposed
+vte_prophylaxis,not given per sliding scale,0,0,0,unresolved
+vte_prophylaxis,not started,3,0,0,unresolved
+vte_prophylaxis,not stopped,4,0,0,unresolved
+vte_prophylaxis,partial administered,0,0,0,exposed
+vte_prophylaxis,restarted,29,0,0,unresolved
+vte_prophylaxis,started,39,0,0,exposed
+vte_prophylaxis,started in other location,4,0,0,unresolved
+vte_prophylaxis,stopped,27,0,0,unresolved
+vte_prophylaxis,stopped - unscheduled,9,0,0,unresolved
+vte_prophylaxis,stopped - unscheduled in other location,2,0,0,unresolved
+vte_prophylaxis,stopped as directed,24,0,0,unresolved
+vte_prophylaxis,stopped in other location,4,0,0,unresolved
+intra_abdominal_antibiotics,<blank>,19,0,39,unresolved
+intra_abdominal_antibiotics,administered,1076,0,726,exposed
+intra_abdominal_antibiotics,administered in other location,1,0,0,unresolved
+intra_abdominal_antibiotics,completed,0,807,0,unresolved
+intra_abdominal_antibiotics,confirmed,0,0,0,unresolved
+intra_abdominal_antibiotics,confirmed in other location,0,0,0,unresolved
+intra_abdominal_antibiotics,delayed,1,0,0,unresolved
+intra_abdominal_antibiotics,delayed administered,12,0,7,exposed
+intra_abdominal_antibiotics,delayed confirmed,0,0,0,unresolved
+intra_abdominal_antibiotics,flushed,0,0,0,unresolved
+intra_abdominal_antibiotics,hold dose,3,0,0,unresolved
+intra_abdominal_antibiotics,in other location,0,0,0,unresolved
+intra_abdominal_antibiotics,not confirmed,0,0,0,unresolved
+intra_abdominal_antibiotics,not given,43,0,3,unexposed
+intra_abdominal_antibiotics,not given per sliding scale,0,0,0,unresolved
+intra_abdominal_antibiotics,not started,1,0,0,unresolved
+intra_abdominal_antibiotics,not stopped,0,0,0,unresolved
+intra_abdominal_antibiotics,partial administered,0,0,0,exposed
+intra_abdominal_antibiotics,restarted,0,0,0,unresolved
+intra_abdominal_antibiotics,started,18,0,16,exposed
+intra_abdominal_antibiotics,started in other location,0,0,0,unresolved
+intra_abdominal_antibiotics,stopped,17,0,16,unresolved
+intra_abdominal_antibiotics,stopped - unscheduled,0,0,0,unresolved
+intra_abdominal_antibiotics,stopped - unscheduled in other location,0,0,0,unresolved
+intra_abdominal_antibiotics,stopped as directed,0,0,0,unresolved
+intra_abdominal_antibiotics,stopped in other location,0,0,0,unresolved
+electrolyte_replacement,<blank>,126,0,312,unresolved
+electrolyte_replacement,administered,596,0,982,exposed
+electrolyte_replacement,administered in other location,1,0,0,unresolved
+electrolyte_replacement,completed,0,1343,0,unresolved
+electrolyte_replacement,confirmed,0,0,4,unresolved
+electrolyte_replacement,confirmed in other location,0,0,0,unresolved
+electrolyte_replacement,delayed,0,0,0,unresolved
+electrolyte_replacement,delayed administered,1,0,1,exposed
+electrolyte_replacement,delayed confirmed,0,0,0,unresolved
+electrolyte_replacement,flushed,0,0,0,unresolved
+electrolyte_replacement,hold dose,3,0,0,unresolved
+electrolyte_replacement,in other location,1,0,0,unresolved
+electrolyte_replacement,not confirmed,0,0,0,unresolved
+electrolyte_replacement,not given,32,0,10,unexposed
+electrolyte_replacement,not given per sliding scale,3,0,0,unresolved
+electrolyte_replacement,not started,0,0,0,unresolved
+electrolyte_replacement,not stopped,0,0,0,unresolved
+electrolyte_replacement,partial administered,16,0,28,exposed
+electrolyte_replacement,restarted,0,0,0,unresolved
+electrolyte_replacement,started,4,0,3,exposed
+electrolyte_replacement,started in other location,0,0,0,unresolved
+electrolyte_replacement,stopped,3,0,3,unresolved
+electrolyte_replacement,stopped - unscheduled,0,0,0,unresolved
+electrolyte_replacement,stopped - unscheduled in other location,0,0,0,unresolved
+electrolyte_replacement,stopped as directed,0,0,0,unresolved
+electrolyte_replacement,stopped in other location,0,0,0,unresolved
+prokinetic,<blank>,0,0,0,unresolved
+prokinetic,administered,65,0,65,exposed
+prokinetic,administered in other location,0,0,0,unresolved
+prokinetic,completed,0,66,0,unresolved
+prokinetic,confirmed,0,0,0,unresolved
+prokinetic,confirmed in other location,0,0,0,unresolved
+prokinetic,delayed,0,0,0,unresolved
+prokinetic,delayed administered,1,0,1,exposed
+prokinetic,delayed confirmed,0,0,0,unresolved
+prokinetic,flushed,0,0,0,unresolved
+prokinetic,hold dose,0,0,0,unresolved
+prokinetic,in other location,0,0,0,unresolved
+prokinetic,not confirmed,0,0,0,unresolved
+prokinetic,not given,7,0,0,unexposed
+prokinetic,not given per sliding scale,0,0,0,unresolved
+prokinetic,not started,0,0,0,unresolved
+prokinetic,not stopped,0,0,0,unresolved
+prokinetic,partial administered,0,0,0,exposed
+prokinetic,restarted,0,0,0,unresolved
+prokinetic,started,0,0,0,exposed
+prokinetic,started in other location,0,0,0,unresolved
+prokinetic,stopped,0,0,0,unresolved
+prokinetic,stopped - unscheduled,0,0,0,unresolved
+prokinetic,stopped - unscheduled in other location,0,0,0,unresolved
+prokinetic,stopped as directed,0,0,0,unresolved
+prokinetic,stopped in other location,0,0,0,unresolved
+insulin,<blank>,37,0,42,unresolved
+insulin,administered,1556,0,1541,exposed
+insulin,administered in other location,4,0,0,unresolved
+insulin,completed,0,1602,0,unresolved
+insulin,confirmed,84,0,0,unresolved
+insulin,confirmed in other location,0,0,0,unresolved
+insulin,delayed,0,0,0,unresolved
+insulin,delayed administered,5,0,5,exposed
+insulin,delayed confirmed,0,0,0,unresolved
+insulin,flushed,0,0,0,unresolved
+insulin,hold dose,11,0,0,unresolved
+insulin,in other location,6,0,0,unresolved
+insulin,not confirmed,0,0,0,unresolved
+insulin,not given,253,0,10,unexposed
+insulin,not given per sliding scale,905,0,4,unresolved
+insulin,not started,0,0,0,unresolved
+insulin,not stopped,0,0,0,unresolved
+insulin,partial administered,0,0,0,exposed
+insulin,restarted,0,0,0,unresolved
+insulin,started,11,0,0,exposed
+insulin,started in other location,0,0,0,unresolved
+insulin,stopped,1,0,0,unresolved
+insulin,stopped - unscheduled,4,0,0,unresolved
+insulin,stopped - unscheduled in other location,0,0,0,unresolved
+insulin,stopped as directed,0,0,0,unresolved
+insulin,stopped in other location,0,0,0,unresolved

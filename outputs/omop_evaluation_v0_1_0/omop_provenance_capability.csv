@@ -1,0 +1,11 @@
+﻿provenance_element,omop_state,evidence
+drug record existence,native,DRUG_EXPOSURE row and drug_exposure_id
+standard and source drug identity,native,"drug_concept_id, drug_source_concept_id, drug_source_value"
+source role,implementation_dependent,"drug_type_concept_id present, but this demo merges prescription/pharmacy inputs"
+literal administration/non-administration state,extension_required,field absent
+not-given reason,extension_required,no standard field in observed DRUG_EXPOSURE schema
+native order identifier,extension_required,no native pharmacy_id/poe_id field
+native record identifier,lost,"drug_exposure_id is an OMOP record ID, not native emar_id"
+revision chain,extension_required,no standard discontinue/revision-chain field
+start/end time,native,drug_exposure_start_datetime and drug_exposure_end_datetime
+route/dose/unit,partially_native,"route, quantity, and source-unit fields present; semantic completeness audited"

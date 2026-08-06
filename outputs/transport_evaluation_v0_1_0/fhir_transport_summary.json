@@ -1,0 +1,63 @@
+{
+  "claim_boundary": "functional cross-schema evaluation on matched public demos; not full-dataset transport validation or clinical external validation",
+  "contract": {
+    "path": "contracts/FHIR_TRANSPORT_CONTRACT_v1.0_2026-08-05.md",
+    "sha256": "a6b8a081dcbc9480bf36b8b02a2ebd2045255a3e08b8d29839600463a56a13e8"
+  },
+  "datasets": {
+    "fhir": {
+      "doi": "10.13026/vphg-y548",
+      "name": "MIMIC-IV Clinical Database Demo on FHIR v2.1.0"
+    },
+    "native": {
+      "doi": "10.13026/dp1f-ex47",
+      "name": "MIMIC-IV Clinical Database Demo v2.2"
+    }
+  },
+  "execution": {
+    "peak_working_set_mb": "not_evaluable",
+    "python": "3.13.0",
+    "script_sha256": "6356cfb96ae3b3e82d6451fbc99a4b8bf90d807c2fe9792cc5adf7ee7be0a8d8",
+    "wall_clock_seconds": 3.467313
+  },
+  "gate": "PASS_FUNCTIONAL_CROSS_SCHEMA",
+  "headline_findings": {
+    "admin_composite_matches_n": 5220,
+    "admin_first_time_exact_n": 1347,
+    "admin_first_time_pairs_n": 1353,
+    "dispense_exact_id_class_matches_n": 3870,
+    "dispense_records_n": 3870,
+    "fhir_admin_method_exposed_n": 5740,
+    "fhir_admin_primary_exposed_n": 6697,
+    "fhir_request_records_n": 2726,
+    "native_admin_exposed_n": 5696,
+    "native_request_records_n": 3903,
+    "request_pharmacy_time_exact_n": 2249,
+    "request_pharmacy_time_pairs_n": 2249
+  },
+  "privacy": "aggregate outputs only; identifiers used in memory and never serialized",
+  "role_totals": {
+    "administration": {
+      "fhir_method_exposed_n": 5740,
+      "fhir_primary_exposed_n": 6697,
+      "fhir_records_n": 6697,
+      "native_exposed_n": 5696,
+      "native_records_n": 7853
+    },
+    "dispense": {
+      "fhir_method_exposed_n": 0,
+      "fhir_primary_exposed_n": 3870,
+      "fhir_records_n": 3870,
+      "native_exposed_n": 3870,
+      "native_records_n": 3870
+    },
+    "request": {
+      "fhir_method_exposed_n": 0,
+      "fhir_primary_exposed_n": 2726,
+      "fhir_records_n": 2726,
+      "native_exposed_n": 3903,
+      "native_records_n": 3903
+    }
+  },
+  "schema_version": "1.0.0"
+}

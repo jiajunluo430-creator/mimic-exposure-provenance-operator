@@ -1,0 +1,31 @@
+﻿comparison,role,medication_class,paired_n,median_minutes,q1_minutes,q3_minutes,min_minutes,max_minutes,exact_zero_n,not_evaluable_reason
+fhir_event_time_minus_native_source_time,request,stress_ulcer_prophylaxis,222,-50.25,-478.166667,-15.595833,-1452.033333,812.866667,0,
+fhir_authoredOn_minus_native_poe_ordertime,request,stress_ulcer_prophylaxis,220,3.816667,-459.816667,17.804167,-17534.616667,2996.0,1,
+fhir_authoredOn_minus_native_pharmacy_entertime,request,stress_ulcer_prophylaxis,222,0.0,0.0,0.0,0.0,0.0,222,
+fhir_event_time_minus_native_source_time,request,vte_prophylaxis,365,-42.4,-186.733333,-16.616667,-1537.883333,833.4,0,
+fhir_authoredOn_minus_native_poe_ordertime,request,vte_prophylaxis,363,2.516667,-389.925,10.766667,-19851.683333,15530.6,0,
+fhir_authoredOn_minus_native_pharmacy_entertime,request,vte_prophylaxis,365,0.0,0.0,0.0,0.0,0.0,365,
+fhir_event_time_minus_native_source_time,request,intra_abdominal_antibiotics,93,-34.616667,-57.366667,-11.1,-6843.283333,723.533333,0,
+fhir_authoredOn_minus_native_poe_ordertime,request,intra_abdominal_antibiotics,93,3.666667,1.283333,10.9,-13025.4,263.033333,0,
+fhir_authoredOn_minus_native_pharmacy_entertime,request,intra_abdominal_antibiotics,93,0.0,0.0,0.0,0.0,0.0,93,
+fhir_event_time_minus_native_source_time,request,electrolyte_replacement,606,-32.2,-45.425,-11.466667,-1371.666667,344.316667,0,
+fhir_authoredOn_minus_native_poe_ordertime,request,electrolyte_replacement,602,5.625,1.95,15.733333,-5724.3,3618.766667,0,
+fhir_authoredOn_minus_native_pharmacy_entertime,request,electrolyte_replacement,606,0.0,0.0,0.0,0.0,0.0,606,
+fhir_event_time_minus_native_source_time,request,prokinetic,33,-27.866667,-45.366667,-8.983333,-262.45,43.866667,0,
+fhir_authoredOn_minus_native_poe_ordertime,request,prokinetic,33,8.4,3.666667,27.133333,-5745.933333,148.1,0,
+fhir_authoredOn_minus_native_pharmacy_entertime,request,prokinetic,33,0.0,0.0,0.0,0.0,0.0,33,
+fhir_event_time_minus_native_source_time,request,insulin,930,-31.283333,-53.645833,-9.15,-1358.666667,891.033333,2,
+fhir_authoredOn_minus_native_poe_ordertime,request,insulin,927,4.95,1.691667,15.016667,-22867.433333,380.6,0,
+fhir_authoredOn_minus_native_pharmacy_entertime,request,insulin,930,0.0,0.0,0.0,0.0,0.0,930,
+fhir_event_time_minus_native_source_time,dispense,stress_ulcer_prophylaxis,0,not_evaluable,not_evaluable,not_evaluable,not_evaluable,not_evaluable,0,no deterministic retained identifier with two valid timestamps
+fhir_event_time_minus_native_source_time,dispense,vte_prophylaxis,0,not_evaluable,not_evaluable,not_evaluable,not_evaluable,not_evaluable,0,no deterministic retained identifier with two valid timestamps
+fhir_event_time_minus_native_source_time,dispense,intra_abdominal_antibiotics,0,not_evaluable,not_evaluable,not_evaluable,not_evaluable,not_evaluable,0,no deterministic retained identifier with two valid timestamps
+fhir_event_time_minus_native_source_time,dispense,electrolyte_replacement,0,not_evaluable,not_evaluable,not_evaluable,not_evaluable,not_evaluable,0,no deterministic retained identifier with two valid timestamps
+fhir_event_time_minus_native_source_time,dispense,prokinetic,0,not_evaluable,not_evaluable,not_evaluable,not_evaluable,not_evaluable,0,no deterministic retained identifier with two valid timestamps
+fhir_event_time_minus_native_source_time,dispense,insulin,0,not_evaluable,not_evaluable,not_evaluable,not_evaluable,not_evaluable,0,no deterministic retained identifier with two valid timestamps
+fhir_first_administration_minus_native_first_emar_by_order_unit,administration,stress_ulcer_prophylaxis,152,0.0,0.0,0.0,0.0,0.0,152,
+fhir_first_administration_minus_native_first_emar_by_order_unit,administration,vte_prophylaxis,214,0.0,0.0,0.0,0.0,0.0,214,
+fhir_first_administration_minus_native_first_emar_by_order_unit,administration,intra_abdominal_antibiotics,124,0.0,0.0,0.0,0.0,3216.0,121,
+fhir_first_administration_minus_native_first_emar_by_order_unit,administration,electrolyte_replacement,398,0.0,0.0,0.0,-1178.0,0.0,397,
+fhir_first_administration_minus_native_first_emar_by_order_unit,administration,prokinetic,8,0.0,0.0,0.0,0.0,0.0,8,
+fhir_first_administration_minus_native_first_emar_by_order_unit,administration,insulin,457,0.0,0.0,0.0,0.0,1122.0,455,

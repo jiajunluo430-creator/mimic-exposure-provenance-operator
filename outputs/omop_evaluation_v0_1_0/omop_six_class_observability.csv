@@ -1,0 +1,7 @@
+﻿medication_class,matched_rows_n,person_visit_class_units_n,standard_drug_concept_nonzero_n,source_concept_nonzero_n,route_available_n,quantity_available_n,start_datetime_available_n,literal_event_state_available_n,strict_administration_measurability
+stress_ulcer_prophylaxis,48,37,48,48,48,48,48,0,unmeasurable_event_semantics
+vte_prophylaxis,111,32,7,7,111,111,111,0,unmeasurable_event_semantics
+intra_abdominal_antibiotics,12,10,12,12,12,12,12,0,unmeasurable_event_semantics
+electrolyte_replacement,641,147,641,641,641,641,641,0,unmeasurable_event_semantics
+prokinetic,0,0,0,0,0,0,0,0,not_evaluable_no_class_rows
+insulin,102,34,99,99,102,99,102,0,unmeasurable_event_semantics

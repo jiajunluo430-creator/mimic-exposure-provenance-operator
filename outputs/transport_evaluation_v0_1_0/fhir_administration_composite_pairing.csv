@@ -1,0 +1,7 @@
+﻿role,medication_class,pairing_unit,native_linkable_events_n,fhir_linkable_events_n,composite_exact_matches_n,matched_over_native_pct,matched_over_fhir_pct,claim_boundary
+administration,stress_ulcer_prophylaxis,pharmacy_id_x_class_x_walltime_x_source_semantic_multiset,915,928,883,96.502732,95.150862,deterministic composite concordance; not native emar_id retention
+administration,vte_prophylaxis,pharmacy_id_x_class_x_walltime_x_source_semantic_multiset,1831,1831,1321,72.146368,72.146368,deterministic composite concordance; not native emar_id retention
+administration,intra_abdominal_antibiotics,pharmacy_id_x_class_x_walltime_x_source_semantic_multiset,1069,731,702,65.668849,96.032832,deterministic composite concordance; not native emar_id retention
+administration,electrolyte_replacement,pharmacy_id_x_class_x_walltime_x_source_semantic_multiset,717,1287,701,97.76848,54.467754,deterministic composite concordance; not native emar_id retention
+administration,prokinetic,pharmacy_id_x_class_x_walltime_x_source_semantic_multiset,66,66,66,100.0,100.0,deterministic composite concordance; not native emar_id retention
+administration,insulin,pharmacy_id_x_class_x_walltime_x_source_semantic_multiset,1655,1552,1547,93.47432,99.677835,deterministic composite concordance; not native emar_id retention

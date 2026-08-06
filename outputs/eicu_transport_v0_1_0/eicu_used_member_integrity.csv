@@ -1,0 +1,6 @@
+﻿member,bytes_read,zip_uncompressed_bytes,zip_compressed_bytes,zip_crc32_hex,member_sha256,integrity_pass
+eicu-collaborative-research-database-2.0/patient.csv.gz,10359850,10359850,10359850,e99b1ec0,2acf25f75144c5fc8a2a5b68c6741edac2dc7ca51021127f73e12f7428dc392b,True
+eicu-collaborative-research-database-2.0/medication.csv.gz,134280520,134280520,134280520,dc253819,3d504b48375e264a47799ed6a5ea2328f7fc6f776395b5d6738693f69810ebc5,True
+eicu-collaborative-research-database-2.0/infusionDrug.csv.gz,48940171,48940171,48940171,21bc36e0,f1c958b92a676b932626638f52d0cd5bb13fa53bf5a0ec25606ff4beefc9fc3b,True
+eicu-collaborative-research-database-2.0/hospital.csv.gz,816,816,816,980d1513,16684f45680921fb263fdd057ac9217093a9e81fc663228480e0d6a4665390a6,True
+eicu-collaborative-research-database-2.0/treatment.csv.gz,42775816,42775816,42775816,8d04f885,115ce152107aeab0f89f4c50c9b4b03a127a2d80618f70584d39e4b3fca4bd6b,True

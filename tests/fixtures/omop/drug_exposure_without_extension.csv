@@ -1,0 +1,6 @@
+drug_exposure_id,person_id,drug_concept_id,drug_exposure_start_date,drug_exposure_start_datetime,drug_exposure_end_date,drug_exposure_end_datetime,verbatim_end_date,drug_type_concept_id,stop_reason,refills,quantity,days_supply,sig,route_concept_id,lot_number,provider_id,visit_occurrence_id,visit_detail_id,drug_source_value,drug_source_concept_id,route_source_value,dose_unit_source_value,medprov_class
+1,SYNTHETIC_PERSON_1,948080,2026-01-01,2026-01-01 08:00:00,2026-01-01,2026-01-01 08:05:00,,32838,,,40,,,4132161,,,SYNTHETIC_VISIT_1,,Pantoprazole Send Vial,2000011393,IV,mg,stress_ulcer_prophylaxis
+2,SYNTHETIC_PERSON_2,948080,2026-01-02,2026-01-02 08:00:00,2026-01-02,2026-01-02 08:05:00,,32838,,,40,,,4132161,,,SYNTHETIC_VISIT_2,,Pantoprazole Send Vial,2000011393,IV,mg,stress_ulcer_prophylaxis
+3,SYNTHETIC_PERSON_3,948080,2026-01-03,2026-01-03 08:00:00,2026-01-03,2026-01-03 08:05:00,,32838,,,40,,,4132161,,,SYNTHETIC_VISIT_3,,Pantoprazole Send Vial,2000011393,IV,mg,stress_ulcer_prophylaxis
+4,SYNTHETIC_PERSON_4,948080,2026-01-04,2026-01-04 08:00:00,2026-01-04,2026-01-04 08:05:00,,32838,,,40,,,4132161,,,SYNTHETIC_VISIT_4,,Pantoprazole Send Vial,2000011393,IV,mg,stress_ulcer_prophylaxis
+5,SYNTHETIC_PERSON_5,0,2026-01-05,2026-01-05 08:00:00,2026-01-05,2026-01-05 08:05:00,,32838,,,20,,,4132161,,,SYNTHETIC_VISIT_5,,Famotidine,0,IV,mg,stress_ulcer_prophylaxis

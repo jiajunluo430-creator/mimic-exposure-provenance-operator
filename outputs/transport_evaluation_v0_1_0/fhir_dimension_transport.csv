@@ -1,0 +1,16 @@
+﻿role,dimension,transport_state,evidence
+request,source,transformed,native=3903; fhir=2726
+request,identity,partially_preserved,"pharmacy_id retained, but frozen class-mapped record sets are not identical"
+request,time,transformed,"authoredOn compared separately with prescription starttime, POE ordertime, and pharmacy entertime"
+request,event_semantics,preserved,order intent/status remain explicit
+request,dose_route,transformed,native columns encoded as dosageInstruction elements
+dispense,source,preserved,six-class records native=3870; fhir=3870
+dispense,identity,preserved,exact retained pharmacy_id x class matches=3870
+dispense,time,lost,whenPrepared/whenHandedOver absent for matched frozen-class records
+dispense,event_semantics,transformed,native record existence represented as completed FHIR dispense
+dispense,dose_route,transformed,selected metadata represented in dosageInstruction
+administration,source,partially_preserved,native class-mapped=7853; fhir class-mapped=6697
+administration,identity,transformed,emar_id absent; MedicationRequest link retains pharmacy_id; exact composite matches=5220/6253 native and 5220/6395 FHIR
+administration,time,preserved,first-event exact-zero displacement=1347/1353 linked order units
+administration,event_semantics,extension_carried,top status exposed=6697; dosage.method strict exposed=5740; native strict exposed=5696
+administration,dose_route,partially_preserved,dose/unit encoded in dosage; route evaluated empirically rather than inherited

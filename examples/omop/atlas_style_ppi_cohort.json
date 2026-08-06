@@ -1,0 +1,51 @@
+{
+  "ConceptSets": [
+    {
+      "id": 0,
+      "name": "Observed pantoprazole drug concept in the MIMIC-IV OMOP demo",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_ID": 948080
+            },
+            "includeDescendants": false,
+            "includeMapped": false,
+            "isExcluded": false
+          }
+        ]
+      }
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {
+        "DrugExposure": {
+          "CodesetId": 0,
+          "First": false
+        }
+      }
+    ],
+    "ObservationWindow": {
+      "PriorDays": 0,
+      "PostDays": 0
+    },
+    "PrimaryCriteriaLimit": {
+      "Type": "All"
+    }
+  },
+  "QualifiedLimit": {
+    "Type": "All"
+  },
+  "ExpressionLimit": {
+    "Type": "All"
+  },
+  "InclusionRules": [],
+  "CensoringCriteria": [],
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "_claim_boundary": "Executable local ATLAS-style record-existence comparator; import into a specific ATLAS deployment was not claimed."
+}

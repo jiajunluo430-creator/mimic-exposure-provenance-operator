@@ -1,0 +1,2 @@
+﻿drug_type_concept_id,concept_name_if_in_local_subset,rows_n,rows_pct,source_role_interpretation
+32838,not_in_subset,18229,100.0,not administration-specific; official demo derives DRUG_EXPOSURE from prescriptions/pharmacy

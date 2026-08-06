@@ -1,0 +1,7 @@
+﻿source,rows_n,unique_units_n,class_mapped_rows_n,ambiguous_identity_rows_n,unresolved_numeric_rows_n,missing_hospital_rows_n,fields_n,elapsed_seconds,duplicate_units_collapsed_n,source_role
+patient,200859,200859,not_applicable,not_applicable,not_applicable,0,29,0.79596,,
+medication,7301853,1158314,1158314,0,not_applicable,0,15,220.233562,0,
+infusionDrug,4803719,782801,801140,3,18339,0,9,154.863018,0,
+hospital,208,not_applicable,not_evaluated_by_contract,not_applicable,not_applicable,not_applicable,4,0.00071,,lookup_only
+treatment,3688745,not_applicable,not_evaluated_by_contract,not_applicable,not_applicable,not_applicable,5,8.312988,,documentation_only
+intakeOutput,not_scanned,not_applicable,not_evaluated_by_contract,not_applicable,not_applicable,not_applicable,not_scanned,0,,excluded_no_frozen_construct

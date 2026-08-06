@@ -5,6 +5,7 @@ from __future__ import annotations
 import zipfile
 from pathlib import Path
 
+from medprov.eicu_engine import run_eicu_reconciliation
 from medprov.models import CapabilityResult, ExecutionResult, QueryPlan
 from medprov.utils import canonical_json_sha256, utc_now
 
@@ -36,7 +37,12 @@ class EicuAdapter(BaseAdapter):
             {"medication.csv.gz"} if source_type == "order" else {"infusiondrug.csv.gz"}
         )
         if source_type in {"reconciliation", "mixed"}:
-            required_names = {"medication.csv.gz", "infusiondrug.csv.gz"}
+            required_names = {
+                "medication.csv.gz",
+                "infusiondrug.csv.gz",
+                "patient.csv.gz",
+                "hospital.csv.gz",
+            }
         present = {
             name
             for name in required_names
@@ -185,21 +191,25 @@ class EicuAdapter(BaseAdapter):
                 provenance,
                 capability.reasons,
             )
+        real = run_eicu_reconciliation(data_root, spec)
         return ExecutionResult(
             spec["operator_id"],
             spec["operator_version"],
             self.name,
-            "capability_confirmed_execution_pending_phase6",
+            str(real["status"]),
             True,
             True,
             True,
-            False,
             True,
-            empty,
-            {"interpretation": "Source-capability result only; not external clinical validation."},
-            {"real_streaming_reconciliation_not_yet_run": 1},
+            True,
+            dict(real["counts"]),
+            {
+                **dict(real["metrics"]),
+                "interpretation": (
+                    "Interface semantic comparison only; not external clinical validation."
+                ),
+            },
+            {},
             provenance,
-            [
-                "Real eICU aggregate execution is deferred to the prespecified Phase 6 adapter evaluation."
-            ],
+            [],
         )

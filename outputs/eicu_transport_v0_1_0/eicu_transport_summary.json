@@ -1,0 +1,52 @@
+{
+  "claim_boundary": "interface semantic comparison; not external validation",
+  "classes_failed": [
+    "electrolyte_replacement",
+    "insulin",
+    "prokinetic"
+  ],
+  "classes_passed": [
+    "intra_abdominal_antibiotics",
+    "stress_ulcer_prophylaxis",
+    "vte_prophylaxis"
+  ],
+  "contract": {
+    "path": "contracts/EICU_ADAPTER_CONTRACT_v1.0_2026-08-05.md",
+    "sha256": "a0ed18fdcc0774512e4df9b9a7b1e66862b1b97f81f1cdebeaceddb1923df1bc"
+  },
+  "counts": {
+    "analysis_units": 1158314,
+    "exposed": 11411,
+    "unexposed": 379313,
+    "unmeasurable": 767590,
+    "unresolved": 0
+  },
+  "dataset": {
+    "local_archive_bytes": 5486764761,
+    "name": "eICU Collaborative Research Database v2.0",
+    "used_member_integrity": "SHA-256 plus ZIP CRC32"
+  },
+  "engine_metrics": {
+    "classes_failed_n": 3,
+    "classes_passed": [
+      "intra_abdominal_antibiotics",
+      "stress_ulcer_prophylaxis",
+      "vte_prophylaxis"
+    ],
+    "classes_passed_n": 3,
+    "elapsed_seconds": 387.980918,
+    "match_mode": "same_class_window",
+    "native_cross_source_key": false
+  },
+  "execution": {
+    "script_sha256": "ab92aed055bc9faff28de0aee7203498552c5daea270549ded62e463a3d0ae82",
+    "wall_clock_seconds": 388.524601
+  },
+  "gate": "EXECUTED_INTERFACE_SEMANTIC_COMPARISON",
+  "privacy": "aggregate only; patientunitstayid and native source IDs were held in memory and not serialized; hospital/unit cells below 10 were suppressed",
+  "schema_version": "1.0.0",
+  "spec": {
+    "path": "examples/transport/eicu_six_class_reconciliation.yaml",
+    "sha256": "7e9601e2a7f39db45aa288742ad8ca6e5efe41ef1c4455dc2c62b7c27460deed"
+  }
+}

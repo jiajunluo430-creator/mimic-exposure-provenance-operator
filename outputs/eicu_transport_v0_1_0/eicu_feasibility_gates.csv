@@ -1,0 +1,7 @@
+﻿medication_class,class_mapped_orders_n,time_valid_orders_n,valid_interval_pct,administration_like_events_n,hospitals_with_both_n,ambiguous_identity_rows_n,valid_orders_ge_100,admin_like_events_ge_100,hospitals_with_both_ge_10,valid_interval_ge_80pct,identity_unambiguous,gate_pass
+stress_ulcer_prophylaxis,181578,167806,92.415381,93948,62,0,True,True,True,True,True,True
+vte_prophylaxis,144613,134102,92.731635,262228,69,0,True,True,True,True,True,True
+intra_abdominal_antibiotics,94956,88816,93.533847,698,15,0,True,True,True,True,True,True
+electrolyte_replacement,484435,466293,96.255019,23768,36,3,True,True,True,True,False,False
+prokinetic,24269,23388,96.369855,21,0,0,True,False,False,True,True,False
+insulin,228463,209918,91.882712,402138,84,3,True,True,True,True,False,False

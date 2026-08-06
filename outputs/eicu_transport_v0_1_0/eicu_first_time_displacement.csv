@@ -1,0 +1,4 @@
+﻿medication_class,converted_orders_with_time_n,median_first_event_minus_order_start_minutes,q1_minutes,q3_minutes,negative_delay_n,beyond_stop_but_within_grace_n
+stress_ulcer_prophylaxis,3696,90.0,8.0,343.25,412,1154
+vte_prophylaxis,7491,105.0,30.0,355.5,488,1367
+intra_abdominal_antibiotics,224,1558.5,539.25,4051.25,2,10

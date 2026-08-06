@@ -1,0 +1,38 @@
+{
+  "extension_version": "1.0.0",
+  "base_model": "OMOP CDM DRUG_EXPOSURE",
+  "purpose": "Retain source-role and native event semantics that are not represented by standard DRUG_EXPOSURE fields.",
+  "fields": [
+    {
+      "name": "medprov_event_state",
+      "type": "string",
+      "required_for": "strict documented-administration operator"
+    },
+    {
+      "name": "medprov_source_role",
+      "type": "enum(order, dispense, documented_administration, other)",
+      "required_for": "source provenance"
+    },
+    {
+      "name": "medprov_native_record_id",
+      "type": "string",
+      "required_for": "native record lineage"
+    },
+    {
+      "name": "medprov_native_order_id",
+      "type": "string",
+      "required_for": "order-to-administration linkage"
+    },
+    {
+      "name": "medprov_not_given_reason",
+      "type": "string",
+      "required_for": "non-administration semantics"
+    },
+    {
+      "name": "medprov_revision_chain",
+      "type": "string",
+      "required_for": "order revision provenance"
+    }
+  ],
+  "claim_boundary": "A medprov sidecar/extension; not a change to the OMOP CDM standard."
+}

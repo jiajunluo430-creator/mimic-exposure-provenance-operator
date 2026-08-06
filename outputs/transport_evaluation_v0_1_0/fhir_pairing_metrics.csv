@@ -1,0 +1,19 @@
+﻿role,medication_class,pairing_unit,native_units_n,fhir_units_n,matched_units_n,matched_over_native_pct,matched_over_fhir_pct,identifier_retained_pct,not_evaluable_reason
+request,stress_ulcer_prophylaxis,retained_native_id_x_class,326,222,222,68.09816,100.0,84.732824,
+request,vte_prophylaxis,retained_native_id_x_class,469,365,365,77.82516,100.0,84.686775,
+request,intra_abdominal_antibiotics,retained_native_id_x_class,457,93,93,20.350109,100.0,58.125,
+request,electrolyte_replacement,retained_native_id_x_class,1647,644,606,36.794171,94.099379,92.795389,
+request,prokinetic,retained_native_id_x_class,33,33,33,100.0,100.0,91.666667,
+request,insulin,retained_native_id_x_class,971,930,930,95.777549,100.0,81.364829,
+dispense,stress_ulcer_prophylaxis,retained_native_id_x_class,326,326,326,100.0,100.0,100.0,
+dispense,vte_prophylaxis,retained_native_id_x_class,469,469,469,100.0,100.0,100.0,
+dispense,intra_abdominal_antibiotics,retained_native_id_x_class,457,457,457,100.0,100.0,100.0,
+dispense,electrolyte_replacement,retained_native_id_x_class,1614,1614,1614,100.0,100.0,100.0,
+dispense,prokinetic,retained_native_id_x_class,33,33,33,100.0,100.0,100.0,
+dispense,insulin,retained_native_id_x_class,971,971,971,100.0,100.0,100.0,
+administration,stress_ulcer_prophylaxis,native_emar_identifier,975,996,not_evaluable,not_evaluable,not_evaluable,0.0,FHIR MedicationAdministration does not retain native emar_id; order-unit/time composite is reported separately
+administration,vte_prophylaxis,native_emar_identifier,1951,1883,not_evaluable,not_evaluable,not_evaluable,0.0,FHIR MedicationAdministration does not retain native emar_id; order-unit/time composite is reported separately
+administration,intra_abdominal_antibiotics,native_emar_identifier,1191,807,not_evaluable,not_evaluable,not_evaluable,0.0,FHIR MedicationAdministration does not retain native emar_id; order-unit/time composite is reported separately
+administration,electrolyte_replacement,native_emar_identifier,786,1343,not_evaluable,not_evaluable,not_evaluable,0.0,FHIR MedicationAdministration does not retain native emar_id; order-unit/time composite is reported separately
+administration,prokinetic,native_emar_identifier,73,66,not_evaluable,not_evaluable,not_evaluable,0.0,FHIR MedicationAdministration does not retain native emar_id; order-unit/time composite is reported separately
+administration,insulin,native_emar_identifier,2877,1602,not_evaluable,not_evaluable,not_evaluable,0.0,FHIR MedicationAdministration does not retain native emar_id; order-unit/time composite is reported separately

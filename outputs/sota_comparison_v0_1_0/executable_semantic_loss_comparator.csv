@@ -1,0 +1,5 @@
+﻿fixture,operator,provenance_extension,analysis_units,exposed,unexposed,unresolved,unmeasurable,semantic_result
+synthetic_four_unit_ppi,ATLAS-style DRUG_EXPOSURE record existence,not_used,4,4,0,0,0,All four records classify as exposed; literal administration state is outside the cohort expression.
+synthetic_four_unit_ppi,medprov strict administration,present,4,1,1,1,1,The same four records separate into four terminal provenance states.
+synthetic_four_unit_ppi,medprov strict administration,removed,4,0,0,0,4,Removing literal event state makes all four units unmeasurable rather than silently unexposed.
+public_mimic_omop_demo_ppi,record existence versus strict administration,absent_in_release,37,37,0,0,37,"Record existence is executable, but the strict administration construct is structurally unmeasurable without event state."

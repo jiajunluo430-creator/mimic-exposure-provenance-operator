@@ -8,12 +8,15 @@ audited multi-hour scans and lets parity failures be localized deterministically
 
 from __future__ import annotations
 
+import csv
+import gzip
 import os
 from pathlib import Path
-from typing import Any
+from typing import Any, TextIO
 
 import duckdb
 
+from medprov.identity import classify_strings, load_name_rules
 from medprov.models import ExecutionResult, QueryPlan
 from medprov.utils import canonical_json_sha256, utc_now
 
@@ -28,6 +31,47 @@ class MimicNativeAdapter(BaseAdapter):
     _PRE_DB = "jamia_pre_submission_v1_0.duckdb"
     _UPGRADE_DB = "jamia_prereview_upgrade_v1_0.duckdb"
     _BASE_DB = "n1_validity.duckdb"
+
+    @staticmethod
+    def _is_raw_demo(spec: dict[str, Any]) -> bool:
+        version = str(spec["data_model"]["model_version"]).lower()
+        return "demo" in version and "2.2" in version
+
+    @staticmethod
+    def _find_raw_file(data_root: str | Path | None, basename: str) -> Path | None:
+        if not data_root:
+            return None
+        root = Path(data_root)
+        if root.is_file() and root.name.lower() == basename.lower():
+            return root.resolve()
+        if not root.is_dir():
+            return None
+        matches = sorted(
+            path
+            for path in root.rglob("*")
+            if path.is_file() and path.name.lower() == basename.lower()
+        )
+        return matches[0].resolve() if matches else None
+
+    @staticmethod
+    def _open_csv_text(path: Path) -> TextIO:
+        if path.name.lower().endswith(".gz"):
+            return gzip.open(path, "rt", encoding="utf-8-sig", newline="")
+        return path.open("r", encoding="utf-8-sig", newline="")
+
+    @classmethod
+    def _raw_demo_sources(
+        cls, spec: dict[str, Any], data_root: str | Path | None
+    ) -> dict[str, Path]:
+        sources: dict[str, Path] = {}
+        for item in spec["source_layer"]["tables_or_resources"]:
+            name = item.split("/")[-1]
+            if not name.lower().endswith((".csv", ".csv.gz")):
+                name += ".csv.gz"
+            path = cls._find_raw_file(data_root, name)
+            if path is not None:
+                sources[item] = path
+        return sources
 
     @classmethod
     def _reference_for_spec(cls, spec: dict[str, Any]) -> tuple[str, str]:
@@ -78,6 +122,31 @@ class MimicNativeAdapter(BaseAdapter):
     def inspect_source(
         self, spec: dict[str, Any], data_root: str | Path | None
     ) -> tuple[set[str], dict[str, Any], list[str]]:
+        if self._is_raw_demo(spec):
+            sources = self._raw_demo_sources(spec, data_root)
+            requested = list(spec["source_layer"]["tables_or_resources"])
+            raw_fields: set[str] = set()
+            for path in sources.values():
+                with self._open_csv_text(path) as handle:
+                    raw_fields.update(next(csv.reader(handle)))
+            complete = len(sources) == len(requested)
+            raw_reasons = []
+            if not complete:
+                missing = sorted(set(requested) - set(sources))
+                raw_reasons.append(
+                    "Matched native demo source files are missing: " + ", ".join(missing)
+                )
+            return (
+                raw_fields,
+                {
+                    "data_available": complete,
+                    "execution_path_available": complete,
+                    "evaluation_level": "matched_demo_execution",
+                    "raw_csv_execution": "streaming",
+                    "source_files": {key: value.name for key, value in sorted(sources.items())},
+                },
+                raw_reasons,
+            )
         pre_db = self._find_database(data_root, self._PRE_DB)
         upgrade_db = self._find_database(data_root, self._UPGRADE_DB)
         base_db = self._find_database(data_root, self._BASE_DB)
@@ -216,6 +285,32 @@ class MimicNativeAdapter(BaseAdapter):
         return database, table, sql
 
     def compile(self, spec: dict[str, Any], data_root: str | Path | None) -> QueryPlan:
+        if self._is_raw_demo(spec):
+            return QueryPlan(
+                operator_id=spec["operator_id"],
+                operator_version=spec["operator_version"],
+                adapter=self.name,
+                adapter_version=self.version,
+                data_model_version=spec["data_model"]["model_version"],
+                sources=list(spec["source_layer"]["tables_or_resources"]),
+                analysis_unit=spec["analysis_unit"],
+                predicates=[
+                    "frozen strict medication-name mapping",
+                    "literal source event semantics",
+                    "matched MIMIC-IV demo v2.2",
+                ],
+                joins=[],
+                deduplication_unit=list(spec["identity_rule"]["deduplication_unit"]),
+                time_rule=spec["time_origin_window"]["window_rule"],
+                metadata_gates=self.required_metadata_fields(spec),
+                unresolved_rules=[
+                    "ambiguous medication class -> unresolved",
+                    "required missing source field -> unmeasurable",
+                ],
+                output_profile=spec["output_specification"]["profile"],
+                aggregate_only=True,
+                implementation={"raw_csv_execution": "streaming", "version_matched": True},
+            )
         profile = spec["output_specification"]["profile"]
         if profile == "six_class_conversion":
             table, sql = self._conversion_sql(spec)
@@ -265,6 +360,170 @@ class MimicNativeAdapter(BaseAdapter):
             implementation={"database": database, "materialized_table": table, "sql": sql},
         )
 
+    def _execute_raw_demo(
+        self,
+        spec: dict[str, Any],
+        data_root: str | Path | None,
+        capability: Any,
+        provenance: dict[str, Any],
+    ) -> ExecutionResult:
+        empty: dict[str, Any] = {
+            "analysis_units": 0,
+            "exposed": 0,
+            "unexposed": 0,
+            "unresolved": 0,
+            "unmeasurable": 0,
+        }
+        if not capability.executable:
+            return ExecutionResult(
+                operator_id=spec["operator_id"],
+                operator_version=spec["operator_version"],
+                adapter=self.name,
+                status="not_executed_data_unavailable",
+                syntactically_valid=True,
+                adapter_supported=capability.supported,
+                measurable=capability.measurable,
+                executable=False,
+                aggregate_only=True,
+                counts=empty,
+                metrics={},
+                failure_reasons={reason: 1 for reason in capability.reasons},
+                provenance=provenance,
+                warnings=capability.reasons,
+            )
+        rules = load_name_rules(spec)
+        positive = {
+            str(item).strip().lower() for item in spec["event_semantics_map"]["positive"]
+        }
+        negative = {
+            str(item).strip().lower() for item in spec["event_semantics_map"]["negative"]
+        }
+        excluded = {
+            str(item).strip().lower() for item in spec["event_semantics_map"]["excluded"]
+        }
+        required = self.required_metadata_fields(spec)
+        target = str(spec["target_event"])
+        sources = self._raw_demo_sources(spec, data_root)
+        name_fields = {
+            "prescriptions.csv.gz": "drug",
+            "pharmacy.csv.gz": "medication",
+            "emar.csv.gz": "medication",
+        }
+        key_fields = {
+            "prescriptions.csv.gz": "pharmacy_id",
+            "pharmacy.csv.gz": "pharmacy_id",
+            "emar.csv.gz": "emar_id",
+        }
+        aliases = {
+            "route": ("route",),
+            "dose": ("dose_val_rx", "dose_given"),
+            "unit": ("dose_unit_rx", "dose_given_unit"),
+            "frequency": ("frequency", "doses_per_24_hrs"),
+            "status": ("event_txt", "status"),
+        }
+        by_source: dict[str, dict[str, int]] = {}
+        by_class: dict[str, dict[str, int]] = {}
+        seen: set[tuple[str, str, str]] = set()
+        identity_unmapped = 0
+        identity_ambiguous = 0
+        excluded_semantics = 0
+        counts = dict(empty)
+        for source_name, path in sorted(sources.items()):
+            basename = path.name.lower()
+            name_field = name_fields.get(basename)
+            key_field = key_fields.get(basename)
+            if name_field is None or key_field is None:
+                continue
+            with self._open_csv_text(path) as handle:
+                for row_number, row in enumerate(csv.DictReader(handle), start=1):
+                    medication_class, identity_state = classify_strings(
+                        [row.get(name_field, "")], rules
+                    )
+                    if medication_class is None:
+                        if identity_state == "ambiguous":
+                            identity_ambiguous += 1
+                        else:
+                            identity_unmapped += 1
+                        continue
+                    native_key = str(row.get(key_field, "")).strip() or str(row_number)
+                    dedup_key = (source_name, native_key, medication_class)
+                    if dedup_key in seen:
+                        continue
+                    seen.add(dedup_key)
+                    missing = []
+                    for logical in required:
+                        if logical == "status":
+                            # Blank eMAR event_txt is an observed native semantic state,
+                            # not structural absence of the status field.  The frozen
+                            # contract keeps it separate and excludes it from strict
+                            # administration denominators.
+                            if not any(field in row for field in aliases[logical]):
+                                missing.append(logical)
+                        elif not any(
+                            str(row.get(field, "")).strip() for field in aliases[logical]
+                        ):
+                            missing.append(logical)
+                    literal = str(row.get("event_txt", "")).strip().lower() or "<blank>"
+                    if missing:
+                        state = "unmeasurable"
+                    elif target in {"order", "dispense"}:
+                        state = "exposed"
+                    elif literal in positive:
+                        state = "exposed"
+                    elif literal in negative:
+                        state = "unexposed"
+                    else:
+                        state = "unresolved"
+                        if literal in excluded:
+                            excluded_semantics += 1
+                    counts[state] += 1
+                    source_bucket = by_source.setdefault(
+                        source_name,
+                        {
+                            key: 0
+                            for key in ("exposed", "unexposed", "unresolved", "unmeasurable")
+                        },
+                    )
+                    source_bucket[state] += 1
+                    class_bucket = by_class.setdefault(
+                        medication_class,
+                        {
+                            key: 0
+                            for key in ("exposed", "unexposed", "unresolved", "unmeasurable")
+                        },
+                    )
+                    class_bucket[state] += 1
+        counts["analysis_units"] = sum(
+            int(counts[key])
+            for key in ("exposed", "unexposed", "unresolved", "unmeasurable")
+        )
+        counts["by_source"] = [
+            {"source": key, **value} for key, value in sorted(by_source.items())
+        ]
+        counts["by_class"] = [
+            {"medication_class": key, **value} for key, value in sorted(by_class.items())
+        ]
+        return ExecutionResult(
+            operator_id=spec["operator_id"],
+            operator_version=spec["operator_version"],
+            adapter=self.name,
+            status="executed",
+            syntactically_valid=True,
+            adapter_supported=True,
+            measurable=True,
+            executable=True,
+            aggregate_only=True,
+            counts=counts,
+            metrics={
+                "identity_unmapped_records": identity_unmapped,
+                "identity_ambiguous_records": identity_ambiguous,
+                "excluded_semantics_records": excluded_semantics,
+            },
+            failure_reasons={},
+            provenance=provenance,
+            warnings=[],
+        )
+
     def execute(self, spec: dict[str, Any], data_root: str | Path | None) -> ExecutionResult:
         capability = self.capability(spec, data_root)
         base_provenance = {
@@ -275,6 +534,8 @@ class MimicNativeAdapter(BaseAdapter):
             "aggregate_only": True,
             "source_database": capability.source_status.get("materialized_reference_database"),
         }
+        if self._is_raw_demo(spec):
+            return self._execute_raw_demo(spec, data_root, capability, base_provenance)
         if not capability.executable:
             state = (
                 "unmeasurable"

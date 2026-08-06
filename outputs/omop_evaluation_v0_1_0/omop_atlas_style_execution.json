@@ -1,0 +1,10 @@
+{
+  "analysis_units": 4,
+  "event_semantics_represented": false,
+  "exposed": 4,
+  "matched_source_rows": 4,
+  "operator": "OMOP/ATLAS-style DRUG_EXPOSURE record existence",
+  "unexposed": 0,
+  "unmeasurable": 0,
+  "unresolved": 0
+}

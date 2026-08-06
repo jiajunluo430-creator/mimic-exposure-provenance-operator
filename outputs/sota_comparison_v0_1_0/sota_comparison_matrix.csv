@@ -1,0 +1,73 @@
+﻿comparator,dimension,status,rationale,evidence_ids
+medprov,source_observability_and_deployment_context,native,"Source role, table, deployment boundary, and observability gate are required operator elements.",MEDPROV-1
+medprov,native_record_identity_and_revision_chain,native,"Native identifiers, deterministic joins, deduplication, and revision policy are versioned fields.",MEDPROV-1
+medprov,time_origin_window_and_assignment_rule,native,"Time origin, window, precedence, and assignment are frozen before execution.",MEDPROV-1
+medprov,literal_event_semantics,native,Literal states are mapped explicitly and excluded literals remain visible.,MEDPROV-1
+medprov,required_route_and_dose_metadata,native,Required route or dose fields can be declared and fail closed when absent.,MEDPROV-1
+medprov,explicit_unresolved_or_unmeasurable_state,native,"Exposed, unexposed, unresolved, and unmeasurable are distinct terminal states.",MEDPROV-1
+medprov,patient_level_provenance_trace,native,Execution retains a patient-level provenance trace where data-use controls permit it.,MEDPROV-1
+medprov,machine_execution,native,Versioned YAML specifications execute through tested adapters and CLI commands.,MEDPROV-1
+medprov,cross_model_compilation,partial,"Adapters compile the canonical operator to four evaluated representations, not arbitrary clinical models.",MEDPROV-1
+PheKB,source_observability_and_deployment_context,partial,"Algorithms can document data types and sites, but no universal medication-source schema is required.",PHEKB-1
+PheKB,native_record_identity_and_revision_chain,implementation_dependent,Native identifiers and revision chains depend on each deposited algorithm and site implementation.,PHEKB-1
+PheKB,time_origin_window_and_assignment_rule,implementation_dependent,"Temporal logic may be documented or coded, but no fixed cross-source assignment schema is mandated.",PHEKB-1
+PheKB,literal_event_semantics,implementation_dependent,Literal administration semantics depend on the artifact and local source mapping.,PHEKB-1
+PheKB,required_route_and_dose_metadata,implementation_dependent,Route and dose requirements are phenotype-specific.,PHEKB-1
+PheKB,explicit_unresolved_or_unmeasurable_state,unknown,The cited platform description does not require a four-state measurability result.,PHEKB-1
+PheKB,patient_level_provenance_trace,implementation_dependent,Trace availability depends on deposited code and local execution artifacts.,PHEKB-1
+PheKB,machine_execution,partial,"Some algorithms include executable code, while repository artifacts vary in computability.",PHEKB-1
+PheKB,cross_model_compilation,implementation_dependent,Transport is a platform goal but compilation across data models is not a universal native service.,PHEKB-1
+OMOP CDM and ATLAS,source_observability_and_deployment_context,partial,DRUG_EXPOSURE type and source values retain some source context but can collapse upstream workflow layers.,OMOP-1
+OMOP CDM and ATLAS,native_record_identity_and_revision_chain,partial,A row identifier is native; cross-source identity and revision chains require source-specific extensions.,OMOP-1
+OMOP CDM and ATLAS,time_origin_window_and_assignment_rule,partial,"Drug dates and cohort temporal criteria are native, but request-to-administration assignment is not standardized.",OMOP-1;OMOP-2
+OMOP CDM and ATLAS,literal_event_semantics,extension_required,"Literal given, held, and not-given states are not required DRUG_EXPOSURE fields.",OMOP-1
+OMOP CDM and ATLAS,required_route_and_dose_metadata,partial,"Route, quantity, dose unit, and sig fields exist but are optional and unevenly populated.",OMOP-1
+OMOP CDM and ATLAS,explicit_unresolved_or_unmeasurable_state,extension_required,Record absence is not a first-class distinction between unexposed and unmeasurable.,OMOP-1
+OMOP CDM and ATLAS,patient_level_provenance_trace,implementation_dependent,"Cohort execution is auditable, but native source-event traces depend on ETL and result retention.",OMOP-1;OMOP-2
+OMOP CDM and ATLAS,machine_execution,native,ATLAS cohort definitions compile and execute against OMOP CDM.,OMOP-2
+OMOP CDM and ATLAS,cross_model_compilation,implementation_dependent,The executable representation targets OMOP; non-OMOP compilation requires a separate mapping or ETL.,OMOP-2
+HL7 FHIR R4 medications,source_observability_and_deployment_context,native,"Request, dispense, and administration are separate workflow resources.",FHIR-1;FHIR-4
+HL7 FHIR R4 medications,native_record_identity_and_revision_chain,partial,"Resource identifiers, version metadata, and workflow references exist, but cross-resource linkage is optional.",FHIR-1;FHIR-2;FHIR-3
+HL7 FHIR R4 medications,time_origin_window_and_assignment_rule,partial,Clinical timestamps are native; analytic windows and assignment rules require an external operator.,FHIR-2;FHIR-3
+HL7 FHIR R4 medications,literal_event_semantics,partial,"Administration status and dosage method carry semantics, but source literals and relocation vary by implementation.",FHIR-3
+HL7 FHIR R4 medications,required_route_and_dose_metadata,native,"Dosage route, method, and dose are representable, although optional.",FHIR-2;FHIR-3
+HL7 FHIR R4 medications,explicit_unresolved_or_unmeasurable_state,extension_required,FHIR statuses do not by themselves encode analytic unmeasurability caused by missing required fields.,FHIR-2;FHIR-3
+HL7 FHIR R4 medications,patient_level_provenance_trace,partial,References and versioning can support a trace when servers populate and retain them.,FHIR-1;FHIR-2;FHIR-3
+HL7 FHIR R4 medications,machine_execution,implementation_dependent,"FHIR defines interoperable resources, not a medication-exposure estimand executor.",FHIR-1
+HL7 FHIR R4 medications,cross_model_compilation,implementation_dependent,"Resource mapping is standardized, but analytic-operator compilation is outside the medication resources.",FHIR-1
+HL7 CQL,source_observability_and_deployment_context,implementation_dependent,Source observability depends on the bound data model and implementation guide.,CQL-1
+HL7 CQL,native_record_identity_and_revision_chain,implementation_dependent,Identifiers and revision relationships must be exposed by the selected model.,CQL-1
+HL7 CQL,time_origin_window_and_assignment_rule,native,The language supports temporal expressions and reusable parameterized logic.,CQL-1
+HL7 CQL,literal_event_semantics,implementation_dependent,Literal event-state semantics depend on data-model bindings and value sets.,CQL-1
+HL7 CQL,required_route_and_dose_metadata,implementation_dependent,Route and dose constraints are executable when the model exposes them.,CQL-1
+HL7 CQL,explicit_unresolved_or_unmeasurable_state,partial,"Null and uncertainty can be represented, but a required four-state medication measurability contract is not native.",CQL-1
+HL7 CQL,patient_level_provenance_trace,implementation_dependent,Execution traces depend on the CQL engine and deployment.,CQL-1
+HL7 CQL,machine_execution,native,CQL is explicitly designed for machine-readable and executable clinical logic.,CQL-1
+HL7 CQL,cross_model_compilation,partial,"The language is reusable across model bindings, but equivalent source semantics still require model-specific libraries.",CQL-1
+RECORD-PE,source_observability_and_deployment_context,reporting_only,The statement asks investigators to report data sources and pharmacoepidemiologic methods.,RECORDPE-1
+RECORD-PE,native_record_identity_and_revision_chain,reporting_only,Record linkage and coding decisions can be reported but are not executable fields.,RECORDPE-1
+RECORD-PE,time_origin_window_and_assignment_rule,reporting_only,Exposure timing and design choices are reporting items.,RECORDPE-1
+RECORD-PE,literal_event_semantics,reporting_only,Event definitions can be described but no native literal-state representation is supplied.,RECORDPE-1
+RECORD-PE,required_route_and_dose_metadata,reporting_only,Route and dose definitions can be reported.,RECORDPE-1
+RECORD-PE,explicit_unresolved_or_unmeasurable_state,unknown,A four-state source-measurability result is not specified in the cited guidance.,RECORDPE-1
+RECORD-PE,patient_level_provenance_trace,reporting_only,"Provenance decisions may be documented, not emitted as a patient-level execution trace.",RECORDPE-1
+RECORD-PE,machine_execution,not_applicable,This is a reporting guideline.,RECORDPE-1
+RECORD-PE,cross_model_compilation,not_applicable,This is a reporting guideline.,RECORDPE-1
+STaRT-RWE,source_observability_and_deployment_context,reporting_only,The template structures data-source and implementation decisions.,STARTRWE-1
+STaRT-RWE,native_record_identity_and_revision_chain,reporting_only,Identity decisions can be specified narratively.,STARTRWE-1
+STaRT-RWE,time_origin_window_and_assignment_rule,reporting_only,"Time zero, exposure windows, and design choices are protocol fields.",STARTRWE-1
+STaRT-RWE,literal_event_semantics,reporting_only,Event semantics can be declared but are not an executable source map.,STARTRWE-1
+STaRT-RWE,required_route_and_dose_metadata,reporting_only,Route and dose constraints can be pre-specified.,STARTRWE-1
+STaRT-RWE,explicit_unresolved_or_unmeasurable_state,unknown,A first-class four-state medication measurability output is not specified.,STARTRWE-1
+STaRT-RWE,patient_level_provenance_trace,reporting_only,The template improves traceability of decisions rather than patient-level provenance.,STARTRWE-1
+STaRT-RWE,machine_execution,not_applicable,The template does not execute EHR reconciliation.,STARTRWE-1
+STaRT-RWE,cross_model_compilation,not_applicable,The template does not compile operators across data models.,STARTRWE-1
+HARPER,source_observability_and_deployment_context,reporting_only,The protocol template promotes explicit data-source and design reporting.,HARPER-1
+HARPER,native_record_identity_and_revision_chain,reporting_only,Identity and linkage rules can be specified in protocol text.,HARPER-1
+HARPER,time_origin_window_and_assignment_rule,reporting_only,Temporal design decisions can be pre-specified.,HARPER-1
+HARPER,literal_event_semantics,reporting_only,Event semantics can be documented but are not compiled.,HARPER-1
+HARPER,required_route_and_dose_metadata,reporting_only,Route and dose requirements can be documented.,HARPER-1
+HARPER,explicit_unresolved_or_unmeasurable_state,unknown,A required four-state source-measurability result is not specified.,HARPER-1
+HARPER,patient_level_provenance_trace,reporting_only,Protocol transparency does not itself create patient-level source traces.,HARPER-1
+HARPER,machine_execution,not_applicable,This is a harmonized protocol template.,HARPER-1
+HARPER,cross_model_compilation,not_applicable,This is a harmonized protocol template.,HARPER-1

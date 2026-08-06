@@ -1,0 +1,41 @@
+{
+  "claim_boundary": "OMOP capability and semantic-loss evaluation; not validation",
+  "contract": {
+    "path": "contracts/OMOP_CAPABILITY_CONTRACT_v1.0_2026-08-05.md",
+    "sha256": "17ad3fda645b072b11a443cedcb852b11267e13053dc5511c720558ccc98279a"
+  },
+  "dataset": {
+    "doi": "10.13026/p1f5-7x35",
+    "name": "MIMIC-IV demo data in OMOP CDM v0.9"
+  },
+  "execution": {
+    "script_sha256": "3ef2d383da623508f0aa6bd8d078f9fac6cfd51a8f8187d623f4f75b7eaff832",
+    "wall_clock_seconds": 0.751526
+  },
+  "headline_findings": {
+    "drug_exposure_rows_n": 18229,
+    "ppi_person_visit_units_n": 37,
+    "ppi_source_rows_n": 48,
+    "real_strict_admin_unmeasurable_n": 37,
+    "synthetic_ablation_unmeasurable_n": 4,
+    "synthetic_atlas_exposed_n": 4,
+    "synthetic_medprov_exposed_n": 1,
+    "synthetic_medprov_unexposed_n": 1,
+    "synthetic_medprov_unmeasurable_n": 1,
+    "synthetic_medprov_unresolved_n": 1
+  },
+  "inputs": {
+    "atlas_style_expression_sha256": "8dcae11fb9ba0c162d4b57e34fa3939baafb45fcb03a8ef01fdc4f16beb1b501",
+    "provenance_extension_sha256": "016aa7520a71d518021dbcb9f3e6f0c3f10232c9188fe7fb2debeede9c6d9afd",
+    "strict_operator_sha256": "2c2eb36be5e07929fad88163c818b8e8ec982288d66d9df2a955d8d0009e621d",
+    "synthetic_fixture_with_extension_sha256": "7df781006b6159258322b7283b0a2cec3990dd6c153cedf6e450f4ffc11f4e02",
+    "synthetic_fixture_without_extension_sha256": "7020764d37d1fc4b953bdcb4af3a5f53d7017511de5e6f2bfbd5e424456ef1d7"
+  },
+  "real_demo_gate": "EXECUTED_CAPABILITY_SMOKE_TEST",
+  "schema_version": "1.0.0",
+  "six_class_identity_states": {
+    "resolved": 914,
+    "unmapped": 17315
+  },
+  "synthetic_gate": "PASS_DETERMINISTIC_SEMANTIC_ABLATION"
+}
