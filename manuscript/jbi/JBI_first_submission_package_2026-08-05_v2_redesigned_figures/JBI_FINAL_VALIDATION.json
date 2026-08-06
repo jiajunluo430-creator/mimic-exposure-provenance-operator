@@ -1,0 +1,154 @@
+{
+  "status": "PASS_JBI_FIRST_SUBMISSION_PACKAGE_V2_REDESIGNED_FIGURES",
+  "generated_utc": "2026-08-06T04:07:54.676049+00:00",
+  "selected_target": "Journal of Biomedical Informatics",
+  "article_type": "Research Paper",
+  "prior_package_preserved": true,
+  "figure_version": "data-first JBI redesign finalized 2026-08-05",
+  "figure_facing_data_changed": false,
+  "scientific_analysis_rerun": false,
+  "contract_or_statistical_definition_changed": false,
+  "upload_file_count": 9,
+  "docx_files_checked": 6,
+  "docx_byte_identical_to_prior_package": true,
+  "docx_page_counts": {
+    "JBI_title_page.docx": 2,
+    "JBI_RECORD_STROBE_checklist.docx": 2,
+    "JBI_cover_letter.docx": 2,
+    "JBI_highlights.docx": 1,
+    "JBI_main_manuscript.docx": 17,
+    "JBI_supporting_information.docx": 9
+  },
+  "total_docx_pages_re_rendered_and_visually_inspected": 33,
+  "main_manuscript_embedded_media_count": 0,
+  "document_continuity": {
+    "ADMINISTRATIVE_BACKUP/JBI_title_page.docx": {
+      "byte_identical_to_prior_package": true,
+      "sha256": "8a0462761e3091acb1c839963cef26e62d462affa15e5a222021378d887382ef",
+      "embedded_media_count": 0
+    },
+    "OPTIONAL_FILES/JBI_RECORD_STROBE_checklist.docx": {
+      "byte_identical_to_prior_package": true,
+      "sha256": "374bd7390eceda8529d2af039a245bb9be7c78eec684bd958bdf5621f9bac46e",
+      "embedded_media_count": 0
+    },
+    "UPLOAD_FILES/JBI_cover_letter.docx": {
+      "byte_identical_to_prior_package": true,
+      "sha256": "0f059c95e41a55b3f952ecba7668e008fd9d26ec18b1ee8ee23aced43ba372ec",
+      "embedded_media_count": 0
+    },
+    "UPLOAD_FILES/JBI_highlights.docx": {
+      "byte_identical_to_prior_package": true,
+      "sha256": "ac6e3e3ace981126d43c553d8ae2ee8b9822ea5b45726676a5809f48da12fb89",
+      "embedded_media_count": 0
+    },
+    "UPLOAD_FILES/JBI_main_manuscript.docx": {
+      "byte_identical_to_prior_package": true,
+      "sha256": "867f05e7d1d0f20ed212573890b285ab420fa753f7dc1cba3897405d0cf844da",
+      "embedded_media_count": 0
+    },
+    "UPLOAD_FILES/JBI_supporting_information.docx": {
+      "byte_identical_to_prior_package": true,
+      "sha256": "a1f5945303e8a8ca18f06c8458c835d2dd69f56759eb4263b2c5047d55828dea",
+      "embedded_media_count": 0
+    }
+  },
+  "references": 42,
+  "main_figures": 5,
+  "main_tables": 3,
+  "figure_pdf_checks": {
+    "JBI_Figure1.pdf": {
+      "bytes": 5397,
+      "pages": 1,
+      "raster_image_objects": 0,
+      "sha256": "a2cd27dcc68c4673eddeb1257558eced50fce07793d5e318b9f8981268df50da"
+    },
+    "JBI_Figure2.pdf": {
+      "bytes": 4897,
+      "pages": 1,
+      "raster_image_objects": 0,
+      "sha256": "f9179fd70b36ed57308c168886c3942b73879c53e96608c7a63103a48b45450b"
+    },
+    "JBI_Figure3.pdf": {
+      "bytes": 6504,
+      "pages": 1,
+      "raster_image_objects": 0,
+      "sha256": "728846ba621c3d5e6e9cc9165e3e530a806ee8cc85e82eada532dbd981773c0b"
+    },
+    "JBI_Figure4.pdf": {
+      "bytes": 4228,
+      "pages": 1,
+      "raster_image_objects": 0,
+      "sha256": "53887089e44012dea21a62c8621c724b3d6dea806f25cbd7f6628f2df28f55fe"
+    },
+    "JBI_Figure5.pdf": {
+      "bytes": 5183,
+      "pages": 1,
+      "raster_image_objects": 0,
+      "sha256": "82f5a84f5396cefb7fac5643cdf91d4d830647e4f127f37c21b7940f7ae53aac"
+    }
+  },
+  "alternate_tiff_checks": {
+    "JBI_Figure1.tiff": {
+      "bytes": 667420,
+      "width_px": 4417,
+      "height_px": 2167,
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "mode": "RGB",
+      "sha256": "3770913589f7c8d6712d30369a952c783cbf78e19de37d7bb97ca5c306fc9edd"
+    },
+    "JBI_Figure2.tiff": {
+      "bytes": 544054,
+      "width_px": 4500,
+      "height_px": 2084,
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "mode": "RGB",
+      "sha256": "94cac91d60c971245348d122e927496bfb579fef53855a1ebe715a2dc8731406"
+    },
+    "JBI_Figure3.tiff": {
+      "bytes": 736052,
+      "width_px": 4334,
+      "height_px": 2959,
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "mode": "RGB",
+      "sha256": "164be07765248e85d7b28799008c1c98ba6a3a4d9828089e19a5f7ef11decf2c"
+    },
+    "JBI_Figure4.tiff": {
+      "bytes": 467242,
+      "width_px": 4417,
+      "height_px": 1959,
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "mode": "RGB",
+      "sha256": "729ab77fbcc8c6e6ce0282e8c34691fc5835e0ffad1edba98e8905a37f147f43"
+    },
+    "JBI_Figure5.tiff": {
+      "bytes": 626956,
+      "width_px": 4709,
+      "height_px": 2250,
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "mode": "RGB",
+      "sha256": "98f7cb7045dc1f67be3806c2122a40a2312ecbb8cffce482c960b9fe2b3954cb"
+    }
+  },
+  "payload_manifest_files": 23,
+  "local_path_scan": "PASS",
+  "placeholder_scan": "PASS",
+  "macro_tracked_change_comment_scan": "PASS",
+  "restricted_data_included": false,
+  "git_push_or_external_submission": false
+}

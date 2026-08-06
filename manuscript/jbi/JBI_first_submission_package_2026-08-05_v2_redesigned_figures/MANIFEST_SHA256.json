@@ -1,0 +1,120 @@
+{
+  "scope": "all package payload files except validation/manifest files",
+  "files": [
+    {
+      "path": "ADMINISTRATIVE_BACKUP/JBI_author_action_items.md",
+      "bytes": 1257,
+      "sha256": "f0e5ca46eda5d171f8176e0e287ad4e11fd868a5cd83902890bec5eb0c184b12"
+    },
+    {
+      "path": "ADMINISTRATIVE_BACKUP/JBI_submission_metadata.md",
+      "bytes": 2114,
+      "sha256": "bafc57fb1e613422a8546f5e68fccc167639d80136543f458e1adb1f6e2bb980"
+    },
+    {
+      "path": "ADMINISTRATIVE_BACKUP/JBI_title_page.docx",
+      "bytes": 39349,
+      "sha256": "8a0462761e3091acb1c839963cef26e62d462affa15e5a222021378d887382ef"
+    },
+    {
+      "path": "ALTERNATE_FIGURE_FORMATS/JBI_Figure1.tiff",
+      "bytes": 667420,
+      "sha256": "3770913589f7c8d6712d30369a952c783cbf78e19de37d7bb97ca5c306fc9edd"
+    },
+    {
+      "path": "ALTERNATE_FIGURE_FORMATS/JBI_Figure2.tiff",
+      "bytes": 544054,
+      "sha256": "94cac91d60c971245348d122e927496bfb579fef53855a1ebe715a2dc8731406"
+    },
+    {
+      "path": "ALTERNATE_FIGURE_FORMATS/JBI_Figure3.tiff",
+      "bytes": 736052,
+      "sha256": "164be07765248e85d7b28799008c1c98ba6a3a4d9828089e19a5f7ef11decf2c"
+    },
+    {
+      "path": "ALTERNATE_FIGURE_FORMATS/JBI_Figure4.tiff",
+      "bytes": 467242,
+      "sha256": "729ab77fbcc8c6e6ce0282e8c34691fc5835e0ffad1edba98e8905a37f147f43"
+    },
+    {
+      "path": "ALTERNATE_FIGURE_FORMATS/JBI_Figure5.tiff",
+      "bytes": 626956,
+      "sha256": "98f7cb7045dc1f67be3806c2122a40a2312ecbb8cffce482c960b9fe2b3954cb"
+    },
+    {
+      "path": "OPTIONAL_FILES/JBI_RECORD_STROBE_checklist.docx",
+      "bytes": 40636,
+      "sha256": "374bd7390eceda8529d2af039a245bb9be7c78eec684bd958bdf5621f9bac46e"
+    },
+    {
+      "path": "QC_RECORDS/JBI_BUILD_VALIDATION.json",
+      "bytes": 1826,
+      "sha256": "6cbb9080850fe2557599434bb7306b086da16af3a78f30cf4e12f1231104f277"
+    },
+    {
+      "path": "QC_RECORDS/JBI_BUILD_VALIDATION.md",
+      "bytes": 397,
+      "sha256": "71865b0175ae97b5f0da3b398e4c60000b6f883c4ebd869694a93089c80db9e3"
+    },
+    {
+      "path": "QC_RECORDS/JBI_DOCX_PAGE_QC.md",
+      "bytes": 753,
+      "sha256": "7edb49975a2fe04255adf709167f8795a27f3ac0d445a11507bfe0bbeefe46d5"
+    },
+    {
+      "path": "QC_RECORDS/JBI_FIGURE_REDESIGN_QC.md",
+      "bytes": 1176,
+      "sha256": "ac5f6859ff9f94a7ee060b912a8209870137e16f20a14a46ec9b8eb4877dbb20"
+    },
+    {
+      "path": "README_JBI_UPLOAD.md",
+      "bytes": 2365,
+      "sha256": "e638768b156d0105248cb3d1e5f2407c3074ea56545dc407caaaeb37d61de372"
+    },
+    {
+      "path": "UPLOAD_FILES/JBI_cover_letter.docx",
+      "bytes": 39005,
+      "sha256": "0f059c95e41a55b3f952ecba7668e008fd9d26ec18b1ee8ee23aced43ba372ec"
+    },
+    {
+      "path": "UPLOAD_FILES/JBI_Figure1.pdf",
+      "bytes": 5397,
+      "sha256": "a2cd27dcc68c4673eddeb1257558eced50fce07793d5e318b9f8981268df50da"
+    },
+    {
+      "path": "UPLOAD_FILES/JBI_Figure2.pdf",
+      "bytes": 4897,
+      "sha256": "f9179fd70b36ed57308c168886c3942b73879c53e96608c7a63103a48b45450b"
+    },
+    {
+      "path": "UPLOAD_FILES/JBI_Figure3.pdf",
+      "bytes": 6504,
+      "sha256": "728846ba621c3d5e6e9cc9165e3e530a806ee8cc85e82eada532dbd981773c0b"
+    },
+    {
+      "path": "UPLOAD_FILES/JBI_Figure4.pdf",
+      "bytes": 4228,
+      "sha256": "53887089e44012dea21a62c8621c724b3d6dea806f25cbd7f6628f2df28f55fe"
+    },
+    {
+      "path": "UPLOAD_FILES/JBI_Figure5.pdf",
+      "bytes": 5183,
+      "sha256": "82f5a84f5396cefb7fac5643cdf91d4d830647e4f127f37c21b7940f7ae53aac"
+    },
+    {
+      "path": "UPLOAD_FILES/JBI_highlights.docx",
+      "bytes": 37084,
+      "sha256": "ac6e3e3ace981126d43c553d8ae2ee8b9822ea5b45726676a5809f48da12fb89"
+    },
+    {
+      "path": "UPLOAD_FILES/JBI_main_manuscript.docx",
+      "bytes": 58354,
+      "sha256": "867f05e7d1d0f20ed212573890b285ab420fa753f7dc1cba3897405d0cf844da"
+    },
+    {
+      "path": "UPLOAD_FILES/JBI_supporting_information.docx",
+      "bytes": 50915,
+      "sha256": "a1f5945303e8a8ca18f06c8458c835d2dd69f56759eb4263b2c5047d55828dea"
+    }
+  ]
+}

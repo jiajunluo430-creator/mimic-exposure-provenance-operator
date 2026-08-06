@@ -26,5 +26,5 @@ outputs/patient_level/
 .RData
 
 # Internal Word/PDF page-rendering artifacts; retain Markdown QC/audit records.
-manuscript/jbi/rendered_qc/**/*.pdf
-manuscript/jbi/rendered_qc/**/*.png
+manuscript/jbi/rendered_qc*/**/*.pdf
+manuscript/jbi/rendered_qc*/**/*.png
