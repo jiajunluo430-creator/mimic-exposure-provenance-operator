@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "decision_date": "2026-08-05",
+  "decision": "GO_JBI",
+  "selected_target": {
+    "journal": "Journal of Biomedical Informatics",
+    "article_type": "Research Paper"
+  },
+  "backup": {
+    "journal": "International Journal of Medical Informatics",
+    "article_type": "Original Work"
+  },
+  "gates": {
+    "installable_software_schema_cli": "PASS",
+    "native_mimic_parity": "PASS_19_OF_19",
+    "prespecified_ablation": "PASS",
+    "executable_comparator": "PASS",
+    "beyond_native_mimic_execution": "PASS_WITH_DISCLOSED_BOUNDS",
+    "code_tests_documentation": "PASS",
+    "method_centered_manuscript_required": true
+  },
+  "claim_boundaries": [
+    "FHIR evaluation used matched public demonstrations, not full releases",
+    "OMOP evaluation was capability and semantic-loss testing, not clinical validation",
+    "eICU was an interface-semantic comparison, not external validation",
+    "A1/A2 were measurement stress tests, not drug-effect analyses",
+    "the 40-study input was single-coded"
+  ],
+  "external_actions_authorized": false
+}
