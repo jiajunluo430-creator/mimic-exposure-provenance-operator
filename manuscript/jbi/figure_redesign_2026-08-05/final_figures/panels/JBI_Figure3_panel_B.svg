@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="510" height="390" viewBox="0 0 510 390" role="img" aria-label="JBI Figure3 panel B">
+  <g id="panel_B">
+    <g id="panel_B_axis">
+      <line id="panel_B_header_rule_003" x1="14" y1="58" x2="496" y2="58" stroke="#D9E0E5" stroke-width="0.8" stroke-linecap="round" />
+      <line id="panel_B_grid_0_004" x1="228" y1="82" x2="228" y2="304" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_25_006" x1="288" y1="82" x2="288" y2="304" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_50_008" x1="348" y1="82" x2="348" y2="304" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_75_010" x1="408" y1="82" x2="408" y2="304" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_100_012" x1="468" y1="82" x2="468" y2="304" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_x_axis_014" x1="228" y1="304" x2="468" y2="304" stroke="#1B2733" stroke-width="1" stroke-linecap="round" />
+    </g>
+    <g id="panel_B_data">
+      <line id="panel_B_metric_0_stem_016" x1="228" y1="104" x2="468" y2="104" stroke="#3F78A8" stroke-width="1.6" stroke-linecap="round" />
+      <circle id="panel_B_metric_0_point_017" cx="468" cy="104" r="5.3" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_metric_1_stem_021" x1="228" y1="159" x2="468" y2="159" stroke="#3F78A8" stroke-width="1.6" stroke-linecap="round" />
+      <circle id="panel_B_metric_1_point_022" cx="468" cy="159" r="5.3" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_metric_2_stem_026" x1="228" y1="214" x2="466.936" y2="214" stroke="#3F78A8" stroke-width="1.6" stroke-linecap="round" />
+      <circle id="panel_B_metric_2_point_027" cx="466.936" cy="214" r="5.3" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_metric_3_stem_031" x1="228" y1="269" x2="428.352" y2="269" stroke="#249A8D" stroke-width="1.6" stroke-linecap="round" />
+      <circle id="panel_B_metric_3_point_032" cx="428.352" cy="269" r="5.3" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+    </g>
+    <g id="panel_B_labels">
+      <text id="panel_B_panel_title_002" x="42" y="24" fill="#1B2733" font-family="Arial" font-size="14.5px" font-weight="700" text-anchor="start">Matched-demo FHIR concordance is high but incomplete</text>
+      <text id="panel_B_tick_0_005" x="228" y="326" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">0%</text>
+      <text id="panel_B_tick_25_007" x="288" y="326" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">25%</text>
+      <text id="panel_B_tick_50_009" x="348" y="326" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">50%</text>
+      <text id="panel_B_tick_75_011" x="408" y="326" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">75%</text>
+      <text id="panel_B_tick_100_013" x="468" y="326" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">100%</text>
+      <text id="panel_B_metric_0_label_015" x="18" y="108" fill="#17212B" font-family="Arial" font-size="9.3px" font-weight="400" text-anchor="start">Dispense ID × class</text>
+      <text id="panel_B_metric_1_label_020" x="18" y="163" fill="#17212B" font-family="Arial" font-size="9.3px" font-weight="400" text-anchor="start">Request time</text>
+      <text id="panel_B_metric_2_label_025" x="18" y="218" fill="#17212B" font-family="Arial" font-size="9.3px" font-weight="400" text-anchor="start">First administration time</text>
+      <text id="panel_B_metric_3_label_030" x="18" y="273" fill="#17212B" font-family="Arial" font-size="9.3px" font-weight="400" text-anchor="start">Administration composite</text>
+    </g>
+    <g id="panel_B_legend" />
+    <g id="panel_B_annotations">
+      <text id="panel_B_panel_tag_001" x="14" y="24" fill="#1B2733" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">B</text>
+      <text id="panel_B_metric_0_pct_018" x="461" y="94" fill="#3F78A8" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="end">100.0%</text>
+      <text id="panel_B_metric_0_detail_019" x="228" y="126" fill="#607180" font-family="Arial" font-size="8.2px" font-weight="400" text-anchor="start">3,870 / 3,870 exact</text>
+      <text id="panel_B_metric_1_pct_023" x="461" y="149" fill="#3F78A8" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="end">100.0%</text>
+      <text id="panel_B_metric_1_detail_024" x="228" y="181" fill="#607180" font-family="Arial" font-size="8.2px" font-weight="400" text-anchor="start">2,249 / 2,249 exact</text>
+      <text id="panel_B_metric_2_pct_028" x="459.936" y="204" fill="#3F78A8" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="end">99.6%</text>
+      <text id="panel_B_metric_2_detail_029" x="228" y="236" fill="#607180" font-family="Arial" font-size="8.2px" font-weight="400" text-anchor="start">1,347 / 1,353 exact</text>
+      <text id="panel_B_metric_3_pct_033" x="421.352" y="259" fill="#249A8D" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="end">83.5%</text>
+      <text id="panel_B_metric_3_detail_034" x="228" y="291" fill="#607180" font-family="Arial" font-size="8.2px" font-weight="400" text-anchor="start">5,220 / 6,253 native-linkable</text>
+      <line id="panel_B_fhir_identifier_note_rule_035" x1="18" y1="350" x2="42" y2="350" stroke="#E58A28" stroke-width="1.8" stroke-linecap="round" />
+      <text id="panel_B_fhir_identifier_note_text_036" x="50" y="354" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">Native eMAR identifiers were not retained in FHIR administration resources</text>
+      <text id="panel_B_fhir_boundary_037" x="18" y="382" fill="#607180" font-family="Arial" font-size="8.6px" font-weight="400" text-anchor="start">Matched public demonstrations support functional evaluation, not full-release validation.</text>
+    </g>
+  </g>
+</svg>

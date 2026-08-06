@@ -1,0 +1,37 @@
+﻿[
+    {
+        "File":  "JBI_Figure1.svg",
+        "TextFrames":  66,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure2.svg",
+        "TextFrames":  40,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure3.svg",
+        "TextFrames":  55,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure4.svg",
+        "TextFrames":  54,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure5.svg",
+        "TextFrames":  43,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    }
+]

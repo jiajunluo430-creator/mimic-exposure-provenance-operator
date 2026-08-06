@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="530" height="500" viewBox="0 0 530 500" role="img" aria-label="JBI Figure2 panel B">
+  <g id="panel_B">
+    <g id="panel_B_axis">
+      <line id="panel_B_header_rule_004" x1="14" y1="58" x2="516" y2="58" stroke="#D9E0E5" stroke-width="0.8" stroke-linecap="round" />
+      <line id="panel_B_grid_0_005" x1="210" y1="98" x2="210" y2="360" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_25_007" x1="277.5" y1="98" x2="277.5" y2="360" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_50_009" x1="345" y1="98" x2="345" y2="360" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_75_011" x1="412.5" y1="98" x2="412.5" y2="360" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_100_013" x1="480" y1="98" x2="480" y2="360" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_x_axis_015" x1="210" y1="360" x2="480" y2="360" stroke="#1B2733" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_row_rule_0_017" x1="22" y1="151" x2="480" y2="151" stroke="#D9E0E5" stroke-width="0.6" stroke-linecap="round" />
+      <line id="panel_B_row_rule_1_019" x1="22" y1="221" x2="480" y2="221" stroke="#D9E0E5" stroke-width="0.6" stroke-linecap="round" />
+      <line id="panel_B_row_rule_2_021" x1="22" y1="291" x2="480" y2="291" stroke="#D9E0E5" stroke-width="0.6" stroke-linecap="round" />
+    </g>
+    <g id="panel_B_data">
+      <line id="panel_B_A1_segment_0_023" x1="382.684" y1="115" x2="374.843" y2="185" stroke="#3F78A8" stroke-width="1.4" stroke-linecap="round" />
+      <line id="panel_B_A1_segment_1_024" x1="374.843" y1="185" x2="379.643" y2="255" stroke="#3F78A8" stroke-width="1.4" stroke-linecap="round" />
+      <line id="panel_B_A1_segment_2_025" x1="379.643" y1="255" x2="283.847" y2="325" stroke="#3F78A8" stroke-width="1.4" stroke-linecap="round" />
+      <circle id="panel_B_A1_point_0_026" cx="382.684" cy="115" r="4.8" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A1_point_1_028" cx="374.843" cy="185" r="4.8" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A1_point_2_030" cx="379.643" cy="255" r="4.8" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A1_point_3_032" cx="283.847" cy="325" r="4.8" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_A2_segment_0_035" x1="311.838" y1="125" x2="293.505" y2="195" stroke="#249A8D" stroke-width="1.4" stroke-linecap="round" />
+      <line id="panel_B_A2_segment_1_036" x1="293.505" y1="195" x2="293.601" y2="265" stroke="#249A8D" stroke-width="1.4" stroke-linecap="round" />
+      <line id="panel_B_A2_segment_2_037" x1="293.601" y1="265" x2="259.719" y2="335" stroke="#249A8D" stroke-width="1.4" stroke-linecap="round" />
+      <circle id="panel_B_A2_point_0_038" cx="311.838" cy="125" r="4.8" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A2_point_1_040" cx="293.505" cy="195" r="4.8" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A2_point_2_042" cx="293.601" cy="265" r="4.8" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A2_point_3_044" cx="259.719" cy="335" r="4.8" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+    </g>
+    <g id="panel_B_labels">
+      <text id="panel_B_panel_title_002" x="42" y="24" fill="#1B2733" font-family="Arial" font-size="14.5px" font-weight="700" text-anchor="start">Ablation localizes information added by the operator</text>
+      <text id="panel_B_panel_subtitle_003" x="42" y="43" fill="#607180" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">Exposed proportion within the prespecified anchor cohorts</text>
+      <text id="panel_B_tick_0_006" x="210" y="383" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="middle">0%</text>
+      <text id="panel_B_tick_25_008" x="277.5" y="383" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="middle">25%</text>
+      <text id="panel_B_tick_50_010" x="345" y="383" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="middle">50%</text>
+      <text id="panel_B_tick_75_012" x="412.5" y="383" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="middle">75%</text>
+      <text id="panel_B_tick_100_014" x="480" y="383" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="middle">100%</text>
+      <text id="panel_B_operator_0_016" x="22" y="124" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">table only</text>
+      <text id="panel_B_operator_1_018" x="22" y="194" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">source + class + window</text>
+      <text id="panel_B_operator_2_020" x="22" y="264" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">collapsed event semantics</text>
+      <text id="panel_B_operator_3_022" x="22" y="334" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">full exact identity</text>
+    </g>
+    <g id="panel_B_legend">
+      <text id="panel_B_A1_direct_label_034" x="478" y="118" fill="#3F78A8" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="end">A1 (n=20,248)</text>
+      <text id="panel_B_A2_direct_label_046" x="478" y="128" fill="#249A8D" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="end">A2 (n=2,813)</text>
+    </g>
+    <g id="panel_B_annotations">
+      <text id="panel_B_panel_tag_001" x="14" y="24" fill="#1B2733" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">B</text>
+      <text id="panel_B_A1_pct_0_027" x="389.684" y="115" fill="#3F78A8" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">64.0%</text>
+      <text id="panel_B_A1_pct_1_029" x="381.843" y="185" fill="#3F78A8" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">61.1%</text>
+      <text id="panel_B_A1_pct_2_031" x="386.643" y="255" fill="#3F78A8" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">62.8%</text>
+      <text id="panel_B_A1_pct_3_033" x="290.847" y="325" fill="#3F78A8" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">27.4%</text>
+      <text id="panel_B_A2_pct_0_039" x="318.838" y="134" fill="#249A8D" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">37.7%</text>
+      <text id="panel_B_A2_pct_1_041" x="300.505" y="204" fill="#249A8D" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">30.9%</text>
+      <text id="panel_B_A2_pct_2_043" x="300.601" y="274" fill="#249A8D" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">31.0%</text>
+      <text id="panel_B_A2_pct_3_045" x="266.719" y="344" fill="#249A8D" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">18.4%</text>
+      <line id="panel_B_route_note_rule_047" x1="18" y1="420" x2="42" y2="420" stroke="#6D7881" stroke-width="1.8" stroke-linecap="round" />
+      <text id="panel_B_route_note_text_048" x="50" y="424" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">Route-required A1 administration: 20,248 / 20,248 units were unmeasurable</text>
+      <text id="panel_B_route_detail_049" x="50" y="448" fill="#607180" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="start">Required eMAR route was absent; the fail-closed operator did not relabel units as unexposed.</text>
+      <text id="panel_B_ablation_boundary_050" x="265" y="484" fill="#607180" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="middle">Ablations remove prespecified information; they are not replacement exposure definitions.</text>
+    </g>
+  </g>
+</svg>

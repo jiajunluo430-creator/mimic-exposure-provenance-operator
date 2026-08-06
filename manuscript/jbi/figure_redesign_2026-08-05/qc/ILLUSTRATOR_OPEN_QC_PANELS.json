@@ -1,0 +1,79 @@
+﻿[
+    {
+        "File":  "JBI_Figure1_panel_A.svg",
+        "TextFrames":  34,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure1_panel_B.svg",
+        "TextFrames":  32,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure2_panel_A.svg",
+        "TextFrames":  15,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure2_panel_B.svg",
+        "TextFrames":  25,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure3_panel_A.svg",
+        "TextFrames":  17,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure3_panel_B.svg",
+        "TextFrames":  21,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure3_panel_C.svg",
+        "TextFrames":  17,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure4_panel_A.svg",
+        "TextFrames":  20,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure4_panel_B.svg",
+        "TextFrames":  34,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure5_panel_A.svg",
+        "TextFrames":  18,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "JBI_Figure5_panel_B.svg",
+        "TextFrames":  25,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    }
+]

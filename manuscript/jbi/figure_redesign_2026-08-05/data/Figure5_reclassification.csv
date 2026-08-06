@@ -1,0 +1,3 @@
+anchor,comparison,both_positive_n,left_only_n,right_only_n,both_negative_n,analysis_units_n,overall_agreement,positive_agreement,negative_agreement,positive_jaccard,event_time_displacement
+A1,exact_identity_vs_same_class,5538,0,6824,7886,20248,0.6629790596602133,0.6187709497206704,0.6979996459550363,0.4479857628215499,NOT_EVALUABLE_AGGREGATE_NOT_RETAINED
+A2,exact_identity_vs_same_class,518,0,352,1943,2813,0.8748666903661572,0.7463976945244957,0.9169419537517697,0.5954022988505747,NOT_EVALUABLE_AGGREGATE_NOT_RETAINED

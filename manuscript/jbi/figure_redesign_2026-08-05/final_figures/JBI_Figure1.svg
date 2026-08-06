@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1060" height="520" viewBox="0 0 1060 520" role="img" aria-label="JBI Figure1">
+  <g id="panel_A">
+    <g id="panel_A_axis">
+      <line id="panel_A_header_rule_003" x1="14" y1="58" x2="506" y2="58" stroke="#D9E0E5" stroke-width="0.8" stroke-linecap="round" />
+      <line id="panel_A_lane_0_rule_011" x1="28" y1="161" x2="322" y2="161" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_source_0_adapter_shaft_012" x1="205" y1="122" x2="316" y2="122" stroke="#3F78A8" stroke-width="1.5" stroke-linecap="round" />
+      <polygon id="panel_A_source_0_adapter_head_013" points="316,122 307,117.5 307,126.5" fill="#3F78A8" stroke="#3F78A8" stroke-width="1" />
+      <line id="panel_A_source_0_join_015" x1="316" y1="122" x2="338" y2="122" stroke="#6D7881" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_A_lane_1_rule_020" x1="28" y1="229" x2="322" y2="229" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_source_1_adapter_shaft_021" x1="205" y1="190" x2="316" y2="190" stroke="#249A8D" stroke-width="1.5" stroke-linecap="round" />
+      <polygon id="panel_A_source_1_adapter_head_022" points="316,190 307,185.5 307,194.5" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <line id="panel_A_source_1_join_024" x1="316" y1="190" x2="338" y2="190" stroke="#6D7881" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_A_lane_2_rule_029" x1="28" y1="297" x2="322" y2="297" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_source_2_adapter_shaft_030" x1="205" y1="258" x2="316" y2="258" stroke="#8066A8" stroke-width="1.5" stroke-linecap="round" />
+      <polygon id="panel_A_source_2_adapter_head_031" points="316,258 307,253.5 307,262.5" fill="#8066A8" stroke="#8066A8" stroke-width="1" />
+      <line id="panel_A_source_2_join_033" x1="316" y1="258" x2="338" y2="258" stroke="#6D7881" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_A_lane_3_rule_038" x1="28" y1="365" x2="322" y2="365" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_source_3_adapter_shaft_039" x1="205" y1="326" x2="316" y2="326" stroke="#E58A28" stroke-width="1.5" stroke-linecap="round" />
+      <polygon id="panel_A_source_3_adapter_head_040" points="316,326 307,321.5 307,330.5" fill="#E58A28" stroke="#E58A28" stroke-width="1" />
+      <line id="panel_A_source_3_join_042" x1="316" y1="326" x2="338" y2="326" stroke="#6D7881" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_A_canonical_spine_043" x1="338" y1="122" x2="338" y2="326" stroke="#6D7881" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_A_spine_to_canonical_shaft_044" x1="338" y1="224" x2="360" y2="224" stroke="#28557D" stroke-width="1.6" stroke-linecap="round" />
+      <polygon id="panel_A_spine_to_canonical_head_045" points="360,224 351,219.5 351,228.5" fill="#28557D" stroke="#28557D" stroke-width="1" />
+      <rect id="panel_A_canonical_table_046" x="360" y="96" width="144" height="282" fill="#FFFFFF" stroke="#28557D" stroke-width="1.2" />
+      <line id="panel_A_canonical_row_0_049" x1="360" y1="143" x2="504" y2="143" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_canonical_row_1_052" x1="360" y1="190" x2="504" y2="190" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_canonical_row_2_055" x1="360" y1="237" x2="504" y2="237" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_canonical_row_3_058" x1="360" y1="284" x2="504" y2="284" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_canonical_row_4_061" x1="360" y1="331" x2="504" y2="331" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+    </g>
+    <g id="panel_A_data">
+      <circle id="panel_A_source_0_marker_007" cx="34" cy="122" r="4.8" fill="#3F78A8" stroke="#3F78A8" stroke-width="1" />
+      <circle id="panel_A_source_1_marker_016" cx="34" cy="190" r="4.8" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_source_2_marker_025" cx="34" cy="258" r="4.8" fill="#8066A8" stroke="#8066A8" stroke-width="1" />
+      <circle id="panel_A_source_3_marker_034" cx="34" cy="326" r="4.8" fill="#E58A28" stroke="#E58A28" stroke-width="1" />
+      <rect id="panel_A_canonical_header_047" x="360" y="96" width="144" height="47" fill="#EAF2F7" stroke="#28557D" stroke-width="1" />
+    </g>
+    <g id="panel_A_labels">
+      <text id="panel_A_panel_title_002" x="42" y="24" fill="#1B2733" font-family="Arial" font-size="14.5px" font-weight="700" text-anchor="start">Adapters preserve source role before normalization</text>
+      <text id="panel_A_source_heading_004" x="28" y="82" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="700" text-anchor="start">NATIVE REPRESENTATION</text>
+      <text id="panel_A_adapter_heading_005" x="248" y="82" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="700" text-anchor="middle">ADAPTER</text>
+      <text id="panel_A_canonical_heading_006" x="428" y="82" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="700" text-anchor="middle">CANONICAL EVENT</text>
+      <text id="panel_A_source_0_name_008" x="47" y="118" fill="#1B2733" font-family="Arial" font-size="11.2px" font-weight="700" text-anchor="start">Native EHR</text>
+      <text id="panel_A_source_0_line1_009" x="47" y="136" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">POE / pharmacy / eMAR</text>
+      <text id="panel_A_source_0_line2_010" x="47" y="151" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">request · dispense · administration</text>
+      <text id="panel_A_source_0_adapter_label_014" x="260" y="114" fill="#3F78A8" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="middle">Native</text>
+      <text id="panel_A_source_1_name_017" x="47" y="186" fill="#1B2733" font-family="Arial" font-size="11.2px" font-weight="700" text-anchor="start">FHIR R4</text>
+      <text id="panel_A_source_1_line1_018" x="47" y="204" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">MedicationRequest / Dispense</text>
+      <text id="panel_A_source_1_line2_019" x="47" y="219" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">MedicationAdministration</text>
+      <text id="panel_A_source_1_adapter_label_023" x="260" y="182" fill="#249A8D" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="middle">FHIR</text>
+      <text id="panel_A_source_2_name_026" x="47" y="254" fill="#1B2733" font-family="Arial" font-size="11.2px" font-weight="700" text-anchor="start">OMOP CDM</text>
+      <text id="panel_A_source_2_line1_027" x="47" y="272" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">DRUG_EXPOSURE</text>
+      <text id="panel_A_source_2_line2_028" x="47" y="287" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">type and source values</text>
+      <text id="panel_A_source_2_adapter_label_032" x="260" y="250" fill="#8066A8" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="middle">OMOP</text>
+      <text id="panel_A_source_3_name_035" x="47" y="322" fill="#1B2733" font-family="Arial" font-size="11.2px" font-weight="700" text-anchor="start">eICU</text>
+      <text id="panel_A_source_3_line1_036" x="47" y="340" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">medication / infusionDrug</text>
+      <text id="panel_A_source_3_line2_037" x="47" y="355" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">treatment documentation</text>
+      <text id="panel_A_source_3_adapter_label_041" x="260" y="318" fill="#E58A28" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="middle">eICU</text>
+      <text id="panel_A_canonical_title_048" x="370" y="125" fill="#17212B" font-family="Arial" font-size="10px" font-weight="700" text-anchor="start">Canonical medication event</text>
+      <text id="panel_A_canonical_0_label_050" x="369" y="160" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="700" text-anchor="start">clinical role</text>
+      <text id="panel_A_canonical_0_detail_051" x="369" y="177" fill="#607180" font-family="Arial" font-size="7.7px" font-weight="400" text-anchor="start">request / dispense / admin</text>
+      <text id="panel_A_canonical_1_label_053" x="369" y="207" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="700" text-anchor="start">native identity</text>
+      <text id="panel_A_canonical_1_detail_054" x="369" y="224" fill="#607180" font-family="Arial" font-size="7.7px" font-weight="400" text-anchor="start">retained, not inferred</text>
+      <text id="panel_A_canonical_2_label_056" x="369" y="254" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="700" text-anchor="start">event time</text>
+      <text id="panel_A_canonical_2_detail_057" x="369" y="271" fill="#607180" font-family="Arial" font-size="7.7px" font-weight="400" text-anchor="start">source anchored</text>
+      <text id="panel_A_canonical_3_label_059" x="369" y="301" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="700" text-anchor="start">literal state</text>
+      <text id="panel_A_canonical_3_detail_060" x="369" y="318" fill="#607180" font-family="Arial" font-size="7.7px" font-weight="400" text-anchor="start">preserved</text>
+      <text id="panel_A_canonical_4_label_062" x="369" y="348" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="700" text-anchor="start">route / dose</text>
+      <text id="panel_A_canonical_4_detail_063" x="369" y="365" fill="#607180" font-family="Arial" font-size="7.7px" font-weight="400" text-anchor="start">required when construct-bound</text>
+    </g>
+    <g id="panel_A_legend" />
+    <g id="panel_A_annotations">
+      <text id="panel_A_panel_tag_001" x="14" y="24" fill="#1B2733" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">A</text>
+      <line id="panel_A_version_note_rule_064" x1="18" y1="454" x2="42" y2="454" stroke="#28557D" stroke-width="1.8" stroke-linecap="round" />
+      <text id="panel_A_version_note_text_065" x="50" y="458" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">Version-gated mappings retain source identity; public outputs remain aggregate-only</text>
+      <text id="panel_A_source_boundary_066" x="18" y="493" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="start">No source is treated as intrinsically superior; each represents a distinct clinical workflow layer.</text>
+    </g>
+  </g>
+  <g id="panel_B" transform="translate(540 0) scale(1)">
+    <g id="panel_B_axis">
+      <line id="panel_B_header_rule_003" x1="14" y1="58" x2="506" y2="58" stroke="#D9E0E5" stroke-width="0.8" stroke-linecap="round" />
+      <line id="panel_B_dimension_spine_005" x1="54" y1="116" x2="466" y2="116" stroke="#28557D" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_validation_spine_023" x1="60" y1="220" x2="460" y2="220" stroke="#A8B1B8" stroke-width="1.1" stroke-linecap="round" />
+      <line id="panel_B_gates_to_states_shaft_034" x1="260" y1="260" x2="260" y2="284" stroke="#6D7881" stroke-width="1.2" stroke-linecap="round" />
+      <polygon id="panel_B_gates_to_states_head_035" points="260,284 264.5,275 255.5,275" fill="#6D7881" stroke="#6D7881" stroke-width="1" />
+      <line id="panel_B_state_branch_036" x1="64" y1="304" x2="456" y2="304" stroke="#A8B1B8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_state_0_drop_037" x1="64" y1="304" x2="64" y2="318" stroke="#A8B1B8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_state_1_drop_040" x1="190" y1="304" x2="190" y2="318" stroke="#A8B1B8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_state_2_drop_043" x1="322" y1="304" x2="322" y2="318" stroke="#A8B1B8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_state_3_drop_046" x1="456" y1="304" x2="456" y2="318" stroke="#A8B1B8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_output_divider_050" x1="260" y1="400" x2="260" y2="482" stroke="#D9E0E5" stroke-width="1" stroke-linecap="round" />
+    </g>
+    <g id="panel_B_data">
+      <circle id="panel_B_dimension_S_006" cx="60" cy="116" r="7" fill="#FFFFFF" stroke="#3F78A8" stroke-width="2" />
+      <circle id="panel_B_dimension_I_009" cx="160" cy="116" r="7" fill="#FFFFFF" stroke="#249A8D" stroke-width="2" />
+      <circle id="panel_B_dimension_T_012" cx="260" cy="116" r="7" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_B_dimension_E_015" cx="360" cy="116" r="7" fill="#FFFFFF" stroke="#8066A8" stroke-width="2" />
+      <circle id="panel_B_dimension_M_018" cx="460" cy="116" r="7" fill="#FFFFFF" stroke="#6D7881" stroke-width="2" />
+      <circle id="panel_B_gate_0_024" cx="60" cy="220" r="4.2" fill="#28557D" stroke="#28557D" stroke-width="1.3" />
+      <circle id="panel_B_gate_1_026" cx="160" cy="220" r="4.2" fill="#28557D" stroke="#28557D" stroke-width="1.3" />
+      <circle id="panel_B_gate_2_028" cx="260" cy="220" r="4.2" fill="#28557D" stroke="#28557D" stroke-width="1.3" />
+      <circle id="panel_B_gate_3_030" cx="360" cy="220" r="4.2" fill="#28557D" stroke="#28557D" stroke-width="1.3" />
+      <circle id="panel_B_gate_4_032" cx="460" cy="220" r="4.2" fill="#FFFFFF" stroke="#28557D" stroke-width="1.3" />
+      <circle id="panel_B_state_0_marker_038" cx="64" cy="326" r="6" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_B_state_1_marker_041" cx="190" cy="326" r="6" fill="#3F78A8" stroke="#3F78A8" stroke-width="1" />
+      <circle id="panel_B_state_2_marker_044" cx="322" cy="326" r="6" fill="#E58A28" stroke="#E58A28" stroke-width="1" />
+      <circle id="panel_B_state_3_marker_047" cx="456" cy="326" r="6" fill="#6D7881" stroke="#6D7881" stroke-width="1" />
+    </g>
+    <g id="panel_B_labels">
+      <text id="panel_B_panel_title_002" x="42" y="24" fill="#1B2733" font-family="Arial" font-size="14.5px" font-weight="700" text-anchor="start">Five dimensions compile to explicit terminal states</text>
+      <text id="panel_B_operator_heading_004" x="24" y="84" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="700" text-anchor="start">OPERATOR</text>
+      <text id="panel_B_dimension_S_symbol_007" x="60" y="96" fill="#3F78A8" font-family="Arial" font-size="14px" font-weight="700" text-anchor="middle">S</text>
+      <text id="panel_B_dimension_S_label_008" x="60" y="143" fill="#1B2733" font-family="Arial" font-size="8.6px" font-weight="400" text-anchor="middle">source</text>
+      <text id="panel_B_dimension_I_symbol_010" x="160" y="96" fill="#249A8D" font-family="Arial" font-size="14px" font-weight="700" text-anchor="middle">I</text>
+      <text id="panel_B_dimension_I_label_011" x="160" y="143" fill="#1B2733" font-family="Arial" font-size="8.6px" font-weight="400" text-anchor="middle">identity</text>
+      <text id="panel_B_dimension_T_symbol_013" x="260" y="96" fill="#E58A28" font-family="Arial" font-size="14px" font-weight="700" text-anchor="middle">T</text>
+      <text id="panel_B_dimension_T_label_014" x="260" y="143" fill="#1B2733" font-family="Arial" font-size="8.6px" font-weight="400" text-anchor="middle">time</text>
+      <text id="panel_B_dimension_E_symbol_016" x="360" y="96" fill="#8066A8" font-family="Arial" font-size="14px" font-weight="700" text-anchor="middle">E</text>
+      <text id="panel_B_dimension_E_label_017" x="360" y="143" fill="#1B2733" font-family="Arial" font-size="8.6px" font-weight="400" text-anchor="middle">event semantics</text>
+      <text id="panel_B_dimension_M_symbol_019" x="460" y="96" fill="#6D7881" font-family="Arial" font-size="14px" font-weight="700" text-anchor="middle">M</text>
+      <text id="panel_B_dimension_M_label_020" x="460" y="143" fill="#1B2733" font-family="Arial" font-size="8.6px" font-weight="400" text-anchor="middle">metadata</text>
+      <text id="panel_B_validation_heading_022" x="24" y="194" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="700" text-anchor="start">VALIDATION CHAIN</text>
+      <text id="panel_B_gate_0_label_025" x="60" y="244" fill="#17212B" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="middle">syntax</text>
+      <text id="panel_B_gate_1_label_027" x="160" y="244" fill="#17212B" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="middle">adapter</text>
+      <text id="panel_B_gate_2_label_029" x="260" y="244" fill="#17212B" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="middle">measurable</text>
+      <text id="panel_B_gate_3_label_031" x="360" y="244" fill="#17212B" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="middle">executable</text>
+      <text id="panel_B_gate_4_label_033" x="460" y="244" fill="#17212B" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="middle">traceable</text>
+      <text id="panel_B_state_0_label_039" x="64" y="350" fill="#249A8D" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">exposed</text>
+      <text id="panel_B_state_1_label_042" x="190" y="350" fill="#3F78A8" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">unexposed</text>
+      <text id="panel_B_state_2_label_045" x="322" y="350" fill="#E58A28" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">unresolved</text>
+      <text id="panel_B_state_3_label_048" x="456" y="350" fill="#6D7881" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">unmeasurable</text>
+      <text id="panel_B_aggregate_title_051" x="28" y="414" fill="#3F78A8" font-family="Arial" font-size="9.1px" font-weight="700" text-anchor="start">AGGREGATE COMPARISON</text>
+      <text id="panel_B_aggregate_1_052" x="28" y="438" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="start">classification retention</text>
+      <text id="panel_B_aggregate_2_053" x="28" y="456" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="start">reclassification · timing · semantic loss</text>
+      <text id="panel_B_stress_title_054" x="282" y="414" fill="#E58A28" font-family="Arial" font-size="9.1px" font-weight="700" text-anchor="start">DOWNSTREAM STRESS TEST</text>
+      <text id="panel_B_stress_1_055" x="282" y="438" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="start">paired exposure cohorts</text>
+      <text id="panel_B_stress_2_056" x="282" y="456" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="start">effect-estimate drift · no causal drug claim</text>
+    </g>
+    <g id="panel_B_legend" />
+    <g id="panel_B_annotations">
+      <text id="panel_B_panel_tag_001" x="14" y="24" fill="#1B2733" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">B</text>
+      <text id="panel_B_operator_formula_021" x="260" y="166" fill="#607180" font-family="Arial" font-size="9px" font-weight="400" text-anchor="middle">O = (S, I, T, E, M)</text>
+      <text id="panel_B_fail_closed_note_049" x="260" y="374" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">Missing capability remains visible; it is never silently relabeled as unexposed.</text>
+      <text id="panel_B_deterministic_note_057" x="260" y="505" fill="#607180" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">C(u) is deterministic for each prespecified analysis unit.</text>
+    </g>
+  </g>
+</svg>

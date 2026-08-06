@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="510" height="390" viewBox="0 0 510 390" role="img" aria-label="JBI Figure3 panel C">
+  <g id="panel_C">
+    <g id="panel_C_axis">
+      <line id="panel_C_header_rule_003" x1="14" y1="58" x2="496" y2="58" stroke="#D9E0E5" stroke-width="0.8" stroke-linecap="round" />
+      <line id="panel_C_bar_0_axis_007" x1="36" y1="127" x2="466" y2="127" stroke="#1B2733" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_C_bar_1_axis_017" x1="36" y1="205" x2="466" y2="205" stroke="#1B2733" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_C_bar_2_axis_024" x1="36" y1="283" x2="466" y2="283" stroke="#1B2733" stroke-width="0.7" stroke-linecap="round" />
+    </g>
+    <g id="panel_C_data">
+      <rect id="panel_C_bar_0_unmeasurable_005" x="36" y="102" width="430" height="24" fill="#6D7881" stroke="#FFFFFF" stroke-width="0.8" />
+      <rect id="panel_C_bar_1_exposed_009" x="36" y="180" width="107.5" height="24" fill="#249A8D" stroke="#FFFFFF" stroke-width="0.8" />
+      <rect id="panel_C_bar_1_unexposed_011" x="143.5" y="180" width="107.5" height="24" fill="#3F78A8" stroke="#FFFFFF" stroke-width="0.8" />
+      <rect id="panel_C_bar_1_unresolved_013" x="251" y="180" width="107.5" height="24" fill="#E58A28" stroke="#FFFFFF" stroke-width="0.8" />
+      <rect id="panel_C_bar_1_unmeasurable_015" x="358.5" y="180" width="107.5" height="24" fill="#6D7881" stroke="#FFFFFF" stroke-width="0.8" />
+      <rect id="panel_C_bar_2_exposed_019" x="36" y="258" width="4.2361" height="24" fill="#249A8D" stroke="#FFFFFF" stroke-width="0.8" />
+      <rect id="panel_C_bar_2_unexposed_020" x="40.2361" y="258" width="140.812" height="24" fill="#3F78A8" stroke="#FFFFFF" stroke-width="0.8" />
+      <rect id="panel_C_bar_2_unmeasurable_022" x="181.048" y="258" width="284.952" height="24" fill="#6D7881" stroke="#FFFFFF" stroke-width="0.8" />
+    </g>
+    <g id="panel_C_labels">
+      <text id="panel_C_panel_title_002" x="42" y="24" fill="#1B2733" font-family="Arial" font-size="14.5px" font-weight="700" text-anchor="start">Fail-closed states make semantic loss observable</text>
+      <text id="panel_C_bar_0_label_004" x="36" y="90" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="700" text-anchor="start">OMOP demo: strict administration</text>
+      <text id="panel_C_bar_1_label_008" x="36" y="168" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="700" text-anchor="start">OMOP synthetic: extension present</text>
+      <text id="panel_C_bar_2_label_018" x="36" y="246" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="700" text-anchor="start">eICU full interface comparison</text>
+    </g>
+    <g id="panel_C_legend">
+      <rect id="panel_C_legend_exposed_025" x="28" y="335" width="10" height="10" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <text id="panel_C_legend_exposed_label_026" x="43" y="344" fill="#17212B" font-family="Arial" font-size="8.3px" font-weight="400" text-anchor="start">exposed</text>
+      <rect id="panel_C_legend_unexposed_027" x="147" y="335" width="10" height="10" fill="#3F78A8" stroke="#3F78A8" stroke-width="1" />
+      <text id="panel_C_legend_unexposed_label_028" x="162" y="344" fill="#17212B" font-family="Arial" font-size="8.3px" font-weight="400" text-anchor="start">unexposed</text>
+      <rect id="panel_C_legend_unresolved_029" x="266" y="335" width="10" height="10" fill="#E58A28" stroke="#E58A28" stroke-width="1" />
+      <text id="panel_C_legend_unresolved_label_030" x="281" y="344" fill="#17212B" font-family="Arial" font-size="8.3px" font-weight="400" text-anchor="start">unresolved</text>
+      <rect id="panel_C_legend_unmeasurable_031" x="385" y="335" width="10" height="10" fill="#6D7881" stroke="#6D7881" stroke-width="1" />
+      <text id="panel_C_legend_unmeasurable_label_032" x="400" y="344" fill="#17212B" font-family="Arial" font-size="8.3px" font-weight="400" text-anchor="start">unmeasurable</text>
+    </g>
+    <g id="panel_C_annotations">
+      <text id="panel_C_panel_tag_001" x="14" y="24" fill="#1B2733" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">C</text>
+      <text id="panel_C_bar_0_unmeasurable_pct_006" x="251" y="119" fill="#FFFFFF" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="middle">100.0%</text>
+      <text id="panel_C_bar_1_exposed_pct_010" x="89.75" y="197" fill="#FFFFFF" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="middle">25.0%</text>
+      <text id="panel_C_bar_1_unexposed_pct_012" x="197.25" y="197" fill="#FFFFFF" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="middle">25.0%</text>
+      <text id="panel_C_bar_1_unresolved_pct_014" x="304.75" y="197" fill="#FFFFFF" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="middle">25.0%</text>
+      <text id="panel_C_bar_1_unmeasurable_pct_016" x="412.25" y="197" fill="#FFFFFF" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="middle">25.0%</text>
+      <text id="panel_C_bar_2_unexposed_pct_021" x="110.642" y="275" fill="#FFFFFF" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="middle">32.7%</text>
+      <text id="panel_C_bar_2_unmeasurable_pct_023" x="323.524" y="275" fill="#FFFFFF" font-family="Arial" font-size="8.7px" font-weight="700" text-anchor="middle">66.3%</text>
+      <text id="panel_C_eicu_boundary_033" x="25" y="380" fill="#607180" font-family="Arial" font-size="8.6px" font-weight="400" text-anchor="start">eICU: 3 / 6 medication-class reconciliation gates passed; no native cross-source key.</text>
+    </g>
+  </g>
+</svg>

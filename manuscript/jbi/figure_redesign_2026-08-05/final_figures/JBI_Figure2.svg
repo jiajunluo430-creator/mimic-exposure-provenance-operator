@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1080" height="500" viewBox="0 0 1080 500" role="img" aria-label="JBI Figure2">
+  <g id="panel_A">
+    <g id="panel_A_axis">
+      <line id="panel_A_header_rule_004" x1="14" y1="58" x2="516" y2="58" stroke="#D9E0E5" stroke-width="0.8" stroke-linecap="round" />
+      <line id="panel_A_xgrid_1000_005" x1="78" y1="84" x2="78" y2="414" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_ygrid_1000_006" x1="78" y1="414" x2="473" y2="414" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_xgrid_10000_009" x1="257.545" y1="84" x2="257.545" y2="414" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_ygrid_10000_010" x1="78" y1="264" x2="473" y2="264" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_xgrid_100000_013" x1="437.091" y1="84" x2="437.091" y2="414" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_ygrid_100000_014" x1="78" y1="114" x2="473" y2="114" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_A_x_axis_017" x1="78" y1="414" x2="473" y2="414" stroke="#1B2733" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_A_y_axis_018" x1="78" y1="84" x2="78" y2="414" stroke="#1B2733" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_A_identity_019" x1="78" y1="414" x2="473" y2="84" stroke="#6D7881" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="5,4" />
+    </g>
+    <g id="panel_A_data">
+      <circle id="panel_A_orders_electrolyte_replacement_020" cx="447.208" cy="105.548" r="4.7" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_A_orders_insulin_021" cx="391.992" cy="151.678" r="4.7" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_A_orders_intra_abdominal_antibiotics_022" cx="381.656" cy="160.313" r="4.7" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_A_orders_prokinetic_023" cx="143.924" cy="358.925" r="4.7" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_A_orders_stress_ulcer_prophylaxis_024" cx="327.91" cy="205.214" r="4.7" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_A_orders_vte_prophylaxis_025" cx="303.953" cy="225.23" r="4.7" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_strict_administration_electrolyte_replacement_026" x="389.316" y="145.654" width="9" height="9" fill="#E58A28" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_strict_administration_insulin_027" x="358.683" y="171.246" width="9" height="9" fill="#E58A28" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_strict_administration_intra_abdominal_antibiotics_028" x="362.505" y="168.053" width="9" height="9" fill="#E58A28" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_strict_administration_prokinetic_029" x="121.68" y="369.248" width="9" height="9" fill="#E58A28" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_strict_administration_stress_ulcer_prophylaxis_030" x="301.978" y="218.619" width="9" height="9" fill="#E58A28" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_strict_administration_vte_prophylaxis_031" x="276.064" y="240.269" width="9" height="9" fill="#E58A28" stroke="#FFFFFF" stroke-width="1" />
+      <polygon id="panel_A_same_class_window_electrolyte_replacement_032" points="431.195,113.426 436.695,118.926 431.195,124.426 425.695,118.926" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <polygon id="panel_A_same_class_window_insulin_033" points="382.413,154.18 387.913,159.68 382.413,165.18 376.913,159.68" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <polygon id="panel_A_same_class_window_intra_abdominal_antibiotics_034" points="377.348,158.411 382.848,163.911 377.348,169.411 371.848,163.911" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <polygon id="panel_A_same_class_window_prokinetic_035" points="131.501,363.803 137.001,369.303 131.501,374.803 126.001,369.303" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <polygon id="panel_A_same_class_window_stress_ulcer_prophylaxis_036" points="317.237,208.631 322.737,214.131 317.237,219.631 311.737,214.131" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <polygon id="panel_A_same_class_window_vte_prophylaxis_037" points="289.546,231.766 295.046,237.266 289.546,242.766 284.046,237.266" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+    </g>
+    <g id="panel_A_labels">
+      <text id="panel_A_panel_title_002" x="42" y="24" fill="#1B2733" font-family="Arial" font-size="14.5px" font-weight="700" text-anchor="start">Native outputs reproduce the frozen six-class benchmark</text>
+      <text id="panel_A_panel_subtitle_003" x="42" y="43" fill="#607180" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">Expected counts versus medprov 0.1.0 output</text>
+      <text id="panel_A_xtick_1000_007" x="78" y="436" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="middle">10^3</text>
+      <text id="panel_A_ytick_1000_008" x="68" y="418" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="end">10^3</text>
+      <text id="panel_A_xtick_10000_011" x="257.545" y="436" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="middle">10^4</text>
+      <text id="panel_A_ytick_10000_012" x="68" y="268" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="end">10^4</text>
+      <text id="panel_A_xtick_100000_015" x="437.091" y="436" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="middle">10^5</text>
+      <text id="panel_A_ytick_100000_016" x="68" y="118" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="end">10^5</text>
+      <text id="panel_A_x_title_039" x="275.5" y="458" fill="#17212B" font-family="Arial" font-size="10.8px" font-weight="400" text-anchor="middle">Frozen expected count (log scale)</text>
+      <text id="panel_A_y_title_040" x="18" y="252" fill="#17212B" font-family="Arial" font-size="10.8px" font-weight="400" text-anchor="start">medprov count</text>
+    </g>
+    <g id="panel_A_legend">
+      <circle id="panel_A_legend_0_041" cx="92" cy="485" r="4.4" fill="#3F78A8" stroke="#3F78A8" stroke-width="1" />
+      <text id="panel_A_legend_0_label_042" x="102" y="489" fill="#17212B" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="start">orders</text>
+      <rect id="panel_A_legend_1_043" x="232.7" y="480.7" width="8.6" height="8.6" fill="#E58A28" stroke="#E58A28" stroke-width="1" />
+      <text id="panel_A_legend_1_label_044" x="247" y="489" fill="#17212B" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="start">strict administration</text>
+      <polygon id="panel_A_legend_2_045" points="382,480 387,485 382,490 377,485" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <text id="panel_A_legend_2_label_046" x="392" y="489" fill="#17212B" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="start">same class/window</text>
+    </g>
+    <g id="panel_A_annotations">
+      <text id="panel_A_panel_tag_001" x="14" y="24" fill="#1B2733" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">A</text>
+      <text id="panel_A_parity_note_038" x="466" y="96" fill="#249A8D" font-family="Arial" font-size="10.4px" font-weight="700" text-anchor="end">19 / 19 checks passed</text>
+    </g>
+  </g>
+  <g id="panel_B" transform="translate(550 0) scale(1)">
+    <g id="panel_B_axis">
+      <line id="panel_B_header_rule_004" x1="14" y1="58" x2="516" y2="58" stroke="#D9E0E5" stroke-width="0.8" stroke-linecap="round" />
+      <line id="panel_B_grid_0_005" x1="210" y1="98" x2="210" y2="360" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_25_007" x1="277.5" y1="98" x2="277.5" y2="360" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_50_009" x1="345" y1="98" x2="345" y2="360" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_75_011" x1="412.5" y1="98" x2="412.5" y2="360" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_grid_100_013" x1="480" y1="98" x2="480" y2="360" stroke="#D9E0E5" stroke-width="0.7" stroke-linecap="round" />
+      <line id="panel_B_x_axis_015" x1="210" y1="360" x2="480" y2="360" stroke="#1B2733" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_row_rule_0_017" x1="22" y1="151" x2="480" y2="151" stroke="#D9E0E5" stroke-width="0.6" stroke-linecap="round" />
+      <line id="panel_B_row_rule_1_019" x1="22" y1="221" x2="480" y2="221" stroke="#D9E0E5" stroke-width="0.6" stroke-linecap="round" />
+      <line id="panel_B_row_rule_2_021" x1="22" y1="291" x2="480" y2="291" stroke="#D9E0E5" stroke-width="0.6" stroke-linecap="round" />
+    </g>
+    <g id="panel_B_data">
+      <line id="panel_B_A1_segment_0_023" x1="382.684" y1="115" x2="374.843" y2="185" stroke="#3F78A8" stroke-width="1.4" stroke-linecap="round" />
+      <line id="panel_B_A1_segment_1_024" x1="374.843" y1="185" x2="379.643" y2="255" stroke="#3F78A8" stroke-width="1.4" stroke-linecap="round" />
+      <line id="panel_B_A1_segment_2_025" x1="379.643" y1="255" x2="283.847" y2="325" stroke="#3F78A8" stroke-width="1.4" stroke-linecap="round" />
+      <circle id="panel_B_A1_point_0_026" cx="382.684" cy="115" r="4.8" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A1_point_1_028" cx="374.843" cy="185" r="4.8" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A1_point_2_030" cx="379.643" cy="255" r="4.8" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A1_point_3_032" cx="283.847" cy="325" r="4.8" fill="#3F78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_A2_segment_0_035" x1="311.838" y1="125" x2="293.505" y2="195" stroke="#249A8D" stroke-width="1.4" stroke-linecap="round" />
+      <line id="panel_B_A2_segment_1_036" x1="293.505" y1="195" x2="293.601" y2="265" stroke="#249A8D" stroke-width="1.4" stroke-linecap="round" />
+      <line id="panel_B_A2_segment_2_037" x1="293.601" y1="265" x2="259.719" y2="335" stroke="#249A8D" stroke-width="1.4" stroke-linecap="round" />
+      <circle id="panel_B_A2_point_0_038" cx="311.838" cy="125" r="4.8" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A2_point_1_040" cx="293.505" cy="195" r="4.8" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A2_point_2_042" cx="293.601" cy="265" r="4.8" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+      <circle id="panel_B_A2_point_3_044" cx="259.719" cy="335" r="4.8" fill="#249A8D" stroke="#FFFFFF" stroke-width="1" />
+    </g>
+    <g id="panel_B_labels">
+      <text id="panel_B_panel_title_002" x="42" y="24" fill="#1B2733" font-family="Arial" font-size="14.5px" font-weight="700" text-anchor="start">Ablation localizes information added by the operator</text>
+      <text id="panel_B_panel_subtitle_003" x="42" y="43" fill="#607180" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">Exposed proportion within the prespecified anchor cohorts</text>
+      <text id="panel_B_tick_0_006" x="210" y="383" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="middle">0%</text>
+      <text id="panel_B_tick_25_008" x="277.5" y="383" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="middle">25%</text>
+      <text id="panel_B_tick_50_010" x="345" y="383" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="middle">50%</text>
+      <text id="panel_B_tick_75_012" x="412.5" y="383" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="middle">75%</text>
+      <text id="panel_B_tick_100_014" x="480" y="383" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="middle">100%</text>
+      <text id="panel_B_operator_0_016" x="22" y="124" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">table only</text>
+      <text id="panel_B_operator_1_018" x="22" y="194" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">source + class + window</text>
+      <text id="panel_B_operator_2_020" x="22" y="264" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">collapsed event semantics</text>
+      <text id="panel_B_operator_3_022" x="22" y="334" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">full exact identity</text>
+    </g>
+    <g id="panel_B_legend">
+      <text id="panel_B_A1_direct_label_034" x="478" y="118" fill="#3F78A8" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="end">A1 (n=20,248)</text>
+      <text id="panel_B_A2_direct_label_046" x="478" y="128" fill="#249A8D" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="end">A2 (n=2,813)</text>
+    </g>
+    <g id="panel_B_annotations">
+      <text id="panel_B_panel_tag_001" x="14" y="24" fill="#1B2733" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">B</text>
+      <text id="panel_B_A1_pct_0_027" x="389.684" y="115" fill="#3F78A8" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">64.0%</text>
+      <text id="panel_B_A1_pct_1_029" x="381.843" y="185" fill="#3F78A8" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">61.1%</text>
+      <text id="panel_B_A1_pct_2_031" x="386.643" y="255" fill="#3F78A8" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">62.8%</text>
+      <text id="panel_B_A1_pct_3_033" x="290.847" y="325" fill="#3F78A8" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">27.4%</text>
+      <text id="panel_B_A2_pct_0_039" x="318.838" y="134" fill="#249A8D" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">37.7%</text>
+      <text id="panel_B_A2_pct_1_041" x="300.505" y="204" fill="#249A8D" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">30.9%</text>
+      <text id="panel_B_A2_pct_2_043" x="300.601" y="274" fill="#249A8D" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">31.0%</text>
+      <text id="panel_B_A2_pct_3_045" x="266.719" y="344" fill="#249A8D" font-family="Arial" font-size="8.5px" font-weight="400" text-anchor="start">18.4%</text>
+      <line id="panel_B_route_note_rule_047" x1="18" y1="420" x2="42" y2="420" stroke="#6D7881" stroke-width="1.8" stroke-linecap="round" />
+      <text id="panel_B_route_note_text_048" x="50" y="424" fill="#607180" font-family="Arial" font-size="8.9px" font-weight="400" text-anchor="start">Route-required A1 administration: 20,248 / 20,248 units were unmeasurable</text>
+      <text id="panel_B_route_detail_049" x="50" y="448" fill="#607180" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="start">Required eMAR route was absent; the fail-closed operator did not relabel units as unexposed.</text>
+      <text id="panel_B_ablation_boundary_050" x="265" y="484" fill="#607180" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="middle">Ablations remove prespecified information; they are not replacement exposure definitions.</text>
+    </g>
+  </g>
+</svg>
