@@ -1,0 +1,29 @@
+{
+  "checks_n": 10,
+  "coverage_percent": 70.14553014553015,
+  "covered_lines_n": 1356,
+  "failed_n": 0,
+  "gate": "PASS_SOFTWARE_RELEASE_VALIDATION",
+  "known_limitations": [
+    "FHIR evaluation uses matched public demos rather than the full releases",
+    "OMOP evaluation is a capability and semantic-loss smoke test, not clinical validation",
+    "eICU lacks a native cross-source medication identity key and only three classes passed frozen reconciliation gates",
+    "the 40-study sample has one primary human coder; independent recoding remains author action",
+    "local validation was on Windows Python 3.13; multi-version POSIX execution is specified in CI but not executed locally"
+  ],
+  "num_statements_n": 1765,
+  "passed_n": 10,
+  "schema_version": "1.0.0",
+  "sdist": {
+    "bytes": 355237,
+    "file": "medprov-0.1.0.tar.gz",
+    "sha256": "0d0641a58b9f5b5a71c5ecd8cecea0a71c1895b9214299dca70c4a65a9d53921"
+  },
+  "tests_failed_n": 0,
+  "tests_passed_n": 30,
+  "wheel": {
+    "bytes": 439391,
+    "file": "medprov-0.1.0-py3-none-any.whl",
+    "sha256": "5c803dc32bd3b033fcc0b6b0e72a781a8a3fe3855068c7f8b05eac817bece386"
+  }
+}
