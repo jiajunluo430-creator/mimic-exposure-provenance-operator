@@ -16,9 +16,9 @@
 
 **Data availability:** Restricted source data are available to credentialed users from PhysioNet. Patient-level source and derived data are not redistributed.
 
-**Code availability:** https://github.com/jiajunluo430-creator/mimic-exposure-provenance-operator
+**Code availability:** https://github.com/jiajunluo430-creator/mimic-exposure-provenance-operator/releases/tag/v0.1.0
 
-**Review model:** JBI currently states single-anonymized peer review; the main manuscript therefore includes author information. A standalone title page is supplied as an administrative source file if requested by the portal.
+**Title page:** A standalone editable title page is supplied because it is listed in the JBI submission checklist. The main manuscript also retains author information for continuity with the journal's generated review PDF.
 
 **Open-access selection:** No-cost subscription/green route unless the authors deliberately choose gold open access during submission.
 
@@ -27,14 +27,15 @@
 | File | Submission designation |
 |---|---|
 | JBI_main_manuscript.docx | Manuscript |
+| JBI_title_page.docx | Title page |
 | JBI_cover_letter.docx | Cover letter |
 | JBI_highlights.docx | Highlights |
+| JBI_declaration_of_competing_interest.docx | Declaration of Competing Interest |
 | JBI_supporting_information.docx | Supplementary material |
-| Figure1–Figure5 `.pdf` or `.tiff` | Figure |
-| JBI_title_page.docx | Upload only if a separate title-page designation is provided; otherwise retain as administrative backup |
+| JBI_Graphical_Abstract.pdf or `.tiff` | Graphical Abstract |
+| JBI_Figure1.pdf through JBI_Figure5.pdf | Figure 1 through Figure 5 |
 | JBI_RECORD_STROBE_checklist.docx | Reporting checklist / supplementary file if requested |
 
 **Main display count:** 5 figures + 3 tables = 8.
 
 **Administrative confirmation required before clicking Submit:** all authors have reviewed and approved the final generated files; author names/order and affiliations match the portal; corresponding-author account is correct.
-

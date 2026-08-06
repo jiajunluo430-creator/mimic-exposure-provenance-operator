@@ -1,0 +1,25 @@
+{
+  "generated_from": "programmatic vector scene; locked aggregate values only",
+  "generative_image_used": false,
+  "pdf": {
+    "file": "JBI_Graphical_Abstract.pdf",
+    "font_subtypes": [
+      "/Type1"
+    ],
+    "image_xobjects_n": 0,
+    "pages_n": 1,
+    "status": "PASS",
+    "type3_fonts_present": false
+  },
+  "status": "PASS_JBI_GRAPHICAL_ABSTRACT",
+  "svg": {
+    "clip_paths_n": 0,
+    "duplicate_ids": [],
+    "file": "JBI_Graphical_Abstract.svg",
+    "image_elements_n": 0,
+    "live_text_n": 47,
+    "missing_semantic_groups": [],
+    "path_elements_n": 0,
+    "status": "PASS"
+  }
+}

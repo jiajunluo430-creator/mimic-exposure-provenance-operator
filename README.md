@@ -6,6 +6,10 @@ health records. It treats exposure as a deterministic five-dimensional
 operator—source, identity, time, event semantics, and required metadata—rather
 than as a table label.
 
+It accompanies the manuscript **A Machine-Executable Provenance Operator for
+Medication-Exposure Phenotyping Across Electronic Health Record
+Representations**.
+
 The package provides:
 
 - Draft 2020-12 JSON Schemas and seven contract-generated YAML operators;
@@ -74,10 +78,14 @@ of drug efficacy, harm, optimal treatment, or external clinical validation.
   classes; prokinetics failed minimum event/hospital gates. This is a
   capability boundary, not external validation or a hospital-quality result.
 
-All 36 cross-model artifact, contract, privacy, and internal-consistency checks
+All 39 cross-model artifact, contract, privacy, and internal-consistency checks
 passed. The frozen comparison against PheKB, OMOP/ATLAS, FHIR, CQL,
 RECORD-PE, STaRT-RWE, and HARPER uses dimension-level states and no arbitrary
 quality score.
+
+The v0.1.0 release validation passed 10/10 gates: 61 tests passed with 86.03%
+branch-aware coverage, both distributions built, the wheel installed in an
+isolated environment, and the aggregate-only privacy scan passed.
 
 ## Data boundary
 
@@ -106,3 +114,5 @@ The versioned cross-model reports are in `outputs/transport_evaluation_v0_1_0`,
 `outputs/sota_comparison_v0_1_0`.
 
 Repository: https://github.com/jiajunluo430-creator/mimic-exposure-provenance-operator
+
+Versioned release: https://github.com/jiajunluo430-creator/mimic-exposure-provenance-operator/releases/tag/v0.1.0

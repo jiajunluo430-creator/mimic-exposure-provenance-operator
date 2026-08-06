@@ -14,11 +14,10 @@
 
 From the repository root:
 
-    C:\Users\ljjws\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe scripts\70_make_jbi_redesigned_figures.py
+    python scripts/70_make_jbi_redesigned_figures.py
 
 The script reads only committed aggregate outputs. It does not rerun scientific models or access row-level medication records.
 
 ## Submission boundary
 
 Only files under `final_figures/` are candidate manuscript artwork. The template, style guide, references, data extracts, and QC records are documentation and should not be uploaded as article figures.
-

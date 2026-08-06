@@ -7,7 +7,7 @@ Jiajun Luo, Qinglong Chen, Jing Liu, Fanghui Lu, and Xiaolong Liang
 # Contents
 
 - Supplementary Methods 1–8
-- Tables S1–S16
+- Tables S1–S17
 - Supplementary reproducibility notes
 
 # Supplementary Methods
@@ -36,17 +36,19 @@ The source audit covered the complete eMAR table, not a sample. It enumerated al
 
 Strict administration required frozen positive event semantics and the declared identity/time rule. Broad same-class/window administration was retained only as a sensitivity operator. The primary order-to-administration conversion denominator was the frozen post-eMAR-deployment order universe.
 
+The cross-layer workflow-clock trace was re-expressed at the prespecified 183-stay analysis unit. The current medians separate prescription-linked POE minus first administration (97.18 hours), eMAR-linked POE minus first administration (−5.68 hours), and paired POE-role separation (106.10 hours). An earlier audit table used 256 prescription rows and reported a single 102.63-hour summary; the row-level and stay-level summaries answer different questions and should not be numerically substituted for one another.
+
 ## S5. Matched native/FHIR evaluation
 
-Public native MIMIC-IV 2.2 and MIMIC-IV-on-FHIR 2.1 demonstrations were integrity-gated before evaluation. Native pharmacy records and FHIR MedicationDispense were compared at `pharmacy_id × medication_class`. MedicationRequest was compared with native prescriptions and pharmacy fields. MedicationAdministration top-level status and `dosage.method` were evaluated separately because the latter carried the native administration event meaning. Native `emar_id` was not required when absent from FHIR; instead, a prespecified pharmacy/class/time/semantic composite was reported as composite concordance rather than native-ID parity.
+Public native MIMIC-IV 2.2 and MIMIC-IV-on-FHIR 2.1 demonstrations were integrity-gated before evaluation. Native pharmacy records and FHIR MedicationDispense were compared at `pharmacy_id × medication_class`. MedicationRequest was compared with native prescriptions and pharmacy fields. MedicationAdministration top-level status and `dosage.method` were evaluated separately because the latter carried the native administration event meaning. Native `emar_id` was not required when absent from FHIR; instead, a prespecified pharmacy/class/time/semantic composite was reported as composite concordance rather than native-ID parity. The resource-role/status baseline treated all 6,697 class-mapped MedicationAdministration records as positive; the event-semantic operator identified 5,740 strict positives, so role/status-only execution exceeded the strict count by 957 records (16.7% relative to 5,740).
 
-The demonstration was intentionally bounded. Exact equality on a public 100-patient matched sample establishes functional cross-schema execution, not full-cohort transport or clinical validation.
+The demonstration was intentionally bounded. The public 100-patient pair was chosen because both native and FHIR inputs are distributable and independently rerunnable without a private conversion pipeline. Exact equality on this matched sample establishes functional cross-schema execution, not full-cohort transport or clinical validation. Scaling the same adapter to the complete MIMIC-IV-on-FHIR release remains future work rather than an unstated claim of this version.
 
 ## S6. OMOP and eICU capability boundaries
 
 The OMOP demonstration was evaluated at two levels: record-existence drug exposure, which is directly supported by `DRUG_EXPOSURE`, and strict documented administration, which requires source event-state semantics. A synthetic four-unit provenance extension was included to test all terminal states deterministically. Removal of the extension was a prespecified semantic-loss ablation.
 
-eICU has medication, infusion, treatment, and intake/output interfaces but no native medication cross-source identity equivalent to MIMIC POE/pharmacy linkage. Therefore, exact identity reconciliation was declared unsupported before analysis. Reconciliation was limited to same stay, same frozen class, and frozen time window after class-specific feasibility gates. `treatment` remained documentation-only and `intakeOutput` remained excluded. No eICU result was interpreted as external validation, adherence, quality, effectiveness, or safety.
+eICU has medication, infusion, treatment, and intake/output interfaces but no native medication cross-source identity equivalent to MIMIC POE/pharmacy linkage. Therefore, exact identity reconciliation was declared unsupported before analysis. Reconciliation was limited to same stay, same frozen class, and frozen time window after class-specific feasibility gates. Before the full ZIP run, the identical streaming, classification, gate, and reconciliation code was required to recover 100/100 constructed prokinetic order–infusion pairs spread across 10 synthetic hospitals. This positive control tested whether qualifying matches could be recovered; it did not establish semantic equivalence of the real interfaces. `treatment` remained documentation-only and `intakeOutput` remained excluded. No eICU result was interpreted as external validation, adherence, quality, effectiveness, or safety.
 
 ## S7. Structured publication validator
 
@@ -145,6 +147,7 @@ The A1 and A2 anchors were used to show propagation from operator choice to pati
 |---|---:|---:|---|---|
 | Dispense `pharmacy_id × class` | 3,870 | 3,870 | 3,870/3,870 exact | Exact transport |
 | Frozen-class request units | 3,903 | 2,726 | Not forced to parity | Partial transport |
+| Administration top-level role/status | — | 6,697 positive | 957 above strict `dosage.method` count (16.7% relative) | Role/status-only overclassification |
 | Administration strict positives | 5,696 | 5,740 by `dosage.method` | Similar semantic count | Semantic relocation |
 | Administration composite identity | 6,253 native-linkable | 6,697 mapped FHIR | 5,220 paired (83.5%) | Composite concordance |
 | Request clock | 2,249 deterministic pairs | 2,249 | `authoredOn`=`pharmacy.entertime` in 2,249/2,249 | Exact workflow-clock transport |
@@ -172,6 +175,8 @@ The A1 and A2 anchors were used to show propagation from operator choice to pati
 | Insulin | — | — | Not reconciled | FAIL: identity ambiguity |
 | Prokinetic | — | — | Not reconciled | FAIL: insufficient events/hospitals |
 
+**Adapter positive control:** the same code path recovered 100/100 constructed prokinetic order–infusion pairs across 10 synthetic hospitals before full execution. This is a reconciliation-mechanics control, not an external clinical validation.
+
 **Boundary:** These values quantify interface reconciliation under a frozen same-stay/class/window rule. They are not administration adherence, hospital quality, or external validation.
 
 ## Table S11. Structured reporting validator
@@ -190,8 +195,8 @@ The A1 and A2 anchors were used to show propagation from operator choice to pati
 | Validation component | Result |
 |---|---|
 | Software version | `medprov` 0.1.0 |
-| Tests | 30 passed, 0 failed |
-| Branch-aware coverage | 70.15% |
+| Tests | 61 passed, 0 failed |
+| Branch-aware coverage | 86.03% |
 | Release checks | 10/10 passed |
 | Wheel build/install | Passed in clean virtual environment |
 | Source distribution | Built successfully |
@@ -203,8 +208,8 @@ The A1 and A2 anchors were used to show propagation from operator choice to pati
 
 | Artifact | SHA-256 |
 |---|---|
-| `medprov-0.1.0-py3-none-any.whl` | `5c803dc32bd3b033fcc0b6b0e72a781a8a3fe3855068c7f8b05eac817bece386` |
-| `medprov-0.1.0.tar.gz` | `0d0641a58b9f5b5a71c5ecd8cecea0a71c1895b9214299dca70c4a65a9d53921` |
+| `medprov-0.1.0-py3-none-any.whl` | `de654ab1a304c92852344b1770a7ba76f04518157b228a090be7d8d6c473599d` |
+| `medprov-0.1.0.tar.gz` | `aa720c9955f1a772f4366808c0726156d73eb08d201834f356dde4edfdbd6987` |
 
 ## Table S14. Full downstream stress-test estimates
 
@@ -246,6 +251,19 @@ No numeric superiority score was calculated because these families solve complem
 | Literature validator | Published evidence did not specify complete operators | The original studies were analytically wrong |
 | A1/A2 stress tests | Exposure definition can propagate to estimates | Causal benefit, harm or treatment recommendation |
 
+## Table S17. Prespecified evaluation layers and achieved gates
+
+| Evaluation layer | Data/fixture | Target claim | Prespecified gate | Result |
+|---|---|---|---|---|
+| Native reference | MIMIC-IV 3.1 | Implementation fidelity | 19 zero-tolerance count/model checks | PASS, 19/19 |
+| Operator ablation | MIMIC A1/A2 and six classes | Dimension-specific reclassification and measurability | Frozen variants retained regardless of result | PASS; identity, time and route localized |
+| FHIR functional transport | Matched native 2.2/FHIR 2.1 demos | Exact, transformed, relocated or unavailable semantics | Frozen integrity, identity, time and state comparisons | PASS_FUNCTIONAL_CROSS_SCHEMA |
+| OMOP capability | Official demo plus synthetic extension | Record-existence capability and semantic loss | Real-demo and deterministic four-state execution | PASS semantic ablation; capability smoke test |
+| eICU interface comparison | Full eICU 2.0 ZIP plus positive control | Source observability under missing native identity | Positive control plus five per-class gates | 100/100 control; 3/6 classes executable; not external validation |
+| Reporting validator | 40 structured publication records | Published operator reproducibility | Deterministic fields; no prose inference | PASS; 0/40 complete operators |
+| Software release | Wheel, sdist, tests, clean environment | Installability and traceability | Release, negative-path, privacy, and adapter tests | Reported in Table S12 |
+| Cross-model package | Aggregate artifacts and manifests | Artifact integrity, privacy, frozen invariants | 39 validation checks | PASS, 39/39 |
+
 # Reproducibility notes
 
 The public repository contains the schema, example operators, source code, command-line guide, adapter-authoring guide, contracts, class lists, synthetic fixtures, tests, aggregate reports, figure data, and figure-generation script. Licensed source data must be acquired directly from PhysioNet. The public executor rejects native identifiers and writes aggregate outputs only.
@@ -256,4 +274,4 @@ Core commands after installation are:
 
 `medprov demo --out demo_output`
 
-The exact local MIMIC and full eICU evaluations require credentialed read-only source paths and are not run by the public smoke test. Their aggregate expected values and validation manifests are distributed so authorized users can compare local execution without receiving restricted rows.
+Credentialed local MIMIC and full eICU runs are outside the public smoke test; distributed aggregate expected values and manifests let authorized users verify local execution without receiving restricted rows.

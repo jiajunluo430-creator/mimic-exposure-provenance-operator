@@ -27,7 +27,8 @@ from docx.shared import Inches, Pt, RGBColor
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "manuscript" / "jbi" / "source"
 OUT = ROOT / "manuscript" / "jbi" / "submission_package"
-FIG = ROOT / "manuscript" / "jbi" / "figures"
+FIG = ROOT / "manuscript" / "jbi" / "figure_redesign_2026-08-06_v3" / "final_figures"
+GRAPHICAL_ABSTRACT = ROOT / "manuscript" / "jbi" / "graphical_abstract_2026-08-06"
 
 NAVY = "17324D"
 TEAL = "1E6F74"
@@ -83,6 +84,9 @@ def validate_sources() -> dict:
     main = read_text("JBI_main_manuscript.md")
     abstract = between(main, "# Abstract", "**Keywords:**")
     body = between(main, "# 1. Introduction", "# CRediT authorship contribution statement")
+    significance = between(
+        main, "## 1.1. Statement of significance", "# 2. Related work"
+    )
     refs = main.split("# References", 1)[1]
     ref_ids = [int(x) for x in re.findall(r"(?m)^(\d+)\.\s", refs)]
     if ref_ids != list(range(1, 43)):
@@ -105,10 +109,31 @@ def validate_sources() -> dict:
 
     abstract_wc = word_count(abstract)
     body_wc = word_count(body)
-    if abstract_wc > 300:
+    if abstract_wc > 250:
         raise SystemExit(f"Abstract exceeds JBI limit: {abstract_wc}")
     if body_wc > 6000:
         raise SystemExit(f"Body exceeds JBI limit: {body_wc}")
+
+    significance_rows = []
+    for line in significance.splitlines():
+        if not line.strip().startswith("|") or is_separator(line):
+            continue
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        if len(cells) == 2 and cells[0] != "Statement element":
+            significance_rows.append(cells)
+    required_significance = [
+        "Problem or Issue",
+        "What is Already Known",
+        "What this Paper Adds",
+        "Who would benefit from the new knowledge in this paper",
+    ]
+    if [row[0] for row in significance_rows] != required_significance:
+        raise SystemExit("Statement of significance must use the four JBI headings")
+    significance_wc = sum(word_count(row[1]) for row in significance_rows)
+    if significance_wc > 150:
+        raise SystemExit(
+            f"Statement of significance exceeds JBI limit: {significance_wc}"
+        )
 
     main_tables = len(re.findall(r"(?m)^## Table \d+\.", main))
     main_figures = len(re.findall(r"(?m)^## Figure \d+\.", main))
@@ -132,6 +157,7 @@ def validate_sources() -> dict:
     return {
         "abstract_words": abstract_wc,
         "main_text_words": body_wc,
+        "statement_of_significance_words": significance_wc,
         "references": len(ref_ids),
         "main_tables": main_tables,
         "main_figures": main_figures,
@@ -165,6 +191,46 @@ def set_cell_margins(cell, top=70, start=80, bottom=70, end=80) -> None:
             tc_mar.append(node)
         node.set(qn("w:w"), str(value))
         node.set(qn("w:type"), "dxa")
+
+
+def set_table_borders(table) -> None:
+    """Apply a restrained three-line journal table with no vertical rules."""
+
+    tbl_pr = table._tbl.tblPr
+    borders = tbl_pr.find(qn("w:tblBorders"))
+    if borders is None:
+        borders = OxmlElement("w:tblBorders")
+        tbl_pr.append(borders)
+    for child in list(borders):
+        borders.remove(child)
+    for edge, value, size, color in (
+        ("top", "single", "10", NAVY),
+        ("bottom", "single", "10", NAVY),
+        ("left", "nil", "0", WHITE),
+        ("right", "nil", "0", WHITE),
+        ("insideH", "nil", "0", WHITE),
+        ("insideV", "nil", "0", WHITE),
+    ):
+        node = OxmlElement(f"w:{edge}")
+        node.set(qn("w:val"), value)
+        node.set(qn("w:sz"), size)
+        node.set(qn("w:color"), color)
+        borders.append(node)
+
+
+def set_cell_bottom_border(cell, color: str = MID) -> None:
+    tc_pr = cell._tc.get_or_add_tcPr()
+    borders = tc_pr.find(qn("w:tcBorders"))
+    if borders is None:
+        borders = OxmlElement("w:tcBorders")
+        tc_pr.append(borders)
+    bottom = borders.find(qn("w:bottom"))
+    if bottom is None:
+        bottom = OxmlElement("w:bottom")
+        borders.append(bottom)
+    bottom.set(qn("w:val"), "single")
+    bottom.set(qn("w:sz"), "8")
+    bottom.set(qn("w:color"), color)
 
 
 def keep_with_next(paragraph, value: bool = True) -> None:
@@ -214,10 +280,16 @@ def configure_document(doc: Document, title: str, kind: str) -> None:
     section.header_distance = Inches(0.35)
     section.footer_distance = Inches(0.35)
 
+    if kind == "cover":
+        section.top_margin = Inches(0.65)
+        section.bottom_margin = Inches(0.65)
+        section.left_margin = Inches(0.85)
+        section.right_margin = Inches(0.85)
+
     styles = doc.styles
     normal = styles["Normal"]
     normal.font.name = "Calibri"
-    normal.font.size = Pt(10.5 if kind == "support" else 11)
+    normal.font.size = Pt(10.5 if kind in {"support", "cover"} else 11)
     normal.font.color.rgb = RGBColor.from_string(BLACK)
     normal.paragraph_format.space_after = Pt(5)
     normal.paragraph_format.line_spacing_rule = WD_LINE_SPACING.SINGLE
@@ -292,6 +364,7 @@ def add_table(doc: Document, rows: list[list[str]], kind: str) -> None:
     ncols = max(len(row) for row in rows)
     table = doc.add_table(rows=len(rows), cols=ncols)
     table.style = "Table Grid"
+    set_table_borders(table)
     table.autofit = True
     table.alignment = 1
     font_size = 7.4 if ncols >= 7 else (8.0 if kind == "support" else 8.3)
@@ -313,18 +386,16 @@ def add_table(doc: Document, rows: list[list[str]], kind: str) -> None:
             # Keep the header row with at least the first data row. Without
             # this, Word can leave a repeated table header orphaned at the
             # bottom of a page while moving every data row to the next page.
-            if r_idx == 0:
+            if r_idx == 0 or (kind == "main" and r_idx < len(rows) - 1):
                 keep_with_next(p)
             for run in p.runs:
                 run.font.name = "Calibri"
                 run.font.size = Pt(font_size)
                 if r_idx == 0:
                     run.bold = True
-                    run.font.color.rgb = RGBColor.from_string(WHITE)
+                    run.font.color.rgb = RGBColor.from_string(NAVY)
             if r_idx == 0:
-                set_cell_shading(cell, NAVY)
-            elif r_idx % 2 == 0:
-                set_cell_shading(cell, LIGHT)
+                set_cell_bottom_border(cell)
     doc.add_paragraph().paragraph_format.space_after = Pt(0)
 
 
@@ -422,11 +493,8 @@ def build_doc(markdown: str, out_path: Path, kind: str, stats: dict) -> None:
         if kind in {"main", "title"} and before_first_section:
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
         if kind == "cover":
-            p.paragraph_format.line_spacing = 1.12
-            p.paragraph_format.space_after = Pt(8)
-            # Cover-letter paragraphs should not break across pages; this
-            # produces a deliberate two-page layout instead of a stranded
-            # sentence fragment at the top of page 2.
+            p.paragraph_format.line_spacing = 1.02
+            p.paragraph_format.space_after = Pt(4)
             p.paragraph_format.keep_together = True
         if kind == "highlights":
             p.paragraph_format.space_after = Pt(5)
@@ -437,23 +505,21 @@ def build_doc(markdown: str, out_path: Path, kind: str, stats: dict) -> None:
 
 def copy_figures() -> list[str]:
     copied: list[str] = []
-    for idx, stem in enumerate(
-        (
-            "Figure1_medprov_architecture",
-            "Figure2_native_parity_and_ablation",
-            "Figure3_cross_representation_evaluation",
-            "Figure4_literature_validator",
-            "Figure5_reclassification_and_effect_drift",
-        ),
-        start=1,
-    ):
+    for idx in range(1, 6):
         for suffix in (".pdf", ".tiff"):
-            src = FIG / f"{stem}{suffix}"
+            src = FIG / f"JBI_Figure{idx}{suffix}"
             if not src.exists():
                 raise SystemExit(f"Missing required figure: {src}")
             dst = OUT / f"JBI_Figure{idx}{suffix}"
             shutil.copy2(src, dst)
             copied.append(dst.name)
+    for suffix in (".pdf", ".tiff", ".svg"):
+        src = GRAPHICAL_ABSTRACT / f"JBI_Graphical_Abstract{suffix}"
+        if not src.exists():
+            raise SystemExit(f"Missing required graphical abstract: {src}")
+        dst = OUT / src.name
+        shutil.copy2(src, dst)
+        copied.append(dst.name)
     return copied
 
 
@@ -466,6 +532,10 @@ def main() -> int:
             ("JBI_title_page.md", ("JBI_title_page.docx", "title")),
             ("JBI_cover_letter.md", ("JBI_cover_letter.docx", "cover")),
             ("JBI_highlights.md", ("JBI_highlights.docx", "highlights")),
+            (
+                "JBI_declaration_of_competing_interest.md",
+                ("JBI_declaration_of_competing_interest.docx", "highlights"),
+            ),
             ("JBI_supporting_information.md", ("JBI_supporting_information.docx", "support")),
             ("JBI_RECORD_STROBE_checklist.md", ("JBI_RECORD_STROBE_checklist.docx", "support")),
         ]
@@ -481,8 +551,9 @@ def main() -> int:
         "",
         "**PASS_JBI_SOURCE_AND_DOCUMENT_BUILD**",
         "",
-        f"- Abstract: {stats['abstract_words']} words (limit 300).",
+        f"- Abstract: {stats['abstract_words']} words (limit 250).",
         f"- Main text: {stats['main_text_words']} words (limit 6000).",
+        f"- Statement of significance: {stats['statement_of_significance_words']} words (limit 150; four required headings present).",
         f"- References: {stats['references']}; citation order 1–42 passed.",
         f"- Main displays: {stats['main_figures']} figures + {stats['main_tables']} tables = {stats['main_displays']} (limit 8).",
         f"- Highlights: {len(stats['highlights'])}; all ≤85 characters.",

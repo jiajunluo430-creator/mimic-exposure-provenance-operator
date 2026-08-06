@@ -1,0 +1,158 @@
+{
+  "eicu": {
+    "claim_boundary": "interface semantic comparison; not external validation",
+    "classes_failed": [
+      "electrolyte_replacement",
+      "insulin",
+      "prokinetic"
+    ],
+    "classes_passed": [
+      "intra_abdominal_antibiotics",
+      "stress_ulcer_prophylaxis",
+      "vte_prophylaxis"
+    ],
+    "contract": {
+      "path": "contracts/EICU_ADAPTER_CONTRACT_v1.0_2026-08-05.md",
+      "sha256": "a0ed18fdcc0774512e4df9b9a7b1e66862b1b97f81f1cdebeaceddb1923df1bc"
+    },
+    "counts": {
+      "analysis_units": 1158314,
+      "exposed": 11411,
+      "unexposed": 379313,
+      "unmeasurable": 767590,
+      "unresolved": 0
+    },
+    "dataset": {
+      "local_archive_bytes": 5486764761,
+      "name": "eICU Collaborative Research Database v2.0",
+      "used_member_integrity": "SHA-256 plus ZIP CRC32"
+    },
+    "engine_metrics": {
+      "classes_failed_n": 3,
+      "classes_passed": [
+        "intra_abdominal_antibiotics",
+        "stress_ulcer_prophylaxis",
+        "vte_prophylaxis"
+      ],
+      "classes_passed_n": 3,
+      "elapsed_seconds": 365.491208,
+      "match_mode": "same_class_window",
+      "native_cross_source_key": false
+    },
+    "execution": {
+      "script_sha256": "f2ed818d1fa68f51de35c948bb1366a84212f173e864ca617e8a32a48b9624c7",
+      "wall_clock_seconds": 366.144159
+    },
+    "gate": "EXECUTED_INTERFACE_SEMANTIC_COMPARISON",
+    "privacy": "aggregate only; patientunitstayid and native source IDs were held in memory and not serialized; hospital/unit cells below 10 were suppressed",
+    "schema_version": "1.0.0",
+    "spec": {
+      "path": "examples/transport/eicu_six_class_reconciliation.yaml",
+      "sha256": "7e9601e2a7f39db45aa288742ad8ca6e5efe41ef1c4455dc2c62b7c27460deed"
+    }
+  },
+  "fhir": {
+    "claim_boundary": "functional cross-schema evaluation on matched public demos; not full-dataset transport validation or clinical external validation",
+    "contract": {
+      "path": "contracts/FHIR_TRANSPORT_CONTRACT_v1.0_2026-08-05.md",
+      "sha256": "a6b8a081dcbc9480bf36b8b02a2ebd2045255a3e08b8d29839600463a56a13e8"
+    },
+    "datasets": {
+      "fhir": {
+        "doi": "10.13026/vphg-y548",
+        "name": "MIMIC-IV Clinical Database Demo on FHIR v2.1.0"
+      },
+      "native": {
+        "doi": "10.13026/dp1f-ex47",
+        "name": "MIMIC-IV Clinical Database Demo v2.2"
+      }
+    },
+    "execution": {
+      "peak_working_set_mb": "not_evaluable",
+      "python": "3.13.0",
+      "script_sha256": "6356cfb96ae3b3e82d6451fbc99a4b8bf90d807c2fe9792cc5adf7ee7be0a8d8",
+      "wall_clock_seconds": 3.467313
+    },
+    "gate": "PASS_FUNCTIONAL_CROSS_SCHEMA",
+    "headline_findings": {
+      "admin_composite_matches_n": 5220,
+      "admin_first_time_exact_n": 1347,
+      "admin_first_time_pairs_n": 1353,
+      "dispense_exact_id_class_matches_n": 3870,
+      "dispense_records_n": 3870,
+      "fhir_admin_method_exposed_n": 5740,
+      "fhir_admin_primary_exposed_n": 6697,
+      "fhir_request_records_n": 2726,
+      "native_admin_exposed_n": 5696,
+      "native_request_records_n": 3903,
+      "request_pharmacy_time_exact_n": 2249,
+      "request_pharmacy_time_pairs_n": 2249
+    },
+    "privacy": "aggregate outputs only; identifiers used in memory and never serialized",
+    "role_totals": {
+      "administration": {
+        "fhir_method_exposed_n": 5740,
+        "fhir_primary_exposed_n": 6697,
+        "fhir_records_n": 6697,
+        "native_exposed_n": 5696,
+        "native_records_n": 7853
+      },
+      "dispense": {
+        "fhir_method_exposed_n": 0,
+        "fhir_primary_exposed_n": 3870,
+        "fhir_records_n": 3870,
+        "native_exposed_n": 3870,
+        "native_records_n": 3870
+      },
+      "request": {
+        "fhir_method_exposed_n": 0,
+        "fhir_primary_exposed_n": 2726,
+        "fhir_records_n": 2726,
+        "native_exposed_n": 3903,
+        "native_records_n": 3903
+      }
+    },
+    "schema_version": "1.0.0"
+  },
+  "omop": {
+    "claim_boundary": "OMOP capability and semantic-loss evaluation; not validation",
+    "contract": {
+      "path": "contracts/OMOP_CAPABILITY_CONTRACT_v1.0_2026-08-05.md",
+      "sha256": "17ad3fda645b072b11a443cedcb852b11267e13053dc5511c720558ccc98279a"
+    },
+    "dataset": {
+      "doi": "10.13026/p1f5-7x35",
+      "name": "MIMIC-IV demo data in OMOP CDM v0.9"
+    },
+    "execution": {
+      "script_sha256": "3ef2d383da623508f0aa6bd8d078f9fac6cfd51a8f8187d623f4f75b7eaff832",
+      "wall_clock_seconds": 0.751526
+    },
+    "headline_findings": {
+      "drug_exposure_rows_n": 18229,
+      "ppi_person_visit_units_n": 37,
+      "ppi_source_rows_n": 48,
+      "real_strict_admin_unmeasurable_n": 37,
+      "synthetic_ablation_unmeasurable_n": 4,
+      "synthetic_atlas_exposed_n": 4,
+      "synthetic_medprov_exposed_n": 1,
+      "synthetic_medprov_unexposed_n": 1,
+      "synthetic_medprov_unmeasurable_n": 1,
+      "synthetic_medprov_unresolved_n": 1
+    },
+    "inputs": {
+      "atlas_style_expression_sha256": "8dcae11fb9ba0c162d4b57e34fa3939baafb45fcb03a8ef01fdc4f16beb1b501",
+      "provenance_extension_sha256": "016aa7520a71d518021dbcb9f3e6f0c3f10232c9188fe7fb2debeede9c6d9afd",
+      "strict_operator_sha256": "2c2eb36be5e07929fad88163c818b8e8ec982288d66d9df2a955d8d0009e621d",
+      "synthetic_fixture_with_extension_sha256": "7df781006b6159258322b7283b0a2cec3990dd6c153cedf6e450f4ffc11f4e02",
+      "synthetic_fixture_without_extension_sha256": "7020764d37d1fc4b953bdcb4af3a5f53d7017511de5e6f2bfbd5e424456ef1d7"
+    },
+    "real_demo_gate": "EXECUTED_CAPABILITY_SMOKE_TEST",
+    "schema_version": "1.0.0",
+    "six_class_identity_states": {
+      "resolved": 914,
+      "unmapped": 17315
+    },
+    "synthetic_gate": "PASS_DETERMINISTIC_SEMANTIC_ABLATION"
+  }
+}

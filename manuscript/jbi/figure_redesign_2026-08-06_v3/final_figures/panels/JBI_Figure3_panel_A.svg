@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1040" height="300" viewBox="0 0 1040 300" role="img" aria-label="JBI Figure3 panel A">
+  <g id="panel_A">
+    <g id="panel_A_axis">
+      <line id="panel_A_header_rule_004" x1="14" y1="58" x2="1026" y2="58" stroke="#D9E0E5" stroke-width="0.8" stroke-linecap="round" />
+      <rect id="panel_A_row_band_0_011" x="20" y="93" width="982" height="38" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" />
+      <line id="panel_A_row_rule_0_012" x1="20" y1="132" x2="1002" y2="132" stroke="#D9E0E5" stroke-width="0.6" stroke-linecap="round" />
+      <rect id="panel_A_row_band_1_021" x="20" y="139" width="982" height="38" fill="#F5F7F8" stroke="#FFFFFF" stroke-width="0" />
+      <line id="panel_A_row_rule_1_022" x1="20" y1="178" x2="1002" y2="178" stroke="#D9E0E5" stroke-width="0.6" stroke-linecap="round" />
+      <rect id="panel_A_row_band_2_034" x="20" y="185" width="982" height="38" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" />
+      <line id="panel_A_row_rule_2_035" x1="20" y1="224" x2="1002" y2="224" stroke="#D9E0E5" stroke-width="0.6" stroke-linecap="round" />
+      <rect id="panel_A_row_band_3_047" x="20" y="231" width="982" height="38" fill="#F5F7F8" stroke="#FFFFFF" stroke-width="0" />
+      <line id="panel_A_row_rule_3_048" x1="20" y1="270" x2="1002" y2="270" stroke="#D9E0E5" stroke-width="0.6" stroke-linecap="round" />
+    </g>
+    <g id="panel_A_data">
+      <circle id="panel_A_cell_0_0_supported_014" cx="278" cy="112" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_cell_0_1_supported_015" cx="396" cy="112" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_cell_0_2_supported_016" cx="514" cy="112" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_cell_0_3_supported_017" cx="632" cy="112" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_cell_0_4_partial_ring_018" cx="750" cy="112" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_0_4_partial_dot_019" cx="750" cy="112" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_0_5_supported_020" cx="868" cy="112" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_cell_1_0_supported_024" cx="278" cy="158" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_cell_1_1_partial_ring_025" cx="396" cy="158" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_1_1_partial_dot_026" cx="396" cy="158" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_1_2_partial_ring_027" cx="514" cy="158" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_1_2_partial_dot_028" cx="514" cy="158" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_1_3_partial_ring_029" cx="632" cy="158" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_1_3_partial_dot_030" cx="632" cy="158" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_1_4_partial_ring_031" cx="750" cy="158" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_1_4_partial_dot_032" cx="750" cy="158" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_1_5_supported_033" cx="868" cy="158" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_cell_2_0_partial_ring_037" cx="278" cy="204" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_2_0_partial_dot_038" cx="278" cy="204" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_2_1_partial_ring_039" cx="396" cy="204" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_2_1_partial_dot_040" cx="396" cy="204" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_2_2_supported_041" cx="514" cy="204" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <line id="panel_A_cell_2_3_x1_042" x1="627" y1="199" x2="637" y2="209" stroke="#6D7881" stroke-width="1.7" stroke-linecap="round" />
+      <line id="panel_A_cell_2_3_x2_043" x1="627" y1="209" x2="637" y2="199" stroke="#6D7881" stroke-width="1.7" stroke-linecap="round" />
+      <circle id="panel_A_cell_2_4_partial_ring_044" cx="750" cy="204" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_2_4_partial_dot_045" cx="750" cy="204" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_2_5_supported_046" cx="868" cy="204" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_cell_3_0_partial_ring_050" cx="278" cy="250" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_3_0_partial_dot_051" cx="278" cy="250" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <line id="panel_A_cell_3_1_x1_052" x1="391" y1="245" x2="401" y2="255" stroke="#6D7881" stroke-width="1.7" stroke-linecap="round" />
+      <line id="panel_A_cell_3_1_x2_053" x1="391" y1="255" x2="401" y2="245" stroke="#6D7881" stroke-width="1.7" stroke-linecap="round" />
+      <circle id="panel_A_cell_3_2_partial_ring_054" cx="514" cy="250" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_3_2_partial_dot_055" cx="514" cy="250" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_3_3_partial_ring_056" cx="632" cy="250" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_3_3_partial_dot_057" cx="632" cy="250" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_3_4_partial_ring_058" cx="750" cy="250" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_cell_3_4_partial_dot_059" cx="750" cy="250" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <circle id="panel_A_cell_3_5_supported_060" cx="868" cy="250" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_legend_0_supported_061" cx="304" cy="285" r="6.2" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_A_legend_1_partial_ring_063" cx="479" cy="285" r="6.4" fill="#FFFFFF" stroke="#E58A28" stroke-width="2" />
+      <circle id="panel_A_legend_1_partial_dot_064" cx="479" cy="285" r="2.1" fill="#E58A28" stroke="#E58A28" stroke-width="0.5" />
+      <line id="panel_A_legend_2_x1_066" x1="649" y1="280" x2="659" y2="290" stroke="#6D7881" stroke-width="1.7" stroke-linecap="round" />
+      <line id="panel_A_legend_2_x2_067" x1="649" y1="290" x2="659" y2="280" stroke="#6D7881" stroke-width="1.7" stroke-linecap="round" />
+    </g>
+    <g id="panel_A_labels">
+      <text id="panel_A_panel_title_002" x="42" y="24" fill="#1B2733" font-family="Arial" font-size="14.5px" font-weight="700" text-anchor="start">Representation capability is dimension-specific</text>
+      <text id="panel_A_panel_subtitle_003" x="42" y="43" fill="#607180" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">Shape and color encode supported, partial or relocated, and structurally unavailable capabilities</text>
+      <text id="panel_A_col_0_005" x="278" y="82" fill="#17212B" font-family="Arial" font-size="9px" font-weight="700" text-anchor="middle">Source role</text>
+      <text id="panel_A_col_1_006" x="396" y="82" fill="#17212B" font-family="Arial" font-size="9px" font-weight="700" text-anchor="middle">Native identity</text>
+      <text id="panel_A_col_2_007" x="514" y="82" fill="#17212B" font-family="Arial" font-size="9px" font-weight="700" text-anchor="middle">Time</text>
+      <text id="panel_A_col_3_008" x="632" y="82" fill="#17212B" font-family="Arial" font-size="9px" font-weight="700" text-anchor="middle">Event semantics</text>
+      <text id="panel_A_col_4_009" x="750" y="82" fill="#17212B" font-family="Arial" font-size="9px" font-weight="700" text-anchor="middle">Route / dose</text>
+      <text id="panel_A_col_5_010" x="868" y="82" fill="#17212B" font-family="Arial" font-size="9px" font-weight="700" text-anchor="middle">Four-state output</text>
+      <text id="panel_A_row_0_label_013" x="245" y="116" fill="#17212B" font-family="Arial" font-size="9.7px" font-weight="700" text-anchor="end">MIMIC-IV 3.1 native</text>
+      <text id="panel_A_row_1_label_023" x="245" y="162" fill="#17212B" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="end">Matched native / FHIR demos</text>
+      <text id="panel_A_row_2_label_036" x="245" y="208" fill="#17212B" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="end">MIMIC OMOP demo</text>
+      <text id="panel_A_row_3_label_049" x="245" y="254" fill="#17212B" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="end">eICU 2.0</text>
+    </g>
+    <g id="panel_A_legend">
+      <text id="panel_A_legend_0_label_062" x="318" y="289" fill="#17212B" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="start">supported</text>
+      <text id="panel_A_legend_1_label_065" x="493" y="289" fill="#17212B" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="start">partial / relocated</text>
+      <text id="panel_A_legend_2_label_068" x="668" y="289" fill="#17212B" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="start">unavailable</text>
+    </g>
+    <g id="panel_A_annotations">
+      <text id="panel_A_panel_tag_001" x="14" y="24" fill="#1B2733" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">A</text>
+      <text id="panel_A_capability_boundary_069" x="1010" y="289" fill="#607180" font-family="Arial" font-size="8.7px" font-weight="400" text-anchor="end">Capabilities are not a rank or superiority score</text>
+    </g>
+  </g>
+</svg>

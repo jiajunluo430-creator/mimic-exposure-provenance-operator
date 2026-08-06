@@ -1,0 +1,142 @@
+{
+  "figures": [
+    {
+      "figure": "JBI_Figure1",
+      "pdf": {
+        "file": "JBI_Figure1.pdf",
+        "font_subtypes": [
+          "/Type1"
+        ],
+        "image_xobjects_n": 0,
+        "pages_n": 1,
+        "status": "PASS",
+        "type3_fonts_present": false
+      },
+      "svg": {
+        "clip_paths_n": 0,
+        "duplicate_ids": [],
+        "file": "JBI_Figure1.svg",
+        "image_elements_n": 0,
+        "live_text_n": 66,
+        "missing_semantic_groups": [],
+        "path_elements_n": 0,
+        "status": "PASS"
+      }
+    },
+    {
+      "figure": "JBI_Figure2",
+      "pdf": {
+        "file": "JBI_Figure2.pdf",
+        "font_subtypes": [
+          "/Type1"
+        ],
+        "image_xobjects_n": 0,
+        "pages_n": 1,
+        "status": "PASS",
+        "type3_fonts_present": false
+      },
+      "svg": {
+        "clip_paths_n": 0,
+        "duplicate_ids": [],
+        "file": "JBI_Figure2.svg",
+        "image_elements_n": 0,
+        "live_text_n": 40,
+        "missing_semantic_groups": [],
+        "path_elements_n": 0,
+        "status": "PASS"
+      }
+    },
+    {
+      "figure": "JBI_Figure3",
+      "pdf": {
+        "file": "JBI_Figure3.pdf",
+        "font_subtypes": [
+          "/Type1"
+        ],
+        "image_xobjects_n": 0,
+        "pages_n": 1,
+        "status": "PASS",
+        "type3_fonts_present": false
+      },
+      "svg": {
+        "clip_paths_n": 0,
+        "duplicate_ids": [],
+        "file": "JBI_Figure3.svg",
+        "image_elements_n": 0,
+        "live_text_n": 58,
+        "missing_semantic_groups": [],
+        "path_elements_n": 0,
+        "status": "PASS"
+      }
+    },
+    {
+      "figure": "JBI_Figure4",
+      "pdf": {
+        "file": "JBI_Figure4.pdf",
+        "font_subtypes": [
+          "/Type1"
+        ],
+        "image_xobjects_n": 0,
+        "pages_n": 1,
+        "status": "PASS",
+        "type3_fonts_present": false
+      },
+      "svg": {
+        "clip_paths_n": 0,
+        "duplicate_ids": [],
+        "file": "JBI_Figure4.svg",
+        "image_elements_n": 0,
+        "live_text_n": 54,
+        "missing_semantic_groups": [],
+        "path_elements_n": 0,
+        "status": "PASS"
+      }
+    },
+    {
+      "figure": "JBI_Figure5",
+      "pdf": {
+        "file": "JBI_Figure5.pdf",
+        "font_subtypes": [
+          "/Type1"
+        ],
+        "image_xobjects_n": 0,
+        "pages_n": 1,
+        "status": "PASS",
+        "type3_fonts_present": false
+      },
+      "svg": {
+        "clip_paths_n": 0,
+        "duplicate_ids": [],
+        "file": "JBI_Figure5.svg",
+        "image_elements_n": 0,
+        "live_text_n": 44,
+        "missing_semantic_groups": [],
+        "path_elements_n": 0,
+        "status": "PASS"
+      }
+    }
+  ],
+  "status": "PASS",
+  "template": {
+    "pdf": {
+      "file": "JBI_Style_Template.pdf",
+      "font_subtypes": [
+        "/Type1"
+      ],
+      "image_xobjects_n": 0,
+      "pages_n": 1,
+      "status": "PASS",
+      "type3_fonts_present": false
+    },
+    "svg": {
+      "clip_paths_n": 0,
+      "duplicate_ids": [],
+      "file": "JBI_Style_Template.svg",
+      "image_elements_n": 0,
+      "live_text_n": 28,
+      "missing_semantic_groups": [],
+      "path_elements_n": 0,
+      "status": "PASS"
+    }
+  }
+}

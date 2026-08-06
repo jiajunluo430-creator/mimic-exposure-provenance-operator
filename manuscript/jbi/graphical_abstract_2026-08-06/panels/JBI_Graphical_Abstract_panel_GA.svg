@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-label="JBI Graphical Abstract panel GA">
+  <g id="panel_GA">
+    <g id="panel_GA_axis">
+      <line id="panel_GA_title_rule_003" x1="36" y1="84" x2="1364" y2="84" stroke="#D9E0E5" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_GA_separator_1_025" x1="465" y1="108" x2="465" y2="396" stroke="#D9E0E5" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_GA_separator_2_026" x1="938" y1="108" x2="938" y2="396" stroke="#D9E0E5" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_GA_evidence_rule_060" x1="36" y1="404" x2="1364" y2="404" stroke="#D9E0E5" stroke-width="1" stroke-linecap="round" />
+    </g>
+    <g id="panel_GA_data">
+      <circle id="panel_GA_source_0_007" cx="54" cy="166" r="7" fill="#3F78A8" stroke="#3F78A8" stroke-width="1" />
+      <circle id="panel_GA_source_1_010" cx="264" cy="166" r="7" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_GA_source_2_013" cx="54" cy="240" r="7" fill="#E58A28" stroke="#E58A28" stroke-width="1" />
+      <circle id="panel_GA_source_3_016" cx="264" cy="240" r="7" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_GA_source_4_019" cx="54" cy="314" r="7" fill="#8066A8" stroke="#8066A8" stroke-width="1" />
+      <circle id="panel_GA_source_5_022" cx="264" cy="314" r="7" fill="#E58A28" stroke="#E58A28" stroke-width="1" />
+      <line id="panel_GA_source_to_operator_shaft_027" x1="414" y1="242" x2="505" y2="242" stroke="#6D7881" stroke-width="1.8" stroke-linecap="round" />
+      <polygon id="panel_GA_source_to_operator_head_028" points="505,242 496,237.5 496,246.5" fill="#6D7881" stroke="#6D7881" stroke-width="1" />
+      <line id="panel_GA_operator_spine_029" x1="550" y1="196" x2="850" y2="196" stroke="#28557D" stroke-width="2" stroke-linecap="round" />
+      <circle id="panel_GA_dimension_0_030" cx="550" cy="196" r="13" fill="#FFFFFF" stroke="#3F78A8" stroke-width="3" />
+      <circle id="panel_GA_dimension_1_033" cx="625" cy="196" r="13" fill="#FFFFFF" stroke="#249A8D" stroke-width="3" />
+      <circle id="panel_GA_dimension_2_036" cx="700" cy="196" r="13" fill="#FFFFFF" stroke="#E58A28" stroke-width="3" />
+      <circle id="panel_GA_dimension_3_039" cx="775" cy="196" r="13" fill="#FFFFFF" stroke="#8066A8" stroke-width="3" />
+      <circle id="panel_GA_dimension_4_042" cx="850" cy="196" r="13" fill="#FFFFFF" stroke="#6D7881" stroke-width="3" />
+      <line id="panel_GA_operator_to_states_shaft_048" x1="888" y1="242" x2="968" y2="242" stroke="#6D7881" stroke-width="1.8" stroke-linecap="round" />
+      <polygon id="panel_GA_operator_to_states_head_049" points="968,242 959,237.5 959,246.5" fill="#6D7881" stroke="#6D7881" stroke-width="1" />
+      <circle id="panel_GA_state_0_050" cx="1008" cy="199" r="11" fill="#249A8D" stroke="#249A8D" stroke-width="1" />
+      <circle id="panel_GA_state_1_052" cx="1117" cy="199" r="11" fill="#3F78A8" stroke="#3F78A8" stroke-width="1" />
+      <circle id="panel_GA_state_2_054" cx="1226" cy="199" r="11" fill="#E58A28" stroke="#E58A28" stroke-width="1" />
+      <circle id="panel_GA_state_3_056" cx="1342" cy="199" r="11" fill="#6D7881" stroke="#6D7881" stroke-width="1" />
+      <line id="panel_GA_audit_to_effect_shaft_068" x1="1224" y1="466" x2="1324" y2="466" stroke="#E58A28" stroke-width="1.8" stroke-linecap="round" />
+      <polygon id="panel_GA_audit_to_effect_head_069" points="1324,466 1315,461.5 1315,470.5" fill="#E58A28" stroke="#E58A28" stroke-width="1" />
+    </g>
+    <g id="panel_GA_labels">
+      <text id="panel_GA_title_001" x="36" y="42" fill="#1B2733" font-family="Arial" font-size="23px" font-weight="700" text-anchor="start">Medication exposure is a provenance-sensitive computation</text>
+      <text id="panel_GA_sources_heading_004" x="42" y="119" fill="#28557D" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">EHR MEDICATION REPRESENTATIONS</text>
+      <text id="panel_GA_operator_heading_005" x="528" y="119" fill="#28557D" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">EXECUTABLE PROVENANCE OPERATOR</text>
+      <text id="panel_GA_states_heading_006" x="984" y="119" fill="#28557D" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">FAIL-CLOSED CLASSIFICATION</text>
+      <text id="panel_GA_source_0_name_008" x="71" y="164" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">Orders</text>
+      <text id="panel_GA_source_1_name_011" x="281" y="164" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">Dispensing</text>
+      <text id="panel_GA_source_2_name_014" x="71" y="238" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">Administration</text>
+      <text id="panel_GA_source_3_name_017" x="281" y="238" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">FHIR</text>
+      <text id="panel_GA_source_4_name_020" x="71" y="312" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">OMOP</text>
+      <text id="panel_GA_source_5_name_023" x="281" y="312" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">eICU</text>
+      <text id="panel_GA_dimension_0_symbol_031" x="550" y="166" fill="#3F78A8" font-family="Arial" font-size="18px" font-weight="700" text-anchor="middle">S</text>
+      <text id="panel_GA_dimension_0_label_032" x="550" y="230" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">source</text>
+      <text id="panel_GA_dimension_1_symbol_034" x="625" y="166" fill="#249A8D" font-family="Arial" font-size="18px" font-weight="700" text-anchor="middle">I</text>
+      <text id="panel_GA_dimension_1_label_035" x="625" y="230" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">identity</text>
+      <text id="panel_GA_dimension_2_symbol_037" x="700" y="166" fill="#E58A28" font-family="Arial" font-size="18px" font-weight="700" text-anchor="middle">T</text>
+      <text id="panel_GA_dimension_2_label_038" x="700" y="230" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">time</text>
+      <text id="panel_GA_dimension_3_symbol_040" x="775" y="166" fill="#8066A8" font-family="Arial" font-size="18px" font-weight="700" text-anchor="middle">E</text>
+      <text id="panel_GA_dimension_3_label_041" x="775" y="230" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">event semantics</text>
+      <text id="panel_GA_dimension_4_symbol_043" x="850" y="166" fill="#6D7881" font-family="Arial" font-size="18px" font-weight="700" text-anchor="middle">M</text>
+      <text id="panel_GA_dimension_4_label_044" x="850" y="230" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">metadata</text>
+      <text id="panel_GA_state_0_label_051" x="1008" y="234" fill="#249A8D" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="middle">exposed</text>
+      <text id="panel_GA_state_1_label_053" x="1117" y="234" fill="#3F78A8" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="middle">unexposed</text>
+      <text id="panel_GA_state_2_label_055" x="1226" y="234" fill="#E58A28" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="middle">unresolved</text>
+      <text id="panel_GA_state_3_label_057" x="1342" y="234" fill="#6D7881" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="middle">unmeasurable</text>
+      <text id="panel_GA_audit_heading_061" x="42" y="440" fill="#28557D" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">EXECUTED SEMANTIC-LOSS AUDIT</text>
+      <text id="panel_GA_omop_heading_062" x="395" y="440" fill="#8066A8" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">OMOP</text>
+      <text id="panel_GA_fhir_heading_065" x="825" y="440" fill="#249A8D" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">FHIR</text>
+      <text id="panel_GA_downstream_heading_070" x="1274" y="438" fill="#E58A28" font-family="Arial" font-size="9.8px" font-weight="700" text-anchor="middle">DOWNSTREAM</text>
+    </g>
+    <g id="panel_GA_legend" />
+    <g id="panel_GA_annotations">
+      <text id="panel_GA_subtitle_002" x="36" y="66" fill="#607180" font-family="Arial" font-size="11.5px" font-weight="400" text-anchor="start">A fail-closed operator preserves the difference between no documented exposure and no measurement capability</text>
+      <text id="panel_GA_source_0_detail_009" x="71" y="183" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">treatment intention</text>
+      <text id="panel_GA_source_1_detail_012" x="281" y="183" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">pharmacy workflow</text>
+      <text id="panel_GA_source_2_detail_015" x="71" y="257" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">documented delivery</text>
+      <text id="panel_GA_source_3_detail_018" x="281" y="257" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">resource roles</text>
+      <text id="panel_GA_source_4_detail_021" x="71" y="331" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">DRUG_EXPOSURE</text>
+      <text id="panel_GA_source_5_detail_024" x="281" y="331" fill="#607180" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="start">non-equivalent interfaces</text>
+      <text id="panel_GA_formula_045" x="700" y="276" fill="#28557D" font-family="Arial" font-size="12.5px" font-weight="700" text-anchor="middle">O = (S, I, T, E, M)</text>
+      <text id="panel_GA_compiler_046" x="700" y="303" fill="#607180" font-family="Arial" font-size="10px" font-weight="400" text-anchor="middle">versioned specification  &gt;  adapter  &gt;  deterministic gates</text>
+      <text id="panel_GA_identity_rule_047" x="700" y="342" fill="#1B2733" font-family="Arial" font-size="10px" font-weight="400" text-anchor="middle">Native identity retained when available; never inferred when absent</text>
+      <text id="panel_GA_fail_closed_058" x="1174" y="277" fill="#1B2733" font-family="Arial" font-size="11px" font-weight="700" text-anchor="middle">Missing evidence stays visible</text>
+      <text id="panel_GA_fail_closed_detail_059" x="1174" y="301" fill="#607180" font-family="Arial" font-size="9.8px" font-weight="400" text-anchor="middle">It is not silently recoded as unexposed</text>
+      <text id="panel_GA_omop_record_063" x="395" y="466" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">record existence: 37 / 37 exposed</text>
+      <text id="panel_GA_omop_strict_064" x="395" y="490" fill="#6D7881" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">strict administration: 37 / 37 unmeasurable</text>
+      <text id="panel_GA_fhir_role_066" x="825" y="466" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">role / status: 6,697 positive</text>
+      <text id="panel_GA_fhir_strict_067" x="825" y="490" fill="#249A8D" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">event semantics: 5,740 strict positive</text>
+      <text id="panel_GA_downstream_text_1_071" x="1274" y="493" fill="#1B2733" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="middle">reclassification and</text>
+      <text id="panel_GA_downstream_text_2_072" x="1274" y="511" fill="#1B2733" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="middle">effect-estimate drift audit</text>
+      <line id="panel_GA_boundary_rule_073" x1="42" y1="535" x2="70" y2="535" stroke="#28557D" stroke-width="2" stroke-linecap="round" />
+      <text id="panel_GA_boundary_074" x="80" y="539" fill="#607180" font-family="Arial" font-size="9.4px" font-weight="400" text-anchor="start">Measurement method; no causal efficacy or safety claim</text>
+    </g>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 {
   "checks_n": 10,
-  "coverage_percent": 70.14553014553015,
-  "covered_lines_n": 1356,
+  "coverage_percent": 86.02910602910603,
+  "covered_lines_n": 1593,
   "failed_n": 0,
   "gate": "PASS_SOFTWARE_RELEASE_VALIDATION",
   "known_limitations": [
@@ -15,15 +15,15 @@
   "passed_n": 10,
   "schema_version": "1.0.0",
   "sdist": {
-    "bytes": 355237,
+    "bytes": 360057,
     "file": "medprov-0.1.0.tar.gz",
-    "sha256": "0d0641a58b9f5b5a71c5ecd8cecea0a71c1895b9214299dca70c4a65a9d53921"
+    "sha256": "aa720c9955f1a772f4366808c0726156d73eb08d201834f356dde4edfdbd6987"
   },
   "tests_failed_n": 0,
-  "tests_passed_n": 30,
+  "tests_passed_n": 61,
   "wheel": {
-    "bytes": 439391,
+    "bytes": 441951,
     "file": "medprov-0.1.0-py3-none-any.whl",
-    "sha256": "5c803dc32bd3b033fcc0b6b0e72a781a8a3fe3855068c7f8b05eac817bece386"
+    "sha256": "de654ab1a304c92852344b1770a7ba76f04518157b228a090be7d8d6c473599d"
   }
 }

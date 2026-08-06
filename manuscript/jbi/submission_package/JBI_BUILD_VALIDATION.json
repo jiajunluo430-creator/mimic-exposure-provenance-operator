@@ -1,6 +1,7 @@
 {
-  "abstract_words": 296,
-  "main_text_words": 3531,
+  "abstract_words": 247,
+  "main_text_words": 4033,
+  "statement_of_significance_words": 89,
   "references": 42,
   "main_tables": 3,
   "main_figures": 5,
@@ -15,12 +16,12 @@
       "characters": 76
     },
     {
-      "text": "Nineteen frozen MIMIC-IV parity checks passed with zero count discrepancy.",
-      "characters": 74
+      "text": "OMOP record existence exposed 37/37 units; strict administration was unmeasurable.",
+      "characters": 82
     },
     {
-      "text": "FHIR evaluation localized exact transport, transformation, and semantic loss.",
-      "characters": 77
+      "text": "FHIR role/status-only execution overcalled strict administration by 16.7%.",
+      "characters": 74
     },
     {
       "text": "None of 40 coded studies reported a complete executable exposure operator.",
@@ -82,13 +83,17 @@
     "JBI_Figure4.pdf",
     "JBI_Figure4.tiff",
     "JBI_Figure5.pdf",
-    "JBI_Figure5.tiff"
+    "JBI_Figure5.tiff",
+    "JBI_Graphical_Abstract.pdf",
+    "JBI_Graphical_Abstract.tiff",
+    "JBI_Graphical_Abstract.svg"
   ],
   "documents": [
     "JBI_main_manuscript.docx",
     "JBI_title_page.docx",
     "JBI_cover_letter.docx",
     "JBI_highlights.docx",
+    "JBI_declaration_of_competing_interest.docx",
     "JBI_supporting_information.docx",
     "JBI_RECORD_STROBE_checklist.docx"
   ],

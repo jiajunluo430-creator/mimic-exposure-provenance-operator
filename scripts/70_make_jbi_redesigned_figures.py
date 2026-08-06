@@ -118,7 +118,7 @@ def figure1() -> tuple[str, list[Panel], float, float, list[tuple[Panel, float, 
     a.text("labels", tx + 10, ty + 29, "Canonical medication event", size=10.0, weight="bold", stem="canonical_title")
     fields = [
         ("clinical role", "request / dispense / admin"),
-        ("native identity", "retained, not inferred"),
+        ("native identity", "retained if available; never inferred"),
         ("event time", "source anchored"),
         ("literal state", "preserved"),
         ("route / dose", "required when construct-bound"),
@@ -338,6 +338,7 @@ def figure3(repo: Path, data_dir: Path) -> tuple[str, list[Panel], float, float,
         y = 102 + i * 78
         total = sum(int(counts.get(state, 0)) for state in state_colors)
         c.text("labels", px0, y - 12, label, size=9.5, weight="bold", stem=f"bar_{i}_label")
+        c.text("annotations", px0 + pw, y - 12, f"n={total:,}", size=8.3, fill=MUTED, anchor="end", stem=f"bar_{i}_denominator")
         cursor = px0
         for state, color in state_colors.items():
             value = int(counts.get(state, 0))
@@ -462,7 +463,7 @@ def figure5(repo: Path, data_dir: Path) -> tuple[str, list[Panel], float, float,
         for (label, color), count in zip(segments, counts):
             bw = w * count / total
             a.rect("data", cursor, y, bw, 34, fill=color, stroke=WHITE, stroke_width=0.8, rx=0, stem=f"{anchor}_{label}")
-            if bw > 48:
+            if bw > 36:
                 a.text("annotations", cursor + bw / 2, y + 22, f"{count / total * 100:.1f}%", size=9.0, weight="bold", fill=WHITE, anchor="middle", stem=f"{anchor}_{label}_pct")
             cursor += bw
         a.line("axis", x0, y + 35, x0 + w, y + 35, stroke=INK, stroke_width=0.7, stem=f"axis_{anchor}")
@@ -567,7 +568,7 @@ def write_alt_text(root: Path) -> None:
     text = """# Figure legends and alt text
 
 ## Figure 1. Machine-executable medication-exposure provenance architecture
-Panel A uses four source lanes to show native EHR, FHIR, OMOP, and eICU representations passing through source-specific adapters into a canonical medication-event record while preserving clinical role, native identity, time, event state, and required metadata. Panel B shows the five operator dimensions, validation chain, explicit four-state output, and the two prespecified evaluation paths.
+Panel A uses four source lanes to show native EHR, FHIR, OMOP, and eICU representations passing through source-specific adapters into a canonical medication-event record while preserving clinical role and retaining native identity when available without inferring it when absent. Panel B shows the five operator dimensions, validation chain, explicit four-state output, and the two prespecified evaluation paths.
 
 ## Figure 2. Native parity and prespecified operator ablation
 Panel A is a log-log parity plot in which all frozen and generated six-class counts fall on the identity line; 19 of 19 checks pass. Panel B is a connected dot plot showing exposed proportions after successive operator ablations in A1 and A2, with route-required A1 administration explicitly classified as unmeasurable.

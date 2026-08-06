@@ -5,10 +5,16 @@ $package = Join-Path $root 'manuscript\jbi\submission_package'
 $qcRoot = Join-Path $root 'manuscript\jbi\rendered_qc'
 $projectRoot = Split-Path -Parent (Split-Path -Parent $root)
 $shortExportRoot = Join-Path $projectRoot '_jbi_qc_tmp'
-$pdftoppm = 'C:\Users\ljjws\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin\pdftoppm.exe'
+$pdftoppm = $env:MEDPROV_PDFTOPPM
+if (-not $pdftoppm) {
+    $pdftoppmCommand = Get-Command 'pdftoppm.exe' -ErrorAction SilentlyContinue
+    if ($pdftoppmCommand) {
+        $pdftoppm = $pdftoppmCommand.Source
+    }
+}
 
-if (-not (Test-Path -LiteralPath $pdftoppm)) {
-    throw "pdftoppm wrapper not found: $pdftoppm"
+if (-not $pdftoppm -or -not (Test-Path -LiteralPath $pdftoppm)) {
+    throw 'Set MEDPROV_PDFTOPPM to a valid pdftoppm executable or add it to PATH.'
 }
 
 New-Item -ItemType Directory -Force -Path $shortExportRoot | Out-Null

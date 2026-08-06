@@ -1,0 +1,3 @@
+# Graphical abstract alt text
+
+Medication orders, dispensing records, documented administrations, FHIR, OMOP, and eICU interfaces feed a five-dimensional provenance operator covering source, identity, time, event semantics, and metadata. The operator returns exposed, unexposed, unresolved, or unmeasurable. An executed OMOP comparison changes 37 of 37 units from record-existence exposure to strict-administration unmeasurability when event state is absent, while an FHIR comparison reduces 6,697 role/status positives to 5,740 strict positives using relocated event semantics. The output supports reclassification and effect-estimate drift audits without making causal drug claims.

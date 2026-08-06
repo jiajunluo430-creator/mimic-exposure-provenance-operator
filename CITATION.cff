@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: Please cite the accompanying manuscript and this software release.
 title: 'medprov: Machine-executable medication-exposure provenance operators'
 version: 0.1.0
-date-released: 2026-08-05
+date-released: 2026-08-06
 repository-code: https://github.com/jiajunluo430-creator/mimic-exposure-provenance-operator
 authors:
   - family-names: Luo

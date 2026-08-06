@@ -11,4 +11,4 @@ These are administrative confirmations, not analysis blockers.
 - Upload the separate title page only if the portal supplies that designation; JBI’s stated review model is single anonymized, and the main manuscript already contains title-page information.
 - Do not upload restricted MIMIC-IV/eICU data, row-level outputs, or local path manifests.
 - Do not claim independent second coding or Cohen kappa unless a completed second-coder worksheet is genuinely produced.
-- Do not push, create a public release, deposit a preprint, or submit the manuscript without corresponding-author authorization.
+- Zenodo deposition remains deferred by author decision; do not add a DOI unless a real archived release is created.

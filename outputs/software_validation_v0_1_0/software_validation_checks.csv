@@ -1,11 +1,11 @@
 ﻿check_id,status,observed,expected,elapsed_seconds
-ruff,PASS,0,0,0.091868
-mypy,PASS,0,0,0.182519
-pytest,PASS,0,0,1.949315
-pytest_collection,PASS,30,> 0,0
-wheel_and_sdist_build,PASS,0,0,7.244561
+ruff,PASS,0,0,1.249054
+mypy,PASS,0,0,0.461649
+pytest,PASS,0,0,2.611809
+pytest_collection,PASS,61,> 0,0
+wheel_and_sdist_build,PASS,0,0,31.170324
 distribution_assets_present,PASS,2,2,0
 wheel_required_resources,PASS,none,none,0
-isolated_wheel_install_and_cli,PASS,"{""analysis_units"": 4, ""by_class"": [{""exposed"": 1, ""medication_class"": ""insulin"", ""unexposed"": 1, ""unmeasurable"": 1, ""unresolved"": 1}], ""exposed"": 1, ""unexposed"": 1, ""unmeasurable"": 1, ""unresolved"": 1}",traceable spec and deterministic 1/1/1/1 demo,7.491949
-public_repository_privacy_scan,PASS,PASS_PUBLIC_REPOSITORY_VALIDATION,PASS_PUBLIC_REPOSITORY_VALIDATION,0.40427
+isolated_wheel_install_and_cli,PASS,"{""analysis_units"": 4, ""by_class"": [{""exposed"": 1, ""medication_class"": ""insulin"", ""unexposed"": 1, ""unmeasurable"": 1, ""unresolved"": 1}], ""exposed"": 1, ""unexposed"": 1, ""unmeasurable"": 1, ""unresolved"": 1}",traceable spec and deterministic 1/1/1/1 demo,27.385986
+public_repository_privacy_scan,PASS,PASS_PUBLIC_REPOSITORY_VALIDATION,PASS_PUBLIC_REPOSITORY_VALIDATION,0.388874
 transport_package_validation,PASS,39/39,39/39,0
