@@ -1,0 +1,43 @@
+reference_id,doi_or_official_id,verification_url,verification_source,verified_date,status
+1,10.1097/MLR.0b013e31829b1dbd,https://doi.org/10.1097/MLR.0b013e31829b1dbd,Publisher/PubMed,2026-08-05,VERIFIED
+2,10.13063/2327-9214.1058,https://doi.org/10.13063/2327-9214.1058,Publisher/PMC,2026-08-05,VERIFIED
+3,10.1136/amiajnl-2011-000681,https://doi.org/10.1136/amiajnl-2011-000681,Oxford Academic/PubMed,2026-08-05,VERIFIED
+4,10.13063/2327-9214.1244,https://doi.org/10.13063/2327-9214.1244,Publisher/PMC,2026-08-05,VERIFIED
+5,10.1002/pds.5683,https://pubmed.ncbi.nlm.nih.gov/37752827/,PubMed/Wiley,2026-08-05,VERIFIED
+6,10.1002/pds.5613,https://onlinelibrary.wiley.com/doi/full/10.1002/pds.5613,Wiley,2026-08-05,VERIFIED
+7,10.1002/pds.5346,https://onlinelibrary.wiley.com/doi/full/10.1002/pds.5346,Wiley/PMC,2026-08-05,VERIFIED
+8,10.1136/amiajnl-2012-001145,https://academic.oup.com/jamia/article/20/1/117/2909152,Oxford Academic/PMC,2026-08-05,VERIFIED
+9,10.1093/jamia/ocv112,https://doi.org/10.1093/jamia/ocv112,Oxford Academic/PubMed,2026-08-05,VERIFIED
+10,10.1093/jamia/ocv202,https://pubmed.ncbi.nlm.nih.gov/27026615/,PubMed/Oxford Academic,2026-08-05,VERIFIED
+11,10.1093/jamia/ocy101,https://pubmed.ncbi.nlm.nih.gov/30124903/,PubMed/Oxford Academic,2026-08-05,VERIFIED
+12,10.1016/j.jbi.2019.103253,https://pmc.ncbi.nlm.nih.gov/articles/PMC6697565/,PMC/Elsevier,2026-08-05,VERIFIED
+13,HL7-FHIR-R4-MEDICATIONS,https://hl7.org/fhir/R4/medications-module.html,HL7 official specification,2026-08-05,VERIFIED
+14,10.1093/jamia/ocad002,https://doi.org/10.1093/jamia/ocad002,Oxford Academic/PubMed,2026-08-05,VERIFIED
+15,10.3233/978-1-61499-564-7-574,https://doi.org/10.3233/978-1-61499-564-7-574,IOS Press/PubMed,2026-08-05,VERIFIED
+16,10.1136/amiajnl-2011-000376,https://doi.org/10.1136/amiajnl-2011-000376,Oxford Academic/PubMed,2026-08-05,VERIFIED
+17,10.1093/jamia/ocu023,https://doi.org/10.1093/jamia/ocu023,Oxford Academic/PubMed,2026-08-05,VERIFIED
+18,OMOP-CDM-5.4,https://ohdsi.github.io/CommonDataModel/cdm54.html,OHDSI official documentation,2026-08-05,VERIFIED
+19,BOOK-OF-OHDSI-COHORTS,https://ohdsi.github.io/TheBookOfOhdsi/Cohorts.html,OHDSI official documentation,2026-08-05,VERIFIED
+20,CQL-1.5.3,https://cql.hl7.org/01-introduction.html,HL7 official specification,2026-08-05,VERIFIED
+21,JSON-SCHEMA-2020-12,https://json-schema.org/draft/2020-12,JSON Schema official specification,2026-08-05,VERIFIED
+22,10.1136/bmj.k3532,https://doi.org/10.1136/bmj.k3532,BMJ/PubMed,2026-08-05,VERIFIED
+23,10.1136/bmj.m4856,https://doi.org/10.1136/bmj.m4856,BMJ/PubMed,2026-08-05,VERIFIED
+24,10.1016/j.jval.2022.09.001,https://doi.org/10.1016/j.jval.2022.09.001,Value in Health/publisher copy,2026-08-05,VERIFIED
+25,10.1371/journal.pmed.1001885,https://doi.org/10.1371/journal.pmed.1001885,PLOS/PMC,2026-08-05,VERIFIED
+26,10.1016/S0140-6736(07)61602-X,https://doi.org/10.1016/S0140-6736(07)61602-X,Lancet/PubMed,2026-08-05,VERIFIED
+27,10.1038/s41597-022-01899-x,https://doi.org/10.1038/s41597-022-01899-x,Nature/PMC,2026-08-05,VERIFIED
+28,10.13026/kpb9-mt58,https://physionet.org/content/mimiciv/3.1/,PhysioNet official dataset page,2026-08-05,VERIFIED
+29,10.13026/dp1f-ex47,https://physionet.org/content/mimic-iv-demo/2.2/,PhysioNet official dataset page,2026-08-05,VERIFIED
+30,10.13026/rrj1-ny66,https://physionet.org/content/mimic-iv-fhir/2.1/,PhysioNet official dataset page,2026-08-05,VERIFIED
+31,10.13026/p1f5-7x35,https://physionet.org/content/mimic-iv-demo-omop/0.9/,PhysioNet official dataset page,2026-08-05,VERIFIED
+32,10.1038/sdata.2018.178,https://doi.org/10.1038/sdata.2018.178,Nature/PMC,2026-08-05,VERIFIED
+33,10.1136/amiajnl-2011-000116,https://doi.org/10.1136/amiajnl-2011-000116,Oxford Academic/PubMed,2026-08-05,VERIFIED
+34,RXNAV-API,https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html,US National Library of Medicine,2026-08-05,VERIFIED
+35,10.1097/CCM.0b013e31828a24fe,https://doi.org/10.1097/CCM.0b013e31828a24fe,Publisher/PubMed,2026-08-05,VERIFIED
+36,10.7759/cureus.86370,https://pmc.ncbi.nlm.nih.gov/articles/PMC12276787/,PMC/Cureus,2026-08-05,VERIFIED
+37,10.3389/fphar.2025.1545533,https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1545533/full,Frontiers official article,2026-08-05,VERIFIED
+38,10.1002/lrh2.10468,https://onlinelibrary.wiley.com/doi/10.1002/lrh2.10468,Wiley,2026-08-05,VERIFIED
+39,10.13063/2327-9214.1052,https://pubmed.ncbi.nlm.nih.gov/25992385/,PubMed/PMC,2026-08-05,VERIFIED
+40,10.1038/sdata.2016.18,https://doi.org/10.1038/sdata.2016.18,Nature/PMC,2026-08-05,VERIFIED
+41,10.1371/journal.pcbi.1003285,https://doi.org/10.1371/journal.pcbi.1003285,PLOS/PMC,2026-08-05,VERIFIED
+42,10.1093/jamia/ocx084,https://doi.org/10.1093/jamia/ocx084,Oxford Academic/PMC,2026-08-05,VERIFIED

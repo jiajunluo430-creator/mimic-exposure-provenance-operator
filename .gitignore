@@ -24,3 +24,7 @@ outputs/local/
 outputs/patient_level/
 .Rhistory
 .RData
+
+# Internal Word/PDF page-rendering artifacts; retain Markdown QC/audit records.
+manuscript/jbi/rendered_qc/**/*.pdf
+manuscript/jbi/rendered_qc/**/*.png

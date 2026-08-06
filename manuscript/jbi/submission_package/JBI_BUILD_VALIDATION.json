@@ -1,0 +1,96 @@
+{
+  "abstract_words": 296,
+  "main_text_words": 3531,
+  "references": 42,
+  "main_tables": 3,
+  "main_figures": 5,
+  "main_displays": 8,
+  "highlights": [
+    {
+      "text": "A five-dimensional operator makes medication exposure machine-executable.",
+      "characters": 73
+    },
+    {
+      "text": "Four output states prevent missing provenance from becoming false negatives.",
+      "characters": 76
+    },
+    {
+      "text": "Nineteen frozen MIMIC-IV parity checks passed with zero count discrepancy.",
+      "characters": 74
+    },
+    {
+      "text": "FHIR evaluation localized exact transport, transformation, and semantic loss.",
+      "characters": 77
+    },
+    {
+      "text": "None of 40 coded studies reported a complete executable exposure operator.",
+      "characters": 74
+    }
+  ],
+  "citations_first_appearance": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "reference_registry_verified": 42,
+  "figure_files": [
+    "JBI_Figure1.pdf",
+    "JBI_Figure1.tiff",
+    "JBI_Figure2.pdf",
+    "JBI_Figure2.tiff",
+    "JBI_Figure3.pdf",
+    "JBI_Figure3.tiff",
+    "JBI_Figure4.pdf",
+    "JBI_Figure4.tiff",
+    "JBI_Figure5.pdf",
+    "JBI_Figure5.tiff"
+  ],
+  "documents": [
+    "JBI_main_manuscript.docx",
+    "JBI_title_page.docx",
+    "JBI_cover_letter.docx",
+    "JBI_highlights.docx",
+    "JBI_supporting_information.docx",
+    "JBI_RECORD_STROBE_checklist.docx"
+  ],
+  "status": "PASS_JBI_SOURCE_AND_DOCUMENT_BUILD"
+}

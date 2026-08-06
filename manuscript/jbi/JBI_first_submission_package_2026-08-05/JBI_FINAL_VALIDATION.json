@@ -1,0 +1,179 @@
+{
+  "status": "PASS_JBI_FIRST_SUBMISSION_PACKAGE",
+  "generated_utc": "2026-08-06T03:16:17.306130+00:00",
+  "selected_target": "Journal of Biomedical Informatics",
+  "article_type": "Research Paper",
+  "upload_file_count": 9,
+  "upload_files": [
+    "JBI_Figure1.pdf",
+    "JBI_Figure2.pdf",
+    "JBI_Figure3.pdf",
+    "JBI_Figure4.pdf",
+    "JBI_Figure5.pdf",
+    "JBI_cover_letter.docx",
+    "JBI_highlights.docx",
+    "JBI_main_manuscript.docx",
+    "JBI_supporting_information.docx"
+  ],
+  "optional_files": [
+    "JBI_RECORD_STROBE_checklist.docx"
+  ],
+  "administrative_backup_files": [
+    "JBI_title_page.docx"
+  ],
+  "alternate_figure_files": [
+    "JBI_Figure1.tiff",
+    "JBI_Figure2.tiff",
+    "JBI_Figure3.tiff",
+    "JBI_Figure4.tiff",
+    "JBI_Figure5.tiff"
+  ],
+  "docx_files_checked": 6,
+  "docx_page_counts": {
+    "JBI_cover_letter.docx": 2,
+    "JBI_highlights.docx": 1,
+    "JBI_main_manuscript.docx": 17,
+    "JBI_RECORD_STROBE_checklist.docx": 2,
+    "JBI_supporting_information.docx": 9,
+    "JBI_title_page.docx": 2
+  },
+  "total_docx_pages_visually_inspected": 33,
+  "references": 42,
+  "citations_first_appearance": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "main_figures": 5,
+  "main_tables": 3,
+  "figure_pdf_checks": {
+    "JBI_Figure1.pdf": {
+      "bytes": 6009,
+      "pages": 1,
+      "raster_image_objects": 0
+    },
+    "JBI_Figure2.pdf": {
+      "bytes": 5010,
+      "pages": 1,
+      "raster_image_objects": 0
+    },
+    "JBI_Figure3.pdf": {
+      "bytes": 6020,
+      "pages": 1,
+      "raster_image_objects": 0
+    },
+    "JBI_Figure4.pdf": {
+      "bytes": 4504,
+      "pages": 1,
+      "raster_image_objects": 0
+    },
+    "JBI_Figure5.pdf": {
+      "bytes": 4958,
+      "pages": 1,
+      "raster_image_objects": 0
+    }
+  },
+  "alternate_tiff_checks": {
+    "JBI_Figure1.tiff": {
+      "bytes": 1037810,
+      "width_px": 4417,
+      "height_px": 2459,
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "mode": "RGB"
+    },
+    "JBI_Figure2.tiff": {
+      "bytes": 643418,
+      "width_px": 4500,
+      "height_px": 2250,
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "mode": "RGB"
+    },
+    "JBI_Figure3.tiff": {
+      "bytes": 962612,
+      "width_px": 4334,
+      "height_px": 3084,
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "mode": "RGB"
+    },
+    "JBI_Figure4.tiff": {
+      "bytes": 557970,
+      "width_px": 4417,
+      "height_px": 2084,
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "mode": "RGB"
+    },
+    "JBI_Figure5.tiff": {
+      "bytes": 719650,
+      "width_px": 4709,
+      "height_px": 2375,
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "mode": "RGB"
+    }
+  },
+  "payload_manifest_files": 22,
+  "local_path_scan": "PASS",
+  "placeholder_scan": "PASS",
+  "macro_tracked_change_comment_scan": "PASS",
+  "restricted_data_included": false,
+  "scientific_analysis_rerun": false,
+  "git_push_or_external_submission": false,
+  "remaining_author_actions": [
+    "confirm all-author approval",
+    "confirm author and funding metadata in portal",
+    "add telephone only if portal requires it"
+  ]
+}
