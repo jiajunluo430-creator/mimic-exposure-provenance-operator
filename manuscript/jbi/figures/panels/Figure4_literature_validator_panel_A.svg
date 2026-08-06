@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="610" height="500" viewBox="0 0 610 500" role="img" aria-label="Figure4 literature validator panel A">
+  <g id="panel_A">
+    <g id="panel_A_axis">
+      <line id="panel_A_grid_0_004" x1="210" y1="94" x2="210" y2="372" stroke="#DCE3E8" stroke-width="1.5" stroke-linecap="round" />
+      <line id="panel_A_grid_25_006" x1="292.5" y1="94" x2="292.5" y2="372" stroke="#DCE3E8" stroke-width="1.5" stroke-linecap="round" />
+      <line id="panel_A_grid_50_008" x1="375" y1="94" x2="375" y2="372" stroke="#DCE3E8" stroke-width="1.5" stroke-linecap="round" />
+      <line id="panel_A_grid_75_010" x1="457.5" y1="94" x2="457.5" y2="372" stroke="#DCE3E8" stroke-width="1.5" stroke-linecap="round" />
+      <line id="panel_A_grid_100_012" x1="540" y1="94" x2="540" y2="372" stroke="#DCE3E8" stroke-width="1.5" stroke-linecap="round" />
+    </g>
+    <g id="panel_A_data">
+      <rect id="panel_A_bar_0_015" x="210" y="100" width="57.75" height="24" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="4" />
+      <rect id="panel_A_bar_1_018" x="210" y="154" width="16.5" height="24" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="4" />
+      <rect id="panel_A_bar_2_021" x="210" y="208" width="288.75" height="24" fill="#2A9D8F" stroke="#2A9D8F" stroke-width="1" rx="4" />
+      <circle id="panel_A_bar_3_zero_024" cx="210" cy="274" r="4.5" fill="#E15759" stroke="#E15759" stroke-width="1" />
+      <rect id="panel_A_bar_4_027" x="210" y="316" width="247.5" height="24" fill="#2A9D8F" stroke="#2A9D8F" stroke-width="1" rx="4" />
+    </g>
+    <g id="panel_A_labels">
+      <text id="panel_A_panel_title_002" x="50" y="27" fill="#17212B" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">Published exposure reports omit executable provenance</text>
+      <text id="panel_A_panel_subtitle_003" x="50" y="48" fill="#61717F" font-family="Arial" font-size="11.5px" font-weight="400" text-anchor="start">Structured validator over 40 human-coded MIMIC medication studies</text>
+      <text id="panel_A_tick_0_005" x="210" y="397" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">0%</text>
+      <text id="panel_A_tick_25_007" x="292.5" y="397" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">25%</text>
+      <text id="panel_A_tick_50_009" x="375" y="397" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">50%</text>
+      <text id="panel_A_tick_75_011" x="457.5" y="397" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">75%</text>
+      <text id="panel_A_tick_100_013" x="540" y="397" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">100%</text>
+      <text id="panel_A_label_0_014" x="196" y="117" fill="#17212B" font-family="Arial" font-size="10.8px" font-weight="400" text-anchor="end">Named native source</text>
+      <text id="panel_A_label_1_017" x="196" y="171" fill="#17212B" font-family="Arial" font-size="10.8px" font-weight="400" text-anchor="end">Executable identity rule</text>
+      <text id="panel_A_label_2_020" x="196" y="225" fill="#17212B" font-family="Arial" font-size="10.8px" font-weight="400" text-anchor="end">Time origin/window</text>
+      <text id="panel_A_label_3_023" x="196" y="279" fill="#17212B" font-family="Arial" font-size="10.8px" font-weight="400" text-anchor="end">Native event semantics</text>
+      <text id="panel_A_label_4_026" x="196" y="333" fill="#17212B" font-family="Arial" font-size="10.8px" font-weight="400" text-anchor="end">Dose/route requirement</text>
+    </g>
+    <g id="panel_A_legend">
+      <line id="panel_A_scope_line_029" x1="25" y1="437" x2="53" y2="437" stroke="#244A73" stroke-width="2" stroke-linecap="round" />
+      <text id="panel_A_scope_text_030" x="62" y="442" fill="#61717F" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="start">Main texts, 55/56 linked supplements, and 3 article-specific repositories were searched</text>
+    </g>
+    <g id="panel_A_annotations">
+      <text id="panel_A_panel_tag_001" x="18" y="27" fill="#17212B" font-family="Arial" font-size="20px" font-weight="700" text-anchor="start">A</text>
+      <text id="panel_A_count_0_016" x="275.75" y="117" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">7/40</text>
+      <text id="panel_A_count_1_019" x="234.5" y="171" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">2/40</text>
+      <text id="panel_A_count_2_022" x="506.75" y="225" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">35/40</text>
+      <text id="panel_A_count_3_025" x="218" y="279" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">0/40</text>
+      <text id="panel_A_count_4_028" x="465.5" y="333" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">30/40</text>
+      <text id="panel_A_coder_boundary_031" x="25" y="477" fill="#61717F" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="start">Input was single-coded; the validator reproduces coding deterministically but does not replace human review.</text>
+    </g>
+  </g>
+</svg>

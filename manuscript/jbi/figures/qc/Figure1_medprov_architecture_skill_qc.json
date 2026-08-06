@@ -1,0 +1,25 @@
+{
+  "svg": {
+    "file": "D:\\GI_CHARLS_NHANES\\N1_mimic_order_administration_validity\\release\\mimic-exposure-provenance-operator\\manuscript\\jbi\\figures\\Figure1_medprov_architecture.svg",
+    "text_elements": 61,
+    "image_elements": 0,
+    "paths_inside_label_groups": 0,
+    "duplicate_ids": [],
+    "clip_paths": 0,
+    "duplicate_clip_paths": 0,
+    "transparent_rectangles": 0,
+    "abnormal_paths": [],
+    "semantic_groups": {},
+    "passed": true
+  },
+  "pdf": {
+    "file": "D:\\GI_CHARLS_NHANES\\N1_mimic_order_administration_validity\\release\\mimic-exposure-provenance-operator\\manuscript\\jbi\\figures\\Figure1_medprov_architecture.pdf",
+    "font_subtypes": [
+      "/Type1"
+    ],
+    "type3_fonts": false,
+    "image_xobjects": 0,
+    "passed": true
+  },
+  "overall_passed": true
+}

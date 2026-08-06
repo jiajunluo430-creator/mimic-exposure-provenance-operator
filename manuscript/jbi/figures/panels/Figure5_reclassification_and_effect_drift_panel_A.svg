@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="420" height="570" viewBox="0 0 420 570" role="img" aria-label="Figure5 reclassification and effect drift panel A">
+  <g id="panel_A">
+    <g id="panel_A_axis">
+      <line id="panel_A_axis_A1_011" x1="34" y1="154" x2="384" y2="154" stroke="#17212B" stroke-width="0.8" stroke-linecap="round" />
+      <line id="panel_A_axis_A2_019" x1="34" y1="272" x2="384" y2="272" stroke="#17212B" stroke-width="0.8" stroke-linecap="round" />
+    </g>
+    <g id="panel_A_data">
+      <rect id="panel_A_A1_both_positive_005" x="34" y="112" width="95.728" height="42" fill="#2A9D8F" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_A1_same_class_only_007" x="129.728" y="112" width="117.957" height="42" fill="#F28E2B" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_A1_both_negative_009" x="247.685" y="112" width="136.315" height="42" fill="#A7B0B7" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_A2_both_positive_014" x="34" y="230" width="64.4508" height="42" fill="#2A9D8F" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_A2_same_class_only_016" x="98.4508" y="230" width="43.7967" height="42" fill="#F28E2B" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_A2_both_negative_017" x="142.247" y="230" width="241.753" height="42" fill="#A7B0B7" stroke="#FFFFFF" stroke-width="1" />
+      <rect id="panel_A_construct_note_box_027" x="28" y="468" width="360" height="65" fill="#F1F3F5" stroke="#7D8790" stroke-width="1" rx="8" />
+    </g>
+    <g id="panel_A_labels">
+      <text id="panel_A_panel_title_002" x="50" y="27" fill="#17212B" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">Identity simplification reclassified exposure</text>
+      <text id="panel_A_panel_subtitle_003" x="50" y="48" fill="#61717F" font-family="Arial" font-size="11.5px" font-weight="400" text-anchor="start">Full exact identity versus same-class/window administration</text>
+      <text id="panel_A_anchor_A1_004" x="34" y="94" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">A1 (n=20,248)</text>
+      <text id="panel_A_anchor_A2_013" x="34" y="212" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">A2 (n=2,813)</text>
+    </g>
+    <g id="panel_A_legend">
+      <rect id="panel_A_legend_0_021" x="35" y="374" width="14" height="14" fill="#2A9D8F" stroke="#2A9D8F" stroke-width="1" />
+      <text id="panel_A_legend_label_0_022" x="57" y="386" fill="#17212B" font-family="Arial" font-size="9.8px" font-weight="400" text-anchor="start">both positive</text>
+      <rect id="panel_A_legend_1_023" x="35" y="402" width="14" height="14" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" />
+      <text id="panel_A_legend_label_1_024" x="57" y="414" fill="#17212B" font-family="Arial" font-size="9.8px" font-weight="400" text-anchor="start">same-class only</text>
+      <rect id="panel_A_legend_2_025" x="35" y="430" width="14" height="14" fill="#A7B0B7" stroke="#A7B0B7" stroke-width="1" />
+      <text id="panel_A_legend_label_2_026" x="57" y="442" fill="#17212B" font-family="Arial" font-size="9.8px" font-weight="400" text-anchor="start">both negative</text>
+    </g>
+    <g id="panel_A_annotations">
+      <text id="panel_A_panel_tag_001" x="18" y="27" fill="#17212B" font-family="Arial" font-size="20px" font-weight="700" text-anchor="start">A</text>
+      <text id="panel_A_A1_both_positive_pct_006" x="81.864" y="138" fill="#FFFFFF" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">27.4%</text>
+      <text id="panel_A_A1_same_class_only_pct_008" x="188.707" y="138" fill="#FFFFFF" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">33.7%</text>
+      <text id="panel_A_A1_both_negative_pct_010" x="315.843" y="138" fill="#FFFFFF" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">38.9%</text>
+      <text id="panel_A_jaccard_A1_012" x="34" y="180" fill="#61717F" font-family="Arial" font-size="10px" font-weight="400" text-anchor="start">Positive Jaccard = 0.448</text>
+      <text id="panel_A_A2_both_positive_pct_015" x="66.2254" y="256" fill="#FFFFFF" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">18.4%</text>
+      <text id="panel_A_A2_both_negative_pct_018" x="263.124" y="256" fill="#FFFFFF" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">69.1%</text>
+      <text id="panel_A_jaccard_A2_020" x="34" y="298" fill="#61717F" font-family="Arial" font-size="10px" font-weight="400" text-anchor="start">Positive Jaccard = 0.595</text>
+      <text id="panel_A_construct_note_title_028" x="42" y="491" fill="#7D8790" font-family="Arial" font-size="10.2px" font-weight="700" text-anchor="start">Construct measurability is independent of reclassification</text>
+      <text id="panel_A_construct_note_029" x="42" y="512" fill="#61717F" font-family="Arial" font-size="9.8px" font-weight="400" text-anchor="start">A1 route: order 9,940/9,940 available; eMAR 0/87,569.</text>
+      <text id="panel_A_boundary_030" x="210" y="559" fill="#61717F" font-family="Arial" font-size="9.4px" font-weight="400" text-anchor="middle">Same-class/window is an ablation, not a replacement definition</text>
+    </g>
+  </g>
+</svg>

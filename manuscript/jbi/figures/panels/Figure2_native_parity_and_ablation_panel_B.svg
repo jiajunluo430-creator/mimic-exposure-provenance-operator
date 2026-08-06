@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="530" height="540" viewBox="0 0 530 540" role="img" aria-label="Figure2 native parity and ablation panel B">
+  <g id="panel_B">
+    <g id="panel_B_axis">
+      <line id="panel_B_grid_0_004" x1="176" y1="92" x2="176" y2="402" stroke="#DCE3E8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_grid_25_006" x1="251" y1="92" x2="251" y2="402" stroke="#DCE3E8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_grid_50_008" x1="326" y1="92" x2="326" y2="402" stroke="#DCE3E8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_grid_75_010" x1="401" y1="92" x2="401" y2="402" stroke="#DCE3E8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_grid_100_012" x1="476" y1="92" x2="476" y2="402" stroke="#DCE3E8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_x_axis_014" x1="176" y1="402" x2="476" y2="402" stroke="#17212B" stroke-width="1.5" stroke-linecap="round" />
+    </g>
+    <g id="panel_B_data">
+      <rect id="panel_B_A1_0_bar_017" x="176" y="96" width="191.871" height="20" fill="#A7B0B7" stroke="#A7B0B7" stroke-width="1" rx="3" />
+      <rect id="panel_B_A1_1_bar_020" x="176" y="134" width="183.159" height="20" fill="#4C78A8" stroke="#4C78A8" stroke-width="1" rx="3" />
+      <rect id="panel_B_A1_2_bar_023" x="176" y="172" width="188.493" height="20" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="3" />
+      <rect id="panel_B_A1_3_bar_026" x="176" y="210" width="82.0525" height="20" fill="#2A9D8F" stroke="#2A9D8F" stroke-width="1" rx="3" />
+      <rect id="panel_B_A2_0_bar_030" x="176" y="252" width="113.153" height="20" fill="#A7B0B7" stroke="#A7B0B7" stroke-width="1" rx="3" />
+      <rect id="panel_B_A2_1_bar_033" x="176" y="290" width="92.7835" height="20" fill="#4C78A8" stroke="#4C78A8" stroke-width="1" rx="3" />
+      <rect id="panel_B_A2_2_bar_036" x="176" y="328" width="92.8902" height="20" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="3" />
+      <rect id="panel_B_A2_3_bar_039" x="176" y="366" width="55.2435" height="20" fill="#2A9D8F" stroke="#2A9D8F" stroke-width="1" rx="3" />
+      <rect id="panel_B_route_unmeasurable_box_041" x="24" y="441" width="452" height="54" fill="#F1F3F5" stroke="#7D8790" stroke-width="1" rx="8" />
+    </g>
+    <g id="panel_B_labels">
+      <text id="panel_B_panel_title_002" x="50" y="27" fill="#17212B" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">Prespecified ablation isolates operator information</text>
+      <text id="panel_B_panel_subtitle_003" x="50" y="48" fill="#61717F" font-family="Arial" font-size="11.5px" font-weight="400" text-anchor="start">Exposed proportion within each frozen anchor cohort</text>
+      <text id="panel_B_tick_0_005" x="176" y="424" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">0%</text>
+      <text id="panel_B_tick_25_007" x="251" y="424" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">25%</text>
+      <text id="panel_B_tick_50_009" x="326" y="424" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">50%</text>
+      <text id="panel_B_tick_75_011" x="401" y="424" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">75%</text>
+      <text id="panel_B_tick_100_013" x="476" y="424" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">100%</text>
+      <text id="panel_B_anchor_A1_015" x="18" y="97" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">A1 (n=20,248)</text>
+      <text id="panel_B_A1_0_label_016" x="24" y="113" fill="#17212B" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">table-only</text>
+      <text id="panel_B_A1_1_label_019" x="24" y="151" fill="#17212B" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">source+class+window</text>
+      <text id="panel_B_A1_2_label_022" x="24" y="189" fill="#17212B" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">collapsed event semantics</text>
+      <text id="panel_B_A1_3_label_025" x="24" y="227" fill="#17212B" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">full exact-identity</text>
+      <text id="panel_B_anchor_A2_028" x="18" y="253" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">A2 (n=2,813)</text>
+      <text id="panel_B_A2_0_label_029" x="24" y="269" fill="#17212B" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">table-only</text>
+      <text id="panel_B_A2_1_label_032" x="24" y="307" fill="#17212B" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">source+class+window</text>
+      <text id="panel_B_A2_2_label_035" x="24" y="345" fill="#17212B" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">collapsed event semantics</text>
+      <text id="panel_B_A2_3_label_038" x="24" y="383" fill="#17212B" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">full exact-identity</text>
+    </g>
+    <g id="panel_B_legend">
+      <rect id="panel_B_legend_0_044" x="22" y="522" width="12" height="12" fill="#A7B0B7" stroke="#A7B0B7" stroke-width="1" />
+      <text id="panel_B_legend_label_0_045" x="39" y="532" fill="#17212B" font-family="Arial" font-size="9px" font-weight="400" text-anchor="start">table-only</text>
+      <rect id="panel_B_legend_1_046" x="147" y="522" width="12" height="12" fill="#4C78A8" stroke="#4C78A8" stroke-width="1" />
+      <text id="panel_B_legend_label_1_047" x="164" y="532" fill="#17212B" font-family="Arial" font-size="9px" font-weight="400" text-anchor="start">source+class+window</text>
+      <rect id="panel_B_legend_2_048" x="272" y="522" width="12" height="12" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" />
+      <text id="panel_B_legend_label_2_049" x="289" y="532" fill="#17212B" font-family="Arial" font-size="9px" font-weight="400" text-anchor="start">collapsed</text>
+      <rect id="panel_B_legend_3_050" x="397" y="522" width="12" height="12" fill="#2A9D8F" stroke="#2A9D8F" stroke-width="1" />
+      <text id="panel_B_legend_label_3_051" x="414" y="532" fill="#17212B" font-family="Arial" font-size="9px" font-weight="400" text-anchor="start">full</text>
+    </g>
+    <g id="panel_B_annotations">
+      <text id="panel_B_panel_tag_001" x="18" y="27" fill="#17212B" font-family="Arial" font-size="20px" font-weight="700" text-anchor="start">B</text>
+      <text id="panel_B_A1_0_pct_018" x="373.871" y="112" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">64.0%</text>
+      <text id="panel_B_A1_1_pct_021" x="365.159" y="150" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">61.1%</text>
+      <text id="panel_B_A1_2_pct_024" x="370.493" y="188" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">62.8%</text>
+      <text id="panel_B_A1_3_pct_027" x="264.053" y="226" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">27.4%</text>
+      <text id="panel_B_A2_0_pct_031" x="295.153" y="268" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">37.7%</text>
+      <text id="panel_B_A2_1_pct_034" x="274.784" y="306" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">30.9%</text>
+      <text id="panel_B_A2_2_pct_037" x="274.89" y="344" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">31.0%</text>
+      <text id="panel_B_A2_3_pct_040" x="237.244" y="382" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">18.4%</text>
+      <text id="panel_B_route_unmeasurable_title_042" x="38" y="463" fill="#7D8790" font-family="Arial" font-size="10.8px" font-weight="700" text-anchor="start">Route-required A1 administration: 20,248/20,248 units unmeasurable</text>
+      <text id="panel_B_route_unmeasurable_note_043" x="38" y="484" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">Required eMAR route was absent; fail-closed output did not relabel units as unexposed.</text>
+    </g>
+  </g>
+</svg>

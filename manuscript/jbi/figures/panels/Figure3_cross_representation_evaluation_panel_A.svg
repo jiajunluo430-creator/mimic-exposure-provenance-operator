@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1040" height="330" viewBox="0 0 1040 330" role="img" aria-label="Figure3 cross representation evaluation panel A">
+  <g id="panel_A">
+    <g id="panel_A_axis">
+      <rect id="panel_A_grid_0_0_011" x="250" y="85" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_0_1_014" x="372" y="85" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_0_2_017" x="494" y="85" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_0_3_020" x="616" y="85" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_0_4_023" x="738" y="85" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_0_5_026" x="860" y="85" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_1_0_030" x="250" y="133" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_1_1_033" x="372" y="133" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_1_2_036" x="494" y="133" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_1_3_039" x="616" y="133" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_1_4_042" x="738" y="133" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_1_5_045" x="860" y="133" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_2_0_049" x="250" y="181" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_2_1_052" x="372" y="181" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_2_2_055" x="494" y="181" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_2_3_058" x="616" y="181" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_2_4_061" x="738" y="181" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_2_5_064" x="860" y="181" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_3_0_068" x="250" y="229" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_3_1_071" x="372" y="229" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_3_2_074" x="494" y="229" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_3_3_077" x="616" y="229" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_3_4_080" x="738" y="229" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+      <rect id="panel_A_grid_3_5_083" x="860" y="229" width="117" height="42" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1" />
+    </g>
+    <g id="panel_A_data">
+      <rect id="panel_A_cell_0_0_012" x="254" y="89" width="109" height="34" fill="#59A14F" stroke="#59A14F" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_0_1_015" x="376" y="89" width="109" height="34" fill="#59A14F" stroke="#59A14F" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_0_2_018" x="498" y="89" width="109" height="34" fill="#59A14F" stroke="#59A14F" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_0_3_021" x="620" y="89" width="109" height="34" fill="#59A14F" stroke="#59A14F" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_0_4_024" x="742" y="89" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_0_5_027" x="864" y="89" width="109" height="34" fill="#59A14F" stroke="#59A14F" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_1_0_031" x="254" y="137" width="109" height="34" fill="#59A14F" stroke="#59A14F" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_1_1_034" x="376" y="137" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_1_2_037" x="498" y="137" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_1_3_040" x="620" y="137" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_1_4_043" x="742" y="137" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_1_5_046" x="864" y="137" width="109" height="34" fill="#59A14F" stroke="#59A14F" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_2_0_050" x="254" y="185" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_2_1_053" x="376" y="185" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_2_2_056" x="498" y="185" width="109" height="34" fill="#59A14F" stroke="#59A14F" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_2_3_059" x="620" y="185" width="109" height="34" fill="#7D8790" stroke="#7D8790" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_2_4_062" x="742" y="185" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_2_5_065" x="864" y="185" width="109" height="34" fill="#59A14F" stroke="#59A14F" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_3_0_069" x="254" y="233" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_3_1_072" x="376" y="233" width="109" height="34" fill="#7D8790" stroke="#7D8790" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_3_2_075" x="498" y="233" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_3_3_078" x="620" y="233" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_3_4_081" x="742" y="233" width="109" height="34" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="5" />
+      <rect id="panel_A_cell_3_5_084" x="864" y="233" width="109" height="34" fill="#59A14F" stroke="#59A14F" stroke-width="1" rx="5" />
+    </g>
+    <g id="panel_A_labels">
+      <text id="panel_A_panel_title_002" x="50" y="27" fill="#17212B" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">Representation capability is dimension-specific</text>
+      <text id="panel_A_panel_subtitle_003" x="50" y="48" fill="#61717F" font-family="Arial" font-size="11.5px" font-weight="400" text-anchor="start">Green=supported; amber=partial or relocated; gray=structurally unavailable in the evaluated representation</text>
+      <text id="panel_A_col_0_004" x="311" y="70" fill="#17212B" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">Source role</text>
+      <text id="panel_A_col_1_005" x="433" y="70" fill="#17212B" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">Native identity</text>
+      <text id="panel_A_col_2_006" x="555" y="70" fill="#17212B" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">Time</text>
+      <text id="panel_A_col_3_007" x="677" y="70" fill="#17212B" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">Event semantics</text>
+      <text id="panel_A_col_4_008" x="799" y="70" fill="#17212B" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">Route/dose</text>
+      <text id="panel_A_col_5_009" x="921" y="70" fill="#17212B" font-family="Arial" font-size="10px" font-weight="700" text-anchor="middle">Four-state output</text>
+      <text id="panel_A_row_0_010" x="236" y="115" fill="#17212B" font-family="Arial" font-size="11px" font-weight="700" text-anchor="end">MIMIC-IV 3.1 native</text>
+      <text id="panel_A_row_1_029" x="236" y="163" fill="#17212B" font-family="Arial" font-size="11px" font-weight="400" text-anchor="end">Matched native/FHIR demos</text>
+      <text id="panel_A_row_2_048" x="236" y="211" fill="#17212B" font-family="Arial" font-size="11px" font-weight="400" text-anchor="end">MIMIC OMOP demo</text>
+      <text id="panel_A_row_3_067" x="236" y="259" fill="#17212B" font-family="Arial" font-size="11px" font-weight="400" text-anchor="end">eICU 2.0</text>
+    </g>
+    <g id="panel_A_legend">
+      <rect id="panel_A_legend_0_086" x="256" y="295" width="13" height="13" fill="#59A14F" stroke="#59A14F" stroke-width="1" />
+      <text id="panel_A_legend_label_0_087" x="275" y="306" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">supported</text>
+      <rect id="panel_A_legend_1_088" x="411" y="295" width="13" height="13" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" />
+      <text id="panel_A_legend_label_1_089" x="430" y="306" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">partial</text>
+      <rect id="panel_A_legend_2_090" x="566" y="295" width="13" height="13" fill="#7D8790" stroke="#7D8790" stroke-width="1" />
+      <text id="panel_A_legend_label_2_091" x="585" y="306" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">unavailable</text>
+    </g>
+    <g id="panel_A_annotations">
+      <text id="panel_A_panel_tag_001" x="18" y="27" fill="#17212B" font-family="Arial" font-size="20px" font-weight="700" text-anchor="start">A</text>
+      <text id="panel_A_status_0_0_013" x="308.5" y="112" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">supported</text>
+      <text id="panel_A_status_0_1_016" x="430.5" y="112" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">supported</text>
+      <text id="panel_A_status_0_2_019" x="552.5" y="112" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">supported</text>
+      <text id="panel_A_status_0_3_022" x="674.5" y="112" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">supported</text>
+      <text id="panel_A_status_0_4_025" x="796.5" y="112" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_0_5_028" x="918.5" y="112" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">supported</text>
+      <text id="panel_A_status_1_0_032" x="308.5" y="160" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">supported</text>
+      <text id="panel_A_status_1_1_035" x="430.5" y="160" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_1_2_038" x="552.5" y="160" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_1_3_041" x="674.5" y="160" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_1_4_044" x="796.5" y="160" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_1_5_047" x="918.5" y="160" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">supported</text>
+      <text id="panel_A_status_2_0_051" x="308.5" y="208" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_2_1_054" x="430.5" y="208" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_2_2_057" x="552.5" y="208" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">supported</text>
+      <text id="panel_A_status_2_3_060" x="674.5" y="208" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">unavailable</text>
+      <text id="panel_A_status_2_4_063" x="796.5" y="208" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_2_5_066" x="918.5" y="208" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">supported</text>
+      <text id="panel_A_status_3_0_070" x="308.5" y="256" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_3_1_073" x="430.5" y="256" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">unavailable</text>
+      <text id="panel_A_status_3_2_076" x="552.5" y="256" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_3_3_079" x="674.5" y="256" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_3_4_082" x="796.5" y="256" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">partial</text>
+      <text id="panel_A_status_3_5_085" x="918.5" y="256" fill="#FFFFFF" font-family="Arial" font-size="9.2px" font-weight="700" text-anchor="middle">supported</text>
+      <text id="panel_A_boundary_note_092" x="1015" y="306" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="end">Capabilities are not a rank or superiority score</text>
+    </g>
+  </g>
+</svg>

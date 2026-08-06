@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="520" height="590" viewBox="0 0 520 590" role="img" aria-label="Figure1 medprov architecture panel B">
+  <g id="panel_B">
+    <g id="panel_B_axis">
+      <line id="panel_B_dims_to_validator_shaft_018" x1="260" y1="151" x2="260" y2="184" stroke="#6B747C" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_B_dims_to_validator_head_019" points="260,184 264.5,175 255.5,175" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+      <line id="panel_B_gate_arrow_0_shaft_022" x1="107" y1="214" x2="116" y2="214" stroke="#6B747C" stroke-width="1.4" stroke-linecap="round" />
+      <polygon id="panel_B_gate_arrow_0_head_023" points="116,214 107,209.5 107,218.5" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+      <line id="panel_B_gate_arrow_1_shaft_026" x1="208" y1="214" x2="217" y2="214" stroke="#6B747C" stroke-width="1.4" stroke-linecap="round" />
+      <polygon id="panel_B_gate_arrow_1_head_027" points="217,214 208,209.5 208,218.5" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+      <line id="panel_B_gate_arrow_2_shaft_030" x1="309" y1="214" x2="318" y2="214" stroke="#6B747C" stroke-width="1.4" stroke-linecap="round" />
+      <polygon id="panel_B_gate_arrow_2_head_031" points="318,214 309,209.5 309,218.5" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+      <line id="panel_B_gate_arrow_3_shaft_034" x1="410" y1="214" x2="419" y2="214" stroke="#6B747C" stroke-width="1.4" stroke-linecap="round" />
+      <polygon id="panel_B_gate_arrow_3_head_035" points="419,214 410,209.5 410,218.5" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+      <line id="panel_B_validator_to_states_shaft_038" x1="260" y1="243" x2="260" y2="280" stroke="#6B747C" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_B_validator_to_states_head_039" points="260,280 264.5,271 255.5,271" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+      <line id="panel_B_states_to_outputs_shaft_048" x1="260" y1="350" x2="260" y2="392" stroke="#6B747C" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_B_states_to_outputs_head_049" points="260,392 264.5,383 255.5,383" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+    </g>
+    <g id="panel_B_data">
+      <rect id="panel_B_dim_S_003" x="18" y="82" width="88" height="64" fill="#F4F7F9" stroke="#4C78A8" stroke-width="1.5" rx="10" />
+      <rect id="panel_B_dim_I_006" x="117" y="82" width="88" height="64" fill="#F4F7F9" stroke="#2A9D8F" stroke-width="1.5" rx="10" />
+      <rect id="panel_B_dim_T_009" x="216" y="82" width="88" height="64" fill="#F4F7F9" stroke="#F28E2B" stroke-width="1.5" rx="10" />
+      <rect id="panel_B_dim_E_012" x="315" y="82" width="88" height="64" fill="#F4F7F9" stroke="#8F63B8" stroke-width="1.5" rx="10" />
+      <rect id="panel_B_dim_M_015" x="414" y="82" width="88" height="64" fill="#F4F7F9" stroke="#59A14F" stroke-width="1.5" rx="10" />
+      <rect id="panel_B_gate_0_020" x="16" y="190" width="90" height="48" fill="#FFFFFF" stroke="#244A73" stroke-width="1" rx="7" />
+      <rect id="panel_B_gate_1_024" x="117" y="190" width="90" height="48" fill="#FFFFFF" stroke="#244A73" stroke-width="1" rx="7" />
+      <rect id="panel_B_gate_2_028" x="218" y="190" width="90" height="48" fill="#FFFFFF" stroke="#244A73" stroke-width="1" rx="7" />
+      <rect id="panel_B_gate_3_032" x="319" y="190" width="90" height="48" fill="#FFFFFF" stroke="#244A73" stroke-width="1" rx="7" />
+      <rect id="panel_B_gate_4_036" x="420" y="190" width="90" height="48" fill="#FFFFFF" stroke="#244A73" stroke-width="1" rx="7" />
+      <rect id="panel_B_state_exposed_040" x="22" y="288" width="112" height="54" fill="#2A9D8F" stroke="#2A9D8F" stroke-width="1" rx="9" />
+      <rect id="panel_B_state_unexposed_042" x="146" y="288" width="112" height="54" fill="#4C78A8" stroke="#4C78A8" stroke-width="1" rx="9" />
+      <rect id="panel_B_state_unresolved_044" x="270" y="288" width="112" height="54" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="9" />
+      <rect id="panel_B_state_unmeasurable_046" x="394" y="288" width="112" height="54" fill="#7D8790" stroke="#7D8790" stroke-width="1" rx="9" />
+      <rect id="panel_B_aggregate_comparison_box_050" x="36" y="400" width="206" height="90" fill="#F1F6FB" stroke="#4C78A8" stroke-width="1.4" rx="10" />
+      <rect id="panel_B_downstream_stress_box_055" x="278" y="400" width="206" height="90" fill="#FFF5E9" stroke="#F28E2B" stroke-width="1.4" rx="10" />
+    </g>
+    <g id="panel_B_labels">
+      <text id="panel_B_panel_title_002" x="50" y="27" fill="#17212B" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">Five dimensions compile to four auditable states</text>
+      <text id="panel_B_dim_S_symbol_004" x="62" y="108" fill="#4C78A8" font-family="Arial" font-size="22px" font-weight="700" text-anchor="middle">S</text>
+      <text id="panel_B_dim_S_label_005" x="62" y="132" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">Source</text>
+      <text id="panel_B_dim_I_symbol_007" x="161" y="108" fill="#2A9D8F" font-family="Arial" font-size="22px" font-weight="700" text-anchor="middle">I</text>
+      <text id="panel_B_dim_I_label_008" x="161" y="132" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">Identity</text>
+      <text id="panel_B_dim_T_symbol_010" x="260" y="108" fill="#F28E2B" font-family="Arial" font-size="22px" font-weight="700" text-anchor="middle">T</text>
+      <text id="panel_B_dim_T_label_011" x="260" y="132" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">Time</text>
+      <text id="panel_B_dim_E_symbol_013" x="359" y="108" fill="#8F63B8" font-family="Arial" font-size="22px" font-weight="700" text-anchor="middle">E</text>
+      <text id="panel_B_dim_E_label_014" x="359" y="132" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">Event semantics</text>
+      <text id="panel_B_dim_M_symbol_016" x="458" y="108" fill="#59A14F" font-family="Arial" font-size="22px" font-weight="700" text-anchor="middle">M</text>
+      <text id="panel_B_dim_M_label_017" x="458" y="132" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">Required metadata</text>
+      <text id="panel_B_gate_0_label_021" x="61" y="218" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="middle">syntactically valid</text>
+      <text id="panel_B_gate_1_label_025" x="162" y="218" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="middle">adapter supported</text>
+      <text id="panel_B_gate_2_label_029" x="263" y="218" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="middle">measurable</text>
+      <text id="panel_B_gate_3_label_033" x="364" y="218" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="middle">executable</text>
+      <text id="panel_B_gate_4_label_037" x="465" y="218" fill="#17212B" font-family="Arial" font-size="9.2px" font-weight="400" text-anchor="middle">traceable</text>
+      <text id="panel_B_state_exposed_label_041" x="78" y="321" fill="#FFFFFF" font-family="Arial" font-size="11.3px" font-weight="700" text-anchor="middle">exposed</text>
+      <text id="panel_B_state_unexposed_label_043" x="202" y="321" fill="#FFFFFF" font-family="Arial" font-size="11.3px" font-weight="700" text-anchor="middle">unexposed</text>
+      <text id="panel_B_state_unresolved_label_045" x="326" y="321" fill="#FFFFFF" font-family="Arial" font-size="11.3px" font-weight="700" text-anchor="middle">unresolved</text>
+      <text id="panel_B_state_unmeasurable_label_047" x="450" y="321" fill="#FFFFFF" font-family="Arial" font-size="11.3px" font-weight="700" text-anchor="middle">unmeasurable</text>
+      <text id="panel_B_aggregate_comparison_title_051" x="48" y="422" fill="#17212B" font-family="Arial" font-size="13px" font-weight="700" text-anchor="start">Aggregate comparison</text>
+      <text id="panel_B_aggregate_comparison_line_0_052" x="48" y="443" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">classification retention</text>
+      <text id="panel_B_aggregate_comparison_line_1_053" x="48" y="459" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">reclassification / timing</text>
+      <text id="panel_B_aggregate_comparison_line_2_054" x="48" y="475" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">semantic loss</text>
+      <text id="panel_B_downstream_stress_title_056" x="290" y="422" fill="#17212B" font-family="Arial" font-size="13px" font-weight="700" text-anchor="start">Downstream stress test</text>
+      <text id="panel_B_downstream_stress_line_0_057" x="290" y="443" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">paired exposure cohorts</text>
+      <text id="panel_B_downstream_stress_line_1_058" x="290" y="459" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">effect-estimate drift</text>
+      <text id="panel_B_downstream_stress_line_2_059" x="290" y="475" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">no causal drug claim</text>
+    </g>
+    <g id="panel_B_legend">
+      <line id="panel_B_legend_line_060" x1="24" y1="535" x2="52" y2="535" stroke="#F28E2B" stroke-width="2" stroke-linecap="round" />
+      <text id="panel_B_legend_text_061" x="60" y="540" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">Failure is explicit; missing capability does not become unexposed</text>
+    </g>
+    <g id="panel_B_annotations">
+      <text id="panel_B_panel_tag_001" x="18" y="27" fill="#17212B" font-family="Arial" font-size="20px" font-weight="700" text-anchor="start">B</text>
+      <text id="panel_B_formula_note_062" x="260" y="575" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="middle">O = (S, I, T, E, M); C(u) is deterministic for each analysis unit</text>
+    </g>
+  </g>
+</svg>

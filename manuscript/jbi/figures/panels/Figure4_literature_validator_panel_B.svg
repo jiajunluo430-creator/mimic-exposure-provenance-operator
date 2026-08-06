@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="430" height="500" viewBox="0 0 430 500" role="img" aria-label="Figure4 literature validator panel B">
+  <g id="panel_B">
+    <g id="panel_B_axis">
+      <line id="panel_B_funnel_arrow_0_shaft_006" x1="210" y1="123" x2="210" y2="139" stroke="#A7B0B7" stroke-width="1.4" stroke-linecap="round" />
+      <polygon id="panel_B_funnel_arrow_0_head_007" points="210,139 214.5,130 205.5,130" fill="#A7B0B7" stroke="#A7B0B7" stroke-width="1" />
+      <line id="panel_B_funnel_arrow_1_shaft_011" x1="210" y1="189" x2="210" y2="205" stroke="#A7B0B7" stroke-width="1.4" stroke-linecap="round" />
+      <polygon id="panel_B_funnel_arrow_1_head_012" points="210,205 214.5,196 205.5,196" fill="#A7B0B7" stroke="#A7B0B7" stroke-width="1" />
+      <line id="panel_B_funnel_arrow_2_shaft_016" x1="210" y1="255" x2="210" y2="271" stroke="#A7B0B7" stroke-width="1.4" stroke-linecap="round" />
+      <polygon id="panel_B_funnel_arrow_2_head_017" points="210,271 214.5,262 205.5,262" fill="#A7B0B7" stroke="#A7B0B7" stroke-width="1" />
+      <line id="panel_B_funnel_arrow_3_shaft_021" x1="210" y1="321" x2="210" y2="337" stroke="#A7B0B7" stroke-width="1.4" stroke-linecap="round" />
+      <polygon id="panel_B_funnel_arrow_3_head_022" points="210,337 214.5,328 205.5,328" fill="#A7B0B7" stroke="#A7B0B7" stroke-width="1" />
+    </g>
+    <g id="panel_B_data">
+      <rect id="panel_B_funnel_0_003" x="35" y="78" width="350" height="42" fill="#244A73" stroke="#244A73" stroke-width="1" rx="7" />
+      <rect id="panel_B_funnel_1_008" x="179.375" y="144" width="61.25" height="42" fill="#4C78A8" stroke="#4C78A8" stroke-width="1" rx="7" />
+      <rect id="panel_B_funnel_2_013" x="201.25" y="210" width="17.5" height="42" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" rx="7" />
+      <rect id="panel_B_funnel_3_018" x="205" y="276" width="10" height="42" fill="#E15759" stroke="#E15759" stroke-width="1" rx="7" />
+      <rect id="panel_B_funnel_4_023" x="205" y="342" width="10" height="42" fill="#7D8790" stroke="#7D8790" stroke-width="1" rx="7" />
+    </g>
+    <g id="panel_B_labels">
+      <text id="panel_B_panel_title_002" x="50" y="27" fill="#17212B" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">Executability narrows at reporting gates</text>
+      <text id="panel_B_funnel_0_label_004" x="35" y="69" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">Studies encoded</text>
+      <text id="panel_B_funnel_1_label_009" x="35" y="135" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">Named native source</text>
+      <text id="panel_B_funnel_2_label_014" x="35" y="201" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">Executable identity</text>
+      <text id="panel_B_funnel_3_label_019" x="35" y="267" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">Native event semantics</text>
+      <text id="panel_B_funnel_4_label_024" x="35" y="333" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">Complete operator</text>
+      <text id="panel_B_dist_0_label_028" x="54" y="487" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">0</text>
+      <text id="panel_B_dist_1_label_031" x="117" y="487" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">1</text>
+      <text id="panel_B_dist_2_label_034" x="180" y="487" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">2</text>
+      <text id="panel_B_dist_3_label_037" x="243" y="487" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">3</text>
+      <text id="panel_B_dist_4_label_040" x="306" y="487" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">4</text>
+      <text id="panel_B_dist_5_label_043" x="369" y="487" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">5</text>
+    </g>
+    <g id="panel_B_legend">
+      <text id="panel_B_distribution_title_026" x="30" y="390" fill="#17212B" font-family="Arial" font-size="10.5px" font-weight="700" text-anchor="start">Reported dimensions per study</text>
+      <rect id="panel_B_dist_0_027" x="35" y="469.913" width="38" height="2.08696" fill="#8F63B8" stroke="#8F63B8" stroke-width="1" rx="2" />
+      <rect id="panel_B_dist_1_030" x="98" y="451.13" width="38" height="20.8696" fill="#8F63B8" stroke="#8F63B8" stroke-width="1" rx="2" />
+      <rect id="panel_B_dist_2_033" x="161" y="424" width="38" height="48" fill="#8F63B8" stroke="#8F63B8" stroke-width="1" rx="2" />
+      <rect id="panel_B_dist_3_036" x="224" y="459.478" width="38" height="12.5217" fill="#8F63B8" stroke="#8F63B8" stroke-width="1" rx="2" />
+      <rect id="panel_B_dist_4_039" x="287" y="472" width="38" height="0" fill="#8F63B8" stroke="#8F63B8" stroke-width="1" rx="2" />
+      <rect id="panel_B_dist_5_042" x="350" y="472" width="38" height="0" fill="#8F63B8" stroke="#8F63B8" stroke-width="1" rx="2" />
+    </g>
+    <g id="panel_B_annotations">
+      <text id="panel_B_panel_tag_001" x="18" y="27" fill="#17212B" font-family="Arial" font-size="20px" font-weight="700" text-anchor="start">B</text>
+      <text id="panel_B_funnel_0_value_005" x="395" y="105" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="end">40/40</text>
+      <text id="panel_B_funnel_1_value_010" x="395" y="171" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="end">7/40</text>
+      <text id="panel_B_funnel_2_value_015" x="395" y="237" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="end">2/40</text>
+      <text id="panel_B_funnel_3_value_020" x="395" y="303" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="end">0/40</text>
+      <text id="panel_B_funnel_4_value_025" x="395" y="369" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="end">0/40</text>
+      <text id="panel_B_dist_0_count_029" x="54" y="462.913" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">1</text>
+      <text id="panel_B_dist_1_count_032" x="117" y="444.13" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">10</text>
+      <text id="panel_B_dist_2_count_035" x="180" y="417" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">23</text>
+      <text id="panel_B_dist_3_count_038" x="243" y="452.478" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">6</text>
+      <text id="panel_B_dist_4_count_041" x="306" y="465" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">0</text>
+      <text id="panel_B_dist_5_count_044" x="369" y="465" fill="#17212B" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="middle">0</text>
+    </g>
+  </g>
+</svg>

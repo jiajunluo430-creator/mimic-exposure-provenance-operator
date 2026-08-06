@@ -1,0 +1,23 @@
+{
+  "figure": "Figure2_native_parity_and_ablation",
+  "pdf": {
+    "file": "Figure2_native_parity_and_ablation.pdf",
+    "font_subtypes": [
+      "/Type1"
+    ],
+    "image_xobjects_n": 0,
+    "pages_n": 1,
+    "status": "PASS",
+    "type3_fonts_present": false
+  },
+  "svg": {
+    "clip_paths_n": 0,
+    "duplicate_ids": [],
+    "file": "Figure2_native_parity_and_ablation.svg",
+    "image_elements_n": 0,
+    "live_text_n": 47,
+    "missing_semantic_groups": [],
+    "path_elements_n": 0,
+    "status": "PASS"
+  }
+}

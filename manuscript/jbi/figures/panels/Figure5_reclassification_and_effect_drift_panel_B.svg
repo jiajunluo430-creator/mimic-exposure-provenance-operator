@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="690" height="570" viewBox="0 0 690 570" role="img" aria-label="Figure5 reclassification and effect drift panel B">
+  <g id="panel_B">
+    <g id="panel_B_axis">
+      <line id="panel_B_grid_0_75_004" x1="270" y1="92" x2="270" y2="450" stroke="#DCE3E8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_grid_1_0_006" x1="359.039" y1="92" x2="359.039" y2="450" stroke="#17212B" stroke-width="1.4" stroke-linecap="round" />
+      <line id="panel_B_grid_1_5_008" x1="484.532" y1="92" x2="484.532" y2="450" stroke="#DCE3E8" stroke-width="1" stroke-linecap="round" />
+      <line id="panel_B_grid_2_0_010" x1="573.571" y1="92" x2="573.571" y2="450" stroke="#DCE3E8" stroke-width="1" stroke-linecap="round" />
+    </g>
+    <g id="panel_B_data">
+      <line id="panel_B_pair_0_013" x1="552.495" y1="110" x2="566.216" y2="110" stroke="#A7B0B7" stroke-width="2.2" stroke-linecap="round" />
+      <line id="panel_B_ci_0_order_014" x1="525.918" y1="105" x2="579.073" y2="105" stroke="#4C78A8" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_0_order_015" x1="525.918" y1="101" x2="525.918" y2="109" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_0_order_016" x1="579.073" y1="101" x2="579.073" y2="109" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_0_order_017" cx="552.495" cy="105" r="5.2" fill="#4C78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_ci_0_administration_018" x1="538.872" y1="115" x2="593.56" y2="115" stroke="#F28E2B" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_0_administration_019" x1="538.872" y1="111" x2="538.872" y2="119" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_0_administration_020" x1="593.56" y1="111" x2="593.56" y2="119" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_0_administration_021" cx="566.216" cy="115" r="5.2" fill="#F28E2B" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_pair_1_024" x1="552.495" y1="165" x2="328.875" y2="165" stroke="#A7B0B7" stroke-width="2.2" stroke-linecap="round" />
+      <line id="panel_B_ci_1_order_025" x1="525.918" y1="160" x2="579.073" y2="160" stroke="#4C78A8" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_1_order_026" x1="525.918" y1="156" x2="525.918" y2="164" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_1_order_027" x1="579.073" y1="156" x2="579.073" y2="164" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_1_order_028" cx="552.495" cy="160" r="5.2" fill="#4C78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_ci_1_administration_029" x1="301.73" y1="170" x2="356.02" y2="170" stroke="#F28E2B" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_1_administration_030" x1="301.73" y1="166" x2="301.73" y2="174" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_1_administration_031" x1="356.02" y1="166" x2="356.02" y2="174" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_1_administration_032" cx="328.875" cy="170" r="5.2" fill="#F28E2B" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_pair_2_035" x1="558.322" y1="220" x2="561.919" y2="220" stroke="#A7B0B7" stroke-width="2.2" stroke-linecap="round" />
+      <line id="panel_B_ci_2_order_036" x1="520.161" y1="215" x2="596.484" y2="215" stroke="#4C78A8" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_2_order_037" x1="520.161" y1="211" x2="520.161" y2="219" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_2_order_038" x1="596.484" y1="211" x2="596.484" y2="219" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_2_order_039" cx="558.322" cy="215" r="5.2" fill="#4C78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_ci_2_administration_040" x1="521.346" y1="225" x2="602.492" y2="225" stroke="#F28E2B" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_2_administration_041" x1="521.346" y1="221" x2="521.346" y2="229" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_2_administration_042" x1="602.492" y1="221" x2="602.492" y2="229" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_2_administration_043" cx="561.919" cy="225" r="5.2" fill="#F28E2B" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_pair_3_046" x1="558.322" y1="275" x2="417.473" y2="275" stroke="#A7B0B7" stroke-width="2.2" stroke-linecap="round" />
+      <line id="panel_B_ci_3_order_047" x1="520.161" y1="270" x2="596.484" y2="270" stroke="#4C78A8" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_3_order_048" x1="520.161" y1="266" x2="520.161" y2="274" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_3_order_049" x1="596.484" y1="266" x2="596.484" y2="274" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_3_order_050" cx="558.322" cy="270" r="5.2" fill="#4C78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_ci_3_administration_051" x1="380.072" y1="280" x2="454.874" y2="280" stroke="#F28E2B" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_3_administration_052" x1="380.072" y1="276" x2="380.072" y2="284" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_3_administration_053" x1="454.874" y1="276" x2="454.874" y2="284" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_3_administration_054" cx="417.473" cy="280" r="5.2" fill="#F28E2B" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_pair_4_057" x1="512.79" y1="330" x2="562.05" y2="330" stroke="#A7B0B7" stroke-width="2.2" stroke-linecap="round" />
+      <line id="panel_B_ci_4_order_058" x1="475.52" y1="325" x2="550.059" y2="325" stroke="#4C78A8" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_4_order_059" x1="475.52" y1="321" x2="475.52" y2="329" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_4_order_060" x1="550.059" y1="321" x2="550.059" y2="329" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_4_order_061" cx="512.79" cy="325" r="5.2" fill="#4C78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_ci_4_administration_062" x1="521.573" y1="335" x2="602.527" y2="335" stroke="#F28E2B" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_4_administration_063" x1="521.573" y1="331" x2="521.573" y2="339" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_4_administration_064" x1="602.527" y1="331" x2="602.527" y2="339" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_4_administration_065" cx="562.05" cy="335" r="5.2" fill="#F28E2B" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_pair_5_068" x1="512.79" y1="385" x2="417.473" y2="385" stroke="#A7B0B7" stroke-width="2.2" stroke-linecap="round" />
+      <line id="panel_B_ci_5_order_069" x1="475.52" y1="380" x2="550.059" y2="380" stroke="#4C78A8" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_5_order_070" x1="475.52" y1="376" x2="475.52" y2="384" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_5_order_071" x1="550.059" y1="376" x2="550.059" y2="384" stroke="#4C78A8" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_5_order_072" cx="512.79" cy="380" r="5.2" fill="#4C78A8" stroke="#FFFFFF" stroke-width="1" />
+      <line id="panel_B_ci_5_administration_073" x1="380.072" y1="390" x2="454.874" y2="390" stroke="#F28E2B" stroke-width="1.8" stroke-linecap="round" />
+      <line id="panel_B_ci_low_5_administration_074" x1="380.072" y1="386" x2="380.072" y2="394" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <line id="panel_B_ci_high_5_administration_075" x1="454.874" y1="386" x2="454.874" y2="394" stroke="#F28E2B" stroke-width="1.2" stroke-linecap="round" />
+      <circle id="panel_B_point_5_administration_076" cx="417.473" cy="390" r="5.2" fill="#F28E2B" stroke="#FFFFFF" stroke-width="1" />
+    </g>
+    <g id="panel_B_labels">
+      <text id="panel_B_panel_title_002" x="50" y="27" fill="#17212B" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">Operator changes propagated selectively to paired estimates</text>
+      <text id="panel_B_panel_subtitle_003" x="50" y="48" fill="#61717F" font-family="Arial" font-size="11.5px" font-weight="400" text-anchor="start">Published-style minimal models; identical cohort/outcome/covariates within each pair</text>
+      <text id="panel_B_tick_0_75_005" x="270" y="475" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">0.75</text>
+      <text id="panel_B_tick_1_0_007" x="359.039" y="475" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">1</text>
+      <text id="panel_B_tick_1_5_009" x="484.532" y="475" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">1.5</text>
+      <text id="panel_B_tick_2_0_011" x="573.571" y="475" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">2</text>
+      <text id="panel_B_row_0_label_012" x="256" y="115" fill="#17212B" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="end">A1 exact identity</text>
+      <text id="panel_B_row_1_label_023" x="256" y="170" fill="#17212B" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="end">A1 same class/window</text>
+      <text id="panel_B_row_2_label_034" x="256" y="225" fill="#17212B" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="end">A2 original exact identity</text>
+      <text id="panel_B_row_3_label_045" x="256" y="280" fill="#17212B" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="end">A2 original same class/window</text>
+      <text id="panel_B_row_4_label_056" x="256" y="335" fill="#17212B" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="end">A2 hospital-overlap exact identity</text>
+      <text id="panel_B_row_5_label_067" x="256" y="390" fill="#17212B" font-family="Arial" font-size="9.7px" font-weight="400" text-anchor="end">A2 hospital-overlap same class/window</text>
+      <text id="panel_B_x_title_078" x="450" y="505" fill="#17212B" font-family="Arial" font-size="11.5px" font-weight="400" text-anchor="middle">Paired OR or HR (log scale)</text>
+    </g>
+    <g id="panel_B_legend">
+      <circle id="panel_B_legend_order_079" cx="315" cy="532" r="5" fill="#4C78A8" stroke="#4C78A8" stroke-width="1" />
+      <text id="panel_B_legend_order_label_080" x="328" y="536" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">order-defined</text>
+      <circle id="panel_B_legend_admin_081" cx="440" cy="532" r="5" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" />
+      <text id="panel_B_legend_admin_label_082" x="453" y="536" fill="#17212B" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">administration-defined</text>
+    </g>
+    <g id="panel_B_annotations">
+      <text id="panel_B_panel_tag_001" x="18" y="27" fill="#17212B" font-family="Arial" font-size="20px" font-weight="700" text-anchor="start">B</text>
+      <text id="panel_B_delta_0_022" x="675" y="115" fill="#61717F" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="end">|delta log|=0.044</text>
+      <text id="panel_B_delta_1_033" x="675" y="170" fill="#61717F" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="end">|delta log|=0.723</text>
+      <text id="panel_B_delta_2_044" x="675" y="225" fill="#61717F" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="end">|delta log|=0.012</text>
+      <text id="panel_B_delta_3_055" x="675" y="280" fill="#61717F" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="end">|delta log|=0.455</text>
+      <text id="panel_B_delta_4_066" x="675" y="335" fill="#61717F" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="end">|delta log|=0.159</text>
+      <text id="panel_B_delta_5_077" x="675" y="390" fill="#61717F" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="end">|delta log|=0.308</text>
+      <text id="panel_B_claim_boundary_083" x="345" y="559" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">Measurement stress tests only; estimates are not causal drug effects</text>
+    </g>
+  </g>
+</svg>

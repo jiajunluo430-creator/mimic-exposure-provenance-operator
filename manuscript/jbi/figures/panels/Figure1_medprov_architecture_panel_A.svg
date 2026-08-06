@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="520" height="590" viewBox="0 0 520 590" role="img" aria-label="Figure1 medprov architecture panel A">
+  <g id="panel_A">
+    <g id="panel_A_axis">
+      <line id="panel_A_Native_EHR_to_adapter_shaft_010" x1="214" y1="123" x2="256" y2="123" stroke="#4C78A8" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_A_Native_EHR_to_adapter_head_011" points="256,123 247,118.5 247,127.5" fill="#4C78A8" stroke="#4C78A8" stroke-width="1" />
+      <line id="panel_A_Native_EHR_to_cir_shaft_012" x1="360" y1="123" x2="400" y2="292" stroke="#6B747C" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_A_Native_EHR_to_cir_head_013" points="400,292 402.306,282.206 393.548,284.278" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+      <line id="panel_A_FHIR_R4_to_adapter_shaft_021" x1="214" y1="231" x2="256" y2="231" stroke="#2A9D8F" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_A_FHIR_R4_to_adapter_head_022" points="256,231 247,226.5 247,235.5" fill="#2A9D8F" stroke="#2A9D8F" stroke-width="1" />
+      <line id="panel_A_FHIR_R4_to_cir_shaft_023" x1="360" y1="231" x2="400" y2="292" stroke="#6B747C" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_A_FHIR_R4_to_cir_head_024" points="400,292 398.828,282.006 391.302,286.941" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+      <line id="panel_A_OMOP_CDM_to_adapter_shaft_032" x1="214" y1="339" x2="256" y2="339" stroke="#8F63B8" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_A_OMOP_CDM_to_adapter_head_033" points="256,339 247,334.5 247,343.5" fill="#8F63B8" stroke="#8F63B8" stroke-width="1" />
+      <line id="panel_A_OMOP_CDM_to_cir_shaft_034" x1="360" y1="339" x2="400" y2="292" stroke="#6B747C" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_A_OMOP_CDM_to_cir_head_035" points="400,292 390.74,295.937 397.594,301.77" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+      <line id="panel_A_eICU_to_adapter_shaft_043" x1="214" y1="447" x2="256" y2="447" stroke="#F28E2B" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_A_eICU_to_adapter_head_044" points="256,447 247,442.5 247,451.5" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" />
+      <line id="panel_A_eICU_to_cir_shaft_045" x1="360" y1="447" x2="400" y2="292" stroke="#6B747C" stroke-width="2" stroke-linecap="round" />
+      <polygon id="panel_A_eICU_to_cir_head_046" points="400,292 393.394,299.59 402.108,301.839" fill="#6B747C" stroke="#6B747C" stroke-width="1" />
+    </g>
+    <g id="panel_A_data">
+      <rect id="panel_A_Native_EHR_box_003" x="22" y="82" width="190" height="82" fill="#F4F7F9" stroke="#4C78A8" stroke-width="1.4" rx="10" />
+      <rect id="panel_A_Native_EHR_adapter_box_007" x="260" y="90" width="98" height="66" fill="#FFFFFF" stroke="#4C78A8" stroke-width="1.4" rx="10" />
+      <rect id="panel_A_FHIR_R4_box_014" x="22" y="190" width="190" height="82" fill="#F4F7F9" stroke="#2A9D8F" stroke-width="1.4" rx="10" />
+      <rect id="panel_A_FHIR_R4_adapter_box_018" x="260" y="198" width="98" height="66" fill="#FFFFFF" stroke="#2A9D8F" stroke-width="1.4" rx="10" />
+      <rect id="panel_A_OMOP_CDM_box_025" x="22" y="298" width="190" height="82" fill="#F4F7F9" stroke="#8F63B8" stroke-width="1.4" rx="10" />
+      <rect id="panel_A_OMOP_CDM_adapter_box_029" x="260" y="306" width="98" height="66" fill="#FFFFFF" stroke="#8F63B8" stroke-width="1.4" rx="10" />
+      <rect id="panel_A_eICU_box_036" x="22" y="406" width="190" height="82" fill="#F4F7F9" stroke="#F28E2B" stroke-width="1.4" rx="10" />
+      <rect id="panel_A_eICU_adapter_box_040" x="260" y="414" width="98" height="66" fill="#FFFFFF" stroke="#F28E2B" stroke-width="1.4" rx="10" />
+      <rect id="panel_A_canonical_event_box_047" x="388" y="217" width="118" height="150" fill="#EAF3F8" stroke="#244A73" stroke-width="1.4" rx="10" />
+    </g>
+    <g id="panel_A_labels">
+      <text id="panel_A_panel_title_002" x="50" y="27" fill="#17212B" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">Adapters preserve clinical role before normalization</text>
+      <text id="panel_A_Native_EHR_title_004" x="34" y="104" fill="#17212B" font-family="Arial" font-size="13px" font-weight="700" text-anchor="start">Native EHR</text>
+      <text id="panel_A_Native_EHR_line_0_005" x="34" y="125" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">POE / pharmacy / eMAR</text>
+      <text id="panel_A_Native_EHR_line_1_006" x="34" y="141" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">request / dispense / administration</text>
+      <text id="panel_A_Native_EHR_adapter_title_008" x="272" y="112" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">Adapter</text>
+      <text id="panel_A_Native_EHR_adapter_line_0_009" x="272" y="133" fill="#61717F" font-family="Arial" font-size="10px" font-weight="400" text-anchor="start">Native</text>
+      <text id="panel_A_FHIR_R4_title_015" x="34" y="212" fill="#17212B" font-family="Arial" font-size="13px" font-weight="700" text-anchor="start">FHIR R4</text>
+      <text id="panel_A_FHIR_R4_line_0_016" x="34" y="233" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">MedicationRequest / Dispense</text>
+      <text id="panel_A_FHIR_R4_line_1_017" x="34" y="249" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">MedicationAdministration</text>
+      <text id="panel_A_FHIR_R4_adapter_title_019" x="272" y="220" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">Adapter</text>
+      <text id="panel_A_FHIR_R4_adapter_line_0_020" x="272" y="241" fill="#61717F" font-family="Arial" font-size="10px" font-weight="400" text-anchor="start">FHIR</text>
+      <text id="panel_A_OMOP_CDM_title_026" x="34" y="320" fill="#17212B" font-family="Arial" font-size="13px" font-weight="700" text-anchor="start">OMOP CDM</text>
+      <text id="panel_A_OMOP_CDM_line_0_027" x="34" y="341" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">DRUG_EXPOSURE</text>
+      <text id="panel_A_OMOP_CDM_line_1_028" x="34" y="357" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">type and source values</text>
+      <text id="panel_A_OMOP_CDM_adapter_title_030" x="272" y="328" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">Adapter</text>
+      <text id="panel_A_OMOP_CDM_adapter_line_0_031" x="272" y="349" fill="#61717F" font-family="Arial" font-size="10px" font-weight="400" text-anchor="start">OMOP</text>
+      <text id="panel_A_eICU_title_037" x="34" y="428" fill="#17212B" font-family="Arial" font-size="13px" font-weight="700" text-anchor="start">eICU</text>
+      <text id="panel_A_eICU_line_0_038" x="34" y="449" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">medication / infusionDrug</text>
+      <text id="panel_A_eICU_line_1_039" x="34" y="465" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">treatment documentation</text>
+      <text id="panel_A_eICU_adapter_title_041" x="272" y="436" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">Adapter</text>
+      <text id="panel_A_eICU_adapter_line_0_042" x="272" y="457" fill="#61717F" font-family="Arial" font-size="10px" font-weight="400" text-anchor="start">eICU</text>
+      <text id="panel_A_canonical_event_title_048" x="400" y="239" fill="#17212B" font-family="Arial" font-size="12px" font-weight="700" text-anchor="start">Canonical event</text>
+      <text id="panel_A_canonical_event_line_0_049" x="400" y="260" fill="#61717F" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">clinical role</text>
+      <text id="panel_A_canonical_event_line_1_050" x="400" y="276" fill="#61717F" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">native identity</text>
+      <text id="panel_A_canonical_event_line_2_051" x="400" y="292" fill="#61717F" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">event time</text>
+      <text id="panel_A_canonical_event_line_3_052" x="400" y="308" fill="#61717F" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">literal state</text>
+      <text id="panel_A_canonical_event_line_4_053" x="400" y="324" fill="#61717F" font-family="Arial" font-size="9.6px" font-weight="400" text-anchor="start">route / dose</text>
+    </g>
+    <g id="panel_A_legend">
+      <line id="panel_A_legend_line_054" x1="24" y1="540" x2="52" y2="540" stroke="#244A73" stroke-width="2" stroke-linecap="round" />
+      <text id="panel_A_legend_text_055" x="60" y="545" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="start">Source-specific mapping remains version-gated</text>
+    </g>
+    <g id="panel_A_annotations">
+      <text id="panel_A_panel_tag_001" x="18" y="27" fill="#17212B" font-family="Arial" font-size="20px" font-weight="700" text-anchor="start">A</text>
+      <text id="panel_A_privacy_note_056" x="260" y="575" fill="#61717F" font-family="Arial" font-size="10.5px" font-weight="400" text-anchor="middle">Identifiers remain local; public outputs are aggregate-only</text>
+    </g>
+  </g>
+</svg>

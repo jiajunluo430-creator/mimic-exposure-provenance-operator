@@ -1,0 +1,119 @@
+{
+  "figures": [
+    {
+      "figure": "Figure1_medprov_architecture",
+      "pdf": {
+        "file": "Figure1_medprov_architecture.pdf",
+        "font_subtypes": [
+          "/Type1"
+        ],
+        "image_xobjects_n": 0,
+        "pages_n": 1,
+        "status": "PASS",
+        "type3_fonts_present": false
+      },
+      "svg": {
+        "clip_paths_n": 0,
+        "duplicate_ids": [],
+        "file": "Figure1_medprov_architecture.svg",
+        "image_elements_n": 0,
+        "live_text_n": 61,
+        "missing_semantic_groups": [],
+        "path_elements_n": 0,
+        "status": "PASS"
+      }
+    },
+    {
+      "figure": "Figure2_native_parity_and_ablation",
+      "pdf": {
+        "file": "Figure2_native_parity_and_ablation.pdf",
+        "font_subtypes": [
+          "/Type1"
+        ],
+        "image_xobjects_n": 0,
+        "pages_n": 1,
+        "status": "PASS",
+        "type3_fonts_present": false
+      },
+      "svg": {
+        "clip_paths_n": 0,
+        "duplicate_ids": [],
+        "file": "Figure2_native_parity_and_ablation.svg",
+        "image_elements_n": 0,
+        "live_text_n": 47,
+        "missing_semantic_groups": [],
+        "path_elements_n": 0,
+        "status": "PASS"
+      }
+    },
+    {
+      "figure": "Figure3_cross_representation_evaluation",
+      "pdf": {
+        "file": "Figure3_cross_representation_evaluation.pdf",
+        "font_subtypes": [
+          "/Type1"
+        ],
+        "image_xobjects_n": 0,
+        "pages_n": 1,
+        "status": "PASS",
+        "type3_fonts_present": false
+      },
+      "svg": {
+        "clip_paths_n": 0,
+        "duplicate_ids": [],
+        "file": "Figure3_cross_representation_evaluation.svg",
+        "image_elements_n": 0,
+        "live_text_n": 79,
+        "missing_semantic_groups": [],
+        "path_elements_n": 0,
+        "status": "PASS"
+      }
+    },
+    {
+      "figure": "Figure4_literature_validator",
+      "pdf": {
+        "file": "Figure4_literature_validator.pdf",
+        "font_subtypes": [
+          "/Type1"
+        ],
+        "image_xobjects_n": 0,
+        "pages_n": 1,
+        "status": "PASS",
+        "type3_fonts_present": false
+      },
+      "svg": {
+        "clip_paths_n": 0,
+        "duplicate_ids": [],
+        "file": "Figure4_literature_validator.svg",
+        "image_elements_n": 0,
+        "live_text_n": 45,
+        "missing_semantic_groups": [],
+        "path_elements_n": 0,
+        "status": "PASS"
+      }
+    },
+    {
+      "figure": "Figure5_reclassification_and_effect_drift",
+      "pdf": {
+        "file": "Figure5_reclassification_and_effect_drift.pdf",
+        "font_subtypes": [
+          "/Type1"
+        ],
+        "image_xobjects_n": 0,
+        "pages_n": 1,
+        "status": "PASS",
+        "type3_fonts_present": false
+      },
+      "svg": {
+        "clip_paths_n": 0,
+        "duplicate_ids": [],
+        "file": "Figure5_reclassification_and_effect_drift.svg",
+        "image_elements_n": 0,
+        "live_text_n": 41,
+        "missing_semantic_groups": [],
+        "path_elements_n": 0,
+        "status": "PASS"
+      }
+    }
+  ]
+}

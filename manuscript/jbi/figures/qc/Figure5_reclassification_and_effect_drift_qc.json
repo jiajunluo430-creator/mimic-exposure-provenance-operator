@@ -1,0 +1,23 @@
+{
+  "figure": "Figure5_reclassification_and_effect_drift",
+  "pdf": {
+    "file": "Figure5_reclassification_and_effect_drift.pdf",
+    "font_subtypes": [
+      "/Type1"
+    ],
+    "image_xobjects_n": 0,
+    "pages_n": 1,
+    "status": "PASS",
+    "type3_fonts_present": false
+  },
+  "svg": {
+    "clip_paths_n": 0,
+    "duplicate_ids": [],
+    "file": "Figure5_reclassification_and_effect_drift.svg",
+    "image_elements_n": 0,
+    "live_text_n": 41,
+    "missing_semantic_groups": [],
+    "path_elements_n": 0,
+    "status": "PASS"
+  }
+}

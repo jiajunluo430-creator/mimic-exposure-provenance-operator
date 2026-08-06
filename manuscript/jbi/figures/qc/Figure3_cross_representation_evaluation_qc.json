@@ -1,0 +1,23 @@
+{
+  "figure": "Figure3_cross_representation_evaluation",
+  "pdf": {
+    "file": "Figure3_cross_representation_evaluation.pdf",
+    "font_subtypes": [
+      "/Type1"
+    ],
+    "image_xobjects_n": 0,
+    "pages_n": 1,
+    "status": "PASS",
+    "type3_fonts_present": false
+  },
+  "svg": {
+    "clip_paths_n": 0,
+    "duplicate_ids": [],
+    "file": "Figure3_cross_representation_evaluation.svg",
+    "image_elements_n": 0,
+    "live_text_n": 79,
+    "missing_semantic_groups": [],
+    "path_elements_n": 0,
+    "status": "PASS"
+  }
+}

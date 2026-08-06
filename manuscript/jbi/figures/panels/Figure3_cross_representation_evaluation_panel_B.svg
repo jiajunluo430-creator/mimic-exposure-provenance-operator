@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="510" height="390" viewBox="0 0 510 390" role="img" aria-label="Figure3 cross representation evaluation panel B">
+  <g id="panel_B">
+    <g id="panel_B_axis">
+      <line id="panel_B_grid_0_003" x1="220" y1="84" x2="220" y2="304" stroke="#DCE3E8" stroke-width="1.5" stroke-linecap="round" />
+      <line id="panel_B_grid_25_005" x1="280" y1="84" x2="280" y2="304" stroke="#DCE3E8" stroke-width="1.5" stroke-linecap="round" />
+      <line id="panel_B_grid_50_007" x1="340" y1="84" x2="340" y2="304" stroke="#DCE3E8" stroke-width="1.5" stroke-linecap="round" />
+      <line id="panel_B_grid_75_009" x1="400" y1="84" x2="400" y2="304" stroke="#DCE3E8" stroke-width="1.5" stroke-linecap="round" />
+      <line id="panel_B_grid_100_011" x1="460" y1="84" x2="460" y2="304" stroke="#DCE3E8" stroke-width="1.5" stroke-linecap="round" />
+    </g>
+    <g id="panel_B_data">
+      <rect id="panel_B_metric_0_bar_014" x="220" y="92" width="240" height="22" fill="#4C78A8" stroke="#FFFFFF" stroke-width="1" rx="4" />
+      <rect id="panel_B_metric_1_bar_018" x="220" y="146" width="240" height="22" fill="#4C78A8" stroke="#FFFFFF" stroke-width="1" rx="4" />
+      <rect id="panel_B_metric_2_bar_022" x="220" y="200" width="238.936" height="22" fill="#4C78A8" stroke="#FFFFFF" stroke-width="1" rx="4" />
+      <rect id="panel_B_metric_3_bar_026" x="220" y="254" width="200.352" height="22" fill="#2A9D8F" stroke="#FFFFFF" stroke-width="1" rx="4" />
+    </g>
+    <g id="panel_B_labels">
+      <text id="panel_B_panel_title_002" x="50" y="27" fill="#17212B" font-family="Arial" font-size="17px" font-weight="700" text-anchor="start">Matched-demo FHIR identity and time concordance</text>
+      <text id="panel_B_tick_0_004" x="220" y="326" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">0%</text>
+      <text id="panel_B_tick_25_006" x="280" y="326" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">25%</text>
+      <text id="panel_B_tick_50_008" x="340" y="326" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">50%</text>
+      <text id="panel_B_tick_75_010" x="400" y="326" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">75%</text>
+      <text id="panel_B_tick_100_012" x="460" y="326" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="middle">100%</text>
+      <text id="panel_B_metric_0_label_013" x="18" y="109" fill="#17212B" font-family="Arial" font-size="10.2px" font-weight="400" text-anchor="start">Dispense ID x class</text>
+      <text id="panel_B_metric_1_label_017" x="18" y="163" fill="#17212B" font-family="Arial" font-size="10.2px" font-weight="400" text-anchor="start">Request authoredOn vs enter time</text>
+      <text id="panel_B_metric_2_label_021" x="18" y="217" fill="#17212B" font-family="Arial" font-size="10.2px" font-weight="400" text-anchor="start">First administration time</text>
+      <text id="panel_B_metric_3_label_025" x="18" y="271" fill="#17212B" font-family="Arial" font-size="10.2px" font-weight="400" text-anchor="start">Administration composite</text>
+    </g>
+    <g id="panel_B_legend">
+      <rect id="panel_B_legend_caveat_029" x="20" y="348" width="14" height="14" fill="#F28E2B" stroke="#F28E2B" stroke-width="1" />
+      <text id="panel_B_legend_text_030" x="42" y="359" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">Native eMAR identifiers were not retained in FHIR administration resources</text>
+    </g>
+    <g id="panel_B_annotations">
+      <text id="panel_B_panel_tag_001" x="18" y="27" fill="#17212B" font-family="Arial" font-size="20px" font-weight="700" text-anchor="start">B</text>
+      <text id="panel_B_metric_0_pct_015" x="455" y="109" fill="#FFFFFF" font-family="Arial" font-size="9.7px" font-weight="700" text-anchor="end">100.0%</text>
+      <text id="panel_B_metric_0_detail_016" x="220" y="131" fill="#61717F" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="start">3,870/3,870 exact</text>
+      <text id="panel_B_metric_1_pct_019" x="455" y="163" fill="#FFFFFF" font-family="Arial" font-size="9.7px" font-weight="700" text-anchor="end">100.0%</text>
+      <text id="panel_B_metric_1_detail_020" x="220" y="185" fill="#61717F" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="start">2,249/2,249 exact</text>
+      <text id="panel_B_metric_2_pct_023" x="453.936" y="217" fill="#FFFFFF" font-family="Arial" font-size="9.7px" font-weight="700" text-anchor="end">99.6%</text>
+      <text id="panel_B_metric_2_detail_024" x="220" y="239" fill="#61717F" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="start">1,347/1,353 exact</text>
+      <text id="panel_B_metric_3_pct_027" x="415.352" y="271" fill="#FFFFFF" font-family="Arial" font-size="9.7px" font-weight="700" text-anchor="end">83.5%</text>
+      <text id="panel_B_metric_3_detail_028" x="220" y="293" fill="#61717F" font-family="Arial" font-size="8.8px" font-weight="400" text-anchor="start">5,220/6,253 native-linkable</text>
+      <text id="panel_B_claim_boundary_031" x="20" y="381" fill="#61717F" font-family="Arial" font-size="9.5px" font-weight="400" text-anchor="start">Functional cross-schema evaluation on matched public demos; not full-release validation</text>
+    </g>
+  </g>
+</svg>

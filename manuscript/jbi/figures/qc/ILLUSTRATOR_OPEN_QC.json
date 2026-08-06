@@ -1,0 +1,37 @@
+﻿[
+    {
+        "File":  "Figure1_medprov_architecture.svg",
+        "TextFrames":  61,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "Figure2_native_parity_and_ablation.svg",
+        "TextFrames":  47,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "Figure3_cross_representation_evaluation.svg",
+        "TextFrames":  79,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "Figure4_literature_validator.svg",
+        "TextFrames":  45,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    },
+    {
+        "File":  "Figure5_reclassification_and_effect_drift.svg",
+        "TextFrames":  41,
+        "PlacedItems":  0,
+        "RasterItems":  0,
+        "Passed":  true
+    }
+]
