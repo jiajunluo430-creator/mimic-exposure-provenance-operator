@@ -33,10 +33,10 @@ hashes. It does not require MIMIC data.
 
 ```powershell
 medprov capability --spec examples/a1_vte_admin_route_required.yaml `
-  --adapter mimic_native --data-root D:\path\to\local\cache
+  --adapter mimic_native --data-root ${MIMIC_CACHE}
 
 medprov compile --spec examples/mimic_strict_same_poe.yaml `
-  --adapter mimic_native --data-root D:\path\to\local\cache `
+  --adapter mimic_native --data-root ${MIMIC_CACHE} `
   --out query_plan.json
 ```
 
@@ -47,7 +47,7 @@ separate. Compilation emits an aggregate query plan without executing it.
 
 ```powershell
 medprov execute --spec examples/mimic_strict_same_poe.yaml `
-  --adapter mimic_native --data-root D:\path\to\local\cache `
+  --adapter mimic_native --data-root ${MIMIC_CACHE} `
   --aggregate-out strict_result
 
 medprov compare --left strict_result/mimic.strict_same_poe.json `
@@ -67,6 +67,25 @@ medprov validate-reporting structured_records/ --out reporting_report
 Inputs are human-coded JSON/YAML records conforming to
 `schemas/medication_exposure_reporting.schema.json`. The primary validator does
 not infer reporting quality from article prose.
+
+## Reproduce cross-model evaluations
+
+The public MIMIC native/FHIR and OMOP demos are expected under ignored
+`local_data/official_demos/` paths unless explicit input arguments are used.
+The licensed eICU archive remains outside the repository.
+
+```powershell
+python scripts/52_build_fhir_transport.py
+python scripts/53_build_omop_evaluation.py
+$env:EICU_ZIP = 'path/to/eicu-collaborative-research-database-2.0.zip'
+python scripts/54_build_eicu_transport.py
+python scripts/55_validate_transport_outputs.py
+python scripts/56_build_sota_comparison.py
+```
+
+FHIR output is a matched-demo functional evaluation; OMOP output is a
+capability and semantic-loss smoke test; eICU output is an interface-semantic
+comparison. None is labelled clinical external validation.
 
 ## Exit codes
 

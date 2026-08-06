@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -21,6 +22,9 @@ def _resolve_reference(spec_path: Path, reference: str) -> Path | None:
         possible = parent / reference
         if possible.is_file():
             return possible
+    installed = Path(sys.prefix) / "share" / "medprov" / reference
+    if installed.is_file():
+        return installed
     return None
 
 

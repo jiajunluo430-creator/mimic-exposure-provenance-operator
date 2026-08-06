@@ -16,6 +16,11 @@ The package provides:
 - an aggregate-only privacy guard and public synthetic test data;
 - exact local parity tests against the frozen MIMIC-IV 3.1 reference analysis.
 
+The evaluated increment is not another drug-effect model. It is a fail-closed
+measurement layer that asks whether an exposure construct is representable
+before classifying records and retains which source, identity, time, event,
+and metadata decisions produced each aggregate result.
+
 ## Quickstart
 
 ```powershell
@@ -50,6 +55,30 @@ new causal medication study. Verified reference results include:
 These results quantify exposure-definition propagation. They are not estimates
 of drug efficacy, harm, optimal treatment, or external clinical validation.
 
+## Cross-representation evaluation
+
+- Matched public native MIMIC-IV 2.2 and FHIR 2.1 demos produced exact
+  `pharmacy_id × medication class` parity for all 3,870 dispense records and
+  exact first-administration time for 1,347/1,353 paired order units. FHIR
+  `MedicationRequest.authoredOn` reproduced pharmacy entry time in all 2,249
+  deterministic pairs, showing that a valid FHIR timestamp can represent a
+  different workflow clock than prescription start or POE order time.
+- In the public OMOP demo, all 37 PPI person-visit units were executable under
+  record existence but unmeasurable under strict administration because the
+  literal event state was absent. On a four-unit fixture, the provenance
+  extension recovered one exposed, one unexposed, one unresolved, and one
+  unmeasurable state; removing it made all four unmeasurable.
+- Full streaming of eICU v2.0 executed a pre-frozen interface-semantic
+  comparison for three of six classes. Electrolyte and insulin reconciliation
+  failed closed because three real composite infusion labels matched both
+  classes; prokinetics failed minimum event/hospital gates. This is a
+  capability boundary, not external validation or a hospital-quality result.
+
+All 36 cross-model artifact, contract, privacy, and internal-consistency checks
+passed. The frozen comparison against PheKB, OMOP/ATLAS, FHIR, CQL,
+RECORD-PE, STaRT-RWE, and HARPER uses dimension-level states and no arbitrary
+quality score.
+
 ## Data boundary
 
 No MIMIC-IV/eICU raw data, identifiers, stay-level rows, or patient-level
@@ -71,5 +100,9 @@ contract.
 - `scripts/`: generator and original reproducible reference pipeline;
 - `outputs/`, `reports/`, `figures/`: patient-free aggregate evidence;
 - `docs/`: CLI and adapter documentation.
+
+The versioned cross-model reports are in `outputs/transport_evaluation_v0_1_0`,
+`outputs/omop_evaluation_v0_1_0`, `outputs/eicu_transport_v0_1_0`, and
+`outputs/sota_comparison_v0_1_0`.
 
 Repository: https://github.com/jiajunluo430-creator/mimic-exposure-provenance-operator

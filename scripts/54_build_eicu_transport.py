@@ -7,6 +7,7 @@ import argparse
 import csv
 import hashlib
 import json
+import os
 import time
 import zipfile
 from datetime import datetime, timezone
@@ -17,9 +18,7 @@ from medprov.eicu_engine import find_member, run_eicu_reconciliation
 from medprov.schema import load_document
 
 ROOT = Path(__file__).resolve().parents[1]
-EICU_DEFAULT = Path(
-    r"D:\respiratory_icu_qdp\eicu-collaborative-research-database-2.0.zip"
-)
+EICU_DEFAULT = Path(os.environ["EICU_ZIP"]) if os.environ.get("EICU_ZIP") else None
 OUTPUT_DEFAULT = ROOT / "outputs" / "eicu_transport_v0_1_0"
 SPEC = ROOT / "examples" / "transport" / "eicu_six_class_reconciliation.yaml"
 CONTRACT = ROOT / "contracts" / "EICU_ADAPTER_CONTRACT_v1.0_2026-08-05.md"
@@ -173,7 +172,13 @@ Hospital/unit variation is source observability heterogeneity. It must not be in
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--eicu-zip", type=Path, default=EICU_DEFAULT)
+    parser.add_argument(
+        "--eicu-zip",
+        type=Path,
+        default=EICU_DEFAULT,
+        required=EICU_DEFAULT is None,
+        help="Read-only eICU v2.0 ZIP path; defaults to EICU_ZIP when set.",
+    )
     parser.add_argument("--output", type=Path, default=OUTPUT_DEFAULT)
     args = parser.parse_args()
     started = time.perf_counter()

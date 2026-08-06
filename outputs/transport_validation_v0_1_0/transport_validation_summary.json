@@ -1,9 +1,9 @@
 {
-  "checks_n": 36,
+  "checks_n": 39,
   "claim_boundary": "software-output integrity and internal consistency; not clinical validation",
   "failed_n": 0,
   "gate": "PASS_TRANSPORT_PACKAGE_VALIDATION",
-  "passed_n": 36,
+  "passed_n": 39,
   "schema_version": "1.0.0",
   "validated_packages": [
     "fhir",

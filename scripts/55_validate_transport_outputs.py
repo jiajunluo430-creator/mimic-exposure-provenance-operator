@@ -21,6 +21,11 @@ SUMMARY_FILES = {
     "omop": "omop_evaluation_summary.json",
     "eicu": "eicu_transport_summary.json",
 }
+GENERATOR_FILES = {
+    "fhir": ROOT / "scripts" / "52_build_fhir_transport.py",
+    "omop": ROOT / "scripts" / "53_build_omop_evaluation.py",
+    "eicu": ROOT / "scripts" / "54_build_eicu_transport.py",
+}
 FORBIDDEN_PATIENT_ID_COLUMNS = {
     "subject_id",
     "hadm_id",
@@ -121,6 +126,14 @@ def main() -> int:
             contract_path.is_file() and sha256_file(contract_path) == contract["sha256"],
             sha256_file(contract_path) if contract_path.is_file() else "missing",
             contract["sha256"],
+        )
+        check(
+            name,
+            "generator_script_hash",
+            sha256_file(GENERATOR_FILES[name])
+            == summaries[name]["execution"]["script_sha256"],
+            sha256_file(GENERATOR_FILES[name]),
+            summaries[name]["execution"]["script_sha256"],
         )
 
         csv_headers: list[str] = []

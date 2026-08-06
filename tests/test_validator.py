@@ -6,7 +6,7 @@ import pytest
 
 from medprov.schema import load_document
 from medprov.utils import assert_public_aggregate
-from medprov.validator import load_reporting_records, validate_reporting_records
+from medprov.validator import _resolve_reference, load_reporting_records, validate_reporting_records
 
 
 def test_structured_reporting_validator(fixture_dir):
@@ -34,3 +34,12 @@ def test_public_aggregate_guard_blocks_native_identifiers():
     with pytest.raises(ValueError, match="restricted key"):
         assert_public_aggregate({"counts": {"subject_id": 123}})
     assert_public_aggregate({"counts": {"analysis_units": 123, "exposed": 40}})
+
+
+def test_reference_resolves_from_installed_share(monkeypatch, tmp_path):
+    reference = "contracts/frozen.md"
+    installed = tmp_path / "share" / "medprov" / reference
+    installed.parent.mkdir(parents=True)
+    installed.write_text("frozen\n", encoding="utf-8")
+    monkeypatch.setattr("medprov.validator.sys.prefix", str(tmp_path))
+    assert _resolve_reference(tmp_path / "outside" / "operator.yaml", reference) == installed

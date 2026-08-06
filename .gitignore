@@ -16,6 +16,7 @@ __pycache__/
 htmlcov/
 build/
 dist/
+release_artifacts/
 *.egg-info/
 local_data/
 restricted_data/

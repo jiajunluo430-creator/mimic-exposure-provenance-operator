@@ -34,13 +34,13 @@
       "vte_prophylaxis"
     ],
     "classes_passed_n": 3,
-    "elapsed_seconds": 387.980918,
+    "elapsed_seconds": 365.491208,
     "match_mode": "same_class_window",
     "native_cross_source_key": false
   },
   "execution": {
-    "script_sha256": "ab92aed055bc9faff28de0aee7203498552c5daea270549ded62e463a3d0ae82",
-    "wall_clock_seconds": 388.524601
+    "script_sha256": "f2ed818d1fa68f51de35c948bb1366a84212f173e864ca617e8a32a48b9624c7",
+    "wall_clock_seconds": 366.144159
   },
   "gate": "EXECUTED_INTERFACE_SEMANTIC_COMPARISON",
   "privacy": "aggregate only; patientunitstayid and native source IDs were held in memory and not serialized; hospital/unit cells below 10 were suppressed",
